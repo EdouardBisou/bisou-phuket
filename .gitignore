@@ -1,0 +1,67 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+.yarn/install-state.gz
+
+# Build output
+.next/
+out/
+build/
+.vercel/
+.netlify/
+
+# Our static site build output (regenerated each deploy)
+dist/
+
+# Sanity
+.sanity/
+dist-sanity/
+
+# Env
+.env
+.env.local
+.env.*.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.pnpm-debug.log*
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
+
+# Python (for asset scripts)
+__pycache__/
+*.pyc
+
+# Asset working files
+static/assets/*-raw.png
+static/assets/photos/originals/
+_tmp/
+
+# Raw video / image masters not meant to ship with the repo
+/*.mp4
+/*.mov
+/LOGO*.png
+
+# Brainstorming session artifacts (visual companion)
+.superpowers/
+
+.vercel
+
+# Non-shipped local video masters (only hero-mobile.mp4 ships)
+static/assets/hero-original.mp4
+static/assets/hero.mp4

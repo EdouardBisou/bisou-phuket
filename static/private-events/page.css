@@ -1,0 +1,836 @@
+/* =====================================================
+   BISOU BANGKOK   /private-events/   page-specific styles
+   Cinematic full-bleed sections, Apple-tier pacing,
+   premium typography. Inherits brand tokens from main.css.
+   ===================================================== */
+
+body.page-events {
+  background: var(--noir);
+  color: var(--cream);
+  font-family: var(--font-sans);
+  margin: 0;
+  min-height: 100vh;
+  cursor: auto;
+}
+body.page-events::-webkit-scrollbar { width: 8px; }
+body.page-events::-webkit-scrollbar-track { background: var(--noir); }
+body.page-events::-webkit-scrollbar-thumb { background: var(--gold-dark); border-radius: 4px; }
+
+body.page-events main { display: block; }
+
+/* ==========================================================
+   TOP NAV   sticky glass
+   ========================================================== */
+.page-events__nav {
+  position: sticky; top: 0; z-index: 50;
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 18px clamp(1rem, 4vw, 3rem);
+  background: rgba(10, 9, 8, 0.62);
+  -webkit-backdrop-filter: blur(18px) saturate(1.4);
+          backdrop-filter: blur(18px) saturate(1.4);
+  border-bottom: 1px solid rgba(110, 31, 42, 0.08);
+}
+.page-events__brand img { height: 22px; width: auto; display: block; filter: brightness(0) invert(1); }
+.page-events__locations {
+  display: none; align-items: center; gap: 0.5rem;
+  margin-left: 0.75rem; padding-left: 0.75rem;
+  border-left: 1px solid rgba(110, 31, 42, 0.2);
+  font-family: var(--font-sans);
+  font-size: 0.6rem; letter-spacing: 0.28em;
+  text-transform: uppercase; font-weight: 500;
+}
+@media (min-width: 720px) { .page-events__locations { display: inline-flex; } }
+.page-events__location {
+  text-decoration: none; color: rgba(255, 248, 239, 0.45);
+  transition: color .35s var(--ease-luxe);
+}
+.page-events__location:hover { color: var(--gold-light); }
+.page-events__location--active { color: var(--cream); pointer-events: none; }
+.page-events__location-sep { color: rgba(110, 31, 42, 0.35); }
+.page-events__nav-links {
+  display: none; gap: 1.6rem;
+  font-size: 0.72rem; letter-spacing: 0.25em;
+  text-transform: uppercase; color: rgba(255, 248, 239, 0.75);
+}
+.page-events__nav-links a { color: inherit; text-decoration: none; transition: color .4s var(--ease-luxe); }
+.page-events__nav-links a:hover { color: var(--gold-light); }
+@media (min-width: 880px) { .page-events__nav-links { display: flex; } }
+.page-events__cta { font-size: 0.65rem; padding: 0.7rem 1.2rem; }
+
+/* ==========================================================
+   SHARED DEFAULTS
+   ========================================================== */
+.pe-section, .pe-cta {
+  padding: clamp(5rem, 10vw, 9rem) clamp(1.2rem, 4vw, 3rem);
+  position: relative;
+}
+.pe-section--alt {
+  background:
+    radial-gradient(circle at 80% 20%, rgba(110, 31, 42, 0.04), transparent 50%),
+    var(--noir-2);
+}
+.pe-section__inner, .pe-cta__inner { max-width: 1080px; margin: 0 auto; }
+
+.pe-eyebrow-line {
+  display: flex; align-items: center; justify-content: center;
+  gap: 14px; margin-bottom: clamp(1.8rem, 3vw, 2.5rem);
+}
+.pe-rule { width: 38px; height: 1px; background: var(--gold); opacity: 0.55; }
+.pe-eyebrow {
+  font-family: var(--font-sans);
+  font-size: 0.7rem; letter-spacing: 0.4em;
+  text-transform: uppercase; color: var(--gold); font-weight: 500;
+}
+
+.pe-h2 {
+  font-family: var(--font-display); font-weight: 400;
+  font-size: clamp(2rem, 4vw, 3.2rem);
+  line-height: 1.05; letter-spacing: 0.005em;
+  color: var(--cream); margin: 0 0 clamp(1.6rem, 3vw, 2.4rem);
+  text-align: center;
+}
+.pe-h2 em { color: var(--gold-light); font-style: italic; font-family: var(--font-display); }
+
+.pe-paragraph {
+  max-width: 680px; margin: 0 auto 1.2rem;
+  font-family: var(--font-sans); font-weight: 300;
+  font-size: clamp(0.95rem, 1.3vw, 1.05rem);
+  line-height: 1.7; color: rgba(255, 248, 239, 0.82);
+}
+.pe-paragraph--center { text-align: center; }
+
+/* ==========================================================
+   HERO   full viewport, cinematic
+   ========================================================== */
+.pe-hero {
+  position: relative;
+  min-height: 100svh;
+  display: flex; align-items: center; justify-content: center;
+  padding: clamp(7rem, 14vw, 11rem) clamp(1.2rem, 4vw, 3rem) clamp(5rem, 10vw, 8rem);
+  text-align: center;
+  background: var(--noir);
+  overflow: hidden;
+  isolation: isolate;
+}
+.pe-hero__bg {
+  position: absolute;
+  inset: -8% 0 -8% 0;
+  z-index: -1;
+  will-change: transform;
+}
+.pe-hero__bg img {
+  width: 100%; height: 100%;
+  object-fit: cover; display: block;
+  filter: saturate(1.06) contrast(1.06);
+  /* subtle ken-burns kick */
+  animation: peKenBurns 26s ease-in-out infinite alternate;
+  transform-origin: center;
+}
+@keyframes peKenBurns {
+  0%   { transform: scale(1.04) translate(0, 0); }
+  100% { transform: scale(1.12) translate(-1.5%, -1%); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .pe-hero__bg img { animation: none; transform: scale(1.04); }
+}
+.pe-hero__bg-veil {
+  position: absolute; inset: 0;
+  background:
+    linear-gradient(180deg, rgba(10, 9, 8, 0.35) 0%, rgba(10, 9, 8, 0.65) 55%, rgba(10, 9, 8, 0.92) 100%),
+    radial-gradient(circle at 50% 30%, rgba(10, 9, 8, 0.45), rgba(10, 9, 8, 0.7) 70%, rgba(10, 9, 8, 0.92) 100%),
+    radial-gradient(circle at 30% 80%, rgba(110, 31, 42, 0.06), transparent 50%);
+}
+.pe-hero__inner { position: relative; z-index: 1; max-width: 920px; }
+/* eyebrow kiss-stamp — sized down to sit beside the small label */
+.pe-eyebrow-line .kiss-stamp { width: 22px; height: 15px; }
+
+.pe-h1 {
+  font-family: var(--font-display); font-weight: 400;
+  font-size: clamp(3rem, 8vw, 6.4rem);
+  line-height: 0.96; letter-spacing: 0.005em;
+  color: var(--cream); margin: 0 auto;
+  max-width: 16ch;
+  text-shadow: 0 2px 32px rgba(0, 0, 0, 0.55);
+}
+.pe-h1 em { color: var(--gold-light); font-style: italic; font-family: var(--font-display); }
+.pe-lede {
+  margin: clamp(1.5rem, 3vw, 2.2rem) auto 0;
+  max-width: 640px;
+  font-family: var(--font-sans); font-weight: 300;
+  font-size: clamp(0.98rem, 1.4vw, 1.1rem);
+  line-height: 1.65;
+  color: rgba(255, 248, 239, 0.88);
+  text-shadow: 0 2px 16px rgba(0, 0, 0, 0.4);
+}
+.pe-lede strong { color: var(--cream); font-weight: 500; }
+.pe-hero__cta {
+  display: flex; flex-direction: column; align-items: center; gap: 0.9rem;
+  margin-top: clamp(2rem, 4vw, 2.8rem);
+}
+.pe-hero__phone {
+  font-size: 0.75rem; letter-spacing: 0.15em;
+  color: rgba(255, 248, 239, 0.65);
+  text-decoration: none; transition: color .4s var(--ease-luxe);
+}
+.pe-hero__phone:hover { color: var(--gold-light); }
+@media (min-width: 600px) {
+  .pe-hero__cta { flex-direction: row; justify-content: center; align-items: center; }
+}
+.pe-hero__proof {
+  display: flex; flex-wrap: wrap; justify-content: center;
+  gap: 0.8rem 2.4rem;
+  margin: clamp(2.8rem, 5vw, 3.8rem) auto 0;
+  font-family: var(--font-sans);
+  font-size: 0.65rem; letter-spacing: 0.28em;
+  color: rgba(255, 248, 239, 0.6);
+  text-transform: uppercase;
+}
+.pe-hero__proof span em {
+  font-family: var(--font-display); font-style: italic;
+  text-transform: none; letter-spacing: 0.02em;
+  color: var(--gold-light); font-size: 0.88rem;
+}
+
+/* ==========================================================
+   MANIFESTO   centered text, generous whitespace
+   ========================================================== */
+.pe-manifesto {
+  padding: clamp(6rem, 12vw, 11rem) clamp(1.2rem, 4vw, 3rem);
+  background: var(--noir);
+  text-align: center;
+}
+.pe-manifesto__inner { max-width: 820px; margin: 0 auto; }
+.pe-manifesto__pull {
+  font-family: var(--font-display);
+  font-weight: 400;
+  font-size: clamp(2rem, 4.5vw, 3.4rem);
+  line-height: 1.15;
+  letter-spacing: 0.005em;
+  color: var(--cream);
+  margin: 0 0 clamp(2rem, 4vw, 3rem);
+  text-wrap: balance;
+}
+.pe-manifesto__pull em {
+  color: var(--gold-light); font-style: italic; font-family: var(--font-display);
+}
+
+/* ==========================================================
+   CHAPTERS   intro + 3 alternating cinematic panels
+   ========================================================== */
+.pe-chapters-intro {
+  padding: clamp(4rem, 7vw, 6rem) clamp(1.2rem, 4vw, 3rem) clamp(2rem, 4vw, 3rem);
+  text-align: center;
+  background: var(--noir);
+}
+.pe-chapters-intro__inner { max-width: 820px; margin: 0 auto; }
+
+.pe-chapter {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0;
+  align-items: center;
+  padding: clamp(3rem, 6vw, 5rem) 0;
+  background: var(--noir);
+}
+@media (min-width: 900px) {
+  .pe-chapter {
+    grid-template-columns: 1.15fr 1fr;
+    gap: clamp(2rem, 5vw, 5rem);
+    padding: clamp(5rem, 10vw, 9rem) clamp(2rem, 6vw, 6rem);
+    align-items: center;
+  }
+  .pe-chapter--reverse > .pe-chapter__media { order: 2; }
+  .pe-chapter--reverse > .pe-chapter__body  { order: 1; }
+}
+
+.pe-chapter__media {
+  position: relative;
+  overflow: hidden;
+  background: var(--noir-2);
+  aspect-ratio: 4 / 5;
+  margin: 0 clamp(1rem, 4vw, 2rem);
+  border-radius: 4px;
+  box-shadow: 0 30px 80px rgba(0, 0, 0, 0.45);
+}
+@media (min-width: 900px) {
+  .pe-chapter__media {
+    aspect-ratio: 4 / 5;
+    margin: 0;
+    max-height: 78vh;
+    border-radius: 6px;
+  }
+}
+.pe-chapter__media picture,
+.pe-chapter__media img {
+  display: block; width: 100%; height: 100%;
+  object-fit: cover;
+  will-change: transform;
+}
+.pe-chapter__media img {
+  transform: scale(1.08);
+  transition: transform 1.6s var(--ease-luxe);
+}
+
+.pe-chapter__body {
+  padding: clamp(2rem, 5vw, 3rem) clamp(1.4rem, 4vw, 2rem);
+  max-width: 540px;
+  margin: 0 auto;
+}
+@media (min-width: 900px) {
+  .pe-chapter__body { padding: 0; margin: 0; max-width: 480px; }
+}
+.pe-chapter__num {
+  display: block;
+  font-family: var(--font-display);
+  font-style: italic;
+  font-size: clamp(2.4rem, 4vw, 3.2rem);
+  line-height: 1;
+  color: var(--gold);
+  margin: 0 0 1.2rem;
+  letter-spacing: 0.02em;
+  opacity: 0.7;
+}
+.pe-chapter__ttl {
+  font-family: var(--font-display); font-weight: 400;
+  font-size: clamp(1.9rem, 3.2vw, 2.6rem);
+  line-height: 1.05; letter-spacing: 0.005em;
+  color: var(--cream);
+  margin: 0 0 clamp(1.4rem, 2.5vw, 2rem);
+}
+.pe-chapter__ttl em { color: var(--gold-light); font-style: italic; font-family: var(--font-display); }
+.pe-chapter__stats {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.7rem;
+  padding: clamp(1rem, 2vw, 1.3rem) 0 clamp(1.2rem, 2.4vw, 1.6rem);
+  border-top: 1px solid rgba(110, 31, 42, 0.18);
+  border-bottom: 1px solid rgba(110, 31, 42, 0.18);
+  margin-bottom: clamp(1.4rem, 2.5vw, 1.8rem);
+}
+@media (min-width: 480px) {
+  .pe-chapter__stats { grid-template-columns: repeat(2, 1fr); gap: 1rem; }
+}
+.pe-chapter__stats > div {
+  display: flex; flex-direction: column; gap: 0.25rem;
+}
+.pe-chapter__stat-k {
+  font-family: var(--font-sans);
+  font-size: 0.62rem; letter-spacing: 0.32em;
+  text-transform: uppercase;
+  color: var(--gold); font-weight: 500;
+}
+.pe-chapter__stat-v {
+  font-family: var(--font-sans); font-weight: 300;
+  font-size: 0.92rem;
+  color: rgba(255, 248, 239, 0.85);
+}
+.pe-chapter__stat-v strong {
+  color: var(--cream);
+  font-weight: 500;
+  font-family: var(--font-display);
+  font-size: 1.2rem;
+  letter-spacing: 0.01em;
+}
+.pe-chapter__stat-v sup {
+  font-size: 0.62rem;
+  color: var(--gold-light);
+  vertical-align: super; margin-left: 1px;
+}
+.pe-chapter__body-text {
+  font-family: var(--font-sans); font-weight: 300;
+  font-size: clamp(0.95rem, 1.3vw, 1.02rem);
+  line-height: 1.7;
+  color: rgba(255, 248, 239, 0.82);
+  margin: 0;
+}
+
+/* ==========================================================
+   FEATURE   the bathtub-wine signature, full-bleed
+   ========================================================== */
+.pe-feature {
+  position: relative;
+  min-height: 100svh;
+  display: flex; align-items: center; justify-content: center;
+  padding: clamp(6rem, 14vw, 12rem) clamp(1.2rem, 4vw, 3rem);
+  text-align: center;
+  overflow: hidden;
+  isolation: isolate;
+}
+.pe-feature__media {
+  position: absolute; inset: 0; z-index: -2;
+  will-change: transform;
+}
+.pe-feature__media img {
+  width: 100%; height: 100%;
+  object-fit: cover; display: block;
+  filter: saturate(1.08);
+}
+.pe-feature__veil {
+  position: absolute; inset: 0; z-index: -1;
+  background:
+    radial-gradient(ellipse 60% 50% at 50% 48%, rgba(10, 9, 8, 0.55) 0%, rgba(10, 9, 8, 0.15) 70%, transparent 100%),
+    linear-gradient(180deg, rgba(10, 9, 8, 0.7) 0%, rgba(10, 9, 8, 0.62) 50%, rgba(10, 9, 8, 0.88) 100%);
+}
+.pe-feature__inner { max-width: 780px; }
+.pe-feature__eyebrow {
+  display: inline-block;
+  font-family: var(--font-sans);
+  font-size: 0.66rem; letter-spacing: 0.4em;
+  text-transform: uppercase; color: var(--gold);
+  font-weight: 500;
+  padding: 0 0.8rem;
+  position: relative;
+}
+.pe-feature__eyebrow::before, .pe-feature__eyebrow::after {
+  content: ""; position: absolute; top: 50%;
+  width: 28px; height: 1px;
+  background: var(--gold); opacity: 0.55;
+}
+.pe-feature__eyebrow::before { right: 100%; }
+.pe-feature__eyebrow::after  { left: 100%; }
+.pe-feature__h {
+  font-family: var(--font-display); font-weight: 400;
+  font-size: clamp(2.2rem, 5vw, 4rem);
+  line-height: 1.05; letter-spacing: 0.005em;
+  color: var(--cream);
+  margin: clamp(1.2rem, 2.4vw, 1.8rem) 0 clamp(1.4rem, 3vw, 2rem);
+  text-shadow: 0 2px 32px rgba(0, 0, 0, 0.55);
+  text-wrap: balance;
+}
+.pe-feature__lede {
+  font-family: var(--font-sans); font-weight: 400;
+  font-size: clamp(0.98rem, 1.4vw, 1.12rem);
+  line-height: 1.7; max-width: 620px; margin: 0 auto;
+  color: rgba(255, 248, 239, 0.95);
+  text-shadow: 0 2px 24px rgba(0, 0, 0, 0.85), 0 0 12px rgba(0, 0, 0, 0.6);
+}
+
+/* ==========================================================
+   INCLUDED GRID
+   ========================================================== */
+.pe-included {
+  display: grid; grid-template-columns: 1fr;
+  gap: 1.6rem; margin-top: clamp(2rem, 4vw, 3rem);
+}
+@media (min-width: 600px) { .pe-included { grid-template-columns: repeat(2, 1fr); } }
+@media (min-width: 1000px) { .pe-included { grid-template-columns: repeat(3, 1fr); gap: 2rem; } }
+.pe-included > div {
+  padding: 1.6rem 1.4rem 1.8rem;
+  border: 1px solid rgba(110, 31, 42, 0.14);
+  border-radius: 6px;
+  background: rgba(255, 255, 255, 0.015);
+  transition: border-color .5s var(--ease-luxe), background .5s var(--ease-luxe), transform .5s var(--ease-luxe);
+}
+.pe-included > div:hover {
+  border-color: rgba(110, 31, 42, 0.35);
+  background: rgba(110, 31, 42, 0.04);
+  transform: translateY(-3px);
+}
+.pe-included__h {
+  font-family: var(--font-display); font-style: italic; font-weight: 400;
+  font-size: 1.2rem; color: var(--gold-light);
+  margin: 0 0 0.7rem; letter-spacing: 0.005em;
+}
+.pe-included p {
+  margin: 0;
+  font-family: var(--font-sans); font-weight: 300;
+  font-size: 0.88rem; line-height: 1.65;
+  color: rgba(255, 248, 239, 0.75);
+}
+
+/* ==========================================================
+   OCCASIONS
+   ========================================================== */
+.pe-occasions {
+  list-style: none; padding: 0;
+  margin: clamp(2rem, 4vw, 3rem) auto 0;
+  max-width: 760px;
+  display: grid; grid-template-columns: 1fr; gap: 0.9rem;
+}
+.pe-occasions li {
+  position: relative;
+  padding: 0.9rem 0 0.9rem 1.6rem;
+  border-bottom: 1px solid rgba(110, 31, 42, 0.12);
+  font-family: var(--font-sans); font-weight: 300;
+  font-size: 0.95rem; line-height: 1.55;
+  color: rgba(255, 248, 239, 0.78);
+}
+.pe-occasions li::before {
+  content: "·"; position: absolute; left: 0; top: 0.85rem;
+  color: var(--gold); font-size: 1.4rem; line-height: 1;
+}
+.pe-occasions li strong { color: var(--cream); font-weight: 500; }
+
+/* ==========================================================
+   FAQ
+   ========================================================== */
+.pe-faq {
+  max-width: 780px;
+  margin: clamp(1.5rem, 3vw, 2.5rem) auto 0;
+  display: flex; flex-direction: column;
+}
+.pe-faq details {
+  border-bottom: 1px solid rgba(110, 31, 42, 0.18);
+  padding: 0.4rem 0;
+}
+.pe-faq summary {
+  list-style: none; cursor: pointer;
+  padding: 1.1rem 1.8rem 1.1rem 0; position: relative;
+  font-family: var(--font-display); font-style: italic;
+  font-size: clamp(1rem, 1.5vw, 1.18rem);
+  color: var(--cream); letter-spacing: 0.005em;
+  transition: color .4s var(--ease-luxe);
+}
+.pe-faq summary::-webkit-details-marker { display: none; }
+.pe-faq summary:hover { color: var(--gold-light); }
+.pe-faq summary::after {
+  content: "+"; position: absolute; right: 0; top: 50%;
+  transform: translateY(-50%);
+  font-family: var(--font-sans);
+  font-size: 1.3rem; color: var(--gold); font-weight: 200;
+  transition: transform .4s var(--ease-luxe);
+}
+.pe-faq details[open] summary::after { content: "−"; transform: translateY(-50%) rotate(180deg); }
+.pe-faq details[open] summary { color: var(--gold-light); }
+.pe-faq details p {
+  margin: 0 0 1.1rem; padding-right: 1rem;
+  font-family: var(--font-sans); font-weight: 300;
+  font-size: 0.9rem; line-height: 1.7;
+  color: rgba(255, 248, 239, 0.78);
+}
+
+/* ==========================================================
+   ARRIVAL   closing cinematic shot
+   ========================================================== */
+.pe-arrive {
+  position: relative;
+  min-height: 90svh;
+  display: flex; align-items: center; justify-content: center;
+  padding: clamp(6rem, 12vw, 10rem) clamp(1.2rem, 4vw, 3rem);
+  text-align: center;
+  overflow: hidden;
+  isolation: isolate;
+}
+.pe-arrive__media {
+  position: absolute; inset: 0; z-index: -2;
+  will-change: transform;
+}
+.pe-arrive__media img {
+  width: 100%; height: 100%;
+  object-fit: cover; display: block;
+}
+.pe-arrive__veil {
+  position: absolute; inset: 0; z-index: -1;
+  background:
+    radial-gradient(ellipse 60% 50% at 50% 48%, rgba(10, 9, 8, 0.55) 0%, rgba(10, 9, 8, 0.15) 70%, transparent 100%),
+    linear-gradient(180deg, rgba(10, 9, 8, 0.7) 0%, rgba(10, 9, 8, 0.62) 50%, rgba(10, 9, 8, 0.88) 100%);
+}
+.pe-arrive .btn {
+  background: rgba(10, 9, 8, 0.45);
+  -webkit-backdrop-filter: blur(8px);
+          backdrop-filter: blur(8px);
+  border-color: rgba(110, 31, 42, 0.5);
+}
+.pe-arrive .btn:hover {
+  background: rgba(110, 31, 42, 0.18);
+  border-color: rgba(110, 31, 42, 0.7);
+}
+.pe-arrive__inner { max-width: 780px; }
+.pe-arrive__buttons {
+  display: flex; gap: 0.9rem;
+  justify-content: center; flex-wrap: wrap;
+  margin-top: clamp(1.8rem, 3.5vw, 2.6rem);
+}
+
+/* ==========================================================
+   CTA
+   ========================================================== */
+.pe-cta {
+  text-align: center; position: relative;
+  overflow: hidden; isolation: isolate;
+  background: var(--noir);
+}
+.pe-cta__glow {
+  position: absolute; inset: -20% -10%; z-index: -1;
+  background:
+    radial-gradient(ellipse at 30% 30%, rgba(110, 31, 42, 0.14), transparent 55%),
+    radial-gradient(ellipse at 75% 70%, rgba(142, 48, 56, 0.10), transparent 55%);
+  animation: peGlowDrift 18s ease-in-out infinite alternate;
+}
+@keyframes peGlowDrift {
+  0%   { transform: translate(0, 0) scale(1); }
+  100% { transform: translate(2%, -1%) scale(1.06); }
+}
+@media (prefers-reduced-motion: reduce) { .pe-cta__glow { animation: none; } }
+.pe-cta__inner { position: relative; z-index: 1; }
+.pe-cta__buttons {
+  display: flex; flex-direction: column; gap: 0.9rem;
+  align-items: center;
+  margin-top: clamp(1.8rem, 3.5vw, 2.6rem);
+}
+@media (min-width: 720px) {
+  .pe-cta__buttons { flex-direction: row; flex-wrap: wrap; justify-content: center; }
+}
+
+/* ==========================================================
+   FOOTER
+   ========================================================== */
+.pe-footer {
+  padding: clamp(2.5rem, 5vw, 4rem) clamp(1.2rem, 4vw, 3rem) clamp(2rem, 4vw, 3rem);
+  border-top: 1px solid rgba(110, 31, 42, 0.12);
+  background: var(--noir);
+}
+.pe-footer__inner {
+  max-width: 1080px; margin: 0 auto;
+  display: grid; gap: 1.5rem;
+  font-family: var(--font-sans); font-weight: 300;
+  font-size: 0.78rem; line-height: 1.6;
+  color: rgba(255, 248, 239, 0.65);
+}
+@media (min-width: 720px) { .pe-footer__inner { grid-template-columns: 1.3fr 1.3fr 1fr; gap: 2rem; } }
+.pe-footer__inner strong {
+  color: var(--cream); font-weight: 500;
+  letter-spacing: 0.05em;
+  font-family: var(--font-display); font-size: 1rem;
+}
+.pe-footer__inner a {
+  color: var(--gold-light); text-decoration: none;
+  transition: color .4s var(--ease-luxe);
+}
+.pe-footer__inner a:hover { color: var(--cream); }
+
+/* ==========================================================
+   MOBILE REFINEMENTS
+   ========================================================== */
+
+@media (max-width: 599px) {
+  .pe-hero__cta { width: 100%; padding: 0 1rem; }
+  .pe-hero__cta .btn { width: 100%; justify-content: center; padding: 1rem 1.4rem; font-size: 0.72rem; letter-spacing: 0.18em; white-space: nowrap; }
+  .pe-hero__phone { padding-top: 0.4rem; }
+  .pe-hero__proof {
+    gap: 0.5rem 1rem;
+    font-size: 0.58rem; letter-spacing: 0.22em;
+  }
+  .pe-hero__proof span em { font-size: 0.78rem; }
+  .pe-arrive__buttons .btn { width: 100%; justify-content: center; }
+}
+
+@media (max-width: 719px) {
+  .pe-cta__buttons .btn { width: 100%; justify-content: center; }
+  .pe-cta__buttons .btn--email-full { display: none; }
+  .pe-cta__buttons .btn--email-short { display: inline-flex; }
+}
+@media (min-width: 720px) {
+  .pe-cta__buttons .btn--email-full { display: inline-flex; }
+  .pe-cta__buttons .btn--email-short { display: none; }
+}
+
+@media (max-width: 599px) {
+  .pe-faq summary {
+    padding: 1.3rem 2rem 1.3rem 0;
+    font-size: 1.05rem; line-height: 1.4;
+  }
+  .pe-faq summary::after { font-size: 1.6rem; right: 0.2rem; }
+  .pe-faq details p { font-size: 0.92rem; padding-right: 0.2rem; }
+}
+
+/* Sticky mobile CTA bar */
+.pe-sticky-cta { display: none; }
+@media (max-width: 719px) {
+  .pe-sticky-cta {
+    display: flex;
+    position: fixed; bottom: 0; left: 0; right: 0;
+    z-index: 90;
+    padding: 0.7rem 1rem calc(0.7rem + env(safe-area-inset-bottom));
+    background: rgba(10, 9, 8, 0.92);
+    -webkit-backdrop-filter: blur(14px);
+            backdrop-filter: blur(14px);
+    border-top: 1px solid rgba(110, 31, 42, 0.22);
+    gap: 0.6rem;
+    align-items: center; justify-content: space-between;
+  }
+  .pe-sticky-cta__phone {
+    display: inline-flex; align-items: center; justify-content: center;
+    width: 44px; height: 44px; border-radius: 999px;
+    border: 1px solid rgba(110, 31, 42, 0.45);
+    color: var(--gold-light); text-decoration: none;
+    transition: background .3s var(--ease-luxe), border-color .3s var(--ease-luxe);
+  }
+  .pe-sticky-cta__phone:hover { background: rgba(110, 31, 42, 0.12); }
+  .pe-sticky-cta__phone svg { width: 18px; height: 18px; }
+  .pe-sticky-cta__btn {
+    flex: 1; display: inline-flex; align-items: center; justify-content: center;
+    height: 44px; border-radius: 999px;
+    background: var(--gold); color: var(--noir);
+    font-family: var(--font-sans);
+    font-size: 0.72rem; font-weight: 600;
+    letter-spacing: 0.22em; text-transform: uppercase;
+    text-decoration: none;
+    transition: background .3s var(--ease-luxe);
+  }
+  .pe-sticky-cta__btn:hover { background: var(--gold-light); }
+  .pe-footer { padding-bottom: calc(6rem + env(safe-area-inset-bottom)); }
+}
+
+@media (max-width: 599px) {
+  .page-events__cta { font-size: 0.6rem; padding: 0.6rem 0.9rem; }
+  .page-events__brand img { height: 18px; }
+  .page-events__nav { padding: 14px 1rem; }
+}
+
+/* When JS is enabled, reveals start hidden  the script unhides them.
+   Without JS, content is visible by default. */
+.js-on [data-pe-reveal] { opacity: 0; transform: translateY(28px); }
+
+/* ============================================================
+   SUB-PAGE LIGHT THEME — cream paper, deep red accents.
+   Layered last so it wins the cascade. Applies to both
+   /private-events/ and /team/ (they share body.page-events).
+   Full-bleed photo sections (.pe-hero, .pe-feature, .pe-arrive)
+   keep their dark veil + light text — the photos themselves
+   are dark, so light overlay text stays readable.
+   ============================================================ */
+
+body.page-events { background: var(--cream); color: var(--noir); height: auto; min-height: 100vh; }
+/* main.css forces html,body { height:100% } + a noir <html>; on a long
+   cream page the noir <html> peeks through below the fold. Grow the body
+   and tint the <html> cream so the page is seamless. */
+html:has(body.page-events) { background: var(--cream); }
+
+/* Nav — cream glass, black wordmark, dark links */
+.page-events__nav {
+  background: rgba(255, 248, 239, 0.78);
+  border-bottom-color: rgba(14, 14, 14, 0.08);
+}
+.page-events__brand img { filter: brightness(0); }
+.page-events__location { color: rgba(14, 14, 14, 0.55); }
+.page-events__location:hover { color: var(--peach-dark); }
+.page-events__location--active { color: var(--noir); }
+.page-events__location-sep { color: rgba(14, 14, 14, 0.32); }
+.page-events__nav-links a { color: rgba(14, 14, 14, 0.7); }
+.page-events__nav-links a:hover { color: var(--peach-dark); }
+
+/* HERO — keep light text on the dark photo */
+.pe-hero .pe-h1 { color: var(--cream); }
+.pe-hero .pe-h1 em { color: var(--cream); }
+.pe-hero .pe-eyebrow { color: var(--cream); }
+.pe-hero .pe-lede { color: rgba(255, 248, 239, 0.88); }
+.pe-hero .pe-lede strong { color: var(--cream); }
+.pe-hero .kiss-stamp { background-color: var(--cream); }
+.pe-hero__phone { color: rgba(255, 248, 239, 0.65); }
+.pe-hero__phone:hover { color: var(--cream); }
+.pe-hero__proof { color: rgba(255, 248, 239, 0.6); }
+.pe-hero__proof span em { color: var(--cream); }
+
+/* MANIFESTO + standard SECTIONS — cream paper */
+.pe-manifesto { background: var(--cream); }
+.pe-manifesto__pull { color: var(--noir); }
+.pe-manifesto__pull em { color: var(--peach-dark); }
+
+.pe-section { background: var(--cream); color: var(--noir); }
+.pe-section--alt {
+  background:
+    radial-gradient(circle at 80% 20%, rgba(110, 31, 42, 0.05), transparent 50%),
+    #F4EAD8;
+}
+.pe-chapters-intro { background: var(--cream); }
+.pe-h2 { color: var(--noir); }
+.pe-h2 em { color: var(--peach-dark); }
+.pe-paragraph { color: rgba(14, 14, 14, 0.7); }
+.pe-eyebrow { color: var(--peach-dark); }
+.pe-rule { background: rgba(110, 31, 42, 0.4); }
+
+/* CHAPTERS — text re-inked for cream; the roman-numeral index is hidden */
+.pe-chapter { background: var(--cream); }
+.pe-chapter__num { display: none; }
+.pe-chapter__ttl { color: var(--noir); }
+.pe-chapter__ttl em { color: var(--peach-dark); }
+.pe-chapter__stats {
+  border-top-color: rgba(14, 14, 14, 0.18);
+  border-bottom-color: rgba(14, 14, 14, 0.18);
+}
+.pe-chapter__stat-k { color: var(--peach-dark); }
+.pe-chapter__stat-v { color: rgba(14, 14, 14, 0.78); }
+.pe-chapter__stat-v strong { color: var(--noir); }
+.pe-chapter__stat-v sup { color: var(--peach-dark); }
+.pe-chapter__body-text { color: rgba(14, 14, 14, 0.7); }
+
+/* FEATURE + ARRIVE photos stay dark (photo bg + light overlay).
+   They're full-bleed dark photos, no flip needed. The class
+   names .pe-feature__h / .pe-feature__lede / .pe-feature__eyebrow
+   are distinct from .pe-h2 / .pe-paragraph / .pe-eyebrow so the
+   generic cream overrides above don't touch them. */
+
+/* INCLUDED grid cards — light cards on the cream alt section */
+.pe-included > div {
+  border-color: rgba(14, 14, 14, 0.14);
+  background: rgba(255, 255, 255, 0.5);
+}
+.pe-included > div:hover {
+  border-color: rgba(110, 31, 42, 0.35);
+  background: rgba(110, 31, 42, 0.05);
+}
+.pe-included__h { color: var(--peach-dark); }
+.pe-included p { color: rgba(14, 14, 14, 0.7); }
+
+/* OCCASIONS list — dark rule + dark text */
+.pe-occasions li {
+  border-bottom-color: rgba(14, 14, 14, 0.12);
+  color: rgba(14, 14, 14, 0.78);
+}
+.pe-occasions li::before { color: var(--peach-dark); }
+.pe-occasions li strong { color: var(--noir); }
+
+/* FAQ accordion */
+.pe-faq details { border-bottom-color: rgba(14, 14, 14, 0.16); }
+.pe-faq summary { color: var(--noir); }
+.pe-faq summary:hover { color: var(--peach-dark); }
+.pe-faq summary::after { color: var(--peach-dark); }
+.pe-faq details[open] summary { color: var(--peach-dark); }
+.pe-faq details p { color: rgba(14, 14, 14, 0.72); }
+
+/* CTA — cream */
+.pe-cta { background: var(--cream); color: var(--noir); }
+.pe-cta__glow {
+  background:
+    radial-gradient(ellipse at 30% 30%, rgba(110, 31, 42, 0.1), transparent 55%),
+    radial-gradient(ellipse at 75% 70%, rgba(142, 48, 56, 0.08), transparent 55%);
+}
+.pe-cta .pe-h2 { color: var(--noir); }
+.pe-cta .pe-paragraph { color: rgba(14, 14, 14, 0.65); }
+.pe-cta .btn:not(.btn--gilt) {
+  color: var(--noir);
+  border-color: rgba(14, 14, 14, 0.28);
+  background: rgba(255, 255, 255, 0.5);
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.6) inset, 0 4px 14px rgba(14, 14, 14, 0.08);
+}
+.pe-cta .btn:not(.btn--gilt):hover {
+  color: var(--peach-dark);
+  border-color: var(--peach-dark);
+  background: rgba(110, 31, 42, 0.06);
+}
+
+/* FOOTER — cream */
+.pe-footer {
+  background: var(--cream);
+  color: var(--noir);
+  border-top-color: rgba(14, 14, 14, 0.1);
+}
+.pe-footer__inner { color: rgba(14, 14, 14, 0.7); }
+.pe-footer__inner strong { color: var(--noir); }
+.pe-footer__inner a { color: var(--peach-dark); }
+.pe-footer__inner a:hover { color: var(--noir); }
+
+/* STICKY MOBILE CTA — cream glass */
+.pe-sticky-cta {
+  background: rgba(255, 248, 239, 0.92);
+  border-top-color: rgba(110, 31, 42, 0.25);
+}
+.pe-sticky-cta__phone {
+  border-color: rgba(110, 31, 42, 0.45);
+  color: var(--peach-dark);
+}
+.pe-sticky-cta__phone:hover { background: rgba(110, 31, 42, 0.1); }
+.pe-sticky-cta__btn { background: var(--peach-dark); color: var(--cream); }
+.pe-sticky-cta__btn:hover { background: var(--peach); }

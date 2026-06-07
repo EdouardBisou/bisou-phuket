@@ -1,0 +1,523 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#0A0908" />
+  <title>Bisou Phuket · Modern French Restaurant</title>
+  <meta name="description" content="Modern French restaurant in Phuket. Simple & sexy." />
+  <link rel="canonical" href="https://bisouphuket.com/" />
+  <meta property="og:title" content="Bisou Phuket" />
+  <meta property="og:description" content="Modern French restaurant in Phuket. Simple & sexy." />
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="en_US" />
+  <meta property="og:url" content="https://bisouphuket.com/" />
+  <meta property="og:image" content="https://bisouphuket.com/assets/og.jpg" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Bisou Phuket · Modern French Restaurant" />
+  <meta name="twitter:description" content="Modern French restaurant in Phuket. Simple & sexy." />
+  <meta name="twitter:image" content="https://bisouphuket.com/assets/og.jpg" />
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Restaurant",
+    "@id": "https://bisouphuket.com/#restaurant",
+    "name": "Bisou Phuket",
+    "image": "https://bisouphuket.com/assets/og.jpg",
+    "url": "https://bisouphuket.com/",
+    "telephone": "+66963789668",
+    "email": "contact@bisouphuket.com",
+    "priceRange": "$$$$",
+    "servesCuisine": ["French", "Modern French", "European"],
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "No.4 Bandon-Cherngtalay Rd",
+      "addressLocality": "Choeng Thale",
+      "addressRegion": "Phuket",
+      "postalCode": "83110",
+      "addressCountry": "TH"
+    },
+    "geo": { "@type": "GeoCoordinates", "latitude": 7.9928, "longitude": 98.2970 },
+    "openingHoursSpecification": [{
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
+      "opens": "17:30",
+      "closes": "00:00"
+    }],
+    "acceptsReservations": "True",
+    "hasMenu": "https://bisouphuket.com/#menu",
+    "sameAs": [
+      "https://www.instagram.com/bisouphuket/"
+    ]
+  }
+  </script>
+
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32.png" />
+  <link rel="icon" type="image/png" sizes="192x192" href="assets/favicon/favicon-192.png" />
+  <link rel="shortcut icon" type="image/png" href="assets/favicon/favicon-32.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png" />
+
+  <!-- Fonts: premium typography system -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <!-- Brand font: Champagne & Limousines (self-host /assets/fonts/).
+       Fallbacks: Jost + Poiret One (free, Google), then Italiana. -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700&family=Poiret+One&family=Italiana&family=Inter:wght@300;400;500;600&display=swap"
+    rel="stylesheet"
+  />
+
+  <link rel="stylesheet" href="css/main.css?v=43" />
+
+  <!-- Google Analytics 4 -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-XXXXXXXXXX');
+  </script>
+</head>
+
+<body>
+  <!-- =========  PRELOADER  (uses official brand B mark)  ========= -->
+  <div class="preloader" data-preloader>
+    <img class="preloader__logo" src="assets/b-mark.png" alt="Bisou" data-preloader-logo />
+    <div class="preloader__meta">
+      <img src="assets/bisou-wordmark.png" alt="Bisou Phuket" class="preloader__wordmark" />
+      <span class="preloader__count" data-preloader-count>00</span>
+    </div>
+  </div>
+
+  <!-- =========  CUSTOM CURSOR  ========= -->
+  <div class="cursor" data-cursor aria-hidden="true">
+    <span class="cursor__dot"></span>
+    <span class="cursor__ring"></span>
+  </div>
+
+  <!-- =========  NOISE GRAIN OVERLAY  ========= -->
+  <div class="grain" aria-hidden="true"></div>
+
+  <!-- =========  MENU HOVER PREVIEW (desktop)  ========= -->
+  <div class="menu-hover" data-menu-hover aria-hidden="true">
+    <div class="menu-hover__frame">
+      <img class="menu-hover__img" alt="" hidden />
+      <div class="menu-hover__placeholder">
+        <svg class="menu-hover__camera" viewBox="0 0 28 22" fill="none" stroke="currentColor" stroke-width="1" aria-hidden="true">
+          <rect x="0.5" y="3.5" width="27" height="18" rx="2" />
+          <rect x="9" y="-0.5" width="10" height="4" rx="1.5" />
+          <circle cx="14" cy="12.5" r="5" />
+        </svg>
+        <span class="menu-hover__label">Coming soon</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- =========  MENU DISH SHEET (mobile)  ========= -->
+  <div class="menu-sheet" data-menu-sheet aria-hidden="true">
+    <div class="menu-sheet__backdrop" data-menu-sheet-backdrop></div>
+    <div class="menu-sheet__panel" role="dialog" aria-modal="true" aria-label="Dish photograph">
+      <button class="menu-sheet__handle" data-menu-sheet-close aria-label="Close"></button>
+      <div class="menu-sheet__image">
+        <img class="menu-sheet__img" alt="" hidden />
+        <div class="menu-sheet__placeholder">
+          <svg class="menu-hover__camera" viewBox="0 0 28 22" fill="none" stroke="currentColor" stroke-width="1" aria-hidden="true">
+            <rect x="0.5" y="3.5" width="27" height="18" rx="2" />
+            <rect x="9" y="-0.5" width="10" height="4" rx="1.5" />
+            <circle cx="14" cy="12.5" r="5" />
+          </svg>
+          <span class="menu-hover__label">Coming soon</span>
+        </div>
+      </div>
+      <div class="menu-sheet__meta">
+        <div class="menu-sheet__name" data-menu-sheet-name></div>
+        <div class="menu-sheet__price" data-menu-sheet-price></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- =========  NAVIGATION  ========= -->
+  <header class="nav" data-nav>
+    <a href="#top" class="nav__brand" data-magnet aria-label="Bisou Phuket home">
+      <img src="assets/bisou-wordmark.png" alt="Bisou" class="nav__brand-img" />
+    </a>
+    <div class="nav__locations" aria-label="Our restaurants">
+      <a href="https://bisoubangkok.com" class="nav__location" target="_blank" rel="noreferrer">Bangkok</a>
+      <span class="nav__location-sep" aria-hidden="true">·</span>
+      <span class="nav__location nav__location--active" aria-current="page">Phuket</span>
+    </div>
+    <nav class="nav__links" aria-label="Primary">
+      <a href="#concept" class="nav__link">Concept</a>
+      <a href="/menu" class="nav__link">Menu</a>
+      <a href="#journal" class="nav__link">Journal</a>
+      <a href="/team/" class="nav__link">Team</a>
+      <a href="/private-events/" class="nav__link">Private events</a>
+      <a href="#infos" class="nav__link">Infos</a>
+    </nav>
+    <a
+      href="{{reservation_url}}"
+      target="_blank"
+      rel="noreferrer"
+      class="nav__cta btn"
+      data-magnet
+    >
+      <span>Reserve</span>
+      <svg viewBox="0 0 28 12" class="btn__arrow" aria-hidden="true">
+        <path d="M0 6h24M18 1l6 5-6 5" stroke="currentColor" stroke-width="1" fill="none" />
+      </svg>
+    </a>
+    <button class="nav__toggle" data-menu-toggle aria-label="Menu">
+      <span></span><span></span>
+    </button>
+  </header>
+
+  <!-- =========  MOBILE SHEET  ========= -->
+  <div class="sheet" data-sheet hidden>
+    <button class="sheet__close" data-menu-close aria-label="Close">
+      <svg viewBox="0 0 28 28"><path d="M4 4 L24 24 M24 4 L4 24" stroke="currentColor" stroke-width="1.2" fill="none"/></svg>
+    </button>
+    <nav class="sheet__nav" aria-label="Primary mobile">
+      <a href="#concept">Concept</a>
+      <a href="/menu">Menu</a>
+      <a href="#journal">Journal</a>
+      <a href="/team/">Team</a>
+      <a href="/private-events/">Private events</a>
+      <a href="#infos">Infos</a>
+    </nav>
+    <div class="sheet__locations" aria-label="Our restaurants">
+      <span class="sheet__locations-label">Our restaurants</span>
+      <span class="sheet__location sheet__location--active" aria-current="page">Phuket</span>
+      <a href="https://bisoubangkok.com" class="sheet__location" target="_blank" rel="noreferrer">Bangkok <span aria-hidden="true">&rarr;</span></a>
+    </div>
+    <a href="{{reservation_url}}" target="_blank" rel="noreferrer" class="btn btn--gilt">Reserve a table</a>
+  </div>
+
+  <main id="top">
+    <!-- =========  HERO  ========= -->
+    <!-- Desktop shows the Bisou kiss-wall composite; mobile keeps the
+         cinematic vertical video (the wide kiss-wall doesn't crop well
+         on a phone). Picture sources route a 1-px transparent placeholder
+         to mobile so the desktop file never downloads on a phone. -->
+    <section class="hero hero--cine" data-hero aria-label="Bisou introduction">
+      <h1 class="visually-hidden">Bisou Phuket, Modern French Restaurant in Phuket</h1>
+
+      <picture class="hero__image">
+        <source type="image/png" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" media="(max-width: 700px)" />
+        <source type="image/webp" srcset="/assets/photos/web/kiss-wall-1920.webp?v=2" media="(min-width: 1281px)" />
+        <source type="image/webp" srcset="/assets/photos/web/kiss-wall-1280.webp?v=2" media="(min-width: 701px)" />
+        <source type="image/jpeg" srcset="/assets/photos/web/kiss-wall-1920.jpg?v=2" media="(min-width: 1281px)" />
+        <img src="/assets/photos/web/kiss-wall-1280.jpg?v=2" alt="Bisou kiss wall, eight cinematic kiss panels with the Bisou letters overlaid" loading="eager" fetchpriority="high" />
+      </picture>
+
+      <!-- Mobile-only video (kept in DOM for <=700px; sources strip desktop encode). -->
+      <video
+        class="hero__video-bg"
+        autoplay muted loop playsinline webkit-playsinline preload="metadata"
+        aria-hidden="true"
+      >
+        <source src="assets/hero-mobile.mp4" media="(max-width: 700px)" type="video/mp4" />
+      </video>
+
+      <video
+        class="hero__video"
+        autoplay muted loop playsinline webkit-playsinline preload="auto"
+        data-hero-video
+      >
+        <source src="assets/hero-mobile.mp4" media="(max-width: 700px)" type="video/mp4" />
+      </video>
+
+      <!-- Cinematic dark vignette over the video for B contrast -->
+      <div class="hero__veil" aria-hidden="true"></div>
+
+      <!-- Top meta -->
+      <div class="hero__meta hero__meta--top">
+        <span class="eyebrow">Modern <em>French</em></span>
+        <span class="rule rule--short"></span>
+      </div>
+
+      <!-- Tagline -->
+      <div class="hero__cine-foot">
+        <div class="hero__tagline">
+          <span class="rule rule--tiny"></span>
+          <em>simple &amp; sexy</em>
+          <span class="rule rule--tiny"></span>
+        </div>
+      </div>
+
+      <!-- Editorial corner labels -->
+      <div class="hero__coord hero__coord--bl">Phuket</div>
+      <div class="hero__coord hero__coord--br">Est. 2025</div>
+
+      <!-- Sound toggle (click to unmute the hero video) -->
+      <button
+        class="hero__sound"
+        data-sound-toggle
+        aria-label="Toggle sound"
+        type="button"
+      >
+        <span class="hero__sound-label" data-sound-label>SOUND</span>
+        <span class="hero__sound-icon" aria-hidden="true">
+          <span class="hero__sound-bar"></span>
+          <span class="hero__sound-bar"></span>
+          <span class="hero__sound-bar"></span>
+          <span class="hero__sound-bar"></span>
+        </span>
+      </button>
+    </section>
+
+    <!-- =========  MARQUEE BAND  ========= -->
+    <section class="marquee" aria-hidden="true">
+      <div class="marquee__track" data-marquee>
+        <span>Bisou</span><span>·</span>
+        <span>simple &amp; sexy</span><span>·</span>
+        <span>Bisou Phuket</span><span>·</span>
+        <span>Keep It Simple, Sexy</span><span>·</span>
+        <span>Modern French Cuisine</span><span>·</span>
+        <span>Hospitality House</span><span>·</span>
+        <span>the room hums</span><span>·</span>
+        <span>flambéed at the table</span><span>·</span>
+        <span>meet me in Phuket</span><span>·</span>
+        <span>5:30 till midnight</span><span>·</span>
+        <span>the art of hospitality</span><span>·</span>
+        <span>Bisou. Every night.</span><span>·</span>
+        <span>Bisou</span><span>·</span>
+        <span>simple &amp; sexy</span><span>·</span>
+        <span>Bisou Phuket</span><span>·</span>
+        <span>Keep It Simple, Sexy</span><span>·</span>
+        <span>Modern French Cuisine</span><span>·</span>
+        <span>Hospitality House</span><span>·</span>
+        <span>the room hums</span><span>·</span>
+        <span>flambéed at the table</span><span>·</span>
+        <span>meet me in Phuket</span><span>·</span>
+        <span>5:30 till midnight</span><span>·</span>
+        <span>the art of hospitality</span><span>·</span>
+        <span>Bisou. Every night.</span><span>·</span>
+      </div>
+    </section>
+
+    <!-- =========  CONCEPT  ========= -->
+    <section id="concept" class="concept concept--paper">
+      <div class="concept__inner">
+
+        <div class="sec-index" data-reveal>
+          <span class="sec-index__num">01</span>
+          <span class="kiss-stamp" aria-hidden="true"></span>
+          <span class="sec-index__label">Concept</span>
+        </div>
+
+        <h2 class="concept__manifesto" data-reveal>
+          A modern French restaurant in Phuket where <em>Chef Antoine Darquin</em>'s cuisine finds a new home: French roots, a personal hand, plates built to share. <em>Truffle French Toast</em>, house <em>Beef Wellington</em>, a cellar by sommelier <em>Théo Lavergne</em> built to follow them.
+          <span class="concept__kiss">K · I · S · S · Keep It Simple, Sexy</span>
+        </h2>
+
+        <div class="concept__proof" data-reveal>
+          <span><em>Modern</em> French cuisine</span>
+          <span>Dinner only &middot; Every night</span>
+          <span><em>Simple</em> &amp; sexy</span>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =========  MENU  ========= -->
+    <section id="menu" class="menu menu--paper" data-reveal-root>
+      <header class="menu__head">
+        <div class="sec-index" data-reveal>
+          <span class="sec-index__num">02</span>
+          <span class="kiss-stamp" aria-hidden="true"></span>
+          <span class="sec-index__label">Menu</span>
+        </div>
+        <h2 class="h-display">Seasonal, <em>uncompromising</em></h2>
+        <p class="menu__lede">
+          The menu evolves with the market. A few signatures remain on permanent watch.
+        </p>
+      </header>
+
+      <div class="menu__tabs" role="tablist" data-menu-tabs>
+        <button role="tab" aria-selected="true" data-tab="food">
+          <svg class="menu__tab-icon" viewBox="0 0 26 22" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M3.5 16C3.5 9.5 8 5.5 13 5.5C18 5.5 22.5 9.5 22.5 16"/>
+            <path d="M1.5 16.5H24.5"/>
+            <path d="M13 5.5V2.6"/>
+            <circle cx="13" cy="1.8" r="1.1"/>
+          </svg>
+          <span class="menu__tab-label">Cuisine</span>
+        </button>
+        <button role="tab" aria-selected="false" data-tab="drink">
+          <svg class="menu__tab-icon" viewBox="0 0 26 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M4.5 4.5H21.5L13 13.5Z"/>
+            <path d="M13 13.5V20.5"/>
+            <path d="M8.5 21H17.5"/>
+          </svg>
+          <span class="menu__tab-label">Cocktails</span>
+        </button>
+        <button role="tab" aria-selected="false" data-tab="wine">
+          <svg class="menu__tab-icon" viewBox="0 0 26 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M11 2.5H15V6.5C15 8.6 17 9.6 17 12.6V19.4C17 21 16 22 14.4 22H11.6C10 22 9 21 9 19.4V12.6C9 9.6 11 8.6 11 6.5Z"/>
+            <path d="M9 16.4H17"/>
+          </svg>
+          <span class="menu__tab-label">Cellar</span>
+        </button>
+      </div>
+
+      <div class="menu__panels" data-menu-panels>
+        <!-- BUILD:MENU -->
+        <!-- Build-time-injected menu panels go here. JS still wires tabs + hover preview. -->
+        <!-- /BUILD:MENU -->
+      </div>
+
+      <footer class="menu__footnote">
+        <small>All prices subject to 10% service charge and 7% VAT.</small>
+      </footer>
+    </section>
+
+    <!-- =========  BLOG / JOURNAL  ========= -->
+    <section id="journal" class="journal journal--paper" data-reveal-root>
+      <header class="journal__head">
+        <div class="sec-index" data-reveal>
+          <span class="sec-index__num">04</span>
+          <span class="kiss-stamp" aria-hidden="true"></span>
+          <span class="sec-index__label">The Journal</span>
+        </div>
+        <h2 class="h-display">Dispatches from the <em>table</em></h2>
+        <p class="journal__lede">
+          Chef's notes, wine discoveries, the stories behind the seasons.
+        </p>
+      </header>
+      <div class="journal__grid">
+        <!-- BUILD:JOURNAL_LIST -->
+        <p class="journal__coming-soon" data-reveal>Coming soon.</p>
+        <!-- /BUILD:JOURNAL_LIST -->
+      </div>
+      <div class="journal__cta">
+        <a href="/journal/" class="btn">Read the journal</a>
+      </div>
+    </section>
+
+    <!-- =========  RESERVATION CTA  ========= -->
+    <section id="reserve" class="reserve">
+      <div class="reserve__glow" aria-hidden="true"></div>
+      <div class="reserve__inner">
+        <div class="sec-index sec-index--center" data-reveal>
+          <span class="sec-index__num">05</span>
+          <span class="kiss-stamp" aria-hidden="true"></span>
+          <span class="sec-index__label">Reservations</span>
+        </div>
+        <a
+          href="{{reservation_url}}"
+          target="_blank"
+          rel="noreferrer"
+          class="reserve__word"
+          data-magnet
+          aria-label="Reserve a table"
+        >
+          <span>R</span><span>e</span><span>s</span><span>e</span><span>r</span><span>v</span><span>e</span><em>.</em>
+        </a>
+        <p class="reserve__lede" data-reveal>
+          An intimate dining room. Weekends fill a week ahead.
+        </p>
+        <div class="reserve__actions" data-reveal>
+          <a
+            href="{{reservation_url}}"
+            target="_blank"
+            rel="noreferrer"
+            class="btn btn--gilt btn--xl"
+            data-magnet
+          >
+            <span>Book online</span>
+            <svg class="btn__arrow" viewBox="0 0 28 12" aria-hidden="true">
+              <path d="M0 6h24M18 1l6 5-6 5" stroke="currentColor" stroke-width="1" fill="none"/>
+            </svg>
+          </a>
+          <a href="tel:{{phone_tel}}" class="reserve__phone">
+            <span>or call</span>
+            <strong>{{phone}}</strong>
+          </a>
+        </div>
+        <p class="reserve__hours" data-reveal>
+          Dinner nightly &nbsp;·&nbsp; 5:30 PM to 12:00 AM &nbsp;·&nbsp; last order 11 PM
+        </p>
+      </div>
+    </section>
+
+    <!-- =========  PRIVATE EVENTS CTA  ========= -->
+    <section class="home-private-cta" data-reveal>
+      <div class="home-private-cta__inner">
+        <span class="home-private-cta__eyebrow">Private events</span>
+        <h2 class="home-private-cta__h">
+          Hosting a <em>private event</em> in Phuket?
+        </h2>
+        <p class="home-private-cta__lede">
+          Wedding receptions, corporate dinners, birthdays, full venue buyouts. From 17 to 110 guests, custom menus, paired wines.
+        </p>
+        <a href="/private-events/" class="btn btn--xl btn--gilt">Explore private events</a>
+      </div>
+    </section>
+
+    <!-- =========  INFOS / FOOTER  ========= -->
+    <footer id="infos" class="footer">
+      <div class="footer__inner">
+        <div class="footer__brand">
+          <img src="assets/b-mark.png" alt="" class="footer__brand-mark" />
+          <p class="footer__tagline">simple &amp; sexy</p>
+          <p class="footer__lede">
+            Modern French restaurant. Phuket.
+          </p>
+        </div>
+
+        <div class="footer__col">
+          <span class="eyebrow">Visit</span>
+          <address>
+            No.4 Bandon-Cherngtalay Rd<br />
+            Choeng Thale, Thalang<br />
+            Phuket 83110
+          </address>
+          <a href="{{maps_url}}" target="_blank" rel="noreferrer" class="underline">Open in Maps</a>
+        </div>
+
+        <div class="footer__col">
+          <span class="eyebrow">Contact</span>
+          <ul class="footer__list">
+            <li><a href="tel:{{phone_tel}}" class="underline">{{phone}}</a></li>
+            <li><a href="mailto:{{email_href}}" class="underline">{{email}}</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__col">
+          <span class="eyebrow">Hours</span>
+          <p>Dinner nightly<br/>5:30 PM to 12:00 AM<br/><em>last food order 11 PM</em></p>
+          <div class="footer__socials">
+            <a href="https://www.instagram.com/bisouphuket/" target="_blank" rel="noreferrer">Instagram</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer__outlets">
+        <span class="eyebrow">Our restaurants</span>
+        <div class="footer__outlets-row">
+          <span class="footer__outlet footer__outlet--active">
+            <strong>Bisou Phuket</strong>
+            <em>Choeng Thale, Phuket</em>
+          </span>
+          <a href="https://bisoubangkok.com" target="_blank" rel="noreferrer" class="footer__outlet">
+            <strong>Bisou Bangkok <span aria-hidden="true">&rarr;</span></strong>
+            <em>bisoubangkok.com</em>
+          </a>
+        </div>
+      </div>
+      <div class="footer__base">
+        <span>© <span data-year></span> Bisou Phuket. All rights reserved.</span>
+        <span>Designed in Phuket. Inspired by Paris.</span>
+      </div>
+    </footer>
+  </main>
+
+  <!-- =========  LIBRARIES  ========= -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollToPlugin.min.js"></script>
+  <script src="https://unpkg.com/@studio-freight/lenis@1.0.42/dist/lenis.min.js"></script>
+  <script src="js/main.js?v=21" defer></script>
+</body>
+</html>

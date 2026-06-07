@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#FFF8EF" />
+
+  <title>Menu · Bisou Phuket</title>
+  <meta name="description" content="The Bisou Phuket menu in photos. Modern French dishes to share, from Truffle French Toast to house Beef Wellington, in Phuket." />
+  <link rel="canonical" href="https://bisouphuket.com/menu" />
+
+  <meta property="og:title" content="Menu · Bisou Phuket" />
+  <meta property="og:description" content="The Bisou Phuket menu in photos. Modern French dishes to share, in Phuket." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://bisouphuket.com/menu" />
+  <meta property="og:locale" content="en_US" />
+  <meta property="og:image" content="https://bisouphuket.com/assets/og.jpg" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Menu · Bisou Phuket" />
+  <meta name="twitter:description" content="The Bisou Phuket menu in photos. Modern French dishes to share, in Phuket." />
+  <meta name="twitter:image" content="https://bisouphuket.com/assets/og.jpg" />
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32.png" />
+  <link rel="icon" type="image/png" sizes="192x192" href="/assets/favicon/favicon-192.png" />
+  <link rel="shortcut icon" type="image/png" href="/assets/favicon/favicon-32.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700&family=Poiret+One&family=Italiana&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="/css/main.css?v=43" />
+  <link rel="stylesheet" href="/menu/menu.css?v=1" />
+
+  <!-- Google Analytics 4 -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-XXXXXXXXXX');
+  </script>
+</head>
+
+<body class="page-menu">
+
+  <header class="pm-nav">
+    <a href="/" class="pm-nav__brand" aria-label="Bisou Phuket home">
+      <img src="/assets/bisou-wordmark.png" alt="Bisou Phuket" />
+    </a>
+    <a href="{{reservation_url}}" target="_blank" rel="noreferrer" class="btn btn--gilt pm-nav__cta">Reserve a table</a>
+  </header>
+
+  <main>
+
+    <!-- ========= DESKTOP: the existing tabbed menu (>=701px) ========= -->
+    <section class="menu menu--paper menu-desktop">
+      <header class="menu__head">
+        <h1 class="h-display">The <em>menu</em></h1>
+        <p class="menu__lede">Modern French, built to share. The kitchen evolves with the market; a few signatures stay on permanent watch.</p>
+      </header>
+
+      <div class="menu__tabs" role="tablist" data-menu-tabs>
+        <button role="tab" aria-selected="true" data-tab="food">
+          <span class="menu__tab-label">Cuisine</span>
+        </button>
+        <button role="tab" aria-selected="false" data-tab="drink">
+          <span class="menu__tab-label">Cocktails</span>
+        </button>
+        <button role="tab" aria-selected="false" data-tab="wine">
+          <span class="menu__tab-label">Cellar</span>
+        </button>
+      </div>
+
+      <div class="menu__panels" data-menu-panels>
+        <!-- BUILD:MENU -->
+        <!-- /BUILD:MENU -->
+      </div>
+    </section>
+
+    <!-- ========= MOBILE: the photo menu (<=700px) ========= -->
+    <div class="photo-menu" data-photo-menu>
+      <header class="pm-head">
+        <span class="pm-head__eyebrow">The Menu</span>
+        <h1 class="pm-head__title">Every dish, in <em>photos</em></h1>
+      </header>
+      <!-- BUILD:PHOTOMENU -->
+      <!-- /BUILD:PHOTOMENU -->
+      <a class="pm-drinks" href="/#menu">Cocktails &amp; wine&nbsp;&rarr;</a>
+    </div>
+
+  </main>
+
+  <!-- Desktop hover preview card -->
+  <div class="menu-hover" data-menu-hover aria-hidden="true">
+    <div class="menu-hover__frame">
+      <img class="menu-hover__img" alt="" />
+      <div class="menu-hover__placeholder">
+        <svg class="menu-hover__camera" viewBox="0 0 28 22" fill="none" stroke="currentColor" stroke-width="1" aria-hidden="true">
+          <rect x="0.5" y="3.5" width="27" height="18" rx="2" />
+          <rect x="9" y="-0.5" width="10" height="4" rx="1.5" />
+          <circle cx="14" cy="12.5" r="5" />
+        </svg>
+        <span class="menu-hover__label">Coming soon</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Mobile tap-to-zoom lightbox -->
+  <div class="pm-lightbox" data-pm-lightbox aria-hidden="true">
+    <button class="pm-lightbox__close" type="button" data-pm-lightbox-close aria-label="Close">&times;</button>
+    <img class="pm-lightbox__img" alt="" />
+  </div>
+
+  <footer class="pe-footer">
+    <div class="pe-footer__inner">
+      <div>
+        <strong>Bisou Phuket</strong><br/>
+        No.4 Bandon-Cherngtalay Rd, Choeng Thale, Thalang, Phuket 83110
+      </div>
+      <div>
+        Dinner nightly, 5:30 PM to 12:00 AM<br/>
+        <a href="tel:{{phone_tel}}">{{phone}}</a> &middot; <a href="mailto:{{email_href}}">{{email}}</a>
+      </div>
+      <div>
+        <a href="/">Home</a> &middot; <a href="/#menu">Drinks &amp; wine</a> &middot; <a href="/private-events/">Private events</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="/menu/menu.js?v=4" defer></script>
+</body>
+</html>

@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "bisou-dist",
+      "runtimeExecutable": "python",
+      "runtimeArgs": ["-m", "http.server", "4311", "--directory", "dist"],
+      "port": 4311
+    }
+  ]
+}

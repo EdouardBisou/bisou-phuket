@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>Our Team | Bisou Phuket</title>
+  <meta name="description" content="The people behind Bisou Phuket. Co-founders Antoine Darquin and Théo Lavergne, and Phuket co-owners Louis Chartier (general manager) and Manon Bares (head chef)." />
+  <link rel="canonical" href="https://bisouphuket.com/team/" />
+
+  <meta property="og:title" content="Our Team | Bisou Phuket" />
+  <meta property="og:description" content="The people behind Bisou Phuket. Chef Antoine Darquin, sommelier Théo Lavergne, and the crew." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://bisouphuket.com/team/" />
+  <meta property="og:locale" content="en_US" />
+  <meta property="og:image" content="https://bisouphuket.com/team/og-image.jpg" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Our Team | Bisou Phuket" />
+  <meta name="twitter:description" content="The people behind Bisou Phuket. Chef Antoine Darquin, sommelier Théo Lavergne, and the crew." />
+  <meta name="twitter:image" content="https://bisouphuket.com/team/og-image.jpg" />
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32.png" />
+  <link rel="icon" type="image/png" sizes="192x192" href="/assets/favicon/favicon-192.png" />
+  <link rel="shortcut icon" type="image/png" href="/assets/favicon/favicon-32.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700&family=Poiret+One&family=Italiana&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+
+  <link rel="preload" as="image" href="/assets/photos/web/founders-1920.jpg" media="(min-width: 720px)" />
+  <link rel="preload" as="image" href="/assets/photos/web/founders-960.jpg" media="(max-width: 719px)" />
+
+  <link rel="stylesheet" href="/css/main.css?v=43" />
+  <link rel="stylesheet" href="/private-events/page.css?v=14" />
+
+  <style>
+    /* team-specific layout, layered on the shared sub-page system */
+    .pe-team-grid {
+      margin-top: clamp(2.6rem, 5vw, 4rem);
+      /* Override the default .team__grid auto-fit/1fr: cap each card to
+         ~220px so up to 5 fit per row on desktop, and few cards stay
+         centered instead of stretching across the container. min 140px
+         keeps 2-up on the smallest phones. */
+      grid-template-columns: repeat(auto-fit, minmax(140px, 220px));
+      justify-content: center;
+      gap: clamp(1.25rem, 3vw, 2.5rem);
+    }
+
+    .founders {
+      margin-top: clamp(2.6rem, 5vw, 4rem);
+      display: flex; flex-direction: column;
+      gap: clamp(3.5rem, 8vw, 6rem);
+    }
+    .founder {
+      display: grid; grid-template-columns: 1fr;
+      gap: clamp(1.8rem, 4vw, 2.8rem);
+      align-items: center;
+    }
+    @media (min-width: 860px) {
+      .founder { grid-template-columns: 1.05fr 1fr; gap: clamp(2.6rem, 5vw, 4.5rem); }
+      .founder--reverse .founder__media { order: 2; }
+    }
+    .founder__photos { display: grid; grid-template-columns: 1fr 1fr; gap: 0.7rem; }
+    .founder__photos img {
+      width: 100%; aspect-ratio: 3 / 4; object-fit: cover;
+      display: block; border-radius: 3px;
+    }
+    .founder__photos img:nth-child(2) { margin-top: clamp(1rem, 3vw, 2rem); }
+    /* Single-photo media (Théo) — taller portrait aspect than the diptych,
+       cropped via object-position to keep the face/torso in frame. */
+    .founder__media > img {
+      width: 100%;
+      aspect-ratio: 3 / 4; /* matches Antoine's diptych ratio */
+      object-fit: cover;
+      object-position: 50% 28%;
+      display: block;
+      border-radius: 3px;
+    }
+    .founder__role {
+      font-family: var(--font-sans); font-size: 0.66rem;
+      letter-spacing: 0.34em; text-transform: uppercase;
+      color: var(--gold); font-weight: 500;
+    }
+    .founder__name {
+      font-family: var(--font-display); font-weight: 400;
+      font-size: clamp(1.9rem, 3vw, 2.6rem); line-height: 1.05;
+      letter-spacing: 0.005em; color: var(--cream);
+      margin: 0.7rem 0 1.2rem;
+    }
+    .founder__name em { color: var(--noir); font-style: italic; }
+    .founder__body p {
+      font-family: var(--font-sans); font-weight: 300;
+      font-size: 0.96rem; line-height: 1.7;
+      color: rgba(255, 248, 239, 0.8); margin: 0 0 1rem;
+    }
+    .founder__body p:last-child { margin-bottom: 0; }
+    /* highlight previous-restaurant mentions in the bio */
+    .founder__body p em {
+      color: var(--peach-dark);
+      font-style: italic;
+      font-weight: 500;
+    }
+    .founder--solo { display: block; max-width: 620px; margin: 0 auto; text-align: center; }
+
+    /* ======================================================
+       TEAM PAGE LIGHT THEME — cream paper, deep red accent.
+       Layered after the shared sub-page page.css so overrides win.
+       The hero keeps its dark veil (the founders photo IS dark).
+       ====================================================== */
+    body.page-events { background: var(--cream); color: var(--noir); }
+
+    /* nav: cream glass */
+    .page-events__nav {
+      background: rgba(255, 248, 239, 0.78);
+      border-bottom-color: rgba(14, 14, 14, 0.08);
+    }
+    .page-events__brand img { filter: brightness(0); }
+    .page-events__location { color: rgba(14, 14, 14, 0.55); }
+    .page-events__location:hover { color: var(--peach-dark); }
+    .page-events__location--active { color: var(--noir); }
+    .page-events__location-sep { color: rgba(14, 14, 14, 0.32); }
+    .page-events__nav-links a { color: rgba(14, 14, 14, 0.7); }
+    .page-events__nav-links a:hover { color: var(--peach-dark); }
+
+    /* hero: text stays light over the dark photo */
+    .pe-hero .pe-h1 { color: var(--cream); }
+    .pe-hero .pe-h1 em { color: var(--cream); }
+    .pe-hero .pe-eyebrow { color: var(--cream); }
+    .pe-hero .pe-lede { color: rgba(255, 248, 239, 0.88); }
+    .pe-hero .kiss-stamp { background-color: var(--cream); }
+
+    /* sections become cream */
+    .pe-section { background: var(--cream); color: var(--noir); }
+    .pe-section--alt {
+      background:
+        radial-gradient(circle at 80% 20%, rgba(110, 31, 42, 0.05), transparent 50%),
+        #F4EAD8;
+    }
+    .pe-h2 { color: var(--noir); }
+    .pe-h2 em { color: var(--peach-dark); }
+    .pe-paragraph { color: rgba(14, 14, 14, 0.7); }
+    .pe-eyebrow { color: var(--peach-dark); }
+    .pe-rule { background: rgba(110, 31, 42, 0.4); }
+
+    /* founders */
+    .founder__role { color: var(--peach-dark); }
+    .founder__name { color: var(--noir); }
+    .founder__name em { color: var(--noir); }
+    .founder__body p { color: rgba(14, 14, 14, 0.75); }
+
+    /* team grid — flip the dark .team__card styling for cream */
+    .team__photo { background: rgba(14, 14, 14, 0.04); }
+    .team__photo::after { background: linear-gradient(to top, rgba(255, 248, 239, 0.35), transparent 55%); }
+    .team__photo--placeholder { background: linear-gradient(135deg, #F2E8D6, var(--cream)); }
+    .team__card strong { color: var(--noir); }
+    .team__card em { color: rgba(14, 14, 14, 0.55); }
+    .team__card .eyebrow { color: var(--peach-dark); }
+
+    /* cta */
+    .pe-cta { background: var(--cream); color: var(--noir); }
+    .pe-cta__glow {
+      background:
+        radial-gradient(ellipse at 30% 30%, rgba(110, 31, 42, 0.1), transparent 55%),
+        radial-gradient(ellipse at 75% 70%, rgba(142, 48, 56, 0.08), transparent 55%);
+    }
+    .pe-cta .pe-h2 { color: var(--noir); }
+    .pe-cta .pe-paragraph { color: rgba(14, 14, 14, 0.65); }
+    .pe-cta .btn:not(.btn--gilt) {
+      color: var(--noir);
+      border-color: rgba(14, 14, 14, 0.28);
+      background: rgba(255, 255, 255, 0.5);
+      box-shadow: 0 1px 0 rgba(255, 255, 255, 0.6) inset, 0 4px 14px rgba(14, 14, 14, 0.08);
+    }
+    .pe-cta .btn:not(.btn--gilt):hover {
+      color: var(--peach-dark);
+      border-color: var(--peach-dark);
+      background: rgba(110, 31, 42, 0.06);
+    }
+
+    /* footer */
+    .pe-footer {
+      background: var(--cream);
+      color: var(--noir);
+      border-top-color: rgba(14, 14, 14, 0.1);
+    }
+    .pe-footer__inner { color: rgba(14, 14, 14, 0.7); }
+    .pe-footer__inner strong { color: var(--noir); }
+    .pe-footer__inner a { color: var(--peach-dark); }
+    .pe-footer__inner a:hover { color: var(--noir); }
+
+    /* ======================================================
+       IMPRESSIVE ANIMATIONS + UX
+       Layered last; JS in /team/page.js drives the dynamic bits.
+       ====================================================== */
+
+    /* Photo hover — subtle interactive feedback */
+    .founder__photos img {
+      transition: transform 1s cubic-bezier(0.16, 1, 0.3, 1),
+                  filter 1s cubic-bezier(0.16, 1, 0.3, 1);
+      will-change: transform;
+    }
+    .founder__photos img:hover { filter: brightness(1.04) saturate(1.06); }
+
+    /* Hero kiss-stamp pulse */
+    @keyframes kissPulse {
+      0%, 100% { transform: scale(1); opacity: 1; }
+      50%      { transform: scale(1.1); opacity: 0.85; }
+    }
+    .pe-hero .kiss-stamp { animation: kissPulse 3.4s ease-in-out infinite; }
+    @media (prefers-reduced-motion: reduce) {
+      .pe-hero .kiss-stamp { animation: none; }
+    }
+
+    /* Crew card — 3D tilt host + photo zoom on hover */
+    .team__card {
+      transition: transform .6s cubic-bezier(0.16, 1, 0.3, 1);
+      will-change: transform;
+    }
+    .team__card .team__photo { overflow: hidden; }
+    .team__card .team__photo img {
+      transition: transform 1.6s cubic-bezier(0.16, 1, 0.3, 1),
+                  filter 1s cubic-bezier(0.16, 1, 0.3, 1);
+      will-change: transform;
+    }
+    .team__card:hover .team__photo img {
+      transform: scale(1.08);
+      filter: saturate(1.1) brightness(1.05);
+    }
+    .team__card:hover .eyebrow {
+      color: var(--peach-dark);
+      letter-spacing: 0.4em;
+      transition: color .4s cubic-bezier(0.16, 1, 0.3, 1),
+                  letter-spacing .6s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+    .team__card:hover .team__photo::after {
+      background: linear-gradient(to top, rgba(110, 31, 42, 0.15), transparent 55%);
+    }
+
+    /* Mobile crew grid — 2 cols, centered captions to balance the grid */
+    @media (max-width: 600px) {
+      .team__grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem 1rem;
+      }
+      .team__card strong { font-size: 1rem; }
+      .team__card figcaption { align-items: center; text-align: center; }
+      .founders { gap: 3rem; }
+      .pe-section { padding-left: 1.25rem; padding-right: 1.25rem; }
+    }
+
+    /* Founders stack below the 2-col breakpoint (860px): center the body
+       to match Theo + the section header, cap line length, and even out
+       the photo diptych (drop the desktop stagger). */
+    @media (max-width: 859px) {
+      .founder__body {
+        text-align: center;
+        max-width: 540px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .founder__photos {
+        max-width: 440px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .founder__photos img:nth-child(2) { margin-top: 0; }
+      .founder__media > img {
+        max-width: 380px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+    }
+
+    /* Magnetic CTA buttons — JS sets transform */
+    .pe-cta .btn { will-change: transform; }
+
+    /* Scroll progress bar at the very top */
+    .scroll-progress {
+      position: fixed;
+      top: 0; left: 0;
+      height: 2px;
+      background: var(--peach-dark);
+      z-index: 100;
+      width: 0;
+      pointer-events: none;
+    }
+
+    /* Letter splits — for founder name reveal */
+    .split-letter {
+      display: inline-block;
+      opacity: 0;
+      transform: translateY(0.4em);
+      will-change: transform, opacity;
+    }
+  </style>
+
+  <!-- Google Analytics 4 -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-XXXXXXXXXX');
+  </script>
+</head>
+
+<body class="page-events">
+
+  <!-- Top nav -->
+  <header class="page-events__nav">
+    <a href="/" class="page-events__brand" aria-label="Bisou Phuket home">
+      <img src="/assets/bisou-wordmark.png" alt="Bisou Phuket" />
+    </a>
+    <div class="page-events__locations" aria-label="Our restaurants">
+      <a href="https://bisoubangkok.com" class="page-events__location" target="_blank" rel="noreferrer">Bangkok</a>
+      <span class="page-events__location-sep" aria-hidden="true">&middot;</span>
+      <span class="page-events__location page-events__location--active" aria-current="page">Phuket</span>
+    </div>
+    <nav class="page-events__nav-links" aria-label="Primary">
+      <a href="/#concept">Concept</a>
+      <a href="/menu">Menu</a>
+      <a href="/#journal">Journal</a>
+      <a href="/team/">Team</a>
+      <a href="/private-events/">Private events</a>
+      <a href="/#infos">Infos</a>
+    </nav>
+    <a href="https://book.bistrochat.com/bisou-phuket" target="_blank" rel="noreferrer" class="btn btn--gilt page-events__cta">Reserve a table</a>
+  </header>
+
+  <main>
+
+    <!-- ==========================================================
+         HERO   the two founders at the door
+         ========================================================== -->
+    <section class="pe-hero" data-pe-hero>
+      <div class="pe-hero__bg" data-pe-hero-bg aria-hidden="true">
+        <picture>
+          <source media="(max-width: 719px)" srcset="/assets/photos/web/founders-960.jpg" />
+          <img src="/assets/photos/web/founders-1920.jpg" alt="" loading="eager" fetchpriority="high" style="object-position: 50% 40%;" />
+        </picture>
+        <div class="pe-hero__bg-veil"></div>
+      </div>
+      <div class="pe-hero__inner">
+        <h1 class="pe-h1" data-pe-reveal data-pe-reveal-delay="0.1">
+          The people<br/>behind <em>Bisou</em>
+        </h1>
+        <p class="pe-lede" data-pe-reveal data-pe-reveal-delay="0.25">
+          The team that runs Bisou Phuket every night, and the founders whose kitchen and cellar they bring to life.
+        </p>
+      </div>
+    </section>
+
+    <!-- ==========================================================
+         FOUNDERS
+         ========================================================== -->
+    <section class="pe-section" data-pe-section>
+      <div class="pe-section__inner">
+        <div class="pe-eyebrow-line" data-pe-reveal>
+          <span class="kiss-stamp" aria-hidden="true"></span>
+          <span class="pe-eyebrow">The Founders</span>
+        </div>
+        <h2 class="pe-h2" data-pe-reveal data-pe-reveal-delay="0.1">Antoine &amp; Théo</h2>
+        <p class="pe-paragraph pe-paragraph--center" data-pe-reveal data-pe-reveal-delay="0.2">
+          Two friends, one restaurant. Antoine in the kitchen, Théo in the cellar. Bisou is what they built between them.
+        </p>
+
+        <div class="founders">
+          <!-- Antoine — featured with two photos -->
+          <article class="founder" data-pe-reveal>
+            <div class="founder__media">
+              <div class="founder__photos">
+                <img src="/assets/photos/web/antoine-portrait-960.jpg" alt="Chef Antoine Darquin at the kitchen pass" loading="lazy" />
+                <img src="/assets/photos/web/antoine-kitchen-960.jpg" alt="Antoine Darquin breaking down fish in the Bisou kitchen" loading="lazy" />
+              </div>
+            </div>
+            <div class="founder__body">
+              <span class="founder__role">Chef &amp; Co-Founder</span>
+              <h3 class="founder__name">Antoine <em>Darquin</em></h3>
+              <p>Antoine runs the Bisou kitchen. Modern French is his language: classical technique, premium seasonal produce, and the discipline to leave a good plate alone.</p>
+              <p>Trained in Paris at <em>David Toutain</em>, where he ran the pastry brigade and the chef's table for two years. Joined <em>Thierry Drapeau</em> (two Michelin stars) in Vendée, then followed the chef to Bangkok to open his Signature restaurant, where he met Théo. Head Chef at <em>Siam&#64;Siam</em> followed, before opening Bisou together in 2022.</p>
+              <p>On the floor, his cooking becomes something you watch. Sauces flambeed at the table, fish broken down by hand, meat carved in front of you. Precise food served without ceremony, the standard Bisou is built on.</p>
+            </div>
+          </article>
+
+          <!-- Théo — photo + bio, reversed (photo on the right on desktop) -->
+          <article class="founder founder--reverse" data-pe-reveal>
+            <div class="founder__media">
+              <img src="/assets/photos/web/theo-portrait-960.jpg" alt="Sommelier Théo Lavergne at the entrance of Bisou" loading="lazy" />
+            </div>
+            <div class="founder__body">
+              <span class="founder__role">Sommelier &amp; Co-Founder</span>
+              <h3 class="founder__name">Théo <em>Lavergne</em></h3>
+              <p>Théo keeps the cellar. His list runs on French appellations alongside a growing shelf of low-intervention boutique discoveries, each one chosen to sit beside Antoine's cooking.</p>
+              <p>Started his sommelier work at <em>Restaurant Troisgros</em> (three Michelin stars), then a season at <em>Summer Lodge</em> in Dorset under Eric Zwiebel, fourth-best sommelier in the world. Two and a half years at <em>Le Clarence</em> in Paris (two Michelin stars, a cellar of 2,500 references) before moving to Bangkok as Head Sommelier on the Signature opening, where he met Antoine.</p>
+              <p>He pairs by the glass, by the bottle, and by the mood of the room. A welcome Champagne, a grower from a village no one has heard of, a bottle worth the occasion. The cellar is personal, and it shows.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================
+         THE CREW
+         ========================================================== -->
+    <section class="pe-section pe-section--alt" data-pe-section>
+      <div class="pe-section__inner">
+        <div class="pe-eyebrow-line" data-pe-reveal>
+          <span class="kiss-stamp" aria-hidden="true"></span>
+          <span class="pe-eyebrow">Bisou Phuket</span>
+        </div>
+        <h2 class="pe-h2" data-pe-reveal data-pe-reveal-delay="0.1">Run by its <em>owners</em></h2>
+      </div>
+      <div class="team__grid pe-team-grid">
+        <!-- BUILD:TEAM -->
+        <figure class="team__card" data-pe-reveal>
+          <div class="team__photo team__photo--placeholder">
+            <img src="/assets/b-mark.png" alt="Louis Chartier" loading="lazy" />
+          </div>
+          <figcaption>
+            <span class="eyebrow">Co-Owner &amp; General Manager</span>
+            <strong>Louis Chartier</strong>
+          </figcaption>
+        </figure>
+        <figure class="team__card" data-pe-reveal data-pe-reveal-delay="0.08">
+          <div class="team__photo team__photo--placeholder">
+            <img src="/assets/b-mark.png" alt="Manon Bares" loading="lazy" />
+          </div>
+          <figcaption>
+            <span class="eyebrow">Co-Owner &amp; Head Chef</span>
+            <strong>Manon Bares</strong>
+          </figcaption>
+        </figure>
+        <!-- /BUILD:TEAM -->
+      </div>
+    </section>
+
+    <!-- ==========================================================
+         CTA
+         ========================================================== -->
+    <section class="pe-cta" data-pe-section>
+      <div class="pe-cta__glow" aria-hidden="true"></div>
+      <div class="pe-cta__inner">
+        <h2 class="pe-h2" data-pe-reveal>Come <em>meet</em> them</h2>
+        <p class="pe-paragraph pe-paragraph--center" data-pe-reveal data-pe-reveal-delay="0.1">
+          The team is in the room every night, 5:30 PM to midnight. Reserve a table and let them take it from there.
+        </p>
+        <div class="pe-cta__buttons" data-pe-reveal data-pe-reveal-delay="0.2">
+          <a href="https://book.bistrochat.com/bisou-phuket" target="_blank" rel="noreferrer" class="btn btn--xl btn--gilt">Reserve a table</a>
+          <a href="tel:+66963789668" class="btn btn--xl">Call +66 96 378 9668</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Minimal footer -->
+  <footer class="pe-footer">
+    <div class="pe-footer__inner">
+      <div>
+        <strong>Bisou Phuket</strong><br/>
+        No.4 Bandon-Cherngtalay Rd, Choeng Thale, Thalang, Phuket 83110
+      </div>
+      <div>
+        Dinner nightly, 5:30 PM to 12:00 AM<br/>
+        <a href="tel:+66963789668">+66 96 378 9668</a> &middot; <a href="mailto:contact@bisouphuket.com">contact@bisouphuket.com</a>
+      </div>
+      <div>
+        <a href="/">Home</a> &middot; <a href="/menu">Menu</a> &middot; <a href="https://book.bistrochat.com/bisou-phuket" target="_blank" rel="noreferrer">Reserve</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Animation libraries (GSAP + ScrollTrigger) -->
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+  <script src="/private-events/page.js?v=2" defer></script>
+  <script src="/team/page.js?v=3" defer></script>
+
+</body>
+</html>

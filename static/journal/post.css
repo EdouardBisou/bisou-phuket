@@ -1,0 +1,368 @@
+/* =====================================================
+   BISOU BANGKOK · /journal/ pages
+   Inherits brand tokens from main.css
+   ===================================================== */
+
+/* main.css hides [data-reveal] elements (opacity:0) until the home page's
+   scroll-reveal JS shows them. The journal pages don't ship that JS, so
+   the cards would stay invisible forever. Force them visible here. */
+.page-journal-post [data-reveal],
+.page-journal-index [data-reveal] {
+  opacity: 1;
+  transform: none;
+}
+
+body.page-journal-post,
+body.page-journal-index {
+  background: var(--noir);
+  color: var(--cream);
+  font-family: var(--font-sans);
+  min-height: 100vh;
+}
+
+/* ---------- Shared nav (reused from private-events) ---------- */
+.page-events__nav {
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 1.2rem clamp(1rem, 3vw, 3rem);
+  border-bottom: 1px solid rgba(110, 31, 42, 0.12);
+  position: sticky; top: 0; z-index: 50;
+  background: rgba(10, 9, 8, 0.9);
+  -webkit-backdrop-filter: blur(12px);
+          backdrop-filter: blur(12px);
+}
+.page-events__brand img { height: 26px; width: auto; }
+.page-events__nav-links {
+  display: none;
+  gap: 1.6rem;
+  font-family: var(--font-sans); font-size: 0.72rem;
+  letter-spacing: 0.3em; text-transform: uppercase;
+  color: rgba(255,248,239,0.65);
+}
+.page-events__nav-links a:hover { color: var(--cream); }
+@media (min-width: 900px) { .page-events__nav-links { display: flex; } }
+
+/* ---------- Single post: jp- ---------- */
+.jp-article {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: clamp(2.5rem, 5vw, 4rem) clamp(1.2rem, 4vw, 2rem) clamp(4rem, 8vw, 7rem);
+}
+.jp-hero { text-align: center; margin-bottom: 2.5rem; }
+.jp-hero__meta {
+  display: inline-flex; flex-wrap: wrap; justify-content: center;
+  gap: 0.6rem;
+  font-family: var(--font-sans); font-size: 0.7rem;
+  letter-spacing: 0.28em; text-transform: uppercase;
+  color: rgba(255,248,239,0.55);
+  margin-bottom: 1.4rem;
+}
+.jp-back { color: var(--gold-light); }
+.jp-back:hover { color: var(--gold); }
+.jp-bullet { opacity: 0.5; }
+.jp-category { color: var(--gold); }
+.jp-readtime { color: rgba(255,248,239,0.55); }
+.jp-title {
+  font-family: var(--font-display);
+  font-size: clamp(2rem, 5vw, 3.4rem);
+  line-height: 1.1;
+  color: var(--cream);
+  font-weight: 400;
+  letter-spacing: 0.005em;
+  margin: 0 auto 1.4rem;
+  max-width: 22ch;
+}
+.jp-excerpt {
+  font-family: var(--font-display);
+  font-style: italic;
+  font-size: clamp(1.1rem, 2vw, 1.4rem);
+  color: var(--gold-light);
+  margin: 0 auto;
+  max-width: 50ch;
+}
+.jp-heroImg {
+  display: block;
+  width: 100%; height: auto;
+  aspect-ratio: 16 / 10;
+  object-fit: cover;
+  border-radius: 4px;
+  margin: 2rem 0 3rem;
+  background: var(--noir-2);
+}
+/* Portrait hero (e.g. an award trophy shot): show the whole object,
+   centered and capped, instead of a wide crop. Soft shadow makes it
+   read as a real object resting on the cream. */
+.jp-heroImg--portrait {
+  aspect-ratio: 4 / 5;
+  max-width: 440px;
+  margin: 2.5rem auto 3rem;
+  border-radius: 6px;
+  box-shadow: 0 24px 60px rgba(14, 14, 14, 0.16), 0 6px 16px rgba(14, 14, 14, 0.07);
+}
+.jp-body {
+  font-family: var(--font-sans); font-weight: 300;
+  font-size: 1.05rem; line-height: 1.75;
+  color: rgba(255,248,239,0.88);
+}
+.jp-body p { margin: 0 0 1.4rem; }
+/* Editorial lead-in: the first paragraph reads a touch larger */
+.jp-body > p:first-of-type {
+  font-size: 1.2rem;
+  line-height: 1.65;
+}
+.jp-body h2 {
+  font-family: var(--font-display); font-weight: 400;
+  font-size: clamp(1.5rem, 3vw, 2rem);
+  color: var(--cream);
+  letter-spacing: 0.005em;
+  margin: 2.4rem 0 0.9rem;
+}
+.jp-body h3 {
+  font-family: var(--font-display); font-weight: 400;
+  font-size: 1.3rem; color: var(--cream);
+  margin: 2rem 0 0.7rem;
+}
+.jp-body em { color: var(--gold-light); font-style: italic; }
+.jp-body strong { color: var(--cream); font-weight: 500; }
+.jp-body a { color: var(--gold-light); border-bottom: 1px solid rgba(110, 31, 42,0.3); }
+.jp-body a:hover { color: var(--gold); border-bottom-color: var(--gold); }
+.jp-body blockquote {
+  border-left: 2px solid var(--gold);
+  padding: 0.4rem 0 0.4rem 1.4rem;
+  margin: 1.8rem 0;
+  font-family: var(--font-display); font-style: italic;
+  font-size: 1.2rem; color: var(--gold-light);
+}
+.jp-body img {
+  display: block;
+  width: 100%; height: auto;
+  border-radius: 4px;
+  margin: 2rem 0;
+}
+.jp-body ul, .jp-body ol { padding-left: 1.4rem; margin: 0 0 1.4rem; }
+.jp-body li { margin: 0 0 0.4rem; }
+
+.jp-author {
+  display: flex; align-items: center; gap: 1rem;
+  margin: 3rem 0 0;
+  padding: 1.4rem 0;
+  border-top: 1px solid rgba(110, 31, 42,0.18);
+  border-bottom: 1px solid rgba(110, 31, 42,0.18);
+}
+.jp-author__photo {
+  width: 56px; height: 56px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
+  background: var(--noir-2);
+}
+.jp-author__meta strong {
+  font-family: var(--font-display); font-weight: 700;
+  font-size: 1.05rem; color: var(--cream);
+  display: block;
+}
+.jp-author__meta em {
+  font-style: normal;
+  font-size: 0.75rem; letter-spacing: 0.2em;
+  color: rgba(255,248,239,0.55);
+  text-transform: uppercase;
+}
+
+.jp-foot {
+  display: flex; flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  margin-top: 3.5rem;
+}
+
+/* ---------- Index: ji- ---------- */
+.ji-hero {
+  text-align: center;
+  padding: clamp(4rem, 9vw, 7rem) clamp(1rem, 3vw, 3rem) clamp(2rem, 4vw, 3rem);
+}
+.ji-hero .eyebrow {
+  font-family: var(--font-sans);
+  font-size: 0.7rem;
+  letter-spacing: 0.4em;
+  text-transform: uppercase;
+  color: var(--gold);
+}
+.ji-h1 {
+  font-family: var(--font-display);
+  font-weight: 400;
+  font-size: clamp(2.4rem, 6vw, 4.2rem);
+  line-height: 1.08;
+  color: var(--cream);
+  letter-spacing: 0.005em;
+  margin: 1.4rem 0 1rem;
+}
+.ji-h1 em { color: var(--gold-light); font-style: italic; }
+.ji-lede {
+  font-family: var(--font-display); font-style: italic;
+  font-size: clamp(1rem, 1.8vw, 1.3rem);
+  color: rgba(255,248,239,0.7);
+  max-width: 48ch;
+  margin: 0 auto;
+}
+
+.ji-grid-section {
+  padding: clamp(2rem, 5vw, 4rem) clamp(1rem, 3vw, 3rem) clamp(4rem, 8vw, 7rem);
+}
+.ji-grid {
+  display: grid;
+  /* Cards keep an article-card size (~340px) no matter how many posts
+     exist: a single post is a tidy centered card, not a full-bleed
+     banner; more posts flow into 2 then 3 columns. */
+  grid-template-columns: repeat(auto-fit, minmax(290px, 340px));
+  justify-content: center;
+  gap: clamp(2rem, 4vw, 3.5rem);
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* journal-card styles already defined in main.css; reused here. */
+
+/* ---------- Shared footer ---------- */
+.pe-footer {
+  border-top: 1px solid rgba(110, 31, 42,0.12);
+  background: var(--noir-2);
+  color: rgba(255,248,239,0.65);
+  font-family: var(--font-sans);
+  font-size: 0.78rem; line-height: 1.7;
+}
+.pe-footer__inner {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 2rem clamp(1rem, 3vw, 3rem);
+  display: grid; gap: 1.4rem;
+  grid-template-columns: 1fr;
+}
+@media (min-width: 720px) {
+  .pe-footer__inner { grid-template-columns: repeat(3, 1fr); }
+}
+.pe-footer__inner strong { color: var(--cream); font-weight: 600; display: block; margin-bottom: 0.3rem; }
+.pe-footer__inner a { color: var(--gold-light); }
+.pe-footer__inner a:hover { color: var(--gold); }
+
+/* =====================================================
+   JOURNAL LIGHT THEME — cream paper, deep red accents.
+   Layered last so it wins the cascade. Matches the
+   /team/ and /private-events/ light theme so the journal
+   reads as one continuous site, not a separate dark app.
+   ===================================================== */
+body.page-journal-post,
+body.page-journal-index {
+  background: var(--cream);
+  color: var(--noir);
+  /* main.css forces html,body { height: 100% }, which clips the body's
+     cream background to one viewport — letting the noir <html> show
+     through below the fold on a long article. Let the body grow with
+     its content so the cream covers the whole page. */
+  height: auto;
+  min-height: 100vh;
+}
+/* Belt and suspenders: the <html> itself is noir site-wide for the dark
+   home page; tint it cream on the journal so nothing dark can peek through. */
+html:has(body.page-journal-post),
+html:has(body.page-journal-index) {
+  background: var(--cream);
+}
+
+/* Nav — cream glass, black wordmark, dark links */
+.page-journal-post .page-events__nav,
+.page-journal-index .page-events__nav {
+  background: rgba(255, 248, 239, 0.82);
+  border-bottom-color: rgba(14, 14, 14, 0.08);
+}
+.page-journal-post .page-events__brand img,
+.page-journal-index .page-events__brand img { filter: brightness(0); }
+.page-journal-post .page-events__nav-links,
+.page-journal-index .page-events__nav-links { color: rgba(14, 14, 14, 0.7); }
+.page-journal-post .page-events__nav-links a:hover,
+.page-journal-index .page-events__nav-links a:hover { color: var(--peach-dark); }
+
+/* Single post */
+.page-journal-post .jp-hero__meta { color: rgba(14, 14, 14, 0.5); }
+.page-journal-post .jp-back { color: var(--peach-dark); }
+.page-journal-post .jp-back:hover { color: var(--gold-light); }
+.page-journal-post .jp-category { color: var(--peach-dark); }
+.page-journal-post .jp-readtime { color: rgba(14, 14, 14, 0.5); }
+.page-journal-post .jp-title { color: var(--noir); }
+.page-journal-post .jp-excerpt { color: var(--peach-dark); }
+.page-journal-post .jp-heroImg { background: transparent; }
+.page-journal-post .jp-body { color: rgba(14, 14, 14, 0.82); }
+.page-journal-post .jp-body > p:first-of-type { color: rgba(14, 14, 14, 0.92); }
+.page-journal-post .jp-body h2,
+.page-journal-post .jp-body h3 { color: var(--noir); }
+.page-journal-post .jp-body em { color: var(--peach-dark); }
+.page-journal-post .jp-body strong { color: var(--noir); }
+.page-journal-post .jp-body a { color: var(--peach-dark); border-bottom-color: rgba(110, 31, 42, 0.35); }
+.page-journal-post .jp-body a:hover { color: var(--gold-light); border-bottom-color: var(--gold-light); }
+.page-journal-post .jp-body blockquote { border-left-color: var(--peach-dark); color: var(--peach-dark); }
+.page-journal-post .jp-author { border-color: rgba(14, 14, 14, 0.12); }
+.page-journal-post .jp-author__meta strong { color: var(--noir); }
+.page-journal-post .jp-author__meta em { color: rgba(14, 14, 14, 0.5); }
+
+/* Index */
+.page-journal-index .ji-hero .eyebrow { color: var(--peach-dark); }
+.page-journal-index .ji-h1 { color: var(--noir); }
+.page-journal-index .ji-h1 em { color: var(--peach-dark); }
+.page-journal-index .ji-lede { color: rgba(14, 14, 14, 0.62); }
+
+/* Outline buttons (e.g. "More from the Journal"): the base .btn is built
+   for the dark home (cream text on near-transparent fill) and goes
+   invisible on cream. Give it ink text + a dark hairline here. The gilt
+   Reserve button keeps its bordeaux fill. */
+.page-journal-post .btn:not(.btn--gilt),
+.page-journal-index .btn:not(.btn--gilt) {
+  color: var(--noir);
+  border-color: rgba(14, 14, 14, 0.28);
+  background: transparent;
+  box-shadow: none;
+  -webkit-backdrop-filter: none;
+          backdrop-filter: none;
+}
+.page-journal-post .btn:not(.btn--gilt):hover,
+.page-journal-index .btn:not(.btn--gilt):hover {
+  color: var(--peach-dark);
+  border-color: var(--peach-dark);
+  background: rgba(110, 31, 42, 0.06);
+}
+
+/* Footer — cream */
+.page-journal-post .pe-footer,
+.page-journal-index .pe-footer {
+  background: var(--cream);
+  border-top-color: rgba(14, 14, 14, 0.1);
+  color: rgba(14, 14, 14, 0.62);
+}
+.page-journal-post .pe-footer__inner strong,
+.page-journal-index .pe-footer__inner strong { color: var(--noir); }
+.page-journal-post .pe-footer__inner a,
+.page-journal-index .pe-footer__inner a { color: var(--peach-dark); }
+.page-journal-post .pe-footer__inner a:hover,
+.page-journal-index .pe-footer__inner a:hover { color: var(--gold-light); }
+
+/* =====================================================
+   MOBILE POLISH (<= 559px)
+   ===================================================== */
+@media (max-width: 559px) {
+  .jp-article {
+    padding-left: 1.4rem;
+    padding-right: 1.4rem;
+  }
+  /* Stack the end-of-article CTAs full width so they read as equals */
+  .jp-foot {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0.8rem;
+    margin-top: 3rem;
+  }
+  .jp-foot .btn {
+    width: 100%;
+    justify-content: center;
+  }
+  /* Lead paragraph eases down a touch on small screens */
+  .jp-body > p:first-of-type { font-size: 1.1rem; }
+  /* Tighten the hero so it never dominates the fold on a phone */
+  .jp-heroImg--portrait { max-width: 300px; margin-top: 2rem; }
+}
