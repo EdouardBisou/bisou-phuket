@@ -39,3 +39,9 @@ Notes:
 - Newest `publishedAt` sorts first on the index and home.
 - Styling comes from `static/journal/post.css` (the `.jp-body` rules), so every
   article matches the site design with no per-post CSS.
+
+SEO/GEO (or just run `/add-article` to automate all of this):
+- `seoTitle` <= 60 chars with the keyword near the front; `seoDescription` 140 to 160 chars.
+- Use H2/H3 with keywords and natural questions; add a `## FAQ` (one `### question` per item) when it fits, for snippets and AI answer-engines.
+- Link to at least 2 internal pages (`/menu`, `/private-events/`, or another article).
+- Weave the location naturally (Cherngtalay, Bang Tao, Laguna, Phuket). Never invent facts; no Michelin claim.
