@@ -14,20 +14,22 @@ import fitz
 from PIL import Image
 
 PDF_PATH = r"C:\Users\Edouard\Downloads\Kiss Posters .pdf"
-WEB_DIR = r"C:\Users\Edouard\Desktop\bisou new  website\static\assets\photos\web"
-ORIG_DIR = r"C:\Users\Edouard\Desktop\bisou new  website\static\assets\photos\originals"
+WEB_DIR = r"C:\Users\Edouard\Desktop\bisou-phuket\static\assets\photos\web"
+ORIG_DIR = r"C:\Users\Edouard\Desktop\bisou-phuket\static\assets\photos\originals"
 
 # Tile selection matches the legacy composite, recovered from the same source set.
 # Row-major, 4 cols x 2 rows.
+# Alternating one-with-logo / one-clean ("un sur deux"), per the owner's brief.
+# Row-major, 4 cols x 2 rows. T6 (V-J Day) is the clean tile requested logo-free.
 TILE_PAGES = [
-    8,   # T1: Emma Stone + Andrew Garfield (color, no logo)
-    2,   # T2: B&W close-up with Bisou wordmark
-    1,   # T3: Friends Ross + Rachel kiss (color, no logo)
-    5,   # T4: Simpsons (yellow, with Bisou wordmark)
-    0,   # T5: brunette couple warm with Bisou wordmark
-    11,  # T6: V-J Day Times Square (B&W iconic)
-    4,   # T7: Snow White Disney with Bisou wordmark
-    64,  # T8: color smiling couple
+    0,   # T1: brunette couple (with Bisou wordmark)
+    49,  # T2: Marilyn Monroe kiss (clean, no logo)
+    4,   # T3: Snow White Disney (with Bisou wordmark)
+    50,  # T4: couple in red plaid (clean, no logo)
+    5,   # T5: Simpsons (with Bisou wordmark)
+    57,  # T6: V-J Day Times Square (clean, no logo)
+    2,   # T7: B&W close-up (with Bisou wordmark)
+    59,  # T8: two women kissing (clean, no logo)
 ]
 
 # Canvas (16:11ish - matches legacy 1.467 ratio at higher resolution)
