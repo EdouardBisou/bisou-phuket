@@ -1,6 +1,6 @@
 /**
  * Sanity fetcher for the build script. Read-only public CDN access.
- * No token required: project phukettodo / dataset production are public reads.
+ * No token required: project 5oq4q4y4 / dataset production are public reads.
  */
 
 import { createClient } from '@sanity/client';
@@ -8,7 +8,7 @@ import { createClient } from '@sanity/client';
 const projectId =
   process.env.NEXT_PUBLIC_SANITY_PROJECT_ID ||
   process.env.SANITY_STUDIO_PROJECT_ID ||
-  'phukettodo';
+  '5oq4q4y4';
 
 const dataset =
   process.env.NEXT_PUBLIC_SANITY_DATASET ||
@@ -20,18 +20,6 @@ const apiVersion = '2024-10-01';
 export const sanity = createClient({
   projectId,
   dataset,
-  apiVersion,
-  useCdn: true,
-  perspective: 'published'
-});
-
-// TEMPORARY menu source: pull the menu from the Bangkok project (mavecytg,
-// public read) so Phuket launches with the same menu + dish photos. Once the
-// Phuket Sanity project is created and seeded (npm run seed:menu), remove this
-// and fetch MENU_QUERY from `sanity` (the Phuket client) instead.
-const bangkokMenu = createClient({
-  projectId: 'mavecytg',
-  dataset: 'production',
   apiVersion,
   useCdn: true,
   perspective: 'published'
@@ -108,7 +96,7 @@ export async function fetchAll() {
   // never breaks the Bangkok menu fetch, and vice versa.
   const [settings, categories, team] = await Promise.all([
     safeFetch(sanity, SITE_SETTINGS_QUERY, null),
-    safeFetch(bangkokMenu, MENU_QUERY, []),
+    safeFetch(sanity, MENU_QUERY, []),
     safeFetch(sanity, TEAM_QUERY, [])
   ]);
   return {
