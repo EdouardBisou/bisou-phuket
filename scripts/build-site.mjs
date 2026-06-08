@@ -292,6 +292,34 @@ function renderMenu(categories) {
     .join('\n');
 }
 
+// Menu structured data (schema.org/Menu) for the /menu page: helps Google show
+// menu rich results and lets AI answer-engines read the full menu + prices.
+function renderMenuSchema(categories) {
+  if (!categories || !categories.length) return null;
+  const sections = categories
+    .filter((c) => (c.items || []).length)
+    .map((cat) => ({
+      '@type': 'MenuSection',
+      name: cat.title,
+      hasMenuItem: (cat.items || []).map((it) => {
+        const item = { '@type': 'MenuItem', name: it.name };
+        if (it.description) item.description = it.description;
+        if (it.price != null) {
+          item.offers = { '@type': 'Offer', price: String(it.price), priceCurrency: 'THB' };
+        }
+        return item;
+      })
+    }));
+  const menu = {
+    '@context': 'https://schema.org',
+    '@type': 'Menu',
+    name: 'Bisou Phuket menu',
+    inLanguage: 'en',
+    hasMenuSection: sections
+  };
+  return `<script type="application/ld+json">\n${JSON.stringify(menu, null, 2)}\n</script>`;
+}
+
 function fmtDateDisplay(iso) {
   if (!iso) return '';
   try {
@@ -538,6 +566,39 @@ async function summarizeDir(dir) {
   return { fileCount, totalBytes };
 }
 
+// ---------- sitemap ----------
+// Generated at build time so every journal post (content/journal/*.md) is
+// automatically listed for search engines, with lastmod. Core pages + posts.
+function generateSitemap(posts) {
+  const base = 'https://bisouphuket.com';
+  const today = new Date().toISOString().slice(0, 10);
+  const entries = [
+    { loc: '/', changefreq: 'weekly', priority: '1.0', lastmod: today },
+    { loc: '/menu', changefreq: 'weekly', priority: '0.9', lastmod: today },
+    { loc: '/private-events/', changefreq: 'monthly', priority: '0.8', lastmod: today },
+    { loc: '/team/', changefreq: 'monthly', priority: '0.6', lastmod: today },
+    { loc: '/journal/', changefreq: 'weekly', priority: '0.7', lastmod: today }
+  ];
+  for (const p of posts || []) {
+    if (!p.slug) continue;
+    const lastmod = p.publishedAt && /^\d{4}-\d{2}-\d{2}/.test(p.publishedAt)
+      ? p.publishedAt.slice(0, 10)
+      : today;
+    entries.push({ loc: `/journal/${p.slug}/`, changefreq: 'monthly', priority: '0.7', lastmod });
+  }
+  const urls = entries
+    .map(
+      (u) => `  <url>
+    <loc>${base}${u.loc}</loc>
+    <lastmod>${u.lastmod}</lastmod>
+    <changefreq>${u.changefreq}</changefreq>
+    <priority>${u.priority}</priority>
+  </url>`
+    )
+    .join('\n');
+  return `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls}\n</urlset>\n`;
+}
+
 // ---------- build ----------
 async function build() {
   const startedAt = Date.now();
@@ -564,6 +625,7 @@ async function build() {
 
   const markers = {
     MENU: renderMenu(data.categories),
+    MENU_SCHEMA: renderMenuSchema(data.categories),
     PHOTOMENU: renderPhotoMenu(data.categories),
     TEAM: renderTeam(data.team),
     JOURNAL_LIST: renderJournalList(journal, 3),
@@ -584,6 +646,9 @@ async function build() {
   console.log('[build] generating per-post pages');
   const postsGenerated = await generatePostPages(journal, vars);
   console.log(`[build] generated ${postsGenerated} post pages`);
+
+  await fs.writeFile(path.join(DIST, 'sitemap.xml'), generateSitemap(journal), 'utf-8');
+  console.log(`[build] generated sitemap.xml (5 core pages + ${journal.length} journal posts)`);
 
   const summary = await summarizeDir(DIST);
   console.log(
