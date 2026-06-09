@@ -834,3 +834,13 @@ html:has(body.page-events) { background: var(--cream); }
 .pe-sticky-cta__phone:hover { background: rgba(110, 31, 42, 0.1); }
 .pe-sticky-cta__btn { background: var(--peach-dark); color: var(--cream); }
 .pe-sticky-cta__btn:hover { background: var(--peach); }
+
+/* Arrive section sits over the bright mezzanine shot: darker veil + stronger
+   text shadow so the address heading stays readable. */
+.pe-arrive__veil {
+  background:
+    radial-gradient(ellipse 72% 62% at 50% 48%, rgba(10, 9, 8, 0.82) 0%, rgba(10, 9, 8, 0.5) 70%, rgba(10, 9, 8, 0.3) 100%),
+    linear-gradient(180deg, rgba(10, 9, 8, 0.82) 0%, rgba(10, 9, 8, 0.74) 50%, rgba(10, 9, 8, 0.92) 100%);
+}
+.pe-arrive .pe-feature__h { text-shadow: 0 2px 26px rgba(0,0,0,0.92), 0 0 10px rgba(0,0,0,0.72); }
+.pe-arrive .pe-feature__lede { text-shadow: 0 2px 20px rgba(0,0,0,0.95), 0 0 10px rgba(0,0,0,0.78); }
