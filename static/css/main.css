@@ -2352,3 +2352,9 @@ a.footer__outlet:hover strong { color: var(--peach-dark); }
 .home-faq__a{padding:0 0 1.5rem;}
 .home-faq__a p{margin:0;max-width:64ch;font-family:'Jost',system-ui,sans-serif;font-weight:300;font-size:1.02rem;line-height:1.65;color:rgba(14,14,14,.8);}
 .home-faq__a a{color:#6E1F2A;text-decoration:underline;text-underline-offset:2px;}
+/* Home FAQ on cream paper: dark text so the h-display heading is visible (fix) */
+.home-faq .h-display{color:#0E0E0E;}
+.home-faq .h-display em{color:#6E1F2A;}
+.home-faq .sec-index__num{color:#6E1F2A;}
+.home-faq .sec-index__label{color:rgba(14,14,14,.5);}
+.home-faq .kiss-stamp{background-color:#6E1F2A;}
