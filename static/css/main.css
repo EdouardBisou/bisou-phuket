@@ -1941,14 +1941,9 @@ html.lenis { height: auto; }
 
 /* ----------  PRIVATE EVENTS HOMEPAGE CTA  ---------- */
 .home-private-cta {
-  padding: clamp(5rem, 10vh, 9rem) var(--gutter);
-  background:
-    radial-gradient(circle at 30% 20%, rgba(110, 31, 42, 0.06), transparent 50%),
-    radial-gradient(circle at 70% 80%, rgba(142, 48, 56, 0.05), transparent 50%),
-    var(--noir-2);
+  position: relative;
+  padding: clamp(6rem, 14vh, 11rem) var(--gutter);
   text-align: center;
-  border-top: 1px solid rgba(110, 31, 42, 0.08);
-  border-bottom: 1px solid rgba(110, 31, 42, 0.08);
 }
 .home-private-cta__inner {
   max-width: 720px;
@@ -1967,11 +1962,11 @@ html.lenis { height: auto; }
 .home-private-cta__h {
   font-family: var(--font-display);
   font-weight: 400;
-  font-size: clamp(1.9rem, 3.8vw, 3rem);
-  line-height: 1.05;
+  font-size: clamp(2.4rem, 5.6vw, 4.4rem);
+  line-height: 1.04;
   color: var(--cream);
-  margin: 0 0 1.4rem;
-  letter-spacing: 0.005em;
+  margin: 0 0 1.6rem;
+  letter-spacing: -0.01em;
 }
 .home-private-cta__h em {
   color: var(--gold-light);
@@ -1984,7 +1979,7 @@ html.lenis { height: auto; }
   font-size: clamp(0.95rem, 1.4vw, 1.05rem);
   line-height: 1.65;
   color: rgba(255, 248, 239, 0.8);
-  margin: 0 auto 2rem;
+  margin: 0 auto 2.6rem;
   max-width: 560px;
 }
 
@@ -2218,15 +2213,47 @@ html.lenis { height: auto; }
   background: rgba(110, 31, 42, 0.06);
 }
 
-/* HOME PRIVATE EVENTS CTA — cream */
+/* HOME PRIVATE EVENTS CTA, cream, continuous (no band, no rules) */
 .home-private-cta {
-  background: linear-gradient(180deg, var(--cream), #F2E8D6);
+  background: var(--cream);
   color: var(--noir);
 }
 .home-private-cta__eyebrow { color: var(--peach-dark); }
 .home-private-cta__h { color: var(--noir); }
-.home-private-cta__h em { color: var(--peach-dark); }
+.home-private-cta__h em { color: var(--peach-dark); font-style: italic; }
 .home-private-cta__lede { color: rgba(14, 14, 14, 0.65); }
+
+/* Drawn accent under the italic. Visible by default (no JS); JS arms it
+   (.is-anim) then draws it on scroll (.is-in). */
+.home-private-cta__h em { position: relative; }
+.home-private-cta__h em::after {
+  content: "";
+  position: absolute;
+  left: 0; right: 0; bottom: -0.1em;
+  height: 2px; border-radius: 2px;
+  background: linear-gradient(90deg, var(--gold), var(--gold-light));
+  transform-origin: left center;
+  transition: transform 0.9s var(--ease-luxe) 0.35s;
+}
+.home-private-cta.is-anim .home-private-cta__h em::after { transform: scaleX(0); }
+.home-private-cta.is-anim.is-in .home-private-cta__h em::after { transform: scaleX(1); }
+
+/* Ghost button on cream that fills wine on hover; arrow slides. */
+.home-private-cta__btn {
+  color: var(--gold);
+  border-color: rgba(110, 31, 42, 0.4);
+  background: transparent;
+  -webkit-backdrop-filter: none;
+          backdrop-filter: none;
+  box-shadow: none;
+}
+.home-private-cta__btn:hover {
+  color: var(--cream);
+  border-color: var(--gold);
+  background: var(--gold);
+  transform: translateY(-1px);
+  box-shadow: 0 14px 32px rgba(110, 31, 42, 0.26);
+}
 
 /* FOOTER — cream */
 .footer {
@@ -2321,12 +2348,11 @@ a.footer__outlet:hover strong { color: var(--peach-dark); }
   .reserve__actions { margin-top: 2rem; }
   .reserve__hours { margin-top: 2.2rem; font-size: 0.62rem; }
 
-  /* private events CTA + footer — tighter, with thin separators
-     to break the long cream run on a small screen */
+  /* private events CTA + footer: tighter vertical rhythm on small screens.
+     Footer keeps a thin separator; the CTA stays line-free per design. */
   .home-private-cta {
-    padding-top: 4rem;
-    padding-bottom: 4rem;
-    border-top: 1px solid rgba(14, 14, 14, 0.08);
+    padding-top: 4.5rem;
+    padding-bottom: 4.5rem;
   }
   .footer {
     padding-top: 3.5rem;

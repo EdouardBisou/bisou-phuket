@@ -605,6 +605,20 @@
         scrollTrigger: { trigger: el, start: 'top 80%' }
       });
     });
+
+    // home private-events CTA: arm the accent underline, draw it on enter
+    const privCta = qs('.home-private-cta');
+    if (privCta) {
+      privCta.classList.add('is-anim');
+      if (reduced) {
+        privCta.classList.add('is-in');
+      } else {
+        ScrollTrigger.create({
+          trigger: privCta, start: 'top 80%', once: true,
+          onEnter: () => privCta.classList.add('is-in')
+        });
+      }
+    }
   }
 
   // ============================================
