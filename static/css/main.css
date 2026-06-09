@@ -1111,7 +1111,7 @@ address { font-style: normal; }
   max-width: 760px;
 }
 @media (min-width: 720px) {
-  .concept__proof { grid-template-columns: repeat(2, 1fr); }
+  .concept__proof { grid-template-columns: repeat(3, 1fr); }
 }
 .concept__proof span em {
   font-family: var(--font-display);
