@@ -4,8 +4,8 @@ slug: cocktail-bar-cherngtalay
 category: Dispatch
 publishedAt: 2026-06-13
 readMin: 4
-hero: /assets/photos/web/exterior-night-1920.jpg
-heroAlt: "An evening at Bisou, a modern French restaurant and cocktail bar in Cherngtalay, Phuket"
+hero: /assets/photos/web/cocktail-bar-1920.jpg
+heroAlt: "The illuminated circular back bar at Bisou, a modern French cocktail bar in Cherngtalay, Phuket"
 excerpt: "Looking for a cocktail bar in Cherngtalay? Bisou is a cocktail-bar-forward French room near Bang Tao Beach, made for the aperitif and the nightcap."
 seoTitle: "Cocktail Bar Cherngtalay, Phuket | Bisou"
 seoDescription: "Looking for a cocktail bar in Cherngtalay? Bisou pours an aperitif-and-nightcap program near Bang Tao Beach and Laguna Phuket. Open nightly from 5:30 PM."
