@@ -861,11 +861,86 @@
     });
   }
 
+  // ============================================
+  // HOME PHOTO MENU (mobile): chips scroll-spy + lightbox
+  // Ported from menu.js. The food photo grid lives in #menu .menu__photo
+  // (injected at build time); these only act when those nodes exist.
+  // ============================================
+  function wireChips() {
+    const chips = qsa('[data-pm-chips] .pm-chip');
+    const cats = qsa('[data-pm-cat]');
+    if (!chips.length || !cats.length) return;
+
+    const chipFor = (id) => chips.find((c) => c.dataset.chip === id);
+
+    function setActive(id) {
+      chips.forEach((c) => c.classList.toggle('is-active', c.dataset.chip === id));
+      const active = chipFor(id);
+      if (active && active.scrollIntoView) {
+        active.scrollIntoView({ inline: 'center', block: 'nearest', behavior: 'smooth' });
+      }
+    }
+
+    chips.forEach((chip) => {
+      chip.addEventListener('click', (e) => {
+        e.preventDefault();
+        const id = chip.dataset.chip;
+        const section = document.getElementById(id);
+        if (section) section.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        setActive(id);
+      });
+    });
+
+    const io = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) setActive(entry.target.id);
+        });
+      },
+      { rootMargin: '-45% 0px -50% 0px', threshold: 0 }
+    );
+    cats.forEach((c) => io.observe(c));
+  }
+
+  function wireLightbox() {
+    const box = qs('[data-pm-lightbox]');
+    if (!box) return;
+    const img = qs('.pm-lightbox__img', box);
+    const closeBtn = qs('[data-pm-lightbox-close]', box);
+
+    function open(full, alt) {
+      img.src = full;
+      img.alt = alt || '';
+      box.classList.add('is-open');
+      box.setAttribute('aria-hidden', 'false');
+      document.body.style.overflow = 'hidden';
+    }
+    function close() {
+      box.classList.remove('is-open');
+      box.setAttribute('aria-hidden', 'true');
+      document.body.style.overflow = '';
+      img.removeAttribute('src');
+    }
+
+    qsa('[data-pm-zoom]').forEach((btn) => {
+      btn.addEventListener('click', () => {
+        const full = btn.dataset.full;
+        const inner = btn.querySelector('img');
+        if (full) open(full, inner ? inner.alt : '');
+      });
+    });
+    box.addEventListener('click', (e) => { if (e.target === box || e.target === img) close(); });
+    if (closeBtn) closeBtn.addEventListener('click', close);
+    document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && box.classList.contains('is-open')) close(); });
+  }
+
   function boot() {
     renderMenu();
     renderJournal();
     wireMenuTabs();
     wireMenuPreview();
+    wireChips();
+    wireLightbox();
     splitText();
     wireNav();
     wireCursor();

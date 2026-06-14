@@ -106,7 +106,7 @@
     rel="stylesheet"
   />
 
-  <link rel="stylesheet" href="css/main.css?v=46" />
+  <link rel="stylesheet" href="css/main.css?v=47" />
 
   <!-- Google Analytics 4 -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
@@ -372,6 +372,12 @@
         </p>
       </header>
 
+      <!-- Mobile-only photo menu: food photos (no featured card); desktop keeps the tabs below. -->
+      <div class="menu__photo" data-menu-photo>
+        <!-- BUILD:HOME_PHOTOMENU -->
+        <!-- /BUILD:HOME_PHOTOMENU -->
+      </div>
+
       <div class="menu__tabs" role="tablist" data-menu-tabs>
         <button role="tab" aria-selected="true" data-tab="food">
           <svg class="menu__tab-icon" viewBox="0 0 26 22" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
@@ -607,6 +613,12 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollToPlugin.min.js"></script>
   <script src="https://unpkg.com/@studio-freight/lenis@1.0.42/dist/lenis.min.js"></script>
-  <script src="js/main.js?v=21" defer></script>
+  <!-- Mobile tap-to-zoom lightbox for the home photo menu -->
+  <div class="pm-lightbox" data-pm-lightbox aria-hidden="true">
+    <button class="pm-lightbox__close" type="button" data-pm-lightbox-close aria-label="Close">&times;</button>
+    <img class="pm-lightbox__img" alt="" />
+  </div>
+
+  <script src="js/main.js?v=22" defer></script>
 </body>
 </html>

@@ -2156,6 +2156,90 @@ html.lenis { height: auto; }
 .menu__item-name::after { display: none; }
 
 /* ============================================================
+   HOME #menu: photo menu on phones, tabs on desktop.
+   Mobile: the food photo grid (BUILD:HOME_PHOTOMENU) plus the existing
+   drink/wine tab panels shown as stacked lists. Desktop: the tabs,
+   unchanged. Photo-menu rules are scoped to #menu so /menu (its own
+   menu.css) is never affected.
+   ============================================================ */
+.menu__photo { display: none; }
+
+@media (max-width: 700px) {
+  /* The #menu section is overflow:hidden (desktop glow containment). That breaks
+     the sticky chips (an overflow ancestor re-anchors position:sticky), so the
+     chips scroll off and the scroll-spy's scrollIntoView fights Lenis and jams
+     vertical scrolling on iOS. Release it on mobile where the glow is hidden. */
+  #menu { overflow: visible; }
+  #menu .menu__photo { display: block; }
+  #menu .menu__tabs { display: none; }
+  #menu .menu__panels { max-width: none; }
+  #menu .menu__panels .menu__panel[data-panel="food"] { display: none; }
+  #menu .menu__panels .menu__panel[data-panel="drink"],
+  #menu .menu__panels .menu__panel[data-panel="wine"] { display: block; }
+  #menu .menu__panels .menu__panel[data-panel="drink"] { margin-top: 1.6rem; }
+}
+@media (min-width: 701px) {
+  #menu .menu__photo { display: none; }
+}
+
+/* ---- sticky category chips (mobile) ---- */
+#menu .pm-chips {
+  position: sticky; top: 54px; z-index: 30;
+  display: flex; gap: 8px; overflow-x: auto; -webkit-overflow-scrolling: touch;
+  padding: 12px clamp(0.9rem, 4vw, 1.2rem); margin: 0 0 0.4rem;
+  background: rgba(255, 248, 239, 0.92);
+  -webkit-backdrop-filter: blur(8px); backdrop-filter: blur(8px);
+  border-top: 1px solid rgba(14, 14, 14, 0.06);
+  border-bottom: 1px solid rgba(14, 14, 14, 0.07);
+  scrollbar-width: none;
+}
+#menu .pm-chips::-webkit-scrollbar { display: none; }
+#menu .pm-chip {
+  flex: 0 0 auto; font-family: var(--font-sans);
+  font-size: 0.64rem; letter-spacing: 0.14em; text-transform: uppercase;
+  padding: 7px 13px; border-radius: 999px; white-space: nowrap;
+  color: rgba(14, 14, 14, 0.6); border: 1px solid rgba(14, 14, 14, 0.16);
+  text-decoration: none; transition: background .3s ease, color .3s ease, border-color .3s ease;
+}
+#menu .pm-chip.is-active { background: var(--peach-dark); color: var(--cream); border-color: var(--peach-dark); }
+
+/* ---- photo grid (mobile) ---- */
+#menu .pm-cat { padding: clamp(1.4rem, 5vw, 2rem) clamp(0.9rem, 4vw, 1.2rem) 0; scroll-margin-top: 110px; }
+#menu .pm-cat__label {
+  font-family: var(--font-display); font-weight: 400;
+  font-size: clamp(1.3rem, 5vw, 1.7rem); color: var(--peach-dark);
+  margin: 0 0 0.9rem; letter-spacing: 0.02em;
+}
+#menu .pm-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+#menu .pm-dish { margin: 0; }
+#menu .pm-dish__media {
+  display: block; width: 100%; padding: 0; border: 0; margin: 0;
+  background: rgba(14, 14, 14, 0.05); border-radius: 10px; overflow: hidden;
+  cursor: zoom-in; aspect-ratio: 1 / 1;
+}
+#menu .pm-dish__media--empty { aspect-ratio: 1 / 1; border-radius: 10px; background: rgba(14, 14, 14, 0.05); }
+#menu .pm-dish__img { width: 100%; height: 100%; object-fit: cover; display: block; transition: transform .5s var(--ease-luxe, ease); }
+#menu .pm-dish__media:active .pm-dish__img { transform: scale(0.98); }
+#menu .pm-dish__cap { padding: 6px 2px 0; }
+#menu .pm-dish__name { display: block; font-family: var(--font-sans); font-size: 0.78rem; line-height: 1.25; color: var(--noir); }
+#menu .pm-dish__price { display: block; font-family: var(--font-sans); font-size: 0.76rem; color: var(--peach-dark); font-weight: 600; margin-top: 2px; }
+
+/* ---- tap-to-zoom lightbox (shared fixed overlay) ---- */
+.pm-lightbox {
+  position: fixed; inset: 0; z-index: 100;
+  display: flex; align-items: center; justify-content: center; padding: 18px;
+  background: rgba(14, 14, 14, 0.92);
+  opacity: 0; pointer-events: none; transition: opacity .25s ease;
+}
+.pm-lightbox.is-open { opacity: 1; pointer-events: auto; }
+.pm-lightbox__img { max-width: 100%; max-height: 100%; border-radius: 6px; object-fit: contain; box-shadow: 0 20px 60px rgba(0,0,0,.5); }
+.pm-lightbox__close {
+  position: absolute; top: 14px; right: 18px;
+  font-size: 34px; line-height: 1; color: var(--cream);
+  background: none; border: 0; cursor: pointer; padding: 4px 8px;
+}
+
+/* ============================================================
    HOMEPAGE LIGHT THEME — flip the remaining dark surfaces
    (reserve, home private CTA, footer) to cream paper, and have
    the top nav switch to a cream glass once you scroll past the

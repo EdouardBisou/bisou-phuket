@@ -627,6 +627,7 @@ async function build() {
     MENU: renderMenu(data.categories),
     MENU_SCHEMA: renderMenuSchema(data.categories),
     PHOTOMENU: renderPhotoMenu(data.categories),
+    HOME_PHOTOMENU: renderPhotoMenu(data.categories),
     TEAM: renderTeam(data.team),
     JOURNAL_LIST: renderJournalList(journal, 3),
     JOURNAL_INDEX: renderJournalIndex(journal)
