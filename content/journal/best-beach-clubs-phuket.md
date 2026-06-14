@@ -4,8 +4,8 @@ slug: best-beach-clubs-phuket
 category: Guide
 publishedAt: 2026-06-13
 readMin: 5
-hero: /assets/photos/web/kiss-wall-1920.jpg
-heroAlt: "Bisou, a modern French restaurant for dinner after the beach club, in Cherngtalay near Bang Tao, Phuket"
+hero: /assets/photos/web/phuket-beach-sunset-1920.jpg
+heroAlt: "Golden sunset over a Phuket beach, the after-beach hour before dinner at Bisou in Cherngtalay"
 excerpt: "A friendly guide to the best beach clubs in Phuket around Bang Tao and Surin, plus the easy after-beach dinner move when you want the meal to be the event."
 seoTitle: "Best Beach Clubs in Phuket: After-Beach Dinner at Bisou"
 seoDescription: "A warm guide to the best beach clubs in Phuket around Bang Tao, Surin and Kamala, plus where foodies go for a proper dinner after the beach: Bisou in Cherngtalay."
