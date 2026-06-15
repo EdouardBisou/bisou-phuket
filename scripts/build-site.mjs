@@ -407,7 +407,7 @@ function buildVarBag(settings) {
   const phoneTel = phone.replace(/[^\d+]/g, '');
   const email = s.email || 'contact@bisouphuket.com';
   const address = s.address || 'No.4 Bandon-Cherngtalay Rd, Choeng Thale, Thalang, Phuket 83110';
-  const hours = s.openingHours || 'Dinner nightly, 5:30 PM to 12:00 AM. Last food order 11 PM.';
+  const hours = s.openingHours || 'Dinner nightly, 6:00 PM to 1:00 AM. Last food order 11 PM.';
   const mapsUrl = s.mapsUrl || 'https://www.google.com/maps/search/Bisou+Phuket+Bandon-Cherngtalay+Rd+Choeng+Thale+Phuket+83110';
   const reservationUrl = s.reservationUrl || 'https://book.bistrochat.com/bisou-phuket';
 

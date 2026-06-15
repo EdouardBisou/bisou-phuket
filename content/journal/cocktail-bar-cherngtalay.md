@@ -8,7 +8,7 @@ hero: /assets/photos/web/cocktail-bar-1920.jpg
 heroAlt: "The illuminated circular back bar at Bisou, a modern French cocktail bar in Cherngtalay, Phuket"
 excerpt: "Looking for a cocktail bar in Cherngtalay? Bisou is a cocktail-bar-forward French room near Bang Tao Beach, made for the aperitif and the nightcap."
 seoTitle: "Cocktail Bar Cherngtalay, Phuket | Bisou"
-seoDescription: "Looking for a cocktail bar in Cherngtalay? Bisou pours an aperitif-and-nightcap program near Bang Tao Beach and Laguna Phuket. Open nightly from 5:30 PM."
+seoDescription: "Looking for a cocktail bar in Cherngtalay? Bisou pours an aperitif-and-nightcap program near Bang Tao Beach and Laguna Phuket. Open nightly from 6:00 PM."
 author: Bisou Phuket
 authorRole: Editorial
 draft: false
@@ -38,7 +38,7 @@ Arrive early, take a seat at the bar, and let the aperitif do its work while the
 
 ### After dinner, a nightcap that lingers
 
-The other use is the one Cherngtalay is quietly short on: a grown-up place for the last drink. Bisou runs late, nightly until midnight, which makes it a natural close to an evening that started elsewhere near Bang Tao Beach. Come for the nightcap. Stay because you did not want the night to end.
+The other use is the one Cherngtalay is quietly short on: a grown-up place for the last drink. Bisou runs late, nightly until 1:00 AM, which makes it a natural close to an evening that started elsewhere near Bang Tao Beach. Come for the nightcap. Stay because you did not want the night to end.
 
 ## The best of both: cocktails with a French kitchen behind them
 
@@ -60,7 +60,7 @@ Bisou is at No.4 Bandon-Cherngtalay Rd, Choeng Thale, Thalang, Phuket 83110, nea
 
 ### What time does the bar open?
 
-Bisou is open for dinner nightly from 5:30 PM until midnight, so the bar is your spot for both an early aperitif and a late nightcap.
+Bisou is open for dinner nightly from 6:00 PM until 1:00 AM, so the bar is your spot for both an early aperitif and a late nightcap.
 
 ### Do I need a reservation to drink at the bar?
 

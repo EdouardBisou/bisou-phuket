@@ -16,7 +16,7 @@ This is the priority workflow: SEO/GEO is non-negotiable before publishing.
 ## Hard rules
 - **NO em dashes (—) anywhere.** Ever. Use commas, colons, parentheses. (Project-wide rule.)
 - Copy in **English**.
-- **Brand voice**: modern French, "simple & sexy", romantic and understated-confident, editorial. The restaurant is in **Cherngtalay, Phuket** (No.4 Bandon-Cherngtalay Rd, Choeng Thale, Thalang). Co-founders: Antoine Darquin (chef) and Théo Lavergne (sommelier); Phuket co-owners Louis Chartier (GM) and Manon Bares (head chef, runs the kitchen). Signatures: truffle French toast, house Beef Wellington, salt-crust seabass flambeed at the table, caviar linguine. Dinner nightly, 5:30 PM to midnight.
+- **Brand voice**: modern French, "simple & sexy", romantic and understated-confident, editorial. The restaurant is in **Cherngtalay, Phuket** (No.4 Bandon-Cherngtalay Rd, Choeng Thale, Thalang). Co-founders: Antoine Darquin (chef) and Théo Lavergne (sommelier); Phuket co-owners Louis Chartier (GM) and Manon Bares (head chef, runs the kitchen). Signatures: truffle French toast, house Beef Wellington, salt-crust seabass flambeed at the table, caviar linguine. Dinner nightly, 6:00 PM to 1:00 AM.
 - **Never invent facts** (names, dates, prices, awards). Phuket is NOT in the Michelin Guide: do not claim it. Research, verify, and if unsure, omit.
 - **No stock photos.** Use an existing image in `static/assets/photos/web/`, or flag that the owner must supply a hero.
 

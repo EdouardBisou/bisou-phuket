@@ -40,7 +40,7 @@ Then there is the dinner you plan around. A room you book, dress for a little, a
 
 Bisou is a modern French restaurant in Cherngtalay, a short hop from Laguna, Boat Avenue, and Bang Tao Beach. The idea is simple and a touch sexy: candlelight, a cocktail bar you actually want to sit at, and French cooking that feels generous rather than fussy. Founded in 2025 by chef Antoine Darquin and sommelier Theo Lavergne, the Phuket kitchen is run by head chef Manon Bares, with Louis Chartier looking after the room.
 
-The [menu](/menu) leans into a handful of things worth crossing the island for: truffle French toast to begin, a house Beef Wellington, and a whole salt-crust seabass flambeed at the table, which is as much a moment as it is a main course. Dinner is served nightly from 5:30 PM until midnight, with the bar in full swing throughout, so Bisou works equally well for a long, unhurried meal or a later seat after the beach.
+The [menu](/menu) leans into a handful of things worth crossing the island for: truffle French toast to begin, a house Beef Wellington, and a whole salt-crust seabass flambeed at the table, which is as much a moment as it is a main course. Dinner is served nightly from 6:00 PM until 1:00 AM, with the bar in full swing throughout, so Bisou works equally well for a long, unhurried meal or a later seat after the beach.
 
 It is also a natural choice when the dinner matters: an anniversary, a celebration, or a group taking over Cherngtalay for the night. For those, see our [private events](/private-events).
 
@@ -60,7 +60,7 @@ Bisou is a modern French restaurant and cocktail bar in Cherngtalay, near Laguna
 
 ### What time is dinner at Bisou?
 
-Bisou serves dinner only, nightly from 5:30 PM until midnight. The cocktail bar runs throughout the evening, so you can come early for a full dinner or later for a relaxed seat.
+Bisou serves dinner only, nightly from 6:00 PM until 1:00 AM. The cocktail bar runs throughout the evening, so you can come early for a full dinner or later for a relaxed seat.
 
 ### How do I book a table in Bang Tao at Bisou?
 

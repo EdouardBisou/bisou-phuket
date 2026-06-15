@@ -44,7 +44,7 @@ The honest common thread: at a beach club the food is usually the supporting act
 
 Here is the part we are biased about, so take it as a friendly local tip rather than a flex.
 
-If you are a foodie and you want the *meal* to be the thing you remember, the easy move is to shower off the salt, leave the beach club around sunset, and drive a few minutes inland to [Bisou](/) in Cherngtalay. We are a modern French restaurant and cocktail bar, "simple and sexy," open for dinner only, nightly from 5:30 PM to midnight. No pool, no DJ booth, no day-beds. Just dinner, done properly.
+If you are a foodie and you want the *meal* to be the thing you remember, the easy move is to shower off the salt, leave the beach club around sunset, and drive a few minutes inland to [Bisou](/) in Cherngtalay. We are a modern French restaurant and cocktail bar, "simple and sexy," open for dinner only, nightly from 6:00 PM to 1:00 AM. No pool, no DJ booth, no day-beds. Just dinner, done properly.
 
 What that looks like: truffle French toast to start, a whole salt-crust seabass flambeed at your table, a cocktail-bar-forward drinks list, and a room that is built around the food instead of the view. It is the after-beach dinner that beats typical beach-club food, not because beach clubs are bad, but because this is a different thing entirely. One is a day. The other is a meal.
 
@@ -62,7 +62,7 @@ Around the Cherngtalay and Laguna side, the well-known names include Catch Beach
 
 ### Where do you eat dinner after the beach in Phuket?
 
-If you want the meal to be the event, the easy after-beach move is heading inland to [Bisou](/) in Cherngtalay, a modern French restaurant and cocktail bar open nightly from 5:30 PM. It is a few minutes from the Bang Tao and Surin beach clubs.
+If you want the meal to be the event, the easy after-beach move is heading inland to [Bisou](/) in Cherngtalay, a modern French restaurant and cocktail bar open nightly from 6:00 PM. It is a few minutes from the Bang Tao and Surin beach clubs.
 
 ### Is Bisou near the Bang Tao and Surin beach clubs?
 
