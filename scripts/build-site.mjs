@@ -241,9 +241,8 @@ function renderPhotoMenu(categories) {
       </div>`;
 }
 
-function renderMenu(categories) {
+function renderMenu(categories, { kinds = ['food', 'drink', 'wine'] } = {}) {
   if (!categories || categories.length === 0) return null;
-  const kinds = ['food', 'drink', 'wine'];
 
   return kinds
     .map((kind, idx) => {
@@ -625,6 +624,7 @@ async function build() {
 
   const markers = {
     MENU: renderMenu(data.categories),
+    HOME_MENU: renderMenu(data.categories, { kinds: ['food'] }),
     MENU_SCHEMA: renderMenuSchema(data.categories),
     PHOTOMENU: renderPhotoMenu(data.categories),
     HOME_PHOTOMENU: renderPhotoMenu(data.categories),

@@ -2171,12 +2171,8 @@ html.lenis { height: auto; }
      vertical scrolling on iOS. Release it on mobile where the glow is hidden. */
   #menu { overflow: visible; }
   #menu .menu__photo { display: block; }
-  #menu .menu__tabs { display: none; }
   #menu .menu__panels { max-width: none; }
   #menu .menu__panels .menu__panel[data-panel="food"] { display: none; }
-  #menu .menu__panels .menu__panel[data-panel="drink"],
-  #menu .menu__panels .menu__panel[data-panel="wine"] { display: block; }
-  #menu .menu__panels .menu__panel[data-panel="drink"] { margin-top: 1.6rem; }
 }
 @media (min-width: 701px) {
   #menu .menu__photo { display: none; }
