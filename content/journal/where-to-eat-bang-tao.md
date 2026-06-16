@@ -48,6 +48,8 @@ It is also a natural choice when the dinner matters: an anniversary, a celebrati
 
 If you want sand between your toes and a cocktail at sunset, go to the beach. If you want easy, walkable variety with the family, Boat Avenue and the lakefront will not let you down. And if you want the proper sit-down dinner, the one with table flambe, a serious wine list, and a room that flatters everyone in it, that is where Bisou comes in. Three different nights, all within a few minutes of each other in Bang Tao.
 
+**Read next:** [The cocktail bar at Bisou](/journal/cocktail-bar-cherngtalay) and a guide to [the best beach clubs in Phuket](/journal/best-beach-clubs-phuket).
+
 ## FAQ
 
 ### Where is Bang Tao in Phuket?

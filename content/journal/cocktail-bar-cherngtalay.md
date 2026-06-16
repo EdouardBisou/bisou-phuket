@@ -48,6 +48,8 @@ Planning something larger, a celebration or a group taking over a corner of the 
 
 Bisou. Simple, sexy, and open when you want the night to keep going.
 
+**Read next:** [Where to eat in Bang Tao](/journal/where-to-eat-bang-tao) and [the best beach clubs in Phuket](/journal/best-beach-clubs-phuket).
+
 ## FAQ
 
 ### Does Bisou have a cocktail bar?
