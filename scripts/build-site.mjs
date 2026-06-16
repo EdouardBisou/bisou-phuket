@@ -312,8 +312,10 @@ function renderMenuSchema(categories) {
   const menu = {
     '@context': 'https://schema.org',
     '@type': 'Menu',
+    '@id': 'https://bisouphuket.com/menu#menu',
     name: 'Bisou Phuket menu',
     inLanguage: 'en',
+    isMenuOf: { '@id': 'https://bisouphuket.com/#restaurant' },
     hasMenuSection: sections
   };
   return `<script type="application/ld+json">\n${JSON.stringify(menu, null, 2)}\n</script>`;

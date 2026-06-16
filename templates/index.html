@@ -31,11 +31,14 @@
       "https://bisouphuket.com/assets/photos/web/kiss-wall-1920.jpg",
       "https://bisouphuket.com/assets/photos/web/hero-dining-kisses-1920.jpg"
     ],
+    "logo": { "@type": "ImageObject", "url": "https://bisouphuket.com/assets/b-mark.png", "width": 1617, "height": 2174 },
     "url": "https://bisouphuket.com/",
     "telephone": "+66963789668",
     "email": "contact@bisouphuket.com",
     "priceRange": "$$$$",
     "currenciesAccepted": "THB",
+    "paymentAccepted": "Cash, Credit Card",
+    "knowsLanguage": ["en", "fr", "th"],
     "servesCuisine": ["French", "Modern French", "European"],
     "slogan": "Simple & sexy",
     "address": {
@@ -56,9 +59,28 @@
       "closes": "01:00"
     }],
     "acceptsReservations": true,
-    "hasMenu": "https://bisouphuket.com/menu",
+    "potentialAction": {
+      "@type": "ReserveAction",
+      "target": {
+        "@type": "EntryPoint",
+        "urlTemplate": "{{reservation_url}}",
+        "inLanguage": "en",
+        "actionPlatform": ["http://schema.org/DesktopWebPlatform", "http://schema.org/MobileWebPlatform"]
+      },
+      "result": { "@type": "Reservation", "name": "Table reservation" }
+    },
+    "hasMenu": { "@id": "https://bisouphuket.com/menu#menu" },
     "sameAs": [
-      "https://www.instagram.com/bisouphuket/"
+      "https://www.instagram.com/bisouphuket/",
+      "https://www.google.com/search?kgmid=/g/11ykplc57_"
+    ],
+    "founder": [
+      { "@id": "https://bisouphuket.com/team#antoine-darquin" },
+      { "@id": "https://bisouphuket.com/team#theo-lavergne" }
+    ],
+    "employee": [
+      { "@id": "https://bisouphuket.com/team#manon-bares" },
+      { "@id": "https://bisouphuket.com/team#louis-chartier" }
     ]
   }
   </script>
@@ -71,6 +93,31 @@
     "url": "https://bisouphuket.com/",
     "inLanguage": "en",
     "publisher": { "@id": "https://bisouphuket.com/#restaurant" }
+  }
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "@id": "https://bisouphuket.com/#organization",
+    "name": "Bisou Phuket",
+    "url": "https://bisouphuket.com/",
+    "logo": { "@type": "ImageObject", "url": "https://bisouphuket.com/assets/b-mark.png", "width": 1617, "height": 2174 },
+    "sameAs": [
+      "https://www.instagram.com/bisouphuket/",
+      "https://www.google.com/search?kgmid=/g/11ykplc57_"
+    ]
+  }
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bisouphuket.com/" }
+    ]
   }
   </script>
 
