@@ -338,7 +338,7 @@ function renderJournalCard(post) {
   // image shows instead of a zoomed 16:10 crop.
   const portrait = post.heroFit === 'portrait' ? ' journal-card--portrait' : '';
   return `        <article class="journal-card${portrait}" data-reveal>
-          <a href="/journal/${escAttr(post.slug)}/" class="journal-card__media" aria-label="${escAttr(post.title)}">
+          <a href="/journal/${escAttr(post.slug)}" class="journal-card__media" aria-label="${escAttr(post.title)}">
             <img src="${escAttr(heroSrc)}" alt="${escAttr(post.heroAlt || '')}" loading="lazy"${heroSrcset} />
             <span class="journal-card__cat">${escHtml(post.category || '')}</span>
           </a>
@@ -347,9 +347,9 @@ function renderJournalCard(post) {
               <time datetime="${escAttr(post.publishedAt || '')}">${escHtml(date)}</time>
               ${readTime}
             </div>
-            <h3 class="journal-card__title"><a href="/journal/${escAttr(post.slug)}/">${escHtml(post.title)}</a></h3>
+            <h3 class="journal-card__title"><a href="/journal/${escAttr(post.slug)}">${escHtml(post.title)}</a></h3>
             ${post.excerpt ? `<p class="journal-card__excerpt">${escHtml(post.excerpt)}</p>` : ''}
-            <a href="/journal/${escAttr(post.slug)}/" class="journal-card__read">
+            <a href="/journal/${escAttr(post.slug)}" class="journal-card__read">
               Read
               <svg viewBox="0 0 24 7" fill="none" aria-hidden="true"><path d="M0 3.5h20M14 0.5l6 3-6 3" stroke="currentColor"/></svg>
             </a>
@@ -574,16 +574,16 @@ function generateSitemap(posts) {
   const entries = [
     { loc: '/', changefreq: 'weekly', priority: '1.0', lastmod: today },
     { loc: '/menu', changefreq: 'weekly', priority: '0.9', lastmod: today },
-    { loc: '/private-events/', changefreq: 'monthly', priority: '0.8', lastmod: today },
-    { loc: '/team/', changefreq: 'monthly', priority: '0.6', lastmod: today },
-    { loc: '/journal/', changefreq: 'weekly', priority: '0.7', lastmod: today }
+    { loc: '/private-events', changefreq: 'monthly', priority: '0.8', lastmod: today },
+    { loc: '/team', changefreq: 'monthly', priority: '0.6', lastmod: today },
+    { loc: '/journal', changefreq: 'weekly', priority: '0.7', lastmod: today }
   ];
   for (const p of posts || []) {
     if (!p.slug) continue;
     const lastmod = p.publishedAt && /^\d{4}-\d{2}-\d{2}/.test(p.publishedAt)
       ? p.publishedAt.slice(0, 10)
       : today;
-    entries.push({ loc: `/journal/${p.slug}/`, changefreq: 'monthly', priority: '0.7', lastmod });
+    entries.push({ loc: `/journal/${p.slug}`, changefreq: 'monthly', priority: '0.7', lastmod });
   }
   const urls = entries
     .map(
