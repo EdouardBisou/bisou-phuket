@@ -326,6 +326,19 @@
     gtag('js', new Date());
     gtag('config', 'G-PSREG5VFM4');
     gtag('config', 'AW-11028794516');
+
+    // Google Ads "Book a table" conversion (label provided by the ads agency).
+    function gtag_report_conversion(url) {
+      var callback = function () { if (typeof (url) != 'undefined') { window.location = url; } };
+      gtag('event', 'conversion', { 'send_to': 'AW-11028794516/yFzeCJ-jmcgbEJSZ-Iop', 'event_callback': callback });
+      return false;
+    }
+    // Fire it on any click of a Reserve / booking link, while keeping the new-tab behaviour.
+    document.addEventListener('click', function (e) {
+      if (e.target.closest && e.target.closest('a[href*="book.bistrochat.com/bisou-phuket"]')) {
+        gtag_report_conversion();
+      }
+    }, true);
   </script>
 </head>
 
