@@ -18,6 +18,7 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { marked } from 'marked';
 import { fetchAll } from './sanity-fetch.mjs';
+import { LOCALES, localeMeta, LOCALE_LABELS, LOCALE_NAMES, STRINGS } from './i18n.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.join(__dirname, '..');
@@ -401,6 +402,88 @@ function renderTeam(members) {
     .join('\n');
 }
 
+// ---------- i18n (localized homepages) ----------
+const SITE_URL = 'https://bisouphuket.com';
+
+// Per-locale webfonts: the brand display stack has no CJK/Thai glyphs, so zh/th
+// load Noto and repoint the --font-* CSS variables. Russian renders via Poiret
+// One (Cyrillic) + Inter already in the stack.
+const FONT_HEAD = {
+  zh: '  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;700&family=Noto+Serif+SC:wght@400;500;600&display=swap" rel="stylesheet" />\n  <style>html[lang="zh"]{--font-display:"Noto Serif SC","Champagne",serif;--font-serif:"Noto Serif SC",serif;--font-sans:"Noto Sans SC","Inter",sans-serif;}</style>',
+  th: '  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@300;400;500;700&family=Noto+Serif+Thai:wght@400;500;600&display=swap" rel="stylesheet" />\n  <style>html[lang="th"]{--font-display:"Noto Serif Thai","Champagne",serif;--font-serif:"Noto Serif Thai",serif;--font-sans:"Noto Sans Thai","Inter",sans-serif;}</style>'
+};
+
+// hreflang cluster: English at /, each enabled locale at /<lang>, plus x-default.
+function hreflangBlock() {
+  const langs = ['en', ...LOCALES];
+  const lines = langs.map((l) => {
+    const href = l === 'en' ? `${SITE_URL}/` : `${SITE_URL}/${l}`;
+    return `  <link rel="alternate" hreflang="${l}" href="${href}" />`;
+  });
+  lines.push(`  <link rel="alternate" hreflang="x-default" href="${SITE_URL}/" />`);
+  return lines.join('\n');
+}
+
+// Discreet footer language switcher.
+function langSwitcher() {
+  const langs = ['en', ...LOCALES];
+  const links = langs
+    .map((l) => {
+      const href = l === 'en' ? '/' : `/${l}`;
+      const label = LOCALE_LABELS[l] || l.toUpperCase();
+      return `<a href="${href}" hreflang="${l}" style="color:inherit;text-decoration:none;opacity:0.6">${label}</a>`;
+    })
+    .join('\n        ');
+  return `<div style="display:flex;gap:1.1rem;justify-content:center;margin-top:0.9rem;font-size:0.72rem;letter-spacing:0.18em" aria-label="Language">\n        ${links}\n      </div>`;
+}
+
+// Nav language switcher, nested in .nav__locations, reusing .nav__location style.
+function navSwitcher() {
+  const langs = ['en', ...LOCALES];
+  const parts = ['<span class="nav__sep-pipe" aria-hidden="true"></span>'];
+  langs.forEach((l, i) => {
+    if (i > 0) parts.push('<span class="nav__location-sep" aria-hidden="true">·</span>');
+    const href = l === 'en' ? '/' : `/${l}`;
+    parts.push(`<a class="nav__location nav__lang" href="${href}" hreflang="${l}">${LOCALE_LABELS[l] || l.toUpperCase()}</a>`);
+  });
+  return parts.join('');
+}
+
+// Mobile sheet language switcher.
+function sheetSwitcher() {
+  const langs = ['en', ...LOCALES];
+  const links = langs
+    .map((l) => {
+      const href = l === 'en' ? '/' : `/${l}`;
+      return `<a class="sheet__location sheet__lang" href="${href}" hreflang="${l}">${LOCALE_NAMES[l] || l}</a>`;
+    })
+    .join('\n      ');
+  return `<div class="sheet__locations" aria-label="Language">\n      <span class="sheet__locations-label">Language</span>\n      ${links}\n    </div>`;
+}
+
+// Derive a localized homepage from the rendered English HTML (template untouched).
+function localizeHomeHtml(html, lang) {
+  const meta = localeMeta(lang);
+  const url = `${SITE_URL}/${lang}`;
+  let out = html;
+  // 0. localized pages are one level deep (/<lang>): make relative asset paths root-absolute
+  out = out.replace(/(href|src)="(assets\/|css\/|js\/)/g, '$1="/$2');
+  // 1. visible copy + meta text
+  const dict = STRINGS[lang] || {};
+  for (const [en, tr] of Object.entries(dict)) out = out.split(en).join(tr);
+  // 2. document language + social locale
+  out = out.replace('<html lang="en">', `<html lang="${meta.lang}">`);
+  out = out.replace('property="og:locale" content="en_US"', `property="og:locale" content="${meta.ogLocale}"`);
+  if (FONT_HEAD[lang]) out = out.replace('</head>', `${FONT_HEAD[lang]}\n</head>`);
+  // 3. self-referencing canonical + og:url
+  out = out.replace('<link rel="canonical" href="https://bisouphuket.com/" />', `<link rel="canonical" href="${url}" />`);
+  out = out.replace('<meta property="og:url" content="https://bisouphuket.com/" />', `<meta property="og:url" content="${url}" />`);
+  // 4. drop the English FAQPage JSON-LD so structured data never contradicts the
+  //    translated visible FAQ (other JSON-LD blocks are language-neutral facts).
+  out = out.replace(/\s*<script type="application\/ld\+json">\s*\{\s*"@context": "https:\/\/schema\.org",\s*"@type": "FAQPage",[\s\S]*?<\/script>/, '');
+  return out;
+}
+
 // Build the mustache variable bag from settings, with hardcoded fallbacks
 // matching the live site's current values. Keeps the page sensible if Sanity is down.
 function buildVarBag(settings) {
@@ -570,11 +653,12 @@ async function summarizeDir(dir) {
 // ---------- sitemap ----------
 // Generated at build time so every journal post (content/journal/*.md) is
 // automatically listed for search engines, with lastmod. Core pages + posts.
-function generateSitemap(posts) {
+function generateSitemap(posts, locales = []) {
   const base = 'https://bisouphuket.com';
   const today = new Date().toISOString().slice(0, 10);
   const entries = [
     { loc: '/', changefreq: 'weekly', priority: '1.0', lastmod: today },
+    ...locales.map((l) => ({ loc: `/${l}`, changefreq: 'weekly', priority: '0.8', lastmod: today })),
     { loc: '/menu', changefreq: 'weekly', priority: '0.9', lastmod: today },
     { loc: '/private-events', changefreq: 'monthly', priority: '0.8', lastmod: today },
     { loc: '/team', changefreq: 'monthly', priority: '0.6', lastmod: today },
@@ -635,6 +719,10 @@ async function build() {
     JOURNAL_INDEX: renderJournalIndex(journal)
   };
   const vars = buildVarBag(data.settings);
+  vars.hreflang_block = hreflangBlock();
+  vars.lang_switcher = langSwitcher();
+  vars.lang_nav = navSwitcher();
+  vars.lang_sheet = sheetSwitcher();
 
   console.log('[build] cleaning dist/');
   await rmDir(DIST);
@@ -646,12 +734,23 @@ async function build() {
   console.log('[build] rendering templates/ -> dist/');
   await renderTemplatesDir(TEMPLATES, DIST, markers, vars);
 
+  if (LOCALES.length) {
+    console.log(`[build] localizing homepage -> ${LOCALES.join(', ')}`);
+    const enHome = await fs.readFile(path.join(DIST, 'index.html'), 'utf-8');
+    for (const lang of LOCALES) {
+      const dir = path.join(DIST, lang);
+      await fs.mkdir(dir, { recursive: true });
+      await fs.writeFile(path.join(dir, 'index.html'), localizeHomeHtml(enHome, lang), 'utf-8');
+      console.log(`[build]   wrote dist/${lang}/index.html`);
+    }
+  }
+
   console.log('[build] generating per-post pages');
   const postsGenerated = await generatePostPages(journal, vars);
   console.log(`[build] generated ${postsGenerated} post pages`);
 
-  await fs.writeFile(path.join(DIST, 'sitemap.xml'), generateSitemap(journal), 'utf-8');
-  console.log(`[build] generated sitemap.xml (5 core pages + ${journal.length} journal posts)`);
+  await fs.writeFile(path.join(DIST, 'sitemap.xml'), generateSitemap(journal, LOCALES), 'utf-8');
+  console.log(`[build] generated sitemap.xml (5 core + ${LOCALES.length} locale homepages + ${journal.length} journal posts)`);
 
   const summary = await summarizeDir(DIST);
   console.log(

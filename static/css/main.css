@@ -313,6 +313,26 @@ address { font-style: normal; }
 .nav__location--active { color: var(--cream); pointer-events: none; }
 .nav__location-sep { color: rgba(110, 31, 42, 0.35); }
 
+/* Language switcher: nav links reuse .nav__location styling (incl. is-scrolled);
+   the current language (matched off <html lang>) is highlighted; mobile uses .sheet__lang. */
+.nav__sep-pipe { display: inline-block; width: 1px; height: 11px; background: rgba(110, 31, 42, 0.4); margin: 0 0.15rem; vertical-align: middle; }
+.nav.is-scrolled .nav__sep-pipe { background: rgba(14, 14, 14, 0.22); }
+html[lang="en"] .nav__lang[hreflang="en"],
+html[lang="fr"] .nav__lang[hreflang="fr"],
+html[lang="ru"] .nav__lang[hreflang="ru"],
+html[lang="zh"] .nav__lang[hreflang="zh"],
+html[lang="th"] .nav__lang[hreflang="th"] { color: var(--cream); pointer-events: none; }
+html[lang="en"] .nav.is-scrolled .nav__lang[hreflang="en"],
+html[lang="fr"] .nav.is-scrolled .nav__lang[hreflang="fr"],
+html[lang="ru"] .nav.is-scrolled .nav__lang[hreflang="ru"],
+html[lang="zh"] .nav.is-scrolled .nav__lang[hreflang="zh"],
+html[lang="th"] .nav.is-scrolled .nav__lang[hreflang="th"] { color: var(--noir); }
+html[lang="en"] .sheet__lang[hreflang="en"],
+html[lang="fr"] .sheet__lang[hreflang="fr"],
+html[lang="ru"] .sheet__lang[hreflang="ru"],
+html[lang="zh"] .sheet__lang[hreflang="zh"],
+html[lang="th"] .sheet__lang[hreflang="th"] { color: var(--cream); font-style: italic; }
+
 .nav__brand-img {
   height: 28px;
   width: auto;
