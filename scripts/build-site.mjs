@@ -143,6 +143,51 @@ function enrichArticleHtml(html) {
     .replace(/<img (?![^>]*loading=)/g, '<img loading="lazy" decoding="async" ');
 }
 
+// Pull a FAQ out of the markdown body: a "## FAQ" / "## Frequently asked
+// questions" H2 followed by "### question" H3s. Returns [{question, answer}]
+// (answer flattened to plain text), or [] if none. Emits FAQPage JSON-LD for
+// rich results + AI answer-engine citation.
+function extractFaq(md) {
+  const sec = md.match(/^##\s+(?:frequently asked questions|faqs?)\b[^\n]*\n([\s\S]*)$/im);
+  if (!sec) return [];
+  let content = sec[1];
+  const nextH2 = content.search(/^##\s+/m);
+  if (nextH2 !== -1) content = content.slice(0, nextH2);
+  const blocks = content.split(/^###\s+/m).slice(1);
+  const items = [];
+  for (const b of blocks) {
+    const nl = b.indexOf('\n');
+    if (nl === -1) continue;
+    const question = b.slice(0, nl).trim();
+    const answer = b
+      .slice(nl)
+      .trim()
+      .replace(/\[([^\]]+)\]\([^)]*\)/g, '$1')
+      .replace(/[*_`>#]/g, '')
+      .replace(/\s+/g, ' ')
+      .trim();
+    if (question && answer) items.push({ question, answer });
+  }
+  return items;
+}
+
+// Render a FAQPage JSON-LD <script> from extracted FAQ items. Empty string when
+// there is no FAQ. `<` is escaped so the JSON can never break out of <script>.
+function renderFaqJsonLd(faqItems) {
+  if (!faqItems || !faqItems.length) return '';
+  const obj = {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: faqItems.map((it) => ({
+      '@type': 'Question',
+      name: it.question,
+      acceptedAnswer: { '@type': 'Answer', text: it.answer }
+    }))
+  };
+  const json = JSON.stringify(obj, null, 2).replace(/</g, '\\u003c');
+  return `<script type="application/ld+json">\n${json}\n  </script>`;
+}
+
 // Read every content/journal/*.md, parse frontmatter + render the markdown
 // body to HTML, newest first. Posts with `draft: true` are skipped.
 async function loadJournalPosts() {
@@ -172,6 +217,7 @@ async function loadJournalPosts() {
       seoDescription: data.seoDescription || '',
       author: data.author || '',
       authorRole: data.authorRole || '',
+      faq: extractFaq(body),
       bodyHtml: enrichArticleHtml(marked.parse(body.trim()))
     });
   }
@@ -618,7 +664,8 @@ async function generatePostPages(posts, baseVars) {
       post_excerpt_block: excerptBlock,
       post_body_html: post.bodyHtml || '<p class="jp-empty">This post has no body yet.</p>',
       post_author_name: escAttr(post.author || 'Bisou Phuket'),
-      post_author_block: authorBlock
+      post_author_block: authorBlock,
+      post_faq_jsonld: renderFaqJsonLd(post.faq)
     };
 
     const html = applyMustache(tpl, vars);

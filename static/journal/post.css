@@ -141,6 +141,33 @@ body.page-journal-index {
 .jp-body ul, .jp-body ol { padding-left: 1.4rem; margin: 0 0 1.4rem; }
 .jp-body li { margin: 0 0 0.4rem; }
 
+/* Comparison tables: bordeaux header rule, tinted first row (always Bisou),
+   horizontal scroll on phones. Renders premium from a plain Markdown table. */
+.jp-body table {
+  display: block;
+  width: 100%;
+  overflow-x: auto;
+  border-collapse: collapse;
+  margin: 0 0 1.7rem;
+  font-family: var(--font-sans);
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
+.jp-body table th,
+.jp-body table td {
+  padding: 0.6rem 0.75rem;
+  text-align: left;
+  vertical-align: top;
+  border-bottom: 1px solid rgba(110, 31, 42, 0.18);
+}
+.jp-body table th {
+  font-weight: 500;
+  white-space: nowrap;
+  border-bottom: 2px solid var(--peach-dark);
+}
+.jp-body table tbody tr:first-child { background: rgba(110, 31, 42, 0.06); }
+.jp-body table tbody tr:first-child td:first-child { font-weight: 600; }
+
 .jp-author {
   display: flex; align-items: center; gap: 1rem;
   margin: 3rem 0 0;
