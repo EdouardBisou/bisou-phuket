@@ -188,6 +188,56 @@ function renderFaqJsonLd(faqItems) {
   return `<script type="application/ld+json">\n${json}\n  </script>`;
 }
 
+// Pull the ranked items out of a listicle: the first markdown table's first
+// column (the ranked venue names, with an optional external link). Returns
+// [{name, url?}], or [] when there is no table. Used to emit ItemList JSON-LD,
+// which AI answer-engines extract as a ranked list.
+function extractListItems(md) {
+  const lines = md.split(/\r?\n/);
+  let start = -1;
+  for (let i = 0; i < lines.length - 1; i++) {
+    if (/^\s*\|.*\|\s*$/.test(lines[i]) && /^\s*\|[\s:|-]+\|\s*$/.test(lines[i + 1])) {
+      start = i;
+      break;
+    }
+  }
+  if (start === -1) return [];
+  const items = [];
+  for (let i = start + 2; i < lines.length; i++) {
+    if (!/^\s*\|.*\|\s*$/.test(lines[i])) break;
+    const cells = lines[i].replace(/^\s*\|/, '').replace(/\|\s*$/, '').split('|').map((c) => c.trim());
+    const cell = cells[0] || '';
+    if (!cell) continue;
+    let url = '';
+    let name = cell;
+    const link = cell.match(/\[([^\]]+)\]\(([^)]+)\)/);
+    if (link) {
+      name = link[1].trim();
+      if (/^https?:\/\//.test(link[2])) url = link[2].trim();
+    }
+    name = name.replace(/\*\*/g, '').replace(/[*_`]/g, '').trim();
+    if (name) items.push(url ? { name, url } : { name });
+  }
+  return items;
+}
+
+// Render an ItemList JSON-LD <script> from extracted listicle items (a ranked
+// list of named venues). Empty string when there are none.
+function renderItemListJsonLd(items) {
+  if (!items || !items.length) return '';
+  const obj = {
+    '@context': 'https://schema.org',
+    '@type': 'ItemList',
+    itemListElement: items.map((it, i) => {
+      const li = { '@type': 'ListItem', position: i + 1, name: it.name };
+      if (it.url) li.url = it.url;
+      return li;
+    })
+  };
+  const json = JSON.stringify(obj, null, 2).replace(/</g, '\\u003c');
+  return `<script type="application/ld+json">\n${json}\n  </script>`;
+}
+
 // Read every content/journal/*.md, parse frontmatter + render the markdown
 // body to HTML, newest first. Posts with `draft: true` are skipped.
 async function loadJournalPosts() {
@@ -217,7 +267,9 @@ async function loadJournalPosts() {
       seoDescription: data.seoDescription || '',
       author: data.author || '',
       authorRole: data.authorRole || '',
+      listicle: String(data.listicle).toLowerCase() === 'true',
       faq: extractFaq(body),
+      listItems: extractListItems(body),
       bodyHtml: enrichArticleHtml(marked.parse(body.trim()))
     });
   }
@@ -379,7 +431,11 @@ function fmtDateDisplay(iso) {
 
 function renderJournalCard(post) {
   const heroSrc = post.hero || '';
-  const srcset = localHeroSrcset(heroSrc);
+  // Cards use a clean, text-free photo variant when the hero is a generated cover:
+  // the designed title would be cropped in the small frame and duplicate the card's
+  // own title below. Falls through unchanged for articles with a plain photo hero.
+  const cardSrc = heroSrc.replace(/-cover-(\d+)\.(jpe?g|png|webp)/i, '-card-$1.$2');
+  const srcset = localHeroSrcset(cardSrc);
   const heroSrcset = srcset ? ` srcset="${escAttr(srcset)}" sizes="(max-width: 720px) 90vw, 360px"` : '';
   const date = fmtDateDisplay(post.publishedAt);
   const readTime = post.readMin ? `<span class="dot"></span><span>${post.readMin} min read</span>` : '';
@@ -388,7 +444,7 @@ function renderJournalCard(post) {
   const portrait = post.heroFit === 'portrait' ? ' journal-card--portrait' : '';
   return `        <article class="journal-card${portrait}" data-reveal>
           <a href="/journal/${escAttr(post.slug)}" class="journal-card__media" aria-label="${escAttr(post.title)}">
-            <img src="${escAttr(heroSrc)}" alt="${escAttr(post.heroAlt || '')}" loading="lazy"${heroSrcset} />
+            <img src="${escAttr(cardSrc)}" alt="${escAttr(post.heroAlt || '')}" loading="lazy"${heroSrcset} />
             <span class="journal-card__cat">${escHtml(post.category || '')}</span>
           </a>
           <div class="journal-card__body">
@@ -450,6 +506,37 @@ function renderTeam(members) {
 
 // ---------- i18n (localized homepages) ----------
 const SITE_URL = 'https://bisouphuket.com';
+
+// ---------- llms.txt ----------
+// A markdown summary of the site for LLM ingestion (the emerging /llms.txt
+// convention): what Bisou is, the key pages, and every journal article with a
+// one-line description. Generated at build time so AI engines get a clean,
+// current overview. Keep the blurb in sync with content/site.md.
+// Bisou Phuket is NOT in the MICHELIN Guide: never imply Michelin here.
+function renderLlmsTxt(posts) {
+  const lines = [
+    '# Bisou Phuket',
+    '',
+    '> Bisou is a modern French restaurant and cocktail bar in Cherngtalay, Phuket. French cooking plated to share, a proper cocktail bar, candlelight. Tagline: simple & sexy. Est. 2025.',
+    '',
+    'Bisou Phuket is at No.4 Bandon-Cherngtalay Rd, Choeng Thale, Thalang, Phuket 83110, a short drive from Laguna, Boat Avenue and Bang Tao Beach. Dinner nightly from 6:00 PM to 1:00 AM. Reserve at https://book.bistrochat.com/bisou-phuket.',
+    '',
+    '## Key pages',
+    `- [Home](${SITE_URL}/): the restaurant, concept and reservations`,
+    `- [Menu](${SITE_URL}/menu): the food menu`,
+    `- [Private events](${SITE_URL}/private-events): private dining and buyouts`,
+    `- [Journal](${SITE_URL}/journal): guides and notes from Bisou`,
+    '',
+    '## Journal articles'
+  ];
+  for (const p of posts || []) {
+    if (!p.slug) continue;
+    const one = (p.excerpt || p.seoDescription || '').replace(/\s+/g, ' ').trim();
+    lines.push(`- [${p.title}](${SITE_URL}/journal/${p.slug})${one ? ': ' + one : ''}`);
+  }
+  lines.push('');
+  return lines.join('\n');
+}
 
 // Per-locale webfonts: the brand display stack has no CJK/Thai glyphs, so zh/th
 // load Noto and repoint the --font-* CSS variables. Russian renders via Poiret
@@ -665,7 +752,8 @@ async function generatePostPages(posts, baseVars) {
       post_body_html: post.bodyHtml || '<p class="jp-empty">This post has no body yet.</p>',
       post_author_name: escAttr(post.author || 'Bisou Phuket'),
       post_author_block: authorBlock,
-      post_faq_jsonld: renderFaqJsonLd(post.faq)
+      post_faq_jsonld: renderFaqJsonLd(post.faq),
+      post_itemlist_jsonld: post.listicle ? renderItemListJsonLd(post.listItems) : ''
     };
 
     const html = applyMustache(tpl, vars);
@@ -798,6 +886,9 @@ async function build() {
 
   await fs.writeFile(path.join(DIST, 'sitemap.xml'), generateSitemap(journal, LOCALES), 'utf-8');
   console.log(`[build] generated sitemap.xml (5 core + ${LOCALES.length} locale homepages + ${journal.length} journal posts)`);
+
+  console.log('[build] writing llms.txt');
+  await fs.writeFile(path.join(DIST, 'llms.txt'), renderLlmsTxt(journal), 'utf-8');
 
   const summary = await summarizeDir(DIST);
   console.log(

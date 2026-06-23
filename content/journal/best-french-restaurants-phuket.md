@@ -11,6 +11,7 @@ seoTitle: Best French Restaurants in Phuket | Bisou Phuket
 seoDescription: The best French restaurants in Phuket, from MICHELIN-listed fine dining above Kalim to Cherngtalay bistros, plus Bisou, modern French in Bang Tao.
 author: Bisou Phuket
 authorRole: Editorial
+listicle: true
 draft: false
 ---
 

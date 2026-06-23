@@ -45,7 +45,11 @@
     "articleSection": "{{post_category}}",
     "inLanguage": "en",
     "url": "https://bisouphuket.com/journal/{{post_slug}}",
-    "mainEntityOfPage": { "@type": "WebPage", "@id": "https://bisouphuket.com/journal/{{post_slug}}" }
+    "mainEntityOfPage": { "@type": "WebPage", "@id": "https://bisouphuket.com/journal/{{post_slug}}" },
+    "speakable": {
+      "@type": "SpeakableSpecification",
+      "cssSelector": [".jp-excerpt", ".jp-body > p:first-of-type"]
+    }
   }
   </script>
 
@@ -62,6 +66,8 @@
   </script>
 
   {{post_faq_jsonld}}
+
+  {{post_itemlist_jsonld}}
 
   <!-- Google Analytics 4 -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-PSREG5VFM4"></script>

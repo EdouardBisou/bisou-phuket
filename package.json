@@ -8,9 +8,12 @@
     "sanity:deploy": "sanity deploy",
     "sanity:dev": "sanity dev",
     "seed:team": "node scripts/seed-team.mjs",
-    "seed:menu": "node scripts/seed-menu.mjs"
+    "seed:menu": "node scripts/seed-menu.mjs",
+    "cover": "node scripts/build-cover.mjs",
+    "preview": "node scripts/build-article-preview.mjs"
   },
   "dependencies": {
+    "@resvg/resvg-js": "^2.6.2",
     "@sanity/client": "^6.22.2",
     "@sanity/vision": "^3.57.4",
     "dotenv": "^16.4.5",
@@ -18,6 +21,7 @@
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "sanity": "^3.57.4",
+    "sharp": "^0.35.1",
     "styled-components": "^6.4.2"
   },
   "devDependencies": {
