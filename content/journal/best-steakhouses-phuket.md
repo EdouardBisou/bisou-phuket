@@ -24,7 +24,7 @@ Eleven restaurants make this list as of July 2026: Wagyu Steakhouse at Twinpalms
 
 | Restaurant | Known for | Where | MICHELIN 2026 | Price signal |
 | --- | --- | --- | --- | --- |
-| Bisou | Wagyu hanger and tableside beef Wellington in a French room | Cherngtalay, near Bang Tao | Not listed | Wellington THB 2,990 |
+| Bisou | Wagyu hanger and tableside beef Wellington in a French room | Cherngtalay, near Bang Tao | Not listed | Hanger THB 590/100g |
 | Wagyu Steakhouse | Wagyu dry-aged up to 45 days, Josper oven, beef fridge | Twinpalms, Surin Beach | Selected | A5 striploin THB 1,500/100g |
 | Ember Steakhouse | Two-storey live-fire room on the sand | Bang Tao Beach | Not listed | About THB 700 to 1,500 a head |
 | Benny's Cocktails & Grill | A5 Kagoshima tasting flights, jazz nights | Bang Tao / Surin | Not listed | A5 flight from THB 750 |
@@ -40,7 +40,7 @@ Eleven restaurants make this list as of July 2026: Wagyu Steakhouse at Twinpalms
 
 The west coast between Bang Tao and Surin holds the island's best meat, four rooms in a ten-minute radius: Bisou, Ember, Benny's and Wagyu Steakhouse.
 
-[Bisou](/) is the French way into this list. It is not a dedicated steakhouse: it is a modern French restaurant and cocktail bar at No.4 Bandon-Cherngtalay Road, founded in 2025 by chef Antoine Darquin and sommelier Théo Lavergne, with head chef Manon Bares in the kitchen. The beef runs deeper than most French rooms on the island: a wagyu hanger steak, a wagyu tartare with potato chips and egg yolk, a 24-hour slow-cooked beef cheek, and the centrepiece, a beef Wellington with foie gras and mushroom at THB 2,990, carved at the table. Bisou is not in the MICHELIN Guide. What it offers instead is the full evening: dinner nightly from 6 PM, plates built to share, and a cocktail bar that runs to 1 AM, long after most Cherngtalay kitchens have gone dark.
+[Bisou](/) is the French way into this list. It is not a dedicated steakhouse: it is a modern French restaurant and cocktail bar at No.4 Bandon-Cherngtalay Road, founded in 2025 by chef Antoine Darquin and sommelier Théo Lavergne, with head chef Manon Bares in the kitchen. The beef runs deeper than most French rooms on the island: a wagyu hanger steak at THB 590 per 100g, a wagyu tartare with potato chips and egg yolk, a 24-hour slow-cooked beef cheek, and the centrepiece, a beef Wellington with foie gras and mushroom at THB 2,990, carved at the table. Bisou is not in the MICHELIN Guide. What it offers instead is the full evening: dinner nightly from 6 PM, plates built to share, and a cocktail bar that runs to 1 AM, long after most Cherngtalay kitchens have gone dark.
 
 [Ember Steakhouse](https://embersteakhousephuket.com/) puts live fire directly on Bang Tao Beach: a two-storey room with a wood-fired kitchen at sand level and a rooftop facing the Andaman, led by chef Gautam Sethi. The order is the wood-fired Ebony Black Angus tomahawk for the table, with Australian wagyu rib-eye and Japanese A5 for the purists.
 
@@ -94,7 +94,7 @@ Within about ten minutes of Bang Tao and Laguna you can eat wood-fired steak at 
 
 ### How much does wagyu cost in Phuket?
 
-As of July 2026, Japanese A5 wagyu in Phuket runs about THB 1,500 per 100g for Miyazaki striploin at Wagyu Steakhouse, and from THB 750 for a 2oz A5 Kagoshima tasting at Benny's. Australian wagyu is gentler: a 300g striploin is THB 2,199 at CHAR'D Grill, and Bisou in Cherngtalay serves a wagyu hanger steak and carves a beef Wellington for the table at THB 2,990.
+As of July 2026, Japanese A5 wagyu in Phuket runs about THB 1,500 per 100g for Miyazaki striploin at Wagyu Steakhouse, and from THB 750 for a 2oz A5 Kagoshima tasting at Benny's. Australian wagyu is gentler: a 300g striploin is THB 2,199 at CHAR'D Grill, and Bisou in Cherngtalay serves a wagyu hanger steak at THB 590 per 100g and carves a beef Wellington for the table at THB 2,990.
 
 ### Where can I get a tomahawk steak to share in Phuket?
 
