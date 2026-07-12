@@ -32,7 +32,7 @@ The practical rule is that most Cherngtalay and Bang Tao Beach kitchens stop tak
 
 This matters most if you land late at Phuket International Airport, which is about a 25 to 30 minute drive north of Cherngtalay, or if you are coming off a long beach-club afternoon and want a proper sit-down dinner at 10 or 11 PM. In those cases, calling ahead or booking a kitchen with confirmed late hours is the difference between a real meal and a convenience-store sandwich.
 
-Phuket's dining scene has grown sharply in profile. The MICHELIN Guide first covered Phuket in 2019, alongside Phang-nga, the first year its Thailand selection reached beyond Bangkok, according to the [MICHELIN Guide](https://guide.michelin.com/th/en). That attention has lifted the daytime and prime-evening offer across the island, but late-night sit-down dining on the quieter west coast remains limited. Bisou is not in the MICHELIN Guide.
+Phuket's dining scene has grown sharply in profile. The MICHELIN Guide first covered Phuket in 2019, alongside Phang-nga, the first year its Thailand selection reached beyond Bangkok, according to the [MICHELIN Guide](https://guide.michelin.com/th/en). That attention has lifted the daytime and prime-evening offer across the island, but late-night sit-down dining on the quieter west coast remains limited.
 
 ## Late-night options ranked by how late they serve
 

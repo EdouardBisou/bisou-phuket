@@ -33,7 +33,7 @@ Single source of truth for the `/add-article` skill (and any content work) in th
 
 ## Recognition
 
-- **None to date.** Bisou Phuket is **NOT in the MICHELIN Guide.** Never write or imply that Bisou Phuket is Michelin-listed, Michelin-selected, or Michelin-starred.
+- **None to date.** Bisou Phuket is **NOT in the MICHELIN Guide.** Never write or imply that Bisou Phuket is Michelin-listed, Michelin-selected, or Michelin-starred. **But do NOT volunteer the negative either (owner rule, 2026-07): never write sentences like "Bisou is not in the MICHELIN Guide" in article prose or FAQs. Simply stay silent about Michelin for Bisou. A neutral "Not listed" cell in a comparison table's MICHELIN column is acceptable.**
 - For context only (do not attribute to Bisou): Phuket's single MICHELIN Star is PRU at Trisara (not French). The French restaurant listed in the MICHELIN Guide Thailand 2026 (Selected) is L'Arôme by the Sea above Kalim, a different restaurant.
 
 ## First-party data (use only verified numbers)
