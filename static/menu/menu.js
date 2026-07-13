@@ -175,11 +175,37 @@
     document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && box.classList.contains('is-open')) close(); });
   }
 
+  /* ---------- EN / РУС segmented toggle ---------- */
+  // Swaps the bilingual span pairs by setting html[data-menu-lang]; the build
+  // emits both languages so the switch is instant, no re-render. The choice is
+  // remembered so a returning guest scanning the QR lands in their language.
+  function wireLangToggle() {
+    const group = qs('[data-lang-group]');
+    if (!group) return;
+    const KEY = 'bisou-menu-lang';
+    const btns = qsa('button[data-lang]', group);
+    const langs = btns.map((b) => b.getAttribute('data-lang'));
+    const apply = (lang) => {
+      if (lang === 'en') document.documentElement.removeAttribute('data-menu-lang');
+      else document.documentElement.setAttribute('data-menu-lang', lang);
+      btns.forEach((b) => b.setAttribute('aria-pressed', String(b.getAttribute('data-lang') === lang)));
+    };
+    let lang = 'en';
+    try { const saved = localStorage.getItem(KEY); if (langs.includes(saved)) lang = saved; } catch (e) { /* private mode */ }
+    apply(lang);
+    btns.forEach((b) => b.addEventListener('click', () => {
+      lang = b.getAttribute('data-lang');
+      try { localStorage.setItem(KEY, lang); } catch (e) { /* private mode */ }
+      apply(lang);
+    }));
+  }
+
   function boot() {
     wireMenuTabs();
     wireMenuHover();
     wireChips();
     wireLightbox();
+    wireLangToggle();
   }
 
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', boot);

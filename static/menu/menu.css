@@ -28,7 +28,25 @@ html:has(body.page-menu) { background: var(--cream); }
   border-bottom: 1px solid rgba(14, 14, 14, 0.08);
 }
 .pm-nav__brand img { height: 22px; width: auto; display: block; filter: brightness(0); }
+.pm-nav__right { display: flex; align-items: center; gap: 10px; }
 .pm-nav__cta { font-size: 0.62rem; padding: 0.7rem 1.2rem; }
+
+/* EN / РУС language toggle (segmented) */
+.pm-lang {
+  display: inline-flex; align-items: stretch;
+  border: 1px solid rgba(14, 14, 14, 0.22);
+  border-radius: 999px; overflow: hidden; background: none;
+}
+.pm-lang button {
+  font-family: var(--font-sans), sans-serif;
+  font-size: 0.66rem; letter-spacing: 0.06em; line-height: 1;
+  padding: 0.55rem 0.65rem; white-space: nowrap;
+  color: var(--noir); background: none; border: 0; cursor: pointer;
+  transition: background .3s ease, color .3s ease;
+}
+.pm-lang button + button { border-left: 1px solid rgba(14, 14, 14, 0.14); }
+.pm-lang button[aria-pressed="true"],
+.pm-lang button:hover, .pm-lang button:focus-visible { background: var(--peach-dark); color: var(--cream); }
 
 /* ---------- Responsive toggle ---------- */
 .photo-menu { display: block; }

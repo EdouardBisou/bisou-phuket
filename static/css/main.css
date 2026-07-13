@@ -2484,3 +2484,14 @@ a.footer__outlet:hover strong { color: var(--peach-dark); }
 .home-faq .sec-index__num{color:#6E1F2A;}
 .home-faq .sec-index__label{color:rgba(14,14,14,.5);}
 .home-faq .kiss-stamp{background-color:#6E1F2A;}
+
+/* ============================================================
+   MENU i18n — bilingual EN/RU span pairs emitted by the build.
+   Russian is hidden by default everywhere (the home photo menu
+   carries the spans but has no toggle); /menu sets
+   html[data-menu-lang="ru"] via the EN/РУС control and the pair
+   swaps. Cyrillic renders fine in the site's sans stack.
+   ============================================================ */
+.i18n-ru { display: none; }
+html[data-menu-lang="ru"] .i18n-en { display: none; }
+html[data-menu-lang="ru"] .i18n-ru { display: inline; }

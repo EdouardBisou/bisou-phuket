@@ -285,6 +285,16 @@ function slugify(s) {
     .replace(/^-+|-+$/g, '');
 }
 
+// Bilingual text: emits an English + Russian span pair; CSS shows one at a
+// time based on html[data-menu-lang] (the /menu EN/РУС toggle). When no
+// Russian exists yet, emits the English alone so it can never be hidden,
+// a graceful fallback while the staff fills translations in Sanity.
+function bi(en, ru) {
+  const r = ru == null ? '' : String(ru).trim();
+  if (!r) return escHtml(en);
+  return `<span class="i18n-en">${escHtml(en)}</span><span class="i18n-ru" lang="ru">${escHtml(r)}</span>`;
+}
+
 // Mobile photo menu (/menu): food categories only, rendered as a sticky chip
 // bar + photo-grid sections. Each dish is photo + name + price; the full-res
 // image goes on data-full for the tap-to-zoom lightbox. A dish without a photo
@@ -297,7 +307,7 @@ function renderPhotoMenu(categories) {
   const chips = food
     .map(
       (cat) =>
-        `<a class="pm-chip" href="#cat-${slugify(cat.title)}" data-chip="cat-${slugify(cat.title)}">${escHtml(cat.title)}</a>`
+        `<a class="pm-chip" href="#cat-${slugify(cat.title)}" data-chip="cat-${slugify(cat.title)}">${bi(cat.title, cat.titleRu)}</a>`
     )
     .join('\n        ');
 
@@ -318,7 +328,7 @@ function renderPhotoMenu(categories) {
           <figure class="pm-dish">
             ${media}
             <figcaption class="pm-dish__cap">
-              <span class="pm-dish__name">${escHtml(it.name)}</span>
+              <span class="pm-dish__name">${bi(it.name, it.nameRu)}</span>
               <span class="pm-dish__price">${escHtml(price)}</span>
             </figcaption>
           </figure>`;
@@ -326,7 +336,7 @@ function renderPhotoMenu(categories) {
         .join('');
       return `
       <section class="pm-cat" id="cat-${slugify(cat.title)}" data-pm-cat>
-        <h2 class="pm-cat__label">${escHtml(cat.title)}</h2>
+        <h2 class="pm-cat__label">${bi(cat.title, cat.titleRu)}</h2>
         <div class="pm-grid">${cards}
         </div>
       </section>`;
@@ -364,18 +374,18 @@ function renderMenu(categories, { kinds = ['food', 'drink', 'wine'] } = {}) {
                   data-dish-price="${escAttr(price)}"
                   data-dish-image="${escAttr(imageUrl)}">
                 <div class="menu__item-name">
-                  <span>${escHtml(it.name)}</span>
+                  <span>${bi(it.name, it.nameRu)}</span>
                   ${tag ? `<span class="menu__item-tag">${escHtml(tag)}</span>` : ''}
                 </div>
                 <div class="menu__item-price">${escHtml(price)}</div>
-                ${it.description ? `<div class="menu__item-desc">${escHtml(it.description)}</div>` : ''}
+                ${it.description ? `<div class="menu__item-desc">${bi(it.description, it.descriptionRu)}</div>` : ''}
               </li>`;
             })
             .join('');
           return `
         <div class="menu__category">
           <header class="menu__category-head">
-            <h3 class="menu__category-title">${escHtml(cat.title)}</h3>
+            <h3 class="menu__category-title">${bi(cat.title, cat.titleRu)}</h3>
             ${cat.description ? `<p class="menu__category-desc">${escHtml(cat.description)}</p>` : ''}
           </header>
           <ul class="menu__list">${itemsHtml}

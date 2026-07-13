@@ -5,7 +5,7 @@
   "description": "Official website for Bisou Phuket, a modern French restaurant in Phuket.",
   "scripts": {
     "build": "node scripts/build-site.mjs",
-    "sanity:deploy": "sanity deploy",
+    "sanity:deploy": "node scripts/deploy-studio.mjs",
     "sanity:dev": "sanity dev",
     "seed:team": "node scripts/seed-team.mjs",
     "seed:menu": "node scripts/seed-menu.mjs",

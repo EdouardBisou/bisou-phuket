@@ -12,6 +12,12 @@ export default defineType({
       validation: (r) => r.required()
     }),
     defineField({
+      name: 'nameRu',
+      title: 'Name (Russian)',
+      type: 'string',
+      description: 'Название по-русски. Shown when guests switch /menu to Russian; falls back to English when empty.'
+    }),
+    defineField({
       name: 'category',
       title: 'Category',
       type: 'reference',
@@ -23,6 +29,13 @@ export default defineType({
       title: 'Description',
       type: 'text',
       rows: 2
+    }),
+    defineField({
+      name: 'descriptionRu',
+      title: 'Description (Russian)',
+      type: 'text',
+      rows: 2,
+      description: 'Описание по-русски. Optional; falls back to English when empty.'
     }),
     defineField({
       name: 'price',

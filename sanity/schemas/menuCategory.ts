@@ -7,6 +7,12 @@ export default defineType({
   fields: [
     defineField({ name: 'title', title: 'Title', type: 'string', validation: (r) => r.required() }),
     defineField({
+      name: 'titleRu',
+      title: 'Title (Russian)',
+      type: 'string',
+      description: 'Название категории по-русски. Shown when guests switch /menu to Russian; falls back to English when empty.'
+    }),
+    defineField({
       name: 'slug',
       title: 'Slug',
       type: 'slug',

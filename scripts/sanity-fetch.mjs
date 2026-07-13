@@ -41,6 +41,7 @@ const SITE_SETTINGS_QUERY = `*[_type == "siteSettings"][0]{
 const MENU_QUERY = `*[_type == "menuCategory"] | order(order asc){
   _id,
   title,
+  titleRu,
   "slug": slug.current,
   kind,
   order,
@@ -49,7 +50,9 @@ const MENU_QUERY = `*[_type == "menuCategory"] | order(order asc){
   "items": *[_type == "menuItem" && references(^._id)] | order(order asc){
     _id,
     name,
+    nameRu,
     description,
+    descriptionRu,
     price,
     priceNote,
     tags,
