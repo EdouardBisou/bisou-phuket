@@ -110,6 +110,7 @@ html:has(body.page-menu) { background: var(--cream); }
 .pm-dish__media:active .pm-dish__img { transform: scale(0.98); }
 .pm-dish__cap { padding: 6px 2px 0; }
 .pm-dish__name { display: block; font-family: var(--font-sans); font-size: 0.78rem; line-height: 1.25; color: var(--noir); }
+.pm-dish__desc { display: block; font-family: var(--font-sans); font-size: 0.68rem; line-height: 1.35; color: rgba(14, 14, 14, 0.55); margin-top: 2px; }
 .pm-dish__price { display: block; font-family: var(--font-sans); font-size: 0.76rem; color: var(--peach-dark); font-weight: 600; margin-top: 2px; }
 
 .pm-drinks {

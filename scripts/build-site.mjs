@@ -299,9 +299,9 @@ function bi(en, ru) {
 // bar + photo-grid sections. Each dish is photo + name + price; the full-res
 // image goes on data-full for the tap-to-zoom lightbox. A dish without a photo
 // still renders (discreet placeholder) so a category never shows a hole.
-function renderPhotoMenu(categories) {
+function renderPhotoMenu(categories, { kinds = ['food'] } = {}) {
   if (!categories || categories.length === 0) return null;
-  const food = categories.filter((c) => c.kind === 'food' && (c.items || []).length);
+  const food = categories.filter((c) => kinds.includes(c.kind) && (c.items || []).length);
   if (!food.length) return null;
 
   const chips = food
@@ -329,6 +329,7 @@ function renderPhotoMenu(categories) {
             ${media}
             <figcaption class="pm-dish__cap">
               <span class="pm-dish__name">${bi(it.name, it.nameRu)}</span>
+              ${it.description ? `<span class="pm-dish__desc">${bi(it.description, it.descriptionRu)}</span>` : ''}
               <span class="pm-dish__price">${escHtml(price)}</span>
             </figcaption>
           </figure>`;
@@ -857,7 +858,7 @@ async function build() {
     MENU: renderMenu(data.categories),
     HOME_MENU: renderMenu(data.categories, { kinds: ['food'] }),
     MENU_SCHEMA: renderMenuSchema(data.categories),
-    PHOTOMENU: renderPhotoMenu(data.categories),
+    PHOTOMENU: renderPhotoMenu(data.categories, { kinds: ['food', 'drink'] }),
     HOME_PHOTOMENU: renderPhotoMenu(data.categories),
     TEAM: renderTeam(data.team),
     JOURNAL_LIST: renderJournalList(journal, 3),
