@@ -2,7 +2,7 @@
 title: Private Dining and Group Dinners in Bang Tao and Cherngtalay
 slug: private-dining-bang-tao-cherngtalay
 category: Guide
-publishedAt: 2026-07-06
+publishedAt: 2026-07-18
 readMin: 5
 hero: /assets/photos/web/private-dining-bang-tao-cherngtalay-cover-1920.jpg
 heroAlt: The private dining table at Bisou, a modern French restaurant in Cherngtalay near Laguna and Bang Tao, Phuket, set in front of the wine cellar
