@@ -268,6 +268,10 @@ async function loadJournalPosts() {
       author: data.author || '',
       authorRole: data.authorRole || '',
       listicle: String(data.listicle).toLowerCase() === 'true',
+      premium: String(data.premium).toLowerCase() === 'true',
+      atAGlance: data.atAGlance || '',
+      ctaHref: data.ctaHref || '',
+      ctaLabel: data.ctaLabel || '',
       faq: extractFaq(body),
       listItems: extractListItems(body),
       bodyHtml: enrichArticleHtml(marked.parse(body.trim()))
@@ -299,9 +303,11 @@ function bi(en, ru) {
 // bar + photo-grid sections. Each dish is photo + name + price; the full-res
 // image goes on data-full for the tap-to-zoom lightbox. A dish without a photo
 // still renders (discreet placeholder) so a category never shows a hole.
-function renderPhotoMenu(categories, { kinds = ['food'] } = {}) {
+function renderPhotoMenu(categories, { kinds = ['food'], exclude = [] } = {}) {
   if (!categories || categories.length === 0) return null;
-  const food = categories.filter((c) => kinds.includes(c.kind) && (c.items || []).length);
+  const food = categories.filter(
+    (c) => kinds.includes(c.kind) && (c.items || []).length && !exclude.includes(slugify(c.title))
+  );
   if (!food.length) return null;
 
   const chips = food
@@ -711,6 +717,66 @@ async function renderTemplatesDir(src, dest, markers, vars) {
   }
 }
 
+// ---------- premium article layout (frontmatter `premium: true`) ----------
+// Opt-in per post. Non-premium posts get empty strings for every premium slot,
+// so their rendering is byte-identical to before. Everything stays server-
+// rendered HTML so AI engines and Google read the full text.
+function addH2Ids(html) {
+  const heads = [];
+  const out = html.replace(/<h2>([\s\S]*?)<\/h2>/g, (m, inner) => {
+    const text = inner.replace(/<[^>]+>/g, '').trim();
+    const id = 's-' + slugify(text).slice(0, 44);
+    heads.push({ id, text });
+    return `<h2 id="${id}">${inner}</h2>`;
+  });
+  return { html: out, heads };
+}
+function renderToc(heads, ctaLabel, ctaHref) {
+  if (!heads.length) return '';
+  const links = heads
+    .map((h) => {
+      const label = /frequently asked/i.test(h.text) ? 'Questions' : h.text;
+      return `<a href="#${h.id}" data-toc>${escHtml(label)}</a>`;
+    })
+    .join('\n      ');
+  const cta = ctaHref ? `\n      <a class="btn btn--gilt jp-toc__cta" href="${escAttr(ctaHref)}">${escHtml(ctaLabel || 'Enquire')}</a>` : '';
+  return `<aside class="jp-toc" aria-label="On this page">
+      <p class="jp-toc__lab">In this guide</p>
+      ${links}${cta}
+    </aside>`;
+}
+function renderGlance(text, ctaLabel, ctaHref) {
+  if (!text) return '';
+  const cta = ctaHref ? `<a class="btn btn--gilt" href="${escAttr(ctaHref)}">${escHtml(ctaLabel || 'Enquire')}</a>` : '';
+  return `<div class="jp-glance"><p class="jp-glance__lab">In short</p><p class="jp-glance__t">${escHtml(text)}</p>${cta}</div>\n`;
+}
+// Turn the FAQ (## Frequently asked questions + ### Q + answer) into a <details>
+// accordion. The question and answer text stay in the DOM, so extraction and the
+// separate FAQPage JSON-LD (built from the markdown source) are unaffected.
+function accordionFaq(html) {
+  const m = html.match(/<h2\b[^>]*>\s*Frequently asked questions\s*<\/h2>/i);
+  if (!m) return html;
+  const cut = m.index + m[0].length;
+  const before = html.slice(0, cut);
+  const rest = html.slice(cut).replace(
+    /<h3\b[^>]*>([\s\S]*?)<\/h3>\s*([\s\S]*?)(?=<h3\b|$)/g,
+    (mm, q, a) => `<details class="jp-faq"><summary>${q.trim()}<span class="jp-faq__pm" aria-hidden="true">+</span></summary><div class="jp-faq__a">${a.trim()}</div></details>`
+  );
+  return before + rest;
+}
+const PREMIUM_JS = `<script>
+(function(){
+  var p=document.getElementById('jpProgress');
+  if(p){var f=function(){var s=window.scrollY||0,h=document.documentElement.scrollHeight-window.innerHeight;p.style.width=(h>0?(s/h*100):0)+'%';};window.addEventListener('scroll',f,{passive:true});window.addEventListener('resize',f);f();}
+  var map={},ids=[];
+  [].forEach.call(document.querySelectorAll('.jp-toc a[data-toc]'),function(a){var id=a.getAttribute('href').slice(1);var s=document.getElementById(id);if(s){map[id]={a:a};ids.push(id);}});
+  if(ids.length&&'IntersectionObserver' in window){
+    var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){ids.forEach(function(k){map[k].a.classList.remove('on');});if(map[e.target.id])map[e.target.id].a.classList.add('on');}});},{rootMargin:'-25% 0px -68% 0px'});
+    ids.forEach(function(k){io.observe(document.getElementById(k));});
+  }
+})();
+</script>`;
+
 async function generatePostPages(posts, baseVars) {
   if (!posts || posts.length === 0) return 0;
   const tplPath = path.join(TEMPLATES, 'journal', '_post.html');
@@ -746,8 +812,27 @@ async function generatePostPages(posts, baseVars) {
     // og:image and JSON-LD need an absolute URL; the on-page <img> stays relative.
     const heroAbsolute = heroUrl.startsWith('/') ? `https://bisouphuket.com${heroUrl}` : heroUrl;
 
+    // Premium layout is opt-in (frontmatter premium: true). Non-premium posts
+    // keep every slot empty so their output does not change.
+    let bodyHtml = post.bodyHtml || '<p class="jp-empty">This post has no body yet.</p>';
+    let postBodyClass = '', postProgress = '', postToc = '', postStickyCta = '', postPremiumJs = '';
+    if (post.premium) {
+      const ided = addH2Ids(bodyHtml);
+      bodyHtml = renderGlance(post.atAGlance, post.ctaLabel, post.ctaHref) + accordionFaq(ided.html);
+      postBodyClass = ' jp-premium';
+      postProgress = '<div class="jp-progress" id="jpProgress" aria-hidden="true"></div>';
+      postToc = renderToc(ided.heads, post.ctaLabel, post.ctaHref);
+      postStickyCta = post.ctaHref ? `<div class="jp-mobcta"><a class="btn btn--gilt" href="${escAttr(post.ctaHref)}">${escHtml(post.ctaLabel || 'Enquire')}</a></div>` : '';
+      postPremiumJs = PREMIUM_JS;
+    }
+
     const vars = {
       ...baseVars,
+      post_body_class: postBodyClass,
+      post_progress: postProgress,
+      post_toc: postToc,
+      post_sticky_cta: postStickyCta,
+      post_premium_js: postPremiumJs,
       post_title: escHtml(post.title),
       post_seo_title: escHtml(post.seoTitle || post.title),
       post_title_attr: escAttr(post.seoTitle || post.title),
@@ -760,7 +845,7 @@ async function generatePostPages(posts, baseVars) {
       post_date_display: escHtml(fmtDateDisplay(post.publishedAt)),
       post_readtime_block: readtimeBlock,
       post_excerpt_block: excerptBlock,
-      post_body_html: post.bodyHtml || '<p class="jp-empty">This post has no body yet.</p>',
+      post_body_html: bodyHtml,
       post_author_name: escAttr(post.author || 'Bisou Phuket'),
       post_author_block: authorBlock,
       post_faq_jsonld: renderFaqJsonLd(post.faq),
@@ -858,7 +943,9 @@ async function build() {
     MENU: renderMenu(data.categories),
     HOME_MENU: renderMenu(data.categories, { kinds: ['food'] }),
     MENU_SCHEMA: renderMenuSchema(data.categories),
-    PHOTOMENU: renderPhotoMenu(data.categories, { kinds: ['food', 'drink'] }),
+    // Mocktails are excluded: they carry no dish photos, so they would render as
+    // empty placeholder cards in the photo grid. They stay on the desktop list.
+    PHOTOMENU: renderPhotoMenu(data.categories, { kinds: ['food', 'drink'], exclude: ['mocktails'] }),
     HOME_PHOTOMENU: renderPhotoMenu(data.categories),
     TEAM: renderTeam(data.team),
     JOURNAL_LIST: renderJournalList(journal, 3),

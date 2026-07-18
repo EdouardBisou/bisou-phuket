@@ -393,3 +393,84 @@ html:has(body.page-journal-index) {
   /* Tighten the hero so it never dominates the fold on a phone */
   .jp-heroImg--portrait { max-width: 300px; margin-top: 2rem; }
 }
+
+/* =====================================================
+   PREMIUM ARTICLE LAYOUT  (frontmatter `premium: true`)
+   Same cream paper and Champagne type as every journal post,
+   with a sticky table of contents, reading progress, an
+   at-a-glance card, space/venue cards, a FAQ accordion and a
+   sticky enquiry CTA. Scoped so ordinary posts are untouched.
+   ===================================================== */
+.jp-progress { position: fixed; top: 0; left: 0; height: 2px; width: 0; background: var(--peach-dark); z-index: 60; }
+
+.jp-premium .jp-article { max-width: 1080px; }
+.jp-premium .jp-hero,
+.jp-premium .jp-heroImg,
+.jp-premium .jp-body,
+.jp-premium .jp-author,
+.jp-premium .jp-foot { max-width: 760px; margin-left: auto; margin-right: auto; }
+@media (min-width: 1000px) {
+  .jp-premium .jp-main { display: grid; grid-template-columns: 200px minmax(0, 720px); justify-content: center; gap: 54px; align-items: start; }
+  .jp-premium .jp-body { max-width: none; margin: 0; }
+}
+
+.jp-toc { display: none; }
+@media (min-width: 1000px) {
+  .jp-toc { display: block; position: sticky; top: 92px; align-self: start; padding-top: 0.4rem; }
+}
+.jp-toc__lab { font-family: var(--font-sans); text-transform: uppercase; letter-spacing: 0.24em; font-size: 0.6rem; color: rgba(14,14,14,0.5); margin: 0 0 1rem; }
+.jp-toc a { display: block; font-family: var(--font-sans); font-size: 0.82rem; line-height: 1.35; color: rgba(14,14,14,0.5); padding: 7px 0 7px 14px; border-left: 2px solid rgba(14,14,14,0.1); border-bottom: none; transition: color 0.2s, border-color 0.2s; }
+.jp-toc a:hover { color: var(--peach-dark); }
+.jp-toc a.on { color: var(--peach-dark); border-left-color: var(--peach-dark); }
+.jp-toc__cta { margin-top: 1.6rem; font-size: 0.62rem; padding: 0.75rem 1.1rem; }
+
+.jp-glance { background: #FFFDF9; border: 1px solid rgba(110,31,42,0.28); border-radius: 6px; padding: 1.4rem 1.5rem; margin: 0 0 2.2rem; }
+.jp-glance__lab { font-family: var(--font-sans); text-transform: uppercase; letter-spacing: 0.24em; font-size: 0.6rem; color: var(--peach-dark); margin: 0 0 0.6rem; }
+.jp-glance__t { font-size: 1.02rem; line-height: 1.6; color: var(--noir); margin: 0 0 1.1rem; }
+
+.jp-premium .jp-body h2 { border-top: 1px solid rgba(14,14,14,0.1); padding-top: 2.2rem; margin-top: 2.8rem; scroll-margin-top: 88px; }
+.jp-premium .jp-body > p:first-of-type::first-letter { font-family: var(--font-display); font-size: 3.2rem; line-height: 0.78; float: left; padding: 0.1rem 0.5rem 0.1rem 0; color: var(--peach-dark); }
+
+.jp-trip { display: grid; grid-template-columns: 1fr; gap: 14px; margin: 1.6rem 0 0.5rem; }
+@media (min-width: 620px) { .jp-trip { grid-template-columns: repeat(3, 1fr); } }
+.jp-c3 { border: 1px solid rgba(14,14,14,0.1); border-radius: 6px; overflow: hidden; background: #fff; }
+.jp-c3__im { aspect-ratio: 4 / 5; background-size: cover; background-position: center; }
+.jp-c3__b { padding: 15px 16px 18px; }
+.jp-c3__k { font-family: var(--font-sans); text-transform: uppercase; letter-spacing: 0.2em; font-size: 0.6rem; color: var(--peach-dark); }
+.jp-c3 h3 { font-family: var(--font-display); font-size: 1.15rem; color: var(--noir); margin: 0.35rem 0 0.45rem; }
+.jp-c3 p { font-family: var(--font-sans); font-weight: 300; font-size: 0.85rem; color: rgba(14,14,14,0.6); line-height: 1.5; margin: 0; }
+
+.jp-rivals { display: flex; flex-direction: column; gap: 11px; margin: 1.6rem 0; }
+.jp-rv { display: flex; justify-content: space-between; align-items: baseline; gap: 14px; border: 1px solid rgba(14,14,14,0.1); border-radius: 6px; padding: 16px 18px; background: #fff; }
+.jp-rv--star { border-color: var(--peach-dark); background: rgba(110,31,42,0.045); }
+.jp-rv h3 { font-family: var(--font-display); font-size: 1.12rem; color: var(--noir); margin: 0; }
+.jp-rv__m { font-family: var(--font-sans); font-size: 0.78rem; color: rgba(14,14,14,0.55); margin-top: 3px; }
+.jp-rv p { font-family: var(--font-sans); font-weight: 300; font-size: 0.85rem; color: rgba(14,14,14,0.6); margin: 0.5rem 0 0; max-width: 52ch; }
+.jp-rv__badge { display: inline-block; font-family: var(--font-sans); text-transform: uppercase; letter-spacing: 0.14em; font-size: 0.55rem; color: #fff; background: var(--peach-dark); padding: 5px 11px; border-radius: 999px; margin-bottom: 0.5rem; }
+.jp-rv__near { font-family: var(--font-sans); text-transform: uppercase; letter-spacing: 0.14em; font-size: 0.6rem; color: var(--peach-dark); white-space: nowrap; flex-shrink: 0; }
+@media (max-width: 559px) { .jp-rv { flex-direction: column; } }
+
+.jp-pull { text-align: center; margin: 3rem 0; }
+.jp-pull p { font-family: var(--font-display); font-size: clamp(1.4rem, 3vw, 1.85rem); line-height: 1.3; color: var(--noir); margin: 0; }
+.jp-pull__src { display: block; font-family: var(--font-sans); text-transform: uppercase; letter-spacing: 0.22em; font-size: 0.6rem; color: var(--peach-dark); margin-top: 1rem; }
+
+.jp-faq { border-bottom: 1px solid rgba(14,14,14,0.1); }
+.jp-faq summary { list-style: none; cursor: pointer; padding: 16px 0; font-family: var(--font-display); font-size: 1.18rem; color: var(--noir); display: flex; justify-content: space-between; gap: 14px; align-items: center; }
+.jp-faq summary::-webkit-details-marker { display: none; }
+.jp-faq__pm { color: var(--peach-dark); font-family: var(--font-sans); transition: transform 0.25s; flex-shrink: 0; }
+.jp-faq[open] .jp-faq__pm { transform: rotate(45deg); }
+.jp-faq__a { padding: 0 0 16px; }
+.jp-faq__a p { margin: 0; }
+
+.jp-band { text-align: center; background: #FBF2E6; border: 1px solid rgba(110,31,42,0.18); border-radius: 8px; padding: clamp(2.2rem, 5vw, 3.4rem) 1.4rem; margin: 3rem 0 1rem; }
+.jp-premium .jp-band h2 { border: 0; padding: 0; margin: 0 0 0.6rem; font-size: clamp(1.6rem, 3.4vw, 2.2rem); }
+.jp-band p { font-family: var(--font-sans); font-weight: 300; color: rgba(14,14,14,0.7); margin: 0 0 1.4rem; }
+.jp-band__lab { text-transform: uppercase; letter-spacing: 0.28em; font-size: 0.62rem; color: var(--peach-dark); display: block; margin: 0 0 0.7rem; }
+
+.jp-mobcta { position: fixed; left: 0; right: 0; bottom: 0; z-index: 55; display: none; padding: 11px 14px calc(11px + env(safe-area-inset-bottom)); background: rgba(255,248,239,0.95); -webkit-backdrop-filter: blur(10px); backdrop-filter: blur(10px); border-top: 1px solid rgba(14,14,14,0.1); }
+.jp-mobcta .btn { display: flex; justify-content: center; width: 100%; padding: 13px; }
+@media (max-width: 999px) {
+  .jp-premium .jp-mobcta { display: block; }
+  body.jp-premium { padding-bottom: 66px; }
+}
+@media (prefers-reduced-motion: reduce) { .jp-toc a, .jp-faq__pm { transition: none; } }
