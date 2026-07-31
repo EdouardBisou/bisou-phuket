@@ -721,10 +721,21 @@ async function renderTemplatesDir(src, dest, markers, vars) {
 // Opt-in per post. Non-premium posts get empty strings for every premium slot,
 // so their rendering is byte-identical to before. Everything stays server-
 // rendered HTML so AI engines and Google read the full text.
+// The heading HTML has already been escaped by marked, so an apostrophe arrives
+// as &#39;. renderToc escapes again, which would print the entity literally.
+// Decode back to plain text here and let renderToc do the single escape.
+function decodeEntities(s) {
+  return String(s)
+    .replace(/&#39;/g, "'")
+    .replace(/&quot;/g, '"')
+    .replace(/&lt;/g, '<')
+    .replace(/&gt;/g, '>')
+    .replace(/&amp;/g, '&');
+}
 function addH2Ids(html) {
   const heads = [];
   const out = html.replace(/<h2>([\s\S]*?)<\/h2>/g, (m, inner) => {
-    const text = inner.replace(/<[^>]+>/g, '').trim();
+    const text = decodeEntities(inner.replace(/<[^>]+>/g, '')).trim();
     const id = 's-' + slugify(text).slice(0, 44);
     heads.push({ id, text });
     return `<h2 id="${id}">${inner}</h2>`;
