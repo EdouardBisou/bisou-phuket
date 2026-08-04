@@ -478,3 +478,139 @@ html:has(body.page-journal-index) {
   body.jp-premium { padding-bottom: 66px; }
 }
 @media (prefers-reduced-motion: reduce) { .jp-toc a, .jp-faq__pm { transition: none; } }
+
+/* =====================================================
+   ARTICLE, SECOND LAYER (2026-08)
+   Motion, a designed data callout, phone-readable tables.
+   Rules: no library, nothing hidden unless JS ran, and every
+   movement is off under prefers-reduced-motion.
+   ===================================================== */
+
+/* ---- scroll reveal ----
+   .jp-anim is set on <html> by the article script. Without it these rules do
+   not apply at all, so a page whose JS never runs shows everything. */
+.jp-anim .jp-rise {
+  opacity: 0;
+  transform: translateY(18px);
+  transition: opacity 0.75s ease, transform 0.75s cubic-bezier(0.2, 0.7, 0.2, 1);
+  will-change: opacity, transform;
+}
+.jp-anim .jp-rise.is-in { opacity: 1; transform: none; }
+
+/* ---- the hero settles as the page opens, and drifts as you read ---- */
+.jp-premium .jp-heroImg { overflow: hidden; }
+.jp-premium .jp-heroImg img {
+  transform: scale(1.06);
+  animation: jp-settle 1.5s cubic-bezier(0.2, 0.7, 0.2, 1) 0.05s forwards;
+}
+@keyframes jp-settle { to { transform: scale(1); } }
+
+/* ---- numbered sections: magazine scanning, and a stronger sense of place ---- */
+.jp-premium .jp-body { counter-reset: jpsec; }
+.jp-premium .jp-body h2 { counter-increment: jpsec; position: relative; }
+.jp-premium .jp-body h2::before {
+  content: counter(jpsec, decimal-leading-zero);
+  display: block;
+  font-family: var(--font-sans); font-weight: 500;
+  font-size: 0.62rem; letter-spacing: 0.28em;
+  color: var(--peach-dark); opacity: 0.75;
+  margin-bottom: 0.55rem;
+}
+/* the closing band and the FAQ are not numbered sections */
+.jp-premium .jp-band h2::before,
+.jp-premium .jp-body h2.jp-nonum::before { content: none; }
+
+/* ---- the data callout: the article's hard numbers, made to be seen and quoted ----
+   This is the GEO workhorse. A figure large enough to be the thing a reader
+   remembers, and a caption precise enough for an answer engine to lift whole. */
+.jp-key {
+  display: grid; gap: 0;
+  grid-template-columns: 1fr;
+  margin: 2.4rem 0;
+  border: 1px solid rgba(110, 31, 42, 0.22);
+  border-radius: 8px;
+  overflow: hidden;
+  background: #FFFDF9;
+}
+@media (min-width: 620px) { .jp-key--3 { grid-template-columns: repeat(3, 1fr); } .jp-key--2 { grid-template-columns: repeat(2, 1fr); } }
+.jp-key__i { padding: 1.5rem 1.4rem; text-align: center; border-top: 1px solid rgba(110, 31, 42, 0.14); }
+.jp-key__i:first-child { border-top: none; }
+@media (min-width: 620px) {
+  .jp-key__i { border-top: none; border-left: 1px solid rgba(110, 31, 42, 0.14); }
+  .jp-key__i:first-child { border-left: none; }
+}
+.jp-key__n {
+  display: block; font-family: var(--font-display); font-weight: 400;
+  font-size: clamp(2.1rem, 6vw, 2.9rem); line-height: 1; color: var(--peach-dark);
+}
+.jp-key__n small { font-family: var(--font-sans); font-size: 0.68rem; letter-spacing: 0.14em; opacity: 0.7; margin-left: 0.3rem; }
+.jp-key__l {
+  display: block; margin-top: 0.6rem;
+  font-family: var(--font-sans); font-weight: 300;
+  font-size: 0.78rem; line-height: 1.45; color: rgba(14, 14, 14, 0.62);
+}
+
+/* ---- figures: a caption and a credit, like a magazine ---- */
+.jp-body figure { margin: 2.4rem 0; }
+.jp-body figure img { margin: 0; border-radius: 6px; }
+.jp-body figcaption {
+  margin-top: 0.7rem; padding-left: 0.9rem;
+  border-left: 2px solid var(--gold);
+  font-family: var(--font-sans); font-weight: 300;
+  font-size: 0.76rem; line-height: 1.5; color: rgba(14, 14, 14, 0.55);
+}
+
+/* ---- tables: a designed grid on desktop, a stack of cards on a phone ----
+   Below 620px each row becomes its own card and every cell carries its column
+   header, injected from the DOM. No horizontal scrolling, nothing truncated. */
+.jp-premium .jp-body table {
+  width: 100%; border-collapse: collapse; margin: 1.8rem 0;
+  font-family: var(--font-sans); font-size: 0.86rem;
+  background: #FFFDF9; border: 1px solid rgba(14, 14, 14, 0.1); border-radius: 8px; overflow: hidden;
+}
+.jp-premium .jp-body thead th {
+  text-align: left; font-weight: 500;
+  font-size: 0.62rem; letter-spacing: 0.18em; text-transform: uppercase;
+  color: var(--peach-dark); background: rgba(110, 31, 42, 0.05);
+  padding: 12px 14px; border-bottom: 1px solid rgba(110, 31, 42, 0.16);
+}
+.jp-premium .jp-body tbody td {
+  padding: 13px 14px; vertical-align: top; line-height: 1.5;
+  color: rgba(14, 14, 14, 0.78); border-top: 1px solid rgba(14, 14, 14, 0.08);
+}
+.jp-premium .jp-body tbody tr:first-child td { border-top: none; }
+.jp-premium .jp-body tbody td:first-child { font-weight: 500; color: var(--noir); }
+
+@media (max-width: 619px) {
+  .jp-premium .jp-body table, .jp-premium .jp-body tbody, .jp-premium .jp-body tr, .jp-premium .jp-body td { display: block; width: 100%; }
+  .jp-premium .jp-body thead { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+  .jp-premium .jp-body table { border: none; background: none; }
+  .jp-premium .jp-body tbody tr {
+    background: #FFFDF9; border: 1px solid rgba(14, 14, 14, 0.1);
+    border-radius: 8px; padding: 4px 14px 12px; margin-bottom: 12px;
+  }
+  .jp-premium .jp-body tbody td { border-top: none; padding: 9px 0 0; }
+  .jp-premium .jp-body tbody td::before {
+    content: attr(data-th);
+    display: block; margin-bottom: 2px;
+    font-size: 0.58rem; letter-spacing: 0.16em; text-transform: uppercase;
+    color: var(--peach-dark); opacity: 0.85;
+  }
+  .jp-premium .jp-body tbody td:first-child {
+    font-family: var(--font-display); font-size: 1.1rem; color: var(--noir);
+    padding-top: 12px;
+  }
+  .jp-premium .jp-body tbody td:first-child::before { content: none; }
+}
+
+/* ---- end mark ---- */
+.jp-end {
+  display: block; text-align: center; margin: 2.8rem 0 0;
+  font-family: var(--font-display); font-size: 1.5rem; color: var(--gold);
+  opacity: 0.75;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .jp-anim .jp-rise { opacity: 1; transform: none; transition: none; }
+  .jp-premium .jp-heroImg img { animation: none; transform: none; }
+}

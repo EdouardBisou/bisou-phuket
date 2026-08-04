@@ -785,6 +785,32 @@ const PREMIUM_JS = `<script>
     var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){ids.forEach(function(k){map[k].a.classList.remove('on');});if(map[e.target.id])map[e.target.id].a.classList.add('on');}});},{rootMargin:'-25% 0px -68% 0px'});
     ids.forEach(function(k){io.observe(document.getElementById(k));});
   }
+  // Scroll reveal. The resting state is added HERE, not in the stylesheet, so a
+  // blocked or broken script leaves the article fully readable instead of blank.
+  // Everything plays once. prefers-reduced-motion is honoured in the CSS.
+  var body=document.querySelector('.jp-body');
+  if(body&&'IntersectionObserver' in window){
+    var targets=[].slice.call(body.querySelectorAll('h2, figure, .jp-key, .jp-pull, .jp-band, .jp-rivals, .jp-trip, table'));
+    if(targets.length){
+      document.documentElement.classList.add('jp-anim');
+      targets.forEach(function(el){el.classList.add('jp-rise');});
+      var ro=new IntersectionObserver(function(es){
+        es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('is-in');ro.unobserve(e.target);}});
+      },{rootMargin:'0px 0px -8% 0px',threshold:0.12});
+      targets.forEach(function(el){ro.observe(el);});
+    }
+  }
+
+  // Tables carry their column headers into each cell on a phone, where the
+  // table is redrawn as a stack of cards. Done from the DOM so the Markdown
+  // author never has to repeat the headers.
+  [].forEach.call(document.querySelectorAll('.jp-body table'),function(t){
+    var hs=[].map.call(t.querySelectorAll('thead th'),function(th){return th.textContent.trim();});
+    if(!hs.length)return;
+    [].forEach.call(t.querySelectorAll('tbody tr'),function(tr){
+      [].forEach.call(tr.children,function(td,i){if(hs[i])td.setAttribute('data-th',hs[i]);});
+    });
+  });
 })();
 </script>`;
 

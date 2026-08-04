@@ -41,6 +41,13 @@ Single source of truth for the `/add-article` skill (and any content work) in th
 - Founded 2025. Dinner nightly 6:00 PM to 1:00 AM. Prices in THB (Sanity menu is the source of truth for current prices).
 - Do NOT reuse Bangkok's figures (covers per night, follower count, Google rating, awards). Those are Bangkok-only. If you want to cite a Phuket-specific number (covers, followers, reviews, capacity), confirm it with the owner first, then add it here.
 
+## Birthdays and celebrations (owner-confirmed 2026-08-04)
+
+- **Birthday month offer, Phuket only: 10% off the whole bill, for the entire table**, on presentation of an ID showing the guest was born in the current month. Not a birthday-day offer: any dinner during the birth month qualifies. Bisou Bangkok has NO equivalent offer, so never describe this as a group-wide policy.
+- **The birthday dessert plate is offered systematically**, at no charge. "Happy Birthday" is piped in chocolate across a large plate, with quenelles, edible flowers and a candle. Guests do not have to ask or pay for it.
+- **Guests may bring their own birthday cake, free of charge. There is no cakeage or corkage fee**, and the team will cut and serve it to the guests.
+- Bisou Phuket does not sell gift vouchers. Do not mention vouchers in Phuket copy.
+
 ## Signature dishes
 
 Truffle French toast; house beef Wellington; whole seabass in salt crust, flambeed at the table; black truffle pasta. (Confirm current dishes against the Sanity menu.)
