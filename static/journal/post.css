@@ -312,6 +312,8 @@ html:has(body.page-journal-index) {
 .page-journal-post .jp-back { color: var(--peach-dark); }
 .page-journal-post .jp-back:hover { color: var(--gold-light); }
 .page-journal-post .jp-category { color: var(--peach-dark); }
+/* the freshness stamp beside the date, when an article has been revised */
+.page-journal-post .jp-updated { color: var(--peach-dark); }
 .page-journal-post .jp-readtime { color: rgba(14, 14, 14, 0.5); }
 .page-journal-post .jp-title { color: var(--noir); }
 .page-journal-post .jp-excerpt { color: var(--peach-dark); }

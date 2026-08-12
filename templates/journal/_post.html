@@ -29,7 +29,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700&family=Poiret+One&family=Italiana&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
 
   <link rel="stylesheet" href="/css/main.css?v=44" />
-  <link rel="stylesheet" href="/journal/post.css?v=13" />
+  <link rel="stylesheet" href="/journal/post.css?v=9" />
 
   <script type="application/ld+json">
   {
@@ -38,7 +38,7 @@
     "headline": "{{post_title_attr}}",
     "image": "{{post_hero_url}}",
     "datePublished": "{{post_date_iso}}",
-    "dateModified": "{{post_date_iso}}",
+    "dateModified": "{{post_date_modified_iso}}",
     "author": { "@id": "https://bisouphuket.com/#organization", "name": "Bisou Phuket" },
     "publisher": { "@id": "https://bisouphuket.com/#organization" },
     "description": "{{post_description}}",
@@ -123,6 +123,7 @@
           <span class="jp-category">{{post_category}}</span>
           <span class="jp-bullet">·</span>
           <time datetime="{{post_date_iso}}">{{post_date_display}}</time>
+          {{post_updated_block}}
           {{post_readtime_block}}
         </div>
         <h1 class="jp-title">{{post_title}}</h1>

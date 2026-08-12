@@ -262,6 +262,10 @@ async function loadJournalPosts() {
       heroAlt: data.heroAlt || '',
       heroFit: data.heroFit || '',
       publishedAt: data.publishedAt || '',
+      // An edited article is fresher than its publish date. Without this the
+      // field was parsed out of the markdown and silently thrown away, and
+      // dateModified could never move off the publish date.
+      updatedAt: data.updatedAt || '',
       readMin: data.readMin ? Number(data.readMin) : null,
       seoTitle: data.seoTitle || '',
       seoDescription: data.seoDescription || '',
@@ -879,6 +883,10 @@ async function generatePostPages(posts, baseVars) {
       post_hero_image_block: heroImageBlock,
       post_category: escHtml(post.category || ''),
       post_date_iso: escAttr(post.publishedAt || ''),
+      post_date_modified_iso: escAttr(post.updatedAt || post.publishedAt || ''),
+      post_updated_block: post.updatedAt
+        ? `<span class="jp-bullet">&middot;</span><span class="jp-updated">Updated ${escHtml(fmtDateDisplay(post.updatedAt))}</span>`
+        : '',
       post_date_display: escHtml(fmtDateDisplay(post.publishedAt)),
       post_readtime_block: readtimeBlock,
       post_excerpt_block: excerptBlock,
@@ -934,16 +942,17 @@ function generateSitemap(posts, locales = []) {
   ];
   for (const p of posts || []) {
     if (!p.slug) continue;
-    const lastmod = p.publishedAt && /^\d{4}-\d{2}-\d{2}/.test(p.publishedAt)
-      ? p.publishedAt.slice(0, 10)
-      : today;
+    // Guard each field separately: a mistyped updatedAt must not swallow a good
+    // publishedAt. If neither is a real date, emit no lastmod at all rather than
+    // stamping today, which would claim every old article changed on every deploy.
+    const isoDay = (v) => (/^\d{4}-\d{2}-\d{2}/.test(v || '') ? String(v).slice(0, 10) : '');
+    const lastmod = isoDay(p.updatedAt) || isoDay(p.publishedAt);
     entries.push({ loc: `/journal/${p.slug}`, changefreq: 'monthly', priority: '0.7', lastmod });
   }
   const urls = entries
     .map(
       (u) => `  <url>
-    <loc>${base}${u.loc}</loc>
-    <lastmod>${u.lastmod}</lastmod>
+    <loc>${base}${u.loc}</loc>${u.lastmod ? `\n    <lastmod>${u.lastmod}</lastmod>` : ''}
     <changefreq>${u.changefreq}</changefreq>
     <priority>${u.priority}</priority>
   </url>`
