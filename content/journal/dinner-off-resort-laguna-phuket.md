@@ -1,17 +1,17 @@
 ---
-title: "Dinner Off the Resort: Where to Eat Near Laguna Phuket"
+title: "Leaving the Resort for Dinner at Laguna Phuket: Distances, Taxis and Closing Times"
 slug: dinner-off-resort-laguna-phuket
 category: Guide
 publishedAt: 2026-07-18
 readMin: 8
 hero: /assets/photos/web/dinner-off-resort-laguna-phuket-cover-1920.jpg
 heroAlt: "Guests sharing pasta and wine at Bisou, a modern French restaurant on Bandon-Cherngtalay Road, minutes from the Laguna Phuket resorts"
-excerpt: "A guide for guests at Banyan Tree, Angsana, SAii Laguna, Dusit Thani and Cassia: where to eat off-resort near Laguna Phuket, how far it really is, and which kitchens are still open late."
-seoTitle: "Where to Eat Near Laguna Phuket (Off-Resort Guide)"
-seoDescription: "Where to eat off-resort near Laguna Phuket: Boat Avenue at the gate, the Cherngtalay independents and Bang Tao beachfront, with kitchen closing times."
+excerpt: "For guests at Banyan Tree, Angsana, SAii Laguna, Dusit Thani and Cassia: how far dinner outside the complex really is, how you get back afterwards, and which kitchens have already closed by the time you arrive."
+seoTitle: "Dinner Outside Your Laguna Phuket Resort"
+seoDescription: "Is it worth leaving your Laguna Phuket resort for dinner? Real distances from the gate, how to get back late, and which kitchens stop serving when."
 author: Bisou Phuket
 premium: true
-atAGlance: "The restaurants start at the Laguna gate. Boat Avenue and Porto de Phuket sit at the entrance to the complex, the Cherngtalay independents are five minutes inland along Bandon-Cherngtalay Road, and the Bang Tao beachfront is a similar hop the other way. Bisou is the modern French room on Bandon-Cherngtalay Road, plated to share, with the cocktail bar running to 1 AM."
+atAGlance: "Leaving a Laguna Phuket resort for dinner costs you about five minutes, not an evening. Boat Avenue and Porto de Phuket sit at the complex entrance, the Cherngtalay independents are five minutes inland along Bandon-Cherngtalay Road, and the beachfront is a similar hop the other way. The thing to plan is the return, and the closing times: most kitchens nearby stop serving food between 10 and 11 PM, while Bisou runs its bar to 1 AM."
 ctaHref: /menu
 ctaLabel: See the menu
 listicle: true
