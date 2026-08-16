@@ -223,17 +223,25 @@ function extractListItems(md) {
 
 // Render an ItemList JSON-LD <script> from extracted listicle items (a ranked
 // list of named venues). Empty string when there are none.
-function renderItemListJsonLd(items) {
+// An ItemList of bare names tells an answer engine almost nothing: it can see
+// there is a list but not how long it is, what it is a list OF, or where each
+// entry leads. numberOfItems and a name cost nothing and make the list quotable.
+// Deliberately NOT typed as Restaurant: extractListItems reads the first column
+// of the first table, which on some guides is a dish, an area or a price band,
+// so asserting a type here would be wrong more often than it was right.
+function renderItemListJsonLd(items, listName) {
   if (!items || !items.length) return '';
   const obj = {
     '@context': 'https://schema.org',
     '@type': 'ItemList',
+    numberOfItems: items.length,
     itemListElement: items.map((it, i) => {
       const li = { '@type': 'ListItem', position: i + 1, name: it.name };
       if (it.url) li.url = it.url;
       return li;
     })
   };
+  if (listName) obj.name = listName;
   const json = JSON.stringify(obj, null, 2).replace(/</g, '\\u003c');
   return `<script type="application/ld+json">\n${json}\n  </script>`;
 }
@@ -900,7 +908,7 @@ async function generatePostPages(posts, baseVars) {
       post_author_name: escAttr(post.author || 'Bisou Phuket'),
       post_author_block: authorBlock,
       post_faq_jsonld: renderFaqJsonLd(post.faq),
-      post_itemlist_jsonld: post.listicle ? renderItemListJsonLd(post.listItems) : ''
+      post_itemlist_jsonld: post.listicle ? renderItemListJsonLd(post.listItems, post.title) : ''
     };
 
     const html = applyMustache(tpl, vars);
