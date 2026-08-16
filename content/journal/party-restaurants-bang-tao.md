@@ -12,6 +12,10 @@ seoDescription: "The best party restaurants in Bang Tao and Cherngtalay, Phuket:
 author: Bisou Phuket
 listicle: true
 draft: false
+premium: true
+atAGlance: Bisou, a modern French restaurant and cocktail bar at No.4 Bandon-Cherngtalay Road in Choeng Thale, runs a weekly DJ night and a bar to 1 AM, with a quieter corner for anyone who came to talk. Nearby, CLC runs dinner into a dance floor until 2 AM, JOYA has a resident Friday DJ, and the Bang Tao beach clubs Catch and Xana program DJs late.
+ctaLabel: Book the party table
+ctaHref: https://book.bistrochat.com/bisou-phuket
 ---
 
 The best party restaurants in Bang Tao and Cherngtalay are the rooms where a proper sit-down dinner comes with cocktails, music, a DJ and a crowd that stays. As of July 2026, the clearest options are [Bisou](/), a modern French restaurant and cocktail bar on Bandon-Cherngtalay Road that runs a weekly DJ night and a bar to 1 AM; CLC (Come Leo Come), a dinner-to-dance-floor supper club near Boat Avenue; JOYA, with a resident Friday DJ; Moonshine, a jazz lounge with live bands most weekends; and the beach clubs Catch and Xana. This is a guide to festive dinners, not a nightclub crawl: every venue here feeds you first.

@@ -12,6 +12,10 @@ seoDescription: "A warm guide to the best beach clubs in Phuket around Bang Tao,
 author: Bisou Phuket
 authorRole: Editorial
 draft: false
+premium: true
+atAGlance: "The best beach clubs in Phuket sit around Bang Tao, Surin and Kamala: Catch Beach Club and XANA on Bang Tao, Café del Mar on Kamala, Carpe Diem nearby. Beach club food is the supporting act, so when you want dinner to be the event, drive a few minutes inland to Bisou in Cherngtalay, a modern French restaurant and cocktail bar open nightly 6:00 PM to 1:00 AM."
+ctaLabel: Book an after-beach dinner
+ctaHref: https://book.bistrochat.com/bisou-phuket
 ---
 
 Let us be honest about something first. We love a beach club. The pool, the sunset, the day-drinking, the music getting a little louder as the sky goes pink: that is a great way to spend an afternoon in Phuket, and nobody is going to argue otherwise.

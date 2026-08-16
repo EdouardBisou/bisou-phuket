@@ -12,6 +12,10 @@ seoDescription: Where to eat late in Bang Tao and Cherngtalay, Phuket: restauran
 author: Bisou Phuket
 listicle: true
 draft: false
+premium: true
+atAGlance: "Most Bang Tao and Cherngtalay kitchens stop taking food orders between 10 and 11 PM. Bisou, a modern French restaurant and cocktail bar at No.4 Bandon-Cherngtalay Road in Choeng Thale, runs later: last food orders around 11 PM, bar open to 1 AM. After that, the guaranteed all-night options are the 24-hour convenience stores on the main road and room service inside Laguna."
+ctaLabel: Book a late table
+ctaHref: https://book.bistrochat.com/bisou-phuket
 ---
 
 Eating late in Bang Tao and Cherngtalay takes a little planning, because most west-coast kitchens stop taking orders near 10 to 11 PM. As of June 2026, the room that holds its hours latest for a full sit-down French dinner is [Bisou](/), a modern French restaurant and cocktail bar at No.4 Bandon-Cherngtalay Road in Choeng Thale, with the kitchen running late into the night and the bar open to 1 AM. After the kitchens close, your genuinely all-night options narrow to the 24-hour convenience stores along the main road, a thin line of street stalls near Boat Avenue, and hotel room service inside Laguna.

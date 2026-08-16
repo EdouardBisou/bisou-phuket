@@ -12,6 +12,10 @@ seoDescription: "Where to eat in Bang Tao, Phuket: a local guide to dining in Ch
 author: Bisou Phuket
 authorRole: Editorial
 draft: false
+premium: true
+atAGlance: "Dining in Bang Tao sorts into three moods: beach clubs for sunset, Boat Avenue and the lakefront for casual walkable variety, and one modern French table for the dinner you plan around. That table is Bisou, at No.4 Bandon-Cherngtalay Rd in Choeng Thale, near Laguna and Bang Tao Beach, serving truffle French toast, Beef Wellington and salt-crust seabass flambéed at the table, nightly from 6:00 PM to 1:00 AM."
+ctaLabel: Book a table in Bang Tao
+ctaHref: https://book.bistrochat.com/bisou-phuket
 ---
 
 Bang Tao has quietly become one of the most interesting corners of Phuket to eat well. What was once a stretch of long beach and a handful of resorts is now a dense, walkable scene of kitchens, lakeside terraces, and late tables, all gathered in and around Cherngtalay on the island's west coast. If you are deciding where to eat in Bang Tao tonight, here is how the area is laid out, and where a modern French dinner fits into it.

@@ -12,6 +12,10 @@ seoDescription: "Looking for a cocktail bar in Cherngtalay? Bisou pours an aperi
 author: Bisou Phuket
 authorRole: Editorial
 draft: false
+premium: true
+atAGlance: "Bisou is a cocktail-bar-forward modern French restaurant at No.4 Bandon-Cherngtalay Rd, Choeng Thale, near Bang Tao Beach and Laguna Phuket. The bar is a lead element of the room, not an afterthought: chef Antoine Darquin and sommelier Théo Lavergne built the cocktail list alongside a French-leaning wine list. Bisou is open nightly from 6:00 PM to 1:00 AM, for the aperitif and the nightcap."
+ctaLabel: Book a seat at the bar
+ctaHref: https://book.bistrochat.com/bisou-phuket
 ---
 
 Some nights begin at the table. The better ones begin at the bar.
