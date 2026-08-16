@@ -426,6 +426,12 @@ function renderMenuSchema(categories) {
         if (it.price != null) {
           item.offers = { '@type': 'Offer', price: String(it.price), priceCurrency: 'THB' };
         }
+        // "per 100g" and "add caviar +390" were dropped, so a machine read the
+        // wagyu hanger as a THB 690 plate rather than a price by weight. Carry
+        // the condition into the description, where it survives extraction.
+        if (it.priceNote) {
+          item.description = [item.description, it.priceNote].filter(Boolean).join('. ');
+        }
         return item;
       })
     }));
