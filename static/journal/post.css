@@ -616,3 +616,182 @@ html:has(body.page-journal-index) {
   .jp-anim .jp-rise { opacity: 1; transform: none; transition: none; }
   .jp-premium .jp-heroImg img { animation: none; transform: none; }
 }
+
+/* =====================================================
+   GUIDE LAYOUT  (frontmatter `layout: guide`, on top of premium)
+   Phone-first. One H2 = one question = one card, the first
+   paragraph is the answer capsule in large type. A quick-facts
+   chip rail, a swipeable dish carousel, a three-action sticky
+   bar (reserve, call, directions). Same cream paper, same
+   Champagne type; scoped under .jp-guide so nothing else moves.
+   ===================================================== */
+.jp-guide { --jp-pad: clamp(1.2rem, 4vw, 2rem); }
+@media (max-width: 559px) { .jp-guide { --jp-pad: 1.4rem; } }
+
+/* ---- answer cards ---- */
+.jp-guide .jp-card {
+  background: #fff;
+  border: 1px solid rgba(14, 14, 14, 0.07);
+  border-radius: 20px;
+  padding: 1.35rem 1.2rem 0.35rem;
+  margin: 0 0 0.9rem;
+  box-shadow: 0 1px 2px rgba(14, 14, 14, 0.04), 0 10px 30px -18px rgba(110, 31, 42, 0.25);
+}
+@media (min-width: 620px) { .jp-guide .jp-card { padding: 1.8rem 1.7rem 0.7rem; border-radius: 24px; } }
+.jp-guide .jp-card h2 {
+  border-top: 0; padding-top: 0; margin-top: 0;
+  font-size: clamp(1.45rem, 5.6vw, 1.95rem);
+  line-height: 1.12;
+  margin-bottom: 0.85rem;
+  scroll-margin-top: 96px;
+}
+.jp-guide .jp-card h2::before { margin-bottom: 0.45rem; }
+.jp-guide .jp-card__lead {
+  font-size: clamp(1.12rem, 4.2vw, 1.3rem);
+  line-height: 1.5;
+  font-weight: 400;
+  color: var(--noir);
+  margin-bottom: 1.1rem;
+}
+.jp-guide .jp-card__lead strong {
+  font-weight: 500;
+  background: linear-gradient(transparent 74%, rgba(110, 31, 42, 0.13) 74%);
+  padding: 0 0.1em;
+}
+.jp-guide .jp-card p:last-child { margin-bottom: 1rem; }
+.jp-guide .jp-card ul, .jp-guide .jp-card ol { margin-bottom: 1.2rem; }
+.jp-guide .jp-card .jp-key { margin: 1.2rem 0 1.4rem; }
+.jp-guide .jp-card table { margin-bottom: 1.4rem; }
+.jp-guide .jp-body h2#s-frequently-asked-questions { margin-top: 2.6rem; }
+
+/* ---- quick-facts chip rail ---- */
+.jp-chips {
+  display: flex; gap: 8px;
+  overflow-x: auto; overscroll-behavior-x: contain;
+  scroll-snap-type: x proximity;
+  scroll-padding: 0 var(--jp-pad);
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+  margin: 0 calc(-1 * var(--jp-pad)) 1.8rem;
+  padding: 2px var(--jp-pad) 10px;
+  -webkit-mask-image: linear-gradient(90deg, #000 0, #000 calc(100% - 28px), transparent 100%);
+          mask-image: linear-gradient(90deg, #000 0, #000 calc(100% - 28px), transparent 100%);
+}
+.jp-chips::-webkit-scrollbar { display: none; }
+.jp-chips a {
+  flex: 0 0 auto; scroll-snap-align: start;
+  display: inline-flex; align-items: center; gap: 6px;
+  min-height: 42px; padding: 0 15px;
+  border-radius: 999px;
+  background: #fff;
+  border: 1px solid rgba(110, 31, 42, 0.28);
+  font-family: var(--font-sans); font-size: 0.8rem; font-weight: 400;
+  letter-spacing: 0.01em; white-space: nowrap;
+  color: var(--noir);
+  border-bottom-width: 1px;
+  transition: background 0.2s, color 0.2s, border-color 0.2s;
+}
+.jp-chips a b { font-weight: 600; color: var(--peach-dark); }
+.jp-chips a:hover { border-color: var(--peach-dark); color: var(--noir); }
+.jp-chips a.on { background: var(--peach-dark); border-color: var(--peach-dark); color: var(--cream); }
+.jp-chips a.on b { color: var(--cream); }
+@media (min-width: 1000px) {
+  .jp-chips { flex-wrap: wrap; overflow: visible; margin-left: 0; margin-right: 0; padding-left: 0; padding-right: 0; -webkit-mask-image: none; mask-image: none; }
+}
+
+/* ---- dish carousel ---- */
+.jp-dishes { position: relative; margin: 0.4rem calc(-1 * var(--jp-pad)) 1.6rem; }
+.jp-dishes__t {
+  display: flex; gap: 12px;
+  overflow-x: auto; overscroll-behavior-x: contain;
+  scroll-snap-type: x mandatory;
+  scroll-padding: 0 var(--jp-pad);
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+  padding: 4px var(--jp-pad) 8px;
+}
+.jp-dishes__t::-webkit-scrollbar { display: none; }
+.jp-body .jp-dish {
+  flex: 0 0 min(74%, 270px); scroll-snap-align: start;
+  margin: 0;
+  background: #fff;
+  border: 1px solid rgba(14, 14, 14, 0.08);
+  border-radius: 18px; overflow: hidden;
+  box-shadow: 0 8px 24px -16px rgba(14, 14, 14, 0.35);
+}
+.jp-body .jp-dish img { display: block; width: 100%; aspect-ratio: 1 / 1; object-fit: cover; background: #f3ece2; margin: 0; border-radius: 0; }
+.jp-body .jp-dish figcaption { margin: 0; padding: 12px 14px 14px; border-left: 0; font-family: var(--font-sans); font-size: 0.8rem; color: var(--noir); }
+.jp-dish__n { display: block; font-family: var(--font-display); font-size: 1.12rem; line-height: 1.2; color: var(--noir); }
+.jp-dish__p { display: block; margin-top: 5px; font-size: 0.8rem; font-weight: 500; color: var(--peach-dark); letter-spacing: 0.02em; }
+.jp-dish__d { display: block; margin-top: 5px; font-size: 0.78rem; font-weight: 300; line-height: 1.4; color: rgba(14, 14, 14, 0.6); }
+.jp-dishes__btn {
+  position: absolute; top: 38%; transform: translateY(-50%);
+  width: 40px; height: 40px; border-radius: 50%;
+  border: 1px solid rgba(14, 14, 14, 0.12); background: rgba(255, 255, 255, 0.95);
+  color: var(--noir); font-size: 1rem; cursor: pointer;
+  box-shadow: 0 4px 14px rgba(14, 14, 14, 0.12);
+  transition: opacity 0.2s;
+}
+.jp-dishes__btn--prev { left: 6px; }
+.jp-dishes__btn--next { right: 6px; }
+.jp-dishes.at-start .jp-dishes__btn--prev, .jp-dishes.at-end .jp-dishes__btn--next { opacity: 0.25; pointer-events: none; }
+@media (min-width: 1000px) {
+  .jp-dishes { margin-left: 0; margin-right: 0; }
+  .jp-dishes__t { padding-left: 2px; padding-right: 2px; scroll-padding: 0; }
+  .jp-body .jp-dish { flex-basis: 232px; }
+}
+/* carousel cards are never part of the scroll reveal: off-screen slides must stay visible */
+.jp-anim .jp-dish.jp-rise { opacity: 1; transform: none; transition: none; }
+
+/* ---- tap to copy ---- */
+.jp-copy { position: relative; cursor: pointer; border-bottom: 1px dashed rgba(110, 31, 42, 0.5); }
+.jp-copy::after {
+  content: attr(data-tip); position: absolute; left: 0; top: calc(100% + 4px);
+  font-family: var(--font-sans); font-size: 0.58rem; letter-spacing: 0.14em; text-transform: uppercase;
+  color: var(--peach-dark); opacity: 0; transition: opacity 0.2s; white-space: nowrap;
+}
+.jp-copy.is-copied::after { content: attr(data-done); opacity: 1; }
+@media (hover: hover) { .jp-copy:hover::after { opacity: 1; } }
+
+/* ---- three-action sticky bar (phones and tablets) ---- */
+.jp-actbar {
+  position: fixed; left: 0; right: 0; bottom: 0; z-index: 55;
+  display: none;
+  grid-template-columns: 1.7fr 1fr 1fr; gap: 8px;
+  padding: 10px 12px calc(10px + env(safe-area-inset-bottom));
+  background: rgba(255, 248, 239, 0.92);
+  -webkit-backdrop-filter: blur(14px); backdrop-filter: blur(14px);
+  border-top: 1px solid rgba(14, 14, 14, 0.08);
+}
+.jp-actbar__a {
+  display: inline-flex; align-items: center; justify-content: center; gap: 6px;
+  min-height: 50px; padding: 0 10px;
+  border-radius: 16px;
+  font-family: var(--font-sans); font-size: 0.68rem; font-weight: 600;
+  letter-spacing: 0.14em; text-transform: uppercase;
+  color: var(--noir); background: #fff;
+  border: 1px solid rgba(14, 14, 14, 0.14);
+  border-bottom-width: 1px;
+  -webkit-tap-highlight-color: transparent;
+}
+.jp-actbar__a--main { background: var(--peach-dark); border-color: var(--peach-dark); color: var(--cream); }
+.jp-actbar__i { font-size: 0.95rem; line-height: 1; }
+.jp-actbar__a:active { transform: scale(0.98); }
+@media (max-width: 999px) {
+  .jp-guide .jp-actbar { display: grid; }
+  body.jp-guide { padding-bottom: 84px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .jp-chips a, .jp-dishes__btn, .jp-copy::after { transition: none; }
+}
+
+/* ---- language row under the article meta (posts that have translations) ---- */
+.jp-langs { display: flex; flex-wrap: wrap; justify-content: center; gap: 6px; margin: 1.1rem auto 0; }
+.jp-langs a {
+  display: inline-flex; align-items: center; min-height: 30px; padding: 0 11px;
+  border-radius: 999px; border: 1px solid rgba(14, 14, 14, 0.16);
+  font-family: var(--font-sans); font-size: 0.68rem; letter-spacing: 0.12em; text-transform: uppercase;
+  color: rgba(14, 14, 14, 0.62); background: transparent;
+}
+.jp-langs a:hover { border-color: var(--peach-dark); color: var(--peach-dark); }
+.jp-langs a.on { background: var(--peach-dark); border-color: var(--peach-dark); color: var(--cream); }

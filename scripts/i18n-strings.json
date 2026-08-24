@@ -62,7 +62,8 @@
     ">Mains<": ">Plats<",
     ">Plates<": ">Assiettes<",
     ">Sides<": ">Accompagnements<",
-    ">First Kiss<": ">Premier Baiser<"
+    ">First Kiss<": ">Premier Baiser<",
+    "<a href=\"/journal/bisou-phuket-guide\" class=\"underline\">About Bisou</a>": "<a href=\"/fr/journal/bisou-phuket-guide\" class=\"underline\">À propos de Bisou</a>"
   },
   "ru": {
     "<title>Bisou Phuket · Modern French Restaurant in Cherngtalay</title>": "<title>Bisou Phuket · Современный французский ресторан в Cherngtalay</title>",
@@ -127,7 +128,8 @@
     ">Mains<": ">Основные блюда<",
     ">Plates<": ">Блюда<",
     ">Sides<": ">Гарниры<",
-    ">First Kiss<": ">Первый поцелуй<"
+    ">First Kiss<": ">Первый поцелуй<",
+    "<a href=\"/journal/bisou-phuket-guide\" class=\"underline\">About Bisou</a>": "<a href=\"/ru/journal/bisou-phuket-guide\" class=\"underline\">О Bisou</a>"
   },
   "zh": {
     "<title>Bisou Phuket · Modern French Restaurant in Cherngtalay</title>": "<title>Bisou Phuket · 位于 Cherngtalay 的现代法式餐厅</title>",
@@ -192,7 +194,8 @@
     ">Mains<": ">主菜<",
     ">Plates<": ">餐盘<",
     ">Sides<": ">配菜<",
-    ">First Kiss<": ">初吻<"
+    ">First Kiss<": ">初吻<",
+    "<a href=\"/journal/bisou-phuket-guide\" class=\"underline\">About Bisou</a>": "<a href=\"/zh/journal/bisou-phuket-guide\" class=\"underline\">关于 Bisou</a>"
   },
   "th": {
     "<title>Bisou Phuket · Modern French Restaurant in Cherngtalay</title>": "<title>Bisou Phuket · ร้านอาหารฝรั่งเศสสมัยใหม่ในเชิงทะเล</title>",
@@ -257,6 +260,7 @@
     ">Mains<": ">จานหลัก<",
     ">Plates<": ">จานอาหาร<",
     ">Sides<": ">เครื่องเคียง<",
-    ">First Kiss<": ">จูบแรก<"
+    ">First Kiss<": ">จูบแรก<",
+    "<a href=\"/journal/bisou-phuket-guide\" class=\"underline\">About Bisou</a>": "<a href=\"/th/journal/bisou-phuket-guide\" class=\"underline\">เกี่ยวกับ Bisou</a>"
   }
 }

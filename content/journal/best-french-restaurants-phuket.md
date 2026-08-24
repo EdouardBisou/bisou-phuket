@@ -63,7 +63,7 @@ The west coast around Cherngtalay and the Laguna complex has quietly become the 
 
 ## How to choose your French dinner in Phuket
 
-Pick by the night you want. For fine dining with a view and a tasting menu, L'Arôme by the Sea is the destination. For a classic bistro dinner, Café de Paris and Le Bistrot deliver the canon in Patong. For old-town character, Dibuk. And for a modern French dinner with a cocktail bar, plates made to share and a whole seabass flambéed at your table, right in the middle of Cherngtalay, that is where [Bisou](/) comes in. Have a look at the [menu](/menu), and book ahead, because the room is small and fills up.
+Pick by the night you want. For fine dining with a view and a tasting menu, L'Arôme by the Sea is the destination. For a classic bistro dinner, Café de Paris and Le Bistrot deliver the canon in Patong. For old-town character, Dibuk. And for a modern French dinner with a cocktail bar, plates made to share and a whole seabass flambéed at your table, right in the middle of Cherngtalay, that is where [Bisou](/) comes in. Have a look at the [menu](/menu), and book ahead, because the room is small and fills up. Everything else to know before you book at Bisou, from dress code to children, is in [the Bisou guide](/journal/bisou-phuket-guide).
 
 **Read next:** [Where to eat in Bang Tao](/journal/where-to-eat-bang-tao) and [the cocktail bar at Bisou](/journal/cocktail-bar-cherngtalay).
 

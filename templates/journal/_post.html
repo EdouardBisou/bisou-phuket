@@ -8,6 +8,7 @@
   <title>{{post_seo_title}} · Bisou Phuket</title>
   <meta name="description" content="{{post_description}}" />
   <link rel="canonical" href="https://bisouphuket.com/journal/{{post_slug}}" />
+{{post_hreflang_block}}
 
   <meta property="og:title" content="{{post_seo_title}}" />
   <meta property="og:description" content="{{post_description}}" />
@@ -29,7 +30,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700&family=Poiret+One&family=Italiana&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
 
   <link rel="stylesheet" href="/css/main.css?v=44" />
-  <link rel="stylesheet" href="/journal/post.css?v=9" />
+  <link rel="stylesheet" href="/journal/post.css?v=10" />
 
   <script type="application/ld+json">
   {
@@ -41,9 +42,9 @@
     "dateModified": "{{post_date_modified_iso}}",
     "author": { "@id": "https://bisouphuket.com/#organization", "name": "Bisou Phuket" },
     "publisher": { "@id": "https://bisouphuket.com/#organization" },
-    "description": "{{post_description}}",
+    {{post_about_block}}"description": "{{post_description}}",
     "articleSection": "{{post_category}}",
-    "inLanguage": "en",
+    "inLanguage": "{{post_lang}}",
     "url": "https://bisouphuket.com/journal/{{post_slug}}",
     "mainEntityOfPage": { "@type": "WebPage", "@id": "https://bisouphuket.com/journal/{{post_slug}}" },
     "speakable": {
@@ -128,6 +129,7 @@
         </div>
         <h1 class="jp-title">{{post_title}}</h1>
         {{post_excerpt_block}}
+        {{post_lang_switch}}
       </div>
 
       {{post_hero_image_block}}

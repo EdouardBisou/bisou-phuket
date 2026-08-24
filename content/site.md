@@ -30,6 +30,7 @@ Single source of truth for the `/add-article` skill (and any content work) in th
 - **Théo Lavergne**: Sommelier and co-founder (also co-founded Bisou Bangkok).
 - **Manon Bares**: Head Chef (runs the kitchen).
 - **Louis Chartier**: General Manager (looks after the room).
+- **Edouard Marquis**: Director of Operations, Bisou (across both restaurants; the byline on journal articles).
 
 ## Recognition
 
@@ -48,12 +49,27 @@ Single source of truth for the `/add-article` skill (and any content work) in th
 - **Guests may bring their own birthday cake, free of charge. There is no cakeage or corkage fee**, and the team will cut and serve it to the guests.
 - Bisou Phuket does not sell gift vouchers. Do not mention vouchers in Phuket copy.
 
+## Practical (owner-confirmed 2026-08-23, use for "before you book" questions)
+
+- **Dress code**: smart casual, no flip-flops (worth saying to a table arriving from the beach).
+- **Children**: welcome, no minimum age, high chairs available. The room and the later evening are adult in mood (the music lifts as the night goes on), so an early seating suits a table with children best. Do not call Bisou a family restaurant.
+- **Parking**: close by the restaurant (the birthday article says "at the rear via the side street").
+- **Vegetarian / vegan / allergies**: plenty of vegetarian options; vegan guests are welcome and the kitchen plates dedicated vegan dishes for them. Mention allergies when booking.
+- **Walk-ins**: accepted when there is room, booking is better.
+- **Bar**: coming just for a cocktail is fine; the bar runs to 1 AM.
+- **Languages spoken in the room**: French and Thai (and English, the working language of the site and reservations).
+- **Outdoors**: a terrace in front of the restaurant.
+- NOT confirmed, do not write: wine corkage policy or fee, deposit / cancellation / no-show terms, days ahead to book, Google rating / review count / capacity / IG followers, the DJ night weekday or name, any chef sharing menu or a la carte average.
+
 ## Signature dishes
 
-Truffle French toast; house beef Wellington; whole seabass in salt crust, flambeed at the table; black truffle pasta. (Confirm current dishes against the Sanity menu.)
+Truffle French toast; house beef Wellington, carved at the table (as published in /journal/best-steakhouses-phuket); whole seabass in salt crust, flambéed at the table; black truffle pasta; Prunier caviar service. Cocktails 490 THB (Sanity menu). Warm sourdough and French butter go to every table at no charge (documented in /journal/bread-and-butter-phuket). (Confirm current dishes and prices against the Sanity menu.)
+- **Weekly DJ night** (owner-confirmed 2026-07): one night a week a DJ plays. The weekday and the DJ's name are NOT confirmed; never name them.
+- **[TO CONFIRM with the owner]**: Sanity teamMember roles list Manon Bares as "Co-Owner & Head Chef" and Louis Chartier as "Co-Owner & General Manager"; the site and articles present them as head chef and GM only. Do not call them co-owners until the owner confirms.
 
 ## Existing journal posts (for internal links / topic cluster)
 
+- `/journal/bisou-phuket-guide` (the entity article: the canonical first-party answer about Bisou itself. Link to it whenever an article explains who we are.)
 - `/journal/best-french-restaurants-phuket` (the strongest existing guide; read it before writing)
 - `/journal/where-to-eat-bang-tao`
 - `/journal/best-beach-clubs-phuket`
@@ -82,8 +98,8 @@ Dish photos live on this repo's Sanity (project `5oq4q4y4`); pass the asset id t
 
 ## Brand voice
 
-Confident, warm, modern French, sensual but precise; "simple & sexy". Short sentences mixed with longer ones, active voice, real names and concrete details. Earned credibility over hype. Banned clichés: nestled, hidden gem, culinary journey, elevated, fusion, melt-in-your-mouth, foodie, must-visit, a feast for the senses, gastronomic, reimagined, curated experience, vibes, iconic, world-class, stunning, boasts.
+Confident, warm, modern French, sensual but precise; "simple & sexy". **Never describe Bisou as "fine dining" (owner rule 2026-08-24): say "modern French restaurant" or modern dining, in every language.** Short sentences mixed with longer ones, active voice, real names and concrete details. Earned credibility over hype. Banned clichés: nestled, hidden gem, culinary journey, elevated, fusion, melt-in-your-mouth, foodie, must-visit, a feast for the senses, gastronomic, reimagined, curated experience, vibes, iconic, world-class, stunning, boasts.
 
 ## Sister location
 
-Bisou's first restaurant is **Bisou Bangkok** (Soi Langsuan), which IS in the MICHELIN Guide Thailand 2026 (Selected). That recognition belongs to Bangkok only. Keep the two locations' facts separate, and never carry Bangkok's Michelin status over to Phuket.
+Bisou's first restaurant is **Bisou Bangkok** (Soi Langsuan, opened 2024), which IS in the MICHELIN Guide Thailand, Selected in both 2025 and 2026. That recognition belongs to Bangkok only. Keep the two locations' facts separate, and never carry Bangkok's Michelin status over to Phuket.

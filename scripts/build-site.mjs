@@ -147,8 +147,12 @@ function enrichArticleHtml(html) {
 // questions" H2 followed by "### question" H3s. Returns [{question, answer}]
 // (answer flattened to plain text), or [] if none. Emits FAQPage JSON-LD for
 // rich results + AI answer-engine citation.
-function extractFaq(md) {
-  const sec = md.match(/^##\s+(?:frequently asked questions|faqs?)\b[^\n]*\n([\s\S]*)$/im);
+function extractFaq(md, faqHeading = '') {
+  // Translated articles carry their FAQ heading in frontmatter (faqHeading), so
+  // the same extractor serves every language. (No \b after the translated
+  // heading: word boundaries do not exist around Thai or Chinese characters.)
+  const extra = faqHeading ? '|' + String(faqHeading).trim().replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + '[ \\t]*' : '';
+  const sec = md.match(new RegExp('^##\\s+(?:(?:frequently asked questions|faqs?)\\b' + extra + ')[^\\n]*\\n([\\s\\S]*)$', 'im'));
   if (!sec) return [];
   let content = sec[1];
   const nextH2 = content.search(/^##\s+/m);
@@ -257,10 +261,37 @@ async function loadJournalPosts() {
     return [];
   }
   const posts = [];
+  // Translations live beside the English source as <slug>.<lang>.md (lang in
+  // LOCALES). They are attached to their English post, never listed on their own.
+  const translations = {};
+  const trRe = new RegExp('^(.+)\\.(' + LOCALES.join('|') + ')\\.md$');
   for (const file of files) {
     const raw = await fs.readFile(path.join(JOURNAL_DIR, file), 'utf-8');
     const { data, body } = parseFrontmatter(raw);
     if (String(data.draft).toLowerCase() === 'true') continue;
+    const trm = file.match(trRe);
+    if (trm) {
+      const baseSlug = data.slug || trm[1];
+      const lang = trm[2];
+      (translations[baseSlug] ||= {})[lang] = {
+        lang,
+        title: data.title || '',
+        category: data.category || '',
+        excerpt: data.excerpt || '',
+        heroAlt: data.heroAlt || '',
+        seoTitle: data.seoTitle || '',
+        seoDescription: data.seoDescription || '',
+        author: data.author || '',
+        authorRole: data.authorRole || '',
+        atAGlance: data.atAGlance || '',
+        ctaLabel: data.ctaLabel || '',
+        ctaShort: data.ctaShort || '',
+        faqHeading: data.faqHeading || '',
+        faq: extractFaq(body, data.faqHeading || ''),
+        bodyHtml: enrichArticleHtml(marked.parse(body.trim()))
+      };
+      continue;
+    }
     posts.push({
       slug: data.slug || file.replace(/\.md$/, ''),
       title: data.title || 'Untitled',
@@ -281,14 +312,23 @@ async function loadJournalPosts() {
       authorRole: data.authorRole || '',
       listicle: String(data.listicle).toLowerCase() === 'true',
       premium: String(data.premium).toLowerCase() === 'true',
+      // Optional. `layout: guide` (requires premium) adds the phone-first guide
+      // layer: answer cards per H2, a three-action sticky bar, guide JS.
+      layout: String(data.layout || '').trim().toLowerCase(),
+      // Optional. `about: restaurant` links the Article JSON-LD to the home
+      // page's Restaurant entity (@id .../#restaurant).
+      about: String(data.about || '').trim().toLowerCase(),
       atAGlance: data.atAGlance || '',
       ctaHref: data.ctaHref || '',
       ctaLabel: data.ctaLabel || '',
+      // Short label for the phone action bar (guide layout); falls back to ctaLabel.
+      ctaShort: data.ctaShort || '',
       faq: extractFaq(body),
       listItems: extractListItems(body),
       bodyHtml: enrichArticleHtml(marked.parse(body.trim()))
     });
   }
+  for (const p of posts) p.translations = translations[p.slug] || {};
   posts.sort((a, b) => new Date(b.publishedAt || 0) - new Date(a.publishedAt || 0));
   return posts;
 }
@@ -549,6 +589,12 @@ const SITE_URL = 'https://bisouphuket.com';
 // current overview. Keep the blurb in sync with content/site.md.
 // Bisou Phuket is NOT in the MICHELIN Guide: never imply Michelin here.
 function renderLlmsTxt(posts) {
+  // The entity article (frontmatter about: restaurant) is the canonical
+  // first-party answer about Bisou, so it is listed among the key pages.
+  const aboutPost = (posts || []).find((p) => p.slug && p.about === 'restaurant');
+  const aboutLine = aboutPost
+    ? [`- [About Bisou](${SITE_URL}/journal/${aboutPost.slug}): everything to know before you book, from prices and signature dishes to dress code, children, parking and how to reserve${Object.keys(aboutPost.translations || {}).length ? ' (also in ' + Object.keys(aboutPost.translations).map((l) => l.toUpperCase() + ': ' + SITE_URL + '/' + l + '/journal/' + aboutPost.slug).join(', ') + ')' : ''}`]
+    : [];
   const lines = [
     '# Bisou Phuket',
     '',
@@ -558,6 +604,7 @@ function renderLlmsTxt(posts) {
     '',
     '## Key pages',
     `- [Home](${SITE_URL}/): the restaurant, concept and reservations`,
+    ...aboutLine,
     `- [Menu](${SITE_URL}/menu): the food menu`,
     `- [Private events](${SITE_URL}/private-events): private dining and buyouts`,
     `- [Journal](${SITE_URL}/journal): guides and notes from Bisou`,
@@ -750,21 +797,27 @@ function decodeEntities(s) {
     .replace(/&gt;/g, '>')
     .replace(/&amp;/g, '&');
 }
-function addH2Ids(html) {
+function addH2Ids(html, idsByIndex = null) {
+  // idsByIndex: for a translated article, the English ids in order, so anchors
+  // (chips, TOC, cross-links) are identical in every language and non-Latin
+  // headings (which slugify to nothing) still get a stable id.
   const heads = [];
+  let i = 0;
   const out = html.replace(/<h2>([\s\S]*?)<\/h2>/g, (m, inner) => {
     const text = decodeEntities(inner.replace(/<[^>]+>/g, '')).trim();
-    const id = 's-' + slugify(text).slice(0, 44);
+    const own = 's-' + slugify(text).slice(0, 44);
+    const id = (idsByIndex && idsByIndex[i]) ? idsByIndex[i] : (own === 's-' ? `s-section-${i + 1}` : own);
+    i += 1;
     heads.push({ id, text });
     return `<h2 id="${id}">${inner}</h2>`;
   });
   return { html: out, heads };
 }
-function renderToc(heads, ctaLabel, ctaHref) {
+function renderToc(heads, ctaLabel, ctaHref, faqLabel = 'Questions') {
   if (!heads.length) return '';
   const links = heads
     .map((h) => {
-      const label = /frequently asked/i.test(h.text) ? 'Questions' : h.text;
+      const label = faqLabel && (/frequently asked/i.test(h.text) || h.id === 's-frequently-asked-questions') ? faqLabel : h.text;
       return `<a href="#${h.id}" data-toc>${escHtml(label)}</a>`;
     })
     .join('\n      ');
@@ -782,8 +835,9 @@ function renderGlance(text, ctaLabel, ctaHref) {
 // Turn the FAQ (## Frequently asked questions + ### Q + answer) into a <details>
 // accordion. The question and answer text stay in the DOM, so extraction and the
 // separate FAQPage JSON-LD (built from the markdown source) are unaffected.
-function accordionFaq(html) {
-  const m = html.match(/<h2\b[^>]*>\s*Frequently asked questions\s*<\/h2>/i);
+function accordionFaq(html, faqHeading = '') {
+  const extra = faqHeading ? '|' + escHtml(String(faqHeading).trim()).replace(/[.*+?^${}()|[\]\\]/g, '\\$&') : '';
+  const m = html.match(new RegExp('<h2\\b[^>]*>\\s*(?:Frequently asked questions' + extra + ')\\s*<\\/h2>', 'i'));
   if (!m) return html;
   const cut = m.index + m[0].length;
   const before = html.slice(0, cut);
@@ -832,6 +886,239 @@ const PREMIUM_JS = `<script>
 })();
 </script>`;
 
+// ---------- guide layout (frontmatter `layout: guide`, on top of premium) ----------
+// The phone-first layer for articles built as a stack of answers (one H2 = one
+// question). Every H2 section becomes a card and its first paragraph the large
+// "answer capsule". Nothing is hidden or collapsed: the full text stays in the
+// HTML for Google and the AI crawlers. The FAQ accordion and anything after it
+// (the closing band) are left as they are.
+function renderGuideCards(html) {
+  const parts = html.split(/(?=<h2 id="s-)/);
+  if (parts.length < 2) return html;
+  let out = parts[0];
+  let faqReached = false;
+  for (let i = 1; i < parts.length; i++) {
+    const chunk = parts[i];
+    if (faqReached || /^<h2 id="s-frequently-asked/i.test(chunk)) {
+      faqReached = true;
+      out += chunk;
+      continue;
+    }
+    // The closing CTA band (authored inline, usually just before the FAQ) is
+    // not part of the answer: keep it outside the card.
+    const bandAt = chunk.indexOf('<div class="jp-band');
+    const core = bandAt >= 0 ? chunk.slice(0, bandAt) : chunk;
+    const after = bandAt >= 0 ? chunk.slice(bandAt) : '';
+    // First paragraph right after the heading = the answer capsule.
+    const lead = core.replace(/^(<h2 id="[^"]*">[\s\S]*?<\/h2>\s*)<p>/, '$1<p class="jp-card__lead">');
+    out += `<section class="jp-card">${lead}</section>\n${after}`;
+  }
+  return out;
+}
+// Three thumb targets on a phone: reserve, call, directions. Replaces the single
+// premium sticky button for guide-layout posts. tel/maps come from the site
+// settings bag so they stay in sync with the footer.
+function renderActionBar(ctaHref, ctaLabel, phoneTel, mapsUrl) {
+  if (!ctaHref) return '';
+  const call = phoneTel ? `<a class="jp-actbar__a" href="tel:${phoneTel}"><span class="jp-actbar__i" aria-hidden="true">&#9742;</span>Call</a>` : '';
+  const maps = mapsUrl ? `<a class="jp-actbar__a" href="${mapsUrl}" target="_blank" rel="noreferrer"><span class="jp-actbar__i" aria-hidden="true">&#10148;</span>Directions</a>` : '';
+  return `<nav class="jp-actbar" aria-label="Quick actions"><a class="jp-actbar__a jp-actbar__a--main" href="${escAttr(ctaHref)}">${escHtml(ctaLabel || 'Reserve')}</a>${call}${maps}</nav>`;
+}
+const GUIDE_JS = `<script>
+(function(){
+  // Tap to copy (address, phone). Falls back silently where the clipboard API is absent.
+  [].forEach.call(document.querySelectorAll('.jp-copy'),function(el){
+    el.setAttribute('role','button');el.setAttribute('tabindex','0');if(!el.hasAttribute('data-tip'))el.setAttribute('data-tip','Tap to copy');if(!el.hasAttribute('data-done'))el.setAttribute('data-done','Copied');
+    var go=function(){var t=el.getAttribute('data-copy')||el.textContent.trim();if(!navigator.clipboard)return;navigator.clipboard.writeText(t).then(function(){el.classList.add('is-copied');setTimeout(function(){el.classList.remove('is-copied');},1400);});};
+    el.addEventListener('click',go);el.addEventListener('keydown',function(e){if(e.key==='Enter'||e.key===' '){e.preventDefault();go();}});
+  });
+  // Dish carousel: arrows on pointer devices (a thumb swipes on a phone).
+  [].forEach.call(document.querySelectorAll('.jp-dishes'),function(rail){
+    var track=rail.querySelector('.jp-dishes__t');if(!track)return;
+    if(!window.matchMedia||!window.matchMedia('(hover:hover) and (pointer:fine)').matches)return;
+    var mk=function(dir){var b=document.createElement('button');b.type='button';b.className='jp-dishes__btn jp-dishes__btn--'+(dir<0?'prev':'next');b.setAttribute('aria-label',dir<0?'Previous dishes':'Next dishes');b.innerHTML=dir<0?'&larr;':'&rarr;';b.addEventListener('click',function(){var card=track.querySelector('.jp-dish');var w=card?card.getBoundingClientRect().width+14:280;track.scrollBy({left:dir*w*2,behavior:'smooth'});});return b;};
+    rail.appendChild(mk(-1));rail.appendChild(mk(1));
+    var upd=function(){rail.classList.toggle('at-start',track.scrollLeft<8);rail.classList.toggle('at-end',track.scrollLeft+track.clientWidth>track.scrollWidth-8);};
+    track.addEventListener('scroll',upd,{passive:true});window.addEventListener('resize',upd);upd();
+  });
+  // Quick-facts chips: highlight the chip of the section in view.
+  var chips=[].slice.call(document.querySelectorAll('.jp-chips a[href^="#"]'));
+  if(chips.length&&'IntersectionObserver' in window){
+    var byId={};chips.forEach(function(a){var s=document.getElementById(a.getAttribute('href').slice(1));if(s)byId[s.id]=a;});
+    var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting&&byId[e.target.id]){chips.forEach(function(c){c.classList.remove('on');});byId[e.target.id].classList.add('on');}});},{rootMargin:'-20% 0px -70% 0px'});
+    Object.keys(byId).forEach(function(k){io.observe(document.getElementById(k));});
+  }
+})();
+</script>`;
+
+// Per-post UI chrome dictionary for translated article pages (exact-snippet
+// replacements on the rendered HTML, the same mechanism as the localized home).
+let POST_CHROME = {};
+try {
+  POST_CHROME = JSON.parse(await fs.readFile(path.join(__dirname, 'i18n-post.json'), 'utf-8'));
+} catch {
+  POST_CHROME = {};
+}
+const LANG_INTL = { en: 'en-US', fr: 'fr-FR', ru: 'ru-RU', zh: 'zh-CN', th: 'th-TH' };
+function fmtDateDisplayLang(iso, lang) {
+  if (!iso) return '';
+  if (!lang || lang === 'en') return fmtDateDisplay(iso);
+  try {
+    return new Date(iso).toLocaleDateString(LANG_INTL[lang] || 'en-US', { month: 'short', day: 'numeric', year: 'numeric' });
+  } catch {
+    return fmtDateDisplay(iso);
+  }
+}
+// The language row shown under the article meta, and the hreflang cluster in
+// <head>, for posts that have translations. Both empty otherwise.
+function postLangs(post) {
+  const langs = Object.keys(post.translations || {}).filter((l) => LOCALES.includes(l));
+  return langs.length ? ['en', ...LOCALES.filter((l) => langs.includes(l))] : [];
+}
+function postUrl(slug, lang) {
+  return lang === 'en' ? `${SITE_URL}/journal/${slug}` : `${SITE_URL}/${lang}/journal/${slug}`;
+}
+function renderPostHreflang(post) {
+  const langs = postLangs(post);
+  if (!langs.length) return '';
+  const lines = langs.map((l) => `  <link rel="alternate" hreflang="${l}" href="${postUrl(post.slug, l)}" />`);
+  lines.push(`  <link rel="alternate" hreflang="x-default" href="${postUrl(post.slug, 'en')}" />`);
+  return lines.join('\n');
+}
+function renderPostLangSwitch(post, current) {
+  const langs = postLangs(post);
+  if (!langs.length) return '';
+  const links = langs.map((l) => `<a href="${l === 'en' ? '' : '/' + l}/journal/${escAttr(post.slug)}" hreflang="${l}" lang="${l}"${l === current ? ' class="on" aria-current="page"' : ''}>${LOCALE_LABELS[l] || l.toUpperCase()}</a>`);
+  return `<nav class="jp-langs" aria-label="Languages">${links.join('')}</nav>`;
+}
+
+// Render one article page: the English source (tr = null) or one translation.
+// Translations reuse every structural decision of the English page (premium,
+// guide layout, H2 ids, hero, dates, schema) and swap the text.
+function renderPostHtml(post, tr, tpl, baseVars) {
+  const lang = tr ? tr.lang : 'en';
+  const t = tr || post;
+  const heroUrl = post.hero || '';
+  const heroSrcset = localHeroSrcset(heroUrl);
+  const heroClass = post.heroFit === 'portrait' ? 'jp-heroImg jp-heroImg--portrait' : 'jp-heroImg';
+  // jp-heroImg renders 16:10; the portrait variant renders 4:5.
+  const heroDims = post.heroFit === 'portrait' ? 'width="800" height="1000"' : 'width="1600" height="1000"';
+  const heroAlt = t.heroAlt || post.heroAlt || '';
+  const heroImageBlock = heroUrl
+    ? `<img class="${heroClass}" src="${escAttr(heroUrl)}" ${heroDims} alt="${escAttr(heroAlt)}"${heroSrcset ? ` srcset="${escAttr(heroSrcset)}" sizes="(max-width: 760px) 100vw, 720px"` : ''} />`
+    : '';
+  const description = (t.seoDescription || t.excerpt || post.seoDescription || post.excerpt || '').slice(0, 180);
+  const author = t.author || post.author || '';
+  const authorRole = t.authorRole || (tr && tr.author ? '' : post.authorRole) || '';
+  const authorBlock = author
+    ? `<aside class="jp-author">
+          <div class="jp-author__meta">
+            <strong>${escHtml(author)}</strong>
+            <em>${escHtml(authorRole || '')}</em>
+          </div>
+        </aside>`
+    : '';
+  const readtimeBlock = post.readMin
+    ? `<span class="jp-bullet">·</span><span class="jp-readtime">${post.readMin} min read</span>`
+    : '';
+  const excerpt = t.excerpt || (tr ? '' : post.excerpt) || '';
+  const excerptBlock = excerpt ? `<p class="jp-excerpt">${escHtml(excerpt)}</p>` : '';
+  // og:image and JSON-LD need an absolute URL; the on-page <img> stays relative.
+  const heroAbsolute = heroUrl.startsWith('/') ? `${SITE_URL}${heroUrl}` : heroUrl;
+
+  // Premium layout is opt-in (frontmatter premium: true). Non-premium posts
+  // keep every slot empty so their output does not change.
+  let bodyHtml = t.bodyHtml || post.bodyHtml || '<p class="jp-empty">This post has no body yet.</p>';
+  let postBodyClass = '', postProgress = '', postToc = '', postStickyCta = '', postPremiumJs = '';
+  if (post.premium) {
+    // Translations take the English H2 ids by position so every anchor matches.
+    const enIds = tr ? addH2Ids(post.bodyHtml || '').heads.map((h) => h.id) : null;
+    const ided = addH2Ids(bodyHtml, enIds);
+    const guide = post.layout === 'guide';
+    const ctaLabel = t.ctaLabel || post.ctaLabel;
+    const body = accordionFaq(ided.html, tr ? tr.faqHeading : '');
+    bodyHtml = renderGlance(t.atAGlance || (tr ? '' : post.atAGlance), ctaLabel, post.ctaHref) + (guide ? renderGuideCards(body) : body);
+    postBodyClass = guide ? ' jp-premium jp-guide' : ' jp-premium';
+    postProgress = '<div class="jp-progress" id="jpProgress" aria-hidden="true"></div>';
+    const faqLabel = tr ? ((POST_CHROME[lang] || {})['__faqLabel'] || null) : 'Questions';
+    postToc = renderToc(ided.heads, ctaLabel, post.ctaHref, faqLabel);
+    postStickyCta = guide
+      ? renderActionBar(post.ctaHref, t.ctaShort || post.ctaShort || ctaLabel, baseVars.phone_tel, baseVars.maps_url)
+      : (post.ctaHref ? `<div class="jp-mobcta"><a class="btn btn--gilt" href="${escAttr(post.ctaHref)}">${escHtml(ctaLabel || 'Enquire')}</a></div>` : '');
+    postPremiumJs = guide ? PREMIUM_JS + '\n' + GUIDE_JS : PREMIUM_JS;
+  }
+  // Article -> Restaurant entity link (frontmatter about: restaurant). Empty
+  // for every other post, so their JSON-LD does not change.
+  const postAboutBlock = post.about === 'restaurant'
+    ? `"about": { "@type": "Restaurant", "@id": "${SITE_URL}/#restaurant" },\n    `
+    : '';
+  const title = t.title || post.title;
+  const seoTitle = t.seoTitle || (tr ? t.title : post.seoTitle) || title;
+
+  const vars = {
+    ...baseVars,
+    post_about_block: postAboutBlock,
+    post_lang: escAttr(lang),
+    post_hreflang_block: renderPostHreflang(post),
+    post_lang_switch: renderPostLangSwitch(post, lang),
+    post_body_class: postBodyClass,
+    post_progress: postProgress,
+    post_toc: postToc,
+    post_sticky_cta: postStickyCta,
+    post_premium_js: postPremiumJs,
+    post_title: escHtml(title),
+    post_seo_title: escHtml(seoTitle),
+    post_title_attr: escAttr(seoTitle),
+    post_slug: escAttr(post.slug),
+    post_description: escAttr(description),
+    post_hero_url: escAttr(heroAbsolute),
+    post_hero_image_block: heroImageBlock,
+    post_category: escHtml(t.category || post.category || ''),
+    post_date_iso: escAttr(post.publishedAt || ''),
+    post_date_modified_iso: escAttr(post.updatedAt || post.publishedAt || ''),
+    post_date_display: escHtml(fmtDateDisplayLang(post.publishedAt, lang)),
+    post_readtime_block: readtimeBlock,
+    post_updated_block: post.updatedAt
+      ? `<span class="jp-bullet">·</span><span class="jp-updated">Updated ${escHtml(fmtDateDisplayLang(post.updatedAt, lang))}</span>`
+      : '',
+    post_excerpt_block: excerptBlock,
+    post_body_html: bodyHtml,
+    post_author_name: escAttr(author || 'Bisou Bangkok'),
+    post_author_block: authorBlock,
+    post_faq_jsonld: renderFaqJsonLd(tr ? tr.faq : post.faq),
+    post_itemlist_jsonld: post.listicle && !tr ? renderItemListJsonLd(post.listItems, post.title) : ''
+  };
+
+  let html = applyMustache(tpl, vars);
+  if (tr) html = localizePostHtml(html, post, lang);
+  return html;
+}
+
+// Turn the rendered English-chrome article into its localized page: URLs one
+// level deep, document language, locale fonts, and the UI chrome dictionary.
+function localizePostHtml(html, post, lang) {
+  const meta = localeMeta(lang);
+  let out = html;
+  const enUrl = `${SITE_URL}/journal/${post.slug}`;
+  const trUrl = `${SITE_URL}/${lang}/journal/${post.slug}`;
+  // canonical, og:url, mainEntityOfPage, breadcrumb: this page's own URL, but
+  // never the hreflang alternates (they must keep pointing at every version).
+  out = out.replace(/<link rel="alternate" hreflang="[^"]*" href="[^"]*" \/>/g, (m) => m.replace(/\/journal\//g, '/__JRN__/'));
+  out = out.split(enUrl).join(trUrl);
+  out = out.split('/__JRN__/').join('/journal/');
+  // breadcrumb Home -> the localized home
+  out = out.replace(`"name": "Home", "item": "${SITE_URL}/"`, `"name": "Home", "item": "${SITE_URL}/${lang}"`);
+  const dict = POST_CHROME[lang] || {};
+  for (const [en, trv] of Object.entries(dict)) {
+    if (en.startsWith('__')) continue;
+    out = out.split(en).join(trv);
+  }
+  out = out.replace('<html lang="en">', `<html lang="${meta.lang}">`);
+  out = out.replace('property="og:locale" content="en_US"', `property="og:locale" content="${meta.ogLocale}"`);
+  if (FONT_HEAD[lang]) out = out.replace('</head>', `${FONT_HEAD[lang]}\n</head>`);
+  return out;
+}
+
 async function generatePostPages(posts, baseVars) {
   if (!posts || posts.length === 0) return 0;
   const tplPath = path.join(TEMPLATES, 'journal', '_post.html');
@@ -843,80 +1130,25 @@ async function generatePostPages(posts, baseVars) {
     return 0;
   }
   let generated = 0;
+  let translated = 0;
   for (const post of posts) {
     if (!post.slug) continue;
-    const heroUrl = post.hero || '';
-    const heroSrcset = localHeroSrcset(heroUrl);
-    const heroClass = post.heroFit === 'portrait' ? 'jp-heroImg jp-heroImg--portrait' : 'jp-heroImg';
-    const heroImageBlock = heroUrl
-      ? `<img class="${heroClass}" src="${escAttr(heroUrl)}" alt="${escAttr(post.heroAlt || '')}"${heroSrcset ? ` srcset="${escAttr(heroSrcset)}" sizes="(max-width: 760px) 100vw, 720px"` : ''} />`
-      : '';
-    const description = (post.seoDescription || post.excerpt || '').slice(0, 180);
-    const authorBlock = post.author
-      ? `<aside class="jp-author">
-          <div class="jp-author__meta">
-            <strong>${escHtml(post.author)}</strong>
-            <em>${escHtml(post.authorRole || '')}</em>
-          </div>
-        </aside>`
-      : '';
-    const readtimeBlock = post.readMin
-      ? `<span class="jp-bullet">·</span><span class="jp-readtime">${post.readMin} min read</span>`
-      : '';
-    const excerptBlock = post.excerpt ? `<p class="jp-excerpt">${escHtml(post.excerpt)}</p>` : '';
-    // og:image and JSON-LD need an absolute URL; the on-page <img> stays relative.
-    const heroAbsolute = heroUrl.startsWith('/') ? `https://bisouphuket.com${heroUrl}` : heroUrl;
-
-    // Premium layout is opt-in (frontmatter premium: true). Non-premium posts
-    // keep every slot empty so their output does not change.
-    let bodyHtml = post.bodyHtml || '<p class="jp-empty">This post has no body yet.</p>';
-    let postBodyClass = '', postProgress = '', postToc = '', postStickyCta = '', postPremiumJs = '';
-    if (post.premium) {
-      const ided = addH2Ids(bodyHtml);
-      bodyHtml = renderGlance(post.atAGlance, post.ctaLabel, post.ctaHref) + accordionFaq(ided.html);
-      postBodyClass = ' jp-premium';
-      postProgress = '<div class="jp-progress" id="jpProgress" aria-hidden="true"></div>';
-      postToc = renderToc(ided.heads, post.ctaLabel, post.ctaHref);
-      postStickyCta = post.ctaHref ? `<div class="jp-mobcta"><a class="btn btn--gilt" href="${escAttr(post.ctaHref)}">${escHtml(post.ctaLabel || 'Enquire')}</a></div>` : '';
-      postPremiumJs = PREMIUM_JS;
-    }
-
-    const vars = {
-      ...baseVars,
-      post_body_class: postBodyClass,
-      post_progress: postProgress,
-      post_toc: postToc,
-      post_sticky_cta: postStickyCta,
-      post_premium_js: postPremiumJs,
-      post_title: escHtml(post.title),
-      post_seo_title: escHtml(post.seoTitle || post.title),
-      post_title_attr: escAttr(post.seoTitle || post.title),
-      post_slug: escAttr(post.slug),
-      post_description: escAttr(description),
-      post_hero_url: escAttr(heroAbsolute),
-      post_hero_image_block: heroImageBlock,
-      post_category: escHtml(post.category || ''),
-      post_date_iso: escAttr(post.publishedAt || ''),
-      post_date_modified_iso: escAttr(post.updatedAt || post.publishedAt || ''),
-      post_updated_block: post.updatedAt
-        ? `<span class="jp-bullet">&middot;</span><span class="jp-updated">Updated ${escHtml(fmtDateDisplay(post.updatedAt))}</span>`
-        : '',
-      post_date_display: escHtml(fmtDateDisplay(post.publishedAt)),
-      post_readtime_block: readtimeBlock,
-      post_excerpt_block: excerptBlock,
-      post_body_html: bodyHtml,
-      post_author_name: escAttr(post.author || 'Bisou Phuket'),
-      post_author_block: authorBlock,
-      post_faq_jsonld: renderFaqJsonLd(post.faq),
-      post_itemlist_jsonld: post.listicle ? renderItemListJsonLd(post.listItems, post.title) : ''
-    };
-
-    const html = applyMustache(tpl, vars);
+    const html = renderPostHtml(post, null, tpl, baseVars);
     const destDir = path.join(DIST, 'journal', post.slug);
     await fs.mkdir(destDir, { recursive: true });
     await fs.writeFile(path.join(destDir, 'index.html'), html, 'utf-8');
     generated += 1;
+    for (const lang of LOCALES) {
+      const tr = (post.translations || {})[lang];
+      if (!tr) continue;
+      const trHtml = renderPostHtml(post, tr, tpl, baseVars);
+      const trDir = path.join(DIST, lang, 'journal', post.slug);
+      await fs.mkdir(trDir, { recursive: true });
+      await fs.writeFile(path.join(trDir, 'index.html'), trHtml, 'utf-8');
+      translated += 1;
+    }
   }
+  if (translated) console.log(`[build] generated ${translated} translated post pages`);
   return generated;
 }
 
@@ -961,18 +1193,28 @@ function generateSitemap(posts, locales = []) {
     // stamping today, which would claim every old article changed on every deploy.
     const isoDay = (v) => (/^\d{4}-\d{2}-\d{2}/.test(v || '') ? String(v).slice(0, 10) : '');
     const lastmod = isoDay(p.updatedAt) || isoDay(p.publishedAt);
-    entries.push({ loc: `/journal/${p.slug}`, changefreq: 'monthly', priority: '0.7', lastmod });
+    // Translated articles: one <url> per language, each carrying the full
+    // hreflang cluster (reciprocal alternates, x-default = English).
+    const trLangs = locales.filter((l) => p.translations && p.translations[l]);
+    const alternates = trLangs.length
+      ? [...['en', ...trLangs].map((l) => `    <xhtml:link rel="alternate" hreflang="${l}" href="${base}${l === 'en' ? '' : '/' + l}/journal/${p.slug}" />`),
+         `    <xhtml:link rel="alternate" hreflang="x-default" href="${base}/journal/${p.slug}" />`].join('\n')
+      : '';
+    entries.push({ loc: `/journal/${p.slug}`, changefreq: 'monthly', priority: '0.7', lastmod, alternates });
+    for (const l of trLangs) {
+      entries.push({ loc: `/${l}/journal/${p.slug}`, changefreq: 'monthly', priority: '0.6', lastmod, alternates });
+    }
   }
   const urls = entries
     .map(
       (u) => `  <url>
     <loc>${base}${u.loc}</loc>${u.lastmod ? `\n    <lastmod>${u.lastmod}</lastmod>` : ''}
     <changefreq>${u.changefreq}</changefreq>
-    <priority>${u.priority}</priority>
+    <priority>${u.priority}</priority>${u.alternates ? `\n${u.alternates}` : ''}
   </url>`
     )
     .join('\n');
-  return `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls}\n</urlset>\n`;
+  return `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">\n${urls}\n</urlset>\n`;
 }
 
 // ---------- build ----------

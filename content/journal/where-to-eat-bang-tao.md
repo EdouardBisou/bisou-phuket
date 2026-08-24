@@ -121,7 +121,7 @@ We keep a separate guide to [the best beach clubs in Phuket](/journal/best-beach
 
 Then there is the dinner you plan around. A room you book, dress for a little, and settle into.
 
-[Bisou](/) is a modern French restaurant and cocktail bar at No.4 Bandon-Cherngtalay Road, a short drive from Laguna, Boat Avenue and Bang Tao Beach, with parking at the rear via the side street. It opened in 2025, founded by chef Antoine Darquin and sommelier Théo Lavergne, with Manon Bares running the kitchen and Louis Chartier looking after the room.
+[Bisou](/) is a modern French restaurant and cocktail bar at No.4 Bandon-Cherngtalay Road, a short drive from Laguna, Boat Avenue and Bang Tao Beach, with parking at the rear via the side street. It opened in 2025, founded by chef Antoine Darquin and sommelier Théo Lavergne, with Manon Bares running the kitchen and Louis Chartier looking after the room. Everything to know before you book at Bisou, from prices to dress code, is in [the Bisou guide](/journal/bisou-phuket-guide).
 
 The [menu](/menu) is plated to share, so a table orders together rather than each to their own: truffle French toast to begin, a house beef Wellington carved at the table, a whole seabass baked in salt crust and flambéed beside you. Dinner runs nightly from 6:00 PM to 1:00 AM with the cocktail bar throughout, which matters here: most kitchens on this list stop serving food between 10 and 11 PM.
 
