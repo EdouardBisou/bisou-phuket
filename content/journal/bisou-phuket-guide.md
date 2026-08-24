@@ -9,8 +9,7 @@ heroAlt: The candlelit dining room and cocktail bar at Bisou Phuket, a modern Fr
 excerpt: What Bisou Phuket is, where it is, what dinner costs, what to order, who cooks, what the bar is like, the dress code, children, parking, vegan options and how to book. Every answer in one place, from the team that runs the room.
 seoTitle: Bisou Phuket: Menu, Prices, Dress Code, How to Book (2026)
 seoDescription: Bisou Phuket explained: modern French plated to share in Cherngtalay, cocktail bar to 1 AM. Prices, what to order, dress code, kids, hours and how to book.
-author: Edouard Marquis
-authorRole: Director of Operations, Bisou
+author: Bisou Phuket
 premium: true
 layout: guide
 about: restaurant
@@ -83,7 +82,7 @@ Two things happen at the table that are worth ordering for: the beef Wellington 
 
 **Bisou Phuket was founded in 2025 by chef Antoine Darquin and sommelier Théo Lavergne, the pair behind Bisou Bangkok; head chef Manon Bares runs the kitchen and general manager Louis Chartier looks after the room.** Antoine writes the menu and the ideas behind it; Théo built the wine list and the way the room drinks.
 
-Manon leads the line every night. Louis runs the floor with a team that speaks French, English and Thai. I look after operations across both restaurants.
+Manon leads the line every night. Louis runs the floor with a team that speaks French, English and Thai.
 
 ## What is the bar like at Bisou Phuket?
 

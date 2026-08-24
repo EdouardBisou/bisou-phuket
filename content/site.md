@@ -98,7 +98,7 @@ Dish photos live on this repo's Sanity (project `5oq4q4y4`); pass the asset id t
 
 ## Brand voice
 
-Confident, warm, modern French, sensual but precise; "simple & sexy". **Never describe Bisou as "fine dining" (owner rule 2026-08-24): say "modern French restaurant" or modern dining, in every language.** Short sentences mixed with longer ones, active voice, real names and concrete details. Earned credibility over hype. Banned clichés: nestled, hidden gem, culinary journey, elevated, fusion, melt-in-your-mouth, foodie, must-visit, a feast for the senses, gastronomic, reimagined, curated experience, vibes, iconic, world-class, stunning, boasts.
+Confident, warm, modern French, sensual but precise; "simple & sexy". **Never describe Bisou as "fine dining" (owner rule 2026-08-24): say "modern French restaurant" or modern dining, in every language.** **Never print Edouard Marquis's name or title anywhere public (owner rule 2026-08-24): no byline, no author credit, no first-person "I run operations" prose. Articles sign as Bisou Bangkok / Bisou Phuket.** Short sentences mixed with longer ones, active voice, real names and concrete details. Earned credibility over hype. Banned clichés: nestled, hidden gem, culinary journey, elevated, fusion, melt-in-your-mouth, foodie, must-visit, a feast for the senses, gastronomic, reimagined, curated experience, vibes, iconic, world-class, stunning, boasts.
 
 ## Sister location
 

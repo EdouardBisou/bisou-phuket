@@ -6,8 +6,7 @@ excerpt: Ce qu'est Bisou Phuket, où il se trouve, le prix du dîner, quoi comma
 heroAlt: La salle à la lueur des bougies et le bar à cocktails de Bisou Phuket, restaurant français moderne à Cherngtalay, près de la plage de Bang Tao
 seoTitle: Bisou Phuket : menu, prix, dress code, réservation (2026)
 seoDescription: Bisou Phuket expliqué : cuisine française moderne à partager à Cherngtalay, bar à cocktails jusqu'à 1h. Prix, plats, dress code, enfants, horaires, réservation.
-author: Edouard Marquis
-authorRole: Directeur des opérations, Bisou
+author: Bisou Phuket
 atAGlance: Bisou Phuket est un restaurant français moderne et un bar à cocktails au No.4 Bandon-Cherngtalay Road à Cherngtalay, à quelques minutes en voiture de Laguna, Boat Avenue et de la plage de Bang Tao, ouvert en 2025 par le chef Antoine Darquin et le sommelier Théo Lavergne, avec la cheffe Manon Bares en cuisine. Le dîner est servi tous les soirs de 18h à 1h du matin, en assiettes à partager : les signatures vont de 1 290 à 2 990 THB, les plats de 490 à 990 THB, et le bar à cocktails sert jusqu'à 1h du matin. Smart casual, enfants bienvenus, plats véganes sur demande, et les convives qui dînent pendant leur mois de naissance reçoivent 10 % de remise sur l'addition entière, pour toute la table, sur présentation d'une pièce d'identité. Réservation sur book.bistrochat.com/bisou-phuket. À jour en août 2026.
 ctaLabel: Réserver une table
 ctaShort: Réserver
@@ -76,7 +75,7 @@ Deux choses se passent à table et valent, à elles seules, la commande : le bœ
 
 **Bisou Phuket a été fondé en 2025 par le chef Antoine Darquin et le sommelier Théo Lavergne, le duo derrière Bisou Bangkok ; la cheffe Manon Bares dirige la cuisine et le directeur général Louis Chartier veille sur la salle.** Antoine écrit la carte et les idées qui la portent ; Théo a construit la carte des vins et la manière dont la salle boit.
 
-Manon dirige la brigade chaque soir. Louis tient la salle avec une équipe qui parle français, anglais et thaï. Je dirige les opérations des deux restaurants.
+Manon dirige la brigade chaque soir. Louis tient la salle avec une équipe qui parle français, anglais et thaï.
 
 ## À quoi ressemble le bar de Bisou Phuket ?
 

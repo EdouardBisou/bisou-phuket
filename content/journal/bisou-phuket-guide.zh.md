@@ -6,8 +6,7 @@ excerpt: Bisou Phuket 是什么、在哪里、晚餐花多少钱、该点什么�
 heroAlt: Bisou Phuket 的烛光餐室与鸡尾酒吧，一家位于 Cherngtalay、邻近 Bang Tao 海滩的现代法式餐厅
 seoTitle: Bisou Phuket：菜单、价格、着装与预订指南 (2026)
 seoDescription: Bisou Phuket 详解：位于 Cherngtalay 的现代法式餐厅，菜品盘盘适合分享，鸡尾酒吧营业至凌晨 1 点。价格、必点菜式、着装要求、儿童政策、营业时间与预订方式，一页看全。
-author: Edouard Marquis
-authorRole: Bisou 运营总监
+author: Bisou Phuket
 atAGlance: Bisou Phuket 是一家位于 Cherngtalay No.4 Bandon-Cherngtalay Road 的现代法式餐厅与鸡尾酒吧，距 Laguna、Boat Avenue 和 Bang Tao 海滩车程不远，2025 年由主厨 Antoine Darquin 与侍酒师 Théo Lavergne 创立，厨房由厨师长 Manon Bares 执掌。晚餐每晚供应，晚上 6:00 至凌晨 1:00，菜品盘盘适合分享：招牌菜 1,290 至 2,990 泰铢，主菜 490 至 990 泰铢，鸡尾酒吧营业至凌晨 1 点。着装时尚休闲，欢迎儿童，纯素菜品可按需安排；生日当月用餐并出示身份证件，全单立减 10%，全桌同享。预订请访问 book.bistrochat.com/bisou-phuket。信息更新于 2026 年 8 月。
 ctaLabel: 预订餐桌
 ctaShort: 预订
@@ -76,7 +75,7 @@ faqHeading: 常见问题
 
 **Bisou Phuket 由主厨 Antoine Darquin 与侍酒师 Théo Lavergne 于 2025 年创立，他们正是 Bisou Bangkok 背后的那对搭档；厨房由厨师长 Manon Bares 执掌，总经理 Louis Chartier 照看整间餐厅。** Antoine 负责菜单，以及菜单背后的想法；Théo 打造了酒单，也定义了这间餐厅的饮酒方式。
 
-Manon 每晚亲自带队掌灶。Louis 带领一支通晓法语、英语和泰语的团队打理现场。两家餐厅的整体运营由我负责。
+Manon 每晚亲自带队掌灶。Louis 带领一支通晓法语、英语和泰语的团队打理现场。
 
 ## Bisou Phuket 的酒吧是什么样的？
 
