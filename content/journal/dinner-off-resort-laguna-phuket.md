@@ -85,6 +85,8 @@ The food is plated to share, so a table orders together rather than each to thei
   <a class="btn btn--gilt" href="/menu">See the menu</a>
 </div>
 
+If the reason to leave the resort is a date, see [the 10 most romantic restaurants in Bang Tao and Cherngtalay](/journal/romantic-restaurants-bang-tao).
+
 ## Frequently asked questions
 
 ### Where can I eat near Laguna Phuket that is not a hotel restaurant?

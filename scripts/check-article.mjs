@@ -28,7 +28,14 @@ for (const [i, raw] of lds.entries()) {
 }
 if (!articleLd) fail.push('no Article JSON-LD');
 else {
-  if (!articleLd.about || articleLd.about['@id'] !== `${site}/#restaurant`) fail.push('Article.about @id missing/wrong');
+  // entity guide only: `about: restaurant` marks the single canonical article
+  // ABOUT Bisou, and the build uses it to pick the llms.txt "About Bisou" link.
+  // A listicle must not claim it, so only assert it on the entity guide slug.
+  if (/-guide$/.test(slug)) {
+    if (!articleLd.about || articleLd.about['@id'] !== `${site}/#restaurant`) fail.push('Article.about @id missing/wrong');
+  } else if (articleLd.about) {
+    fail.push('Article.about set on a non-entity article (it would hijack the llms.txt About link)');
+  }
   if (articleLd.inLanguage !== lang) fail.push(`Article.inLanguage = ${articleLd.inLanguage}, expected ${lang}`);
   if (!articleLd.speakable) fail.push('no speakable');
 }
@@ -89,7 +96,13 @@ if (hero && hero[1].startsWith('/') && !fs.existsSync(path.join(dist, hero[1])))
 
 // 8. accents survived (spot checks, EN only)
 if (lang === 'en') {
-  for (const s of ['Théo', 'soufflé', 'flambé']) if (!html.includes(s)) warn.push(`expected accented string missing: ${s}`);
+  // Only flag an accent that got stripped, not one the article never used:
+  // compare against the markdown source rather than a fixed list.
+  const mdPath = path.join(repo, 'content', 'journal', `${slug}.md`);
+  const md = fs.existsSync(mdPath) ? fs.readFileSync(mdPath, 'utf8') : '';
+  for (const a of ['Théo', 'soufflé', 'flambé', 'Côte', 'à la carte']) {
+    if (md.includes(a) && !html.includes(a)) warn.push(`accented string lost in build: ${a}`);
+  }
 }
 
 console.log(`[check] ${site} ${slug} [${lang}] cards=${cards} lds=${lds.length}`);

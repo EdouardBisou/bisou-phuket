@@ -157,6 +157,10 @@ function extractFaq(md, faqHeading = '') {
   let content = sec[1];
   const nextH2 = content.search(/^##\s+/m);
   if (nextH2 !== -1) content = content.slice(0, nextH2);
+  // The FAQ is usually the last section, so anything the author puts after it
+  // (the decorative end mark, a CTA block) would otherwise ride along inside
+  // the final answer and land, mangled, in the FAQPage JSON-LD.
+  content = content.replace(/\n[ \t]*<(?:div|span|nav|section|aside|figure|p)\b[\s\S]*$/i, '\n');
   const blocks = content.split(/^###\s+/m).slice(1);
   const items = [];
   for (const b of blocks) {
@@ -166,6 +170,7 @@ function extractFaq(md, faqHeading = '') {
     const answer = b
       .slice(nl)
       .trim()
+      .replace(/<[^>]+>/g, ' ') // inline HTML -> space, before the marker strip mangles it
       .replace(/\[([^\]]+)\]\([^)]*\)/g, '$1')
       .replace(/[*_`>#]/g, '')
       .replace(/\s+/g, ' ')

@@ -147,6 +147,8 @@ Bread and French butter come to every table before anything else, at no charge, 
 
 **Read next:** [the best French restaurants in Phuket](/journal/best-french-restaurants-phuket), [leaving your Laguna resort for dinner](/journal/dinner-off-resort-laguna-phuket), [the best steakhouses in Phuket](/journal/best-steakhouses-phuket), and [the cocktail bar at Bisou](/journal/cocktail-bar-cherngtalay).
 
+Eating as a couple rather than as a table? We ranked [the 10 most romantic restaurants in Bang Tao and Cherngtalay](/journal/romantic-restaurants-bang-tao), with the table to ask for at each one.
+
 ## Frequently asked questions
 
 ### Where should I eat in Bang Tao, Phuket?

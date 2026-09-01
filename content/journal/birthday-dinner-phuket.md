@@ -104,6 +104,8 @@ Bang Tao itself is a 6 km beach on the west coast, roughly halfway between the a
   <a class="btn btn--gilt" href="https://book.bistrochat.com/bisou-phuket" target="_blank" rel="noreferrer">Book a birthday table</a>
 </div>
 
+For a birthday that is really a date, see [the 10 most romantic restaurants in Bang Tao and Cherngtalay](/journal/romantic-restaurants-bang-tao).
+
 ## Frequently asked questions
 
 ### Which restaurant in Phuket gives a birthday discount?
