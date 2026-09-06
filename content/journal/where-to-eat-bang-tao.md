@@ -149,6 +149,8 @@ Bread and French butter come to every table before anything else, at no charge, 
 
 Eating as a couple rather than as a table? We ranked [the 10 most romantic restaurants in Bang Tao and Cherngtalay](/journal/romantic-restaurants-bang-tao), with the table to ask for at each one.
 
+If it is raining, the choice narrows and the reasons are worth knowing: see [what to do in Phuket when it rains](/journal/phuket-rainy-season-evening).
+
 ## Frequently asked questions
 
 ### Where should I eat in Bang Tao, Phuket?

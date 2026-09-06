@@ -48,7 +48,7 @@ For a proper sit-down dinner that runs later than the local norm, Bisou is the p
 
 For guests staying inside Laguna, in-room dining is the simplest late option, since the property restaurants close their kitchens earlier in the evening.
 
-For a wider read on dinner before the late hours, the [Bang Tao restaurant guide](/journal/where-to-eat-bang-tao) covers the prime-time tables that close at the usual hour.
+For a wider read on dinner before the late hours, the [Bang Tao restaurant guide](/journal/where-to-eat-bang-tao) covers the prime-time tables that close at the usual hour. And when the weather is the reason you are eating indoors, we counted eleven years of airport records for [what to do in Phuket when it rains](/journal/phuket-rainy-season-evening).
 
 ## Late-night dining in Bang Tao and Cherngtalay, compared
 
