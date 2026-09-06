@@ -58,7 +58,7 @@ Single source of truth for the `/add-article` skill (and any content work) in th
 - **Walk-ins**: accepted when there is room, booking is better.
 - **Bar**: coming just for a cocktail is fine; the bar runs to 1 AM.
 - **Languages spoken in the room**: French and Thai (and English, the working language of the site and reservations).
-- **Outdoors**: a terrace in front of the restaurant.
+- **Outdoors**: none to write about. **The whole restaurant is indoors (owner-confirmed 2026-09-06): do NOT mention a terrace in Phuket copy.** (The line "There is a terrace in front." still sits in /journal/bisou-phuket-guide and its four translations, to be removed.)
 - NOT confirmed, do not write: wine corkage policy or fee, deposit / cancellation / no-show terms, days ahead to book, Google rating / review count / capacity / IG followers, the DJ night weekday or name, any chef sharing menu or a la carte average.
 
 ## Signature dishes

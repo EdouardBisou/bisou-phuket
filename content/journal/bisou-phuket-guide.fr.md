@@ -102,7 +102,6 @@ Un soir par semaine, un DJ joue et la salle s'anime ; le reste de la semaine, la
 Quelques détails qui répondent à la question suivante :
 
 - Vous pouvez venir juste pour un verre : le bar à cocktails tourne jusqu'à 1h du matin, chaque soir.
-- Il y a une terrasse devant.
 - En salle, nous parlons français, anglais et thaï.
 - Le parking est tout près du restaurant.
 - Signalez un anniversaire, un anniversaire de mariage ou une allergie à la réservation, et la salle est prête avant votre arrivée.

@@ -109,7 +109,6 @@ One night a week a DJ plays and the room lifts; the rest of the week the music s
 A few details that answer the next question:
 
 - You can come just for a drink: the cocktail bar runs until 1 AM every night.
-- There is a terrace in front.
 - We speak French, English and Thai in the room.
 - Parking is close by the restaurant.
 - Note a birthday, an anniversary or an allergy when you book and the room is set before you arrive.
