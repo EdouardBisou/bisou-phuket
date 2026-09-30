@@ -6,6 +6,20 @@
   "outputDirectory": "dist",
   "cleanUrls": true,
   "trailingSlash": false,
+  "redirects": [
+    { "source": "/food", "destination": "/menu", "permanent": true },
+    { "source": "/cocktails", "destination": "/menu", "permanent": true },
+    { "source": "/wine-list", "destination": "/menu", "permanent": true },
+    { "source": "/private-event", "destination": "/private-events", "permanent": true },
+    { "source": "/about-us", "destination": "/journal/bisou-phuket-guide", "permanent": true },
+    { "source": "/about-us/:path*", "destination": "/journal/bisou-phuket-guide", "permanent": true },
+    { "source": "/bisou-diaries", "destination": "/journal", "permanent": true },
+    { "source": "/bisou-diaries/:slug*", "destination": "/journal", "permanent": true },
+    { "source": "/bisou-phuket-signature-cocktails-louis-chartiers-creative-touch", "destination": "/journal/cocktail-bar-cherngtalay", "permanent": true },
+    { "source": "/where-to-celebrate-valentines-day-in-phuket-2026-guide", "destination": "/journal/romantic-restaurants-bang-tao", "permanent": true },
+    { "source": "/where-to-celebrate-valentines-day-in-phuket-2026-guide-2", "destination": "/journal/romantic-restaurants-bang-tao", "permanent": true },
+    { "source": "/journal/late-night-dining-bang-tail", "destination": "/journal/late-night-dining-bang-tao", "permanent": true }
+  ],
   "headers": [
     {
       "source": "/(.*)\\.(jpg|jpeg|png|webp|avif|svg|woff2|ttf|mp4)",
