@@ -59,7 +59,7 @@ Here are eight rooms across the three zones, with their published hours as of Ju
 
 As of July 2026, most kitchens near Laguna and Bang Tao stop serving food between 10:30 and 11 PM: [Catch Beach Club](https://www.catchbeachclub.com/) serves dinner until 10:30 PM and [SUAY](https://www.suayrestaurant.com/) until 11 PM. This is worth knowing before you set out, because Cherngtalay is quieter after dinner than the resort brochures suggest.
 
-If your table is running long, the practical options narrow. At Bisou, dinner runs from 6 PM with last food orders around 11 PM, and the cocktail bar keeps going until 1 AM, so a late dinner can turn into a proper night without moving. [CLC](https://clcphuket.com/) on Soi Cherngtalay 4 runs to 2 AM and is the closest thing in the area to a supper club, closed Mondays and Tuesdays. For the fuller picture, see our guide to [late-night dining in Bang Tao](/journal/late-night-dining-bang-tao).
+If your table is running long, the practical options narrow. At Bisou, dinner runs from 6 PM with last food orders around 11 PM, and the cocktail bar keeps going until 1 AM, so a late dinner can turn into a proper night without moving. On 24 and 25 December 2026, Bisou opens at 5 PM and keeps the kitchen open until midnight: see [Christmas Eve dinner at Bisou](/journal/christmas-dinner-phuket). [CLC](https://clcphuket.com/) on Soi Cherngtalay 4 runs to 2 AM and is the closest thing in the area to a supper club, closed Mondays and Tuesdays. For the fuller picture, see our guide to [late-night dining in Bang Tao](/journal/late-night-dining-bang-tao).
 
 ## Getting there and back
 

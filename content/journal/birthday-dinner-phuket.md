@@ -85,7 +85,7 @@ The birthday plate arrives without being asked for: Happy Birthday piped freehan
   <span class="jp-pull__src">Bisou, Cherngtalay</span>
 </div>
 
-For a group that wants the room to itself, see [private events](/private-events). For the rest of the [menu](/menu), including the cocktail list that runs until 1 AM, the kitchen's last food order is around 11 PM, so a birthday table that wants dessert should sit by nine.
+For a group that wants the room to itself, see [private events](/private-events). For the rest of the [menu](/menu), including the cocktail list that runs until 1 AM, the kitchen's last food order is around 11 PM, so a birthday table that wants dessert should sit by nine. On 24 and 25 December 2026 the kitchen stays open until midnight: see [Christmas Eve dinner at Bisou](/journal/christmas-dinner-phuket).
 
 ## When to book, and what to wear
 

@@ -112,6 +112,7 @@ A few details that answer the next question:
 - We speak French, English and Thai in the room.
 - Parking is close by the restaurant.
 - Note a birthday, an anniversary or an allergy when you book and the room is set before you arrive.
+- On 24 and 25 December 2026 we open at 5 PM and the kitchen runs until midnight: see [Christmas dinner in Phuket at Bisou](/journal/christmas-dinner-phuket).
 
 ## What about birthdays and private events?
 
