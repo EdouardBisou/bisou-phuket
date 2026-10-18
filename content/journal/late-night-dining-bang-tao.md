@@ -44,7 +44,7 @@ Ranked by how late the food actually comes out, the order is clear: 24-hour stor
 
 For genuinely all-night food, the 24-hour convenience stores on the main Bandon-Cherngtalay Road are the only guaranteed option, with the street stalls and noodle carts near Boat Avenue trading later than most restaurants, though hours shift by night and vendor.
 
-For a proper sit-down dinner that runs later than the local norm, Bisou is the practical choice, with last food orders around 11 PM and a cocktail bar open to 1 AM. If you want the drinks-led side of the same room rather than a dinner table, read the [Cherngtalay cocktail bar guide](/journal/cocktail-bar-cherngtalay).
+For a proper sit-down dinner that runs later than the local norm, Bisou is the practical choice, with last food orders around 11 PM and a cocktail bar open to 1 AM. If you want the drinks-led side of the same room rather than a dinner table, read the [Cherngtalay cocktail bar guide](/journal/cocktail-bar-cherngtalay). For the beach clubs and bars that carry the night on elsewhere in Bang Tao, see our [Bang Tao nightlife guide](/journal/party-restaurants-bang-tao).
 
 For guests staying inside Laguna, in-room dining is the simplest late option, since the property restaurants close their kitchens earlier in the evening.
 

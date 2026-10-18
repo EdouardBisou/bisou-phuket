@@ -123,7 +123,7 @@ Then there is the dinner you plan around. A room you book, dress for a little, a
 
 [Bisou](/) is a modern French restaurant and cocktail bar at No.4 Bandon-Cherngtalay Road, a short drive from Laguna, Boat Avenue and Bang Tao Beach, with parking at the rear via the side street. It opened in 2025, founded by chef Antoine Darquin and sommelier Théo Lavergne, with Manon Bares running the kitchen and Louis Chartier looking after the room. Everything to know before you book at Bisou, from prices to dress code, is in [the Bisou guide](/journal/bisou-phuket-guide).
 
-The [menu](/menu) is plated to share, so a table orders together rather than each to their own: truffle French toast to begin, a house beef Wellington carved at the table, a whole seabass baked in salt crust and flambéed beside you. Dinner runs nightly from 6:00 PM to 1:00 AM with the cocktail bar throughout, which matters here: most kitchens on this list stop serving food between 10 and 11 PM.
+The [menu](/menu) is plated to share, so a table orders together rather than each to their own: truffle French toast to begin, a house beef Wellington carved at the table, a whole seabass baked in salt crust and flambéed beside you. Dinner runs nightly from 6:00 PM, with the last food order around 11 PM and the cocktail bar open to 1:00 AM, which matters here: most kitchens on this list stop serving food between 10 and 11 PM.
 
 Bread and French butter come to every table before anything else, at no charge, and the [birthday plate](/journal/birthday-dinner-phuket) arrives without being asked for if someone is celebrating.
 
@@ -145,7 +145,7 @@ Bread and French butter come to every table before anything else, at no charge, 
 | The dinner you planned the trip around | Bisou, Bandon-Cherngtalay Road |
 | Anything after 11 PM | Bisou, or the bar at Joya until midnight |
 
-**Read next:** [the best French restaurants in Phuket](/journal/best-french-restaurants-phuket), [leaving your Laguna resort for dinner](/journal/dinner-off-resort-laguna-phuket), [the best steakhouses in Phuket](/journal/best-steakhouses-phuket), and [the cocktail bar at Bisou](/journal/cocktail-bar-cherngtalay).
+**Read next:** [the best French restaurants in Phuket](/journal/best-french-restaurants-phuket), [leaving your Laguna resort for dinner](/journal/dinner-off-resort-laguna-phuket), [the best steakhouses in Phuket](/journal/best-steakhouses-phuket), [the cocktail bar at Bisou](/journal/cocktail-bar-cherngtalay), and [Bang Tao nightlife, from sunset to last call](/journal/party-restaurants-bang-tao).
 
 Eating as a couple rather than as a table? We ranked [the 10 most romantic restaurants in Bang Tao and Cherngtalay](/journal/romantic-restaurants-bang-tao), with the table to ask for at each one.
 
@@ -167,7 +167,7 @@ Friday. Fun Friday Avenue runs along the Boat Avenue strip from about 4pm until 
 
 ### Where can you eat late in Bang Tao?
 
-Most kitchens here stop serving food between 10 and 11 PM. Joya runs to midnight, and Bisou on Bandon-Cherngtalay Road serves dinner to 1 AM with the cocktail bar open throughout. Beyond that the options are the 24-hour convenience stores on the main road.
+Most kitchens here stop serving food between 10 and 11 PM. Joya runs to midnight, and Bisou on Bandon-Cherngtalay Road takes its last food order around 11 PM and keeps the cocktail bar open to 1 AM. Beyond that the options are the 24-hour convenience stores on the main road.
 
 ### How far is Boat Avenue from Bang Tao Beach?
 
