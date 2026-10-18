@@ -40,6 +40,11 @@ for (const a of [
   try { html = html.split(a).join(dataUri(a)); } catch (e) { console.warn('  ! skip', a, e.message); }
 }
 
+// in-body photos too, so a figure in the article shows when the file is opened locally
+for (const a of new Set(html.match(/\/assets\/photos\/web\/[\w.-]+\.(?:jpg|png)/g) || [])) {
+  try { html = html.split(a).join(dataUri(a)); } catch (e) { console.warn('  ! skip', a, e.message); }
+}
+
 // drop analytics in the throwaway preview
 html = html.replace(/<script async src="https:\/\/www\.googletagmanager\.com[^<]*<\/script>/g, '');
 
