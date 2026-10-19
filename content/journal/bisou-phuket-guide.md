@@ -13,7 +13,7 @@ author: Bisou Phuket
 premium: true
 layout: guide
 about: restaurant
-atAGlance: Bisou Phuket is a modern French restaurant and cocktail bar at No.4 Bandon-Cherngtalay Road in Cherngtalay, a short drive from Laguna, Boat Avenue and Bang Tao Beach, opened in 2025 by chef Antoine Darquin and sommelier Théo Lavergne, with head chef Manon Bares in the kitchen. Dinner is served nightly from 6:00 PM to 1:00 AM, plated to share: signature dishes run 1,290 to 2,990 THB, mains 490 to 990 THB, and the cocktail bar pours until 1 AM. Smart casual, children welcome, vegan dishes on request, and guests dining during their birth month get 10 percent off the whole bill, for the whole table, on ID. Book at book.bistrochat.com/bisou-phuket. As of August 2026.
+atAGlance: Bisou Phuket is a modern French restaurant and cocktail bar at No.4 Bandon-Cherngtalay Road in Cherngtalay, a short drive from Laguna, Boat Avenue and Bang Tao Beach, opened in 2025 by chef Antoine Darquin and sommelier Théo Lavergne, with head chef Manon Bares in the kitchen. Dinner is served nightly from 6:00 PM, with the last food order around 11 PM, plated to share: signature dishes run 1,290 to 2,990 THB, mains 490 to 990 THB, and the cocktail bar pours until 1 AM. Smart casual, children welcome, vegan dishes on request, and guests dining during their birth month get 10 percent off the whole bill, for the whole table, on ID. Book at book.bistrochat.com/bisou-phuket. As of August 2026.
 ctaLabel: Reserve a table
 ctaShort: Reserve
 ctaHref: https://book.bistrochat.com/bisou-phuket
@@ -104,7 +104,7 @@ One night a week a DJ plays and the room lifts; the rest of the week the music s
 
 ## How do I book, and can I walk in?
 
-**Bisou Phuket takes reservations at [book.bistrochat.com/bisou-phuket](https://book.bistrochat.com/bisou-phuket) or by phone at <a href="tel:+66963789668">+66 96 378 9668</a>, and walk-ins are welcome when there is a table.** Dinner is served nightly from 6 PM to 1 AM, with the last food order around 11 PM.
+**Bisou Phuket takes reservations at [book.bistrochat.com/bisou-phuket](https://book.bistrochat.com/bisou-phuket) or by phone at <a href="tel:+66963789668">+66 96 378 9668</a>, and walk-ins are welcome when there is a table.** Dinner is served nightly from 6 PM, with the last food order around 11 PM and the bar open to 1 AM.
 
 A few details that answer the next question:
 

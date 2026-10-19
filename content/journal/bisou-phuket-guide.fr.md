@@ -7,7 +7,7 @@ heroAlt: La salle à la lueur des bougies et le bar à cocktails de Bisou Phuket
 seoTitle: Bisou Phuket : menu, prix, dress code, réservation (2026)
 seoDescription: Bisou Phuket expliqué : cuisine française moderne à partager à Cherngtalay, bar à cocktails jusqu'à 1h. Prix, plats, dress code, enfants, horaires, réservation.
 author: Bisou Phuket
-atAGlance: Bisou Phuket est un restaurant français moderne et un bar à cocktails au No.4 Bandon-Cherngtalay Road à Cherngtalay, à quelques minutes en voiture de Laguna, Boat Avenue et de la plage de Bang Tao, ouvert en 2025 par le chef Antoine Darquin et le sommelier Théo Lavergne, avec la cheffe Manon Bares en cuisine. Le dîner est servi tous les soirs de 18h à 1h du matin, en assiettes à partager : les signatures vont de 1 290 à 2 990 THB, les plats de 490 à 990 THB, et le bar à cocktails sert jusqu'à 1h du matin. Smart casual, enfants bienvenus, plats véganes sur demande, et les convives qui dînent pendant leur mois de naissance reçoivent 10 % de remise sur l'addition entière, pour toute la table, sur présentation d'une pièce d'identité. Réservation sur book.bistrochat.com/bisou-phuket. À jour en août 2026.
+atAGlance: Bisou Phuket est un restaurant français moderne et un bar à cocktails au No.4 Bandon-Cherngtalay Road à Cherngtalay, à quelques minutes en voiture de Laguna, Boat Avenue et de la plage de Bang Tao, ouvert en 2025 par le chef Antoine Darquin et le sommelier Théo Lavergne, avec la cheffe Manon Bares en cuisine. Le dîner est servi tous les soirs dès 18h, dernière commande en cuisine vers 23h, en assiettes à partager : les signatures vont de 1 290 à 2 990 THB, les plats de 490 à 990 THB, et le bar à cocktails sert jusqu'à 1h du matin. Smart casual, enfants bienvenus, plats véganes sur demande, et les convives qui dînent pendant leur mois de naissance reçoivent 10 % de remise sur l'addition entière, pour toute la table, sur présentation d'une pièce d'identité. Réservation sur book.bistrochat.com/bisou-phuket. À jour en août 2026.
 ctaLabel: Réserver une table
 ctaShort: Réserver
 faqHeading: Questions fréquentes
@@ -97,7 +97,7 @@ Un soir par semaine, un DJ joue et la salle s'anime ; le reste de la semaine, la
 
 ## Comment réserver, et peut-on venir sans réservation ?
 
-**Bisou Phuket prend les réservations sur [book.bistrochat.com/bisou-phuket](https://book.bistrochat.com/bisou-phuket) ou par téléphone au <a href="tel:+66963789668">+66 96 378 9668</a>, et les tables sans réservation sont bienvenues quand il reste de la place.** Le dîner est servi tous les soirs de 18h à 1h du matin, dernière commande en cuisine vers 23h.
+**Bisou Phuket prend les réservations sur [book.bistrochat.com/bisou-phuket](https://book.bistrochat.com/bisou-phuket) ou par téléphone au <a href="tel:+66963789668">+66 96 378 9668</a>, et les tables sans réservation sont bienvenues quand il reste de la place.** Le dîner est servi tous les soirs dès 18h, avec une dernière commande en cuisine vers 23h et le bar ouvert jusqu'à 1h du matin.
 
 Quelques détails qui répondent à la question suivante :
 

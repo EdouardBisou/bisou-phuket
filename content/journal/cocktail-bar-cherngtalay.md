@@ -66,7 +66,7 @@ Bisou is at No.4 Bandon-Cherngtalay Rd, Choeng Thale, Thalang, Phuket 83110, nea
 
 ### What time does the bar open?
 
-Bisou is open for dinner nightly from 6:00 PM until 1:00 AM, so the bar is your spot for both an early aperitif and a late nightcap.
+Bisou is open nightly from 6:00 PM until 1:00 AM, with the last food order around 11 PM, so the bar is your spot for both an early aperitif and a late nightcap.
 
 ### Do I need a reservation to drink at the bar?
 

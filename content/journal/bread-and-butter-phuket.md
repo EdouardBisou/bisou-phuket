@@ -76,7 +76,7 @@ Be suspicious of a menu in Phuket that imports everything. It usually means the 
 
 Bisou is a modern French restaurant and cocktail bar on Bandon-Cherngtalay Road, a short drive from Laguna, Boat Avenue and Bang Tao Beach, with parking at the rear via the side street.
 
-It opened in 2025, founded by chef Antoine Darquin and sommelier Théo Lavergne, with Manon Bares running the kitchen and Louis Chartier looking after the room. Dinner runs nightly from 6:00 PM to 1:00 AM and the cocktail bar runs throughout. The food is plated to share, which is the same instinct as the butter block: one thing in the middle that everyone reaches for. The [menu is here](/menu), and if you are choosing between French tables on the island we also keep a [guide to French restaurants in Phuket](/journal/best-french-restaurants-phuket).
+It opened in 2025, founded by chef Antoine Darquin and sommelier Théo Lavergne, with Manon Bares running the kitchen and Louis Chartier looking after the room. Dinner runs nightly from 6:00 PM, with the last food order around 11 PM and the cocktail bar open to 1:00 AM. The food is plated to share, which is the same instinct as the butter block: one thing in the middle that everyone reaches for. The [menu is here](/menu), and if you are choosing between French tables on the island we also keep a [guide to French restaurants in Phuket](/journal/best-french-restaurants-phuket).
 
 The bread and butter comes out before any of it, whatever you order.
 

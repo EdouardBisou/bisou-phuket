@@ -43,7 +43,7 @@ For French specifically, the name listed in the MICHELIN Guide Thailand 2026 is 
 
 The west coast around Cherngtalay and the Laguna complex has quietly become the island's most interesting place to eat well. It is calmer and greener than the south, and it holds the highest concentration of French cooking on Phuket.
 
-**Bisou** is a modern French restaurant and cocktail bar in Cherngtalay, a short drive from Laguna, Boat Avenue and Bang Tao Beach. It was founded in 2025 by chef Antoine Darquin and sommelier Théo Lavergne, with head chef Manon Bares in the kitchen and Louis Chartier looking after the room. The idea is simple and a touch sexy: candlelight, a bar you actually want to sit at, and French cooking that feels generous rather than fussy, plated to share. The [menu](/menu) leans into a few things worth crossing the island for, truffle French toast to begin, a house beef Wellington, and a whole seabass in salt crust flambéed at the table. Dinner is served nightly from 6:00 PM to 1:00 AM, with the cocktail bar running throughout. It is also the natural choice when the night matters, for which there are [private events](/private-events).
+**Bisou** is a modern French restaurant and cocktail bar in Cherngtalay, a short drive from Laguna, Boat Avenue and Bang Tao Beach. It was founded in 2025 by chef Antoine Darquin and sommelier Théo Lavergne, with head chef Manon Bares in the kitchen and Louis Chartier looking after the room. The idea is simple and a touch sexy: candlelight, a bar you actually want to sit at, and French cooking that feels generous rather than fussy, plated to share. The [menu](/menu) leans into a few things worth crossing the island for, truffle French toast to begin, a house beef Wellington, and a whole seabass in salt crust flambéed at the table. Dinner is served nightly from 6:00 PM, with the last food order around 11 PM and the cocktail bar open to 1:00 AM. It is also the natural choice when the night matters, for which there are [private events](/private-events).
 
 **Little Paris** sits nearby, close to Boat Avenue. It is a French bistronomy address, classic dishes such as Burgundy escargots, foie gras toasts and beef tartare given lighter, modern plating. A good middle ground between a bistro and a special occasion. See [littleparisphuket.com](https://www.littleparisphuket.com/).
 
@@ -83,7 +83,7 @@ In the Bang Tao and Cherngtalay area, the French options are Bisou, a modern Fre
 
 ### What is Bisou Phuket?
 
-Bisou is a modern French restaurant and cocktail bar in Cherngtalay, near Laguna and Bang Tao. Founded in 2025 by chef Antoine Darquin and sommelier Théo Lavergne, with head chef Manon Bares, it serves French cooking plated to share, with signatures such as truffle French toast, house beef Wellington and salt-crust seabass flambéed at the table. Dinner is nightly from 6:00 PM to 1:00 AM.
+Bisou is a modern French restaurant and cocktail bar in Cherngtalay, near Laguna and Bang Tao. Founded in 2025 by chef Antoine Darquin and sommelier Théo Lavergne, with head chef Manon Bares, it serves French cooking plated to share, with signatures such as truffle French toast, house beef Wellington and salt-crust seabass flambéed at the table. Dinner is nightly from 6:00 PM, with the last food order around 11 PM and the cocktail bar open to 1:00 AM.
 
 ### How do I book a table at Bisou?
 

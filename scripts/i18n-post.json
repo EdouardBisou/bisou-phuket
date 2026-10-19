@@ -18,7 +18,7 @@
     "aria-label=\"Primary\"": "aria-label=\"Navigation principale\"",
     "</span>Call</a>": "</span>Appeler</a>",
     "</span>Directions</a>": "</span>Itinéraire</a>",
-    "Dinner nightly, 6:00 PM to 1:00 AM<br/>": "Dîner tous les soirs, 18h00 à 01h00<br/>",
+    "Nightly 6:00 PM to 1:00 AM, last food order 11 PM<br/>": "Tous les soirs, 18h00 à 01h00, dernière commande 23h<br/>",
     "<a href=\"/\">Home</a> &middot; <a href=\"/menu\">Menu</a>": "<a href=\"/fr\">Accueil</a> &middot; <a href=\"/menu\">Menu</a>",
     "Website by <a": "Site web par <a"
   },
@@ -44,7 +44,7 @@
     "aria-label=\"Primary\"": "aria-label=\"Основная навигация\"",
     "</span>Call</a>": "</span>Позвонить</a>",
     "</span>Directions</a>": "</span>Маршрут</a>",
-    "Dinner nightly, 6:00 PM to 1:00 AM<br/>": "Ужин каждый вечер, с 18:00 до 01:00<br/>",
+    "Nightly 6:00 PM to 1:00 AM, last food order 11 PM<br/>": "Каждый вечер с 18:00 до 01:00, последний заказ кухни в 23:00<br/>",
     "<a href=\"/\">Home</a> &middot; <a href=\"/menu\">Menu</a>": "<a href=\"/ru\">Главная</a> &middot; <a href=\"/menu\">Меню</a>",
     "Website by <a": "Сайт разработан <a"
   },
@@ -70,7 +70,7 @@
     "aria-label=\"Primary\"": "aria-label=\"主导航\"",
     "</span>Call</a>": "</span>致电</a>",
     "</span>Directions</a>": "</span>导航</a>",
-    "Dinner nightly, 6:00 PM to 1:00 AM<br/>": "每晚晚餐，18:00 至次日 01:00<br/>",
+    "Nightly 6:00 PM to 1:00 AM, last food order 11 PM<br/>": "每晚 18:00 至次日 01:00，晚 11 点最后点餐<br/>",
     "<a href=\"/\">Home</a> &middot; <a href=\"/menu\">Menu</a>": "<a href=\"/zh\">首页</a> &middot; <a href=\"/menu\">菜单</a>",
     "Website by <a": "网站制作 <a"
   },
@@ -96,7 +96,7 @@
     "aria-label=\"Primary\"": "aria-label=\"เมนูหลัก\"",
     "</span>Call</a>": "</span>โทร</a>",
     "</span>Directions</a>": "</span>เส้นทาง</a>",
-    "Dinner nightly, 6:00 PM to 1:00 AM<br/>": "มื้อค่ำทุกคืน 18.00 น. ถึง 01.00 น.<br/>",
+    "Nightly 6:00 PM to 1:00 AM, last food order 11 PM<br/>": "ทุกคืน 18.00 น. ถึง 01.00 น. สั่งอาหารครั้งสุดท้าย 23.00 น.<br/>",
     "<a href=\"/\">Home</a> &middot; <a href=\"/menu\">Menu</a>": "<a href=\"/th\">หน้าแรก</a> &middot; <a href=\"/menu\">เมนู</a>",
     "Website by <a": "เว็บไซต์โดย <a"
   }

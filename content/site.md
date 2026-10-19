@@ -17,7 +17,7 @@ Single source of truth for the `/add-article` skill (and any content work) in th
 - **Address**: No.4 Bandon-Cherngtalay Rd, Choeng Thale, Thalang, Phuket 83110.
 - **Area**: Cherngtalay, on Phuket's west coast, a short drive from Laguna, Boat Avenue and Bang Tao Beach.
 - **Nearest landmarks** (Phuket has no train): Laguna Phuket, Boat Avenue, Bang Tao Beach.
-- **Hours**: dinner nightly, 6:00 PM to 1:00 AM (the cocktail bar runs throughout; last food order around 11 PM).
+- **Hours**: open nightly, 6:00 PM to 1:00 AM. Dinner from 6:00 PM with the last food order around 11 PM; the cocktail bar runs to 1:00 AM. Never write "dinner to 1 AM" or "dinner from 6 PM to 1 AM": the kitchen stops taking orders around 11 PM.
 - **Phone**: +66 96 378 9668
 - **Email**: contact@bisouphuket.com
 - **Reservations**: https://book.bistrochat.com/bisou-phuket
@@ -39,7 +39,7 @@ Single source of truth for the `/add-article` skill (and any content work) in th
 
 ## First-party data (use only verified numbers)
 
-- Founded 2025. Dinner nightly 6:00 PM to 1:00 AM. Prices in THB (Sanity menu is the source of truth for current prices).
+- Founded 2025. Open nightly 6:00 PM to 1:00 AM, last food order around 11 PM. Prices in THB (Sanity menu is the source of truth for current prices).
 - Do NOT reuse Bangkok's figures (covers per night, follower count, Google rating, awards). Those are Bangkok-only. If you want to cite a Phuket-specific number (covers, followers, reviews, capacity), confirm it with the owner first, then add it here.
 
 ## Birthdays and celebrations (owner-confirmed 2026-08-04)
