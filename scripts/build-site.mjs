@@ -605,7 +605,7 @@ function renderLlmsTxt(posts) {
     '',
     '> Bisou is a modern French restaurant and cocktail bar in Cherngtalay, Phuket. French cooking plated to share, a proper cocktail bar, candlelight. Tagline: simple & sexy. Est. 2025.',
     '',
-    'Bisou Phuket is at No.4 Bandon-Cherngtalay Rd, Choeng Thale, Thalang, Phuket 83110, a short drive from Laguna, Boat Avenue and Bang Tao Beach. Dinner nightly from 6:00 PM to 1:00 AM. Reserve at https://book.bistrochat.com/bisou-phuket.',
+    'Bisou Phuket is at No.4 Bandon-Cherngtalay Rd, Choeng Thale, Thalang, Phuket 83110, a short drive from Laguna, Boat Avenue and Bang Tao Beach. Dinner nightly from 6 PM, last food order around 11 PM; the cocktail bar runs to 1 AM. Reserve at https://book.bistrochat.com/bisou-phuket.',
     '',
     '## Key pages',
     `- [Home](${SITE_URL}/): the restaurant, concept and reservations`,
@@ -712,7 +712,7 @@ function buildVarBag(settings) {
   const phoneTel = phone.replace(/[^\d+]/g, '');
   const email = s.email || 'contact@bisouphuket.com';
   const address = s.address || 'No.4 Bandon-Cherngtalay Rd, Choeng Thale, Thalang, Phuket 83110';
-  const hours = s.openingHours || 'Dinner nightly, 6:00 PM to 1:00 AM. Last food order 11 PM.';
+  const hours = s.openingHours || 'Dinner nightly from 6 PM, last food order around 11 PM; the cocktail bar runs to 1 AM.';
   const mapsUrl = s.mapsUrl || 'https://www.google.com/maps/search/Bisou+Phuket+Bandon-Cherngtalay+Rd+Choeng+Thale+Phuket+83110';
   const reservationUrl = s.reservationUrl || 'https://book.bistrochat.com/bisou-phuket';
 
