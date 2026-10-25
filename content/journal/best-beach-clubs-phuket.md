@@ -56,7 +56,7 @@ We are a short drive from the Bang Tao, Surin and Layan clubs, so it slots into 
 
 ## A short, practical close
 
-Make the beach club your afternoon: sun, pool, sunset, the whole scene. Then make dinner the event. If you want a second food-led stop in the area, our neighborhood guide to [where to eat around Bang Tao](/journal/where-to-eat-bang-tao) has more ideas. And if Bisou is the move, book ahead, because the room is small and fills up.
+Make the beach club your afternoon: sun, pool, sunset, the whole scene. Then make dinner the event. And when the night runs on past dinner, our guide to [Bang Tao Beach nightlife](/journal/party-restaurants-bang-tao) covers the late bars and the one room that stays open to 1 AM. If you want a second food-led stop in the area, our neighborhood guide to [where to eat around Bang Tao](/journal/where-to-eat-bang-tao) has more ideas. And if Bisou is the move, book ahead, because the room is small and fills up.
 
 **Read next:** [Where to eat in Bang Tao](/journal/where-to-eat-bang-tao) and [the cocktail bar at Bisou](/journal/cocktail-bar-cherngtalay).
 

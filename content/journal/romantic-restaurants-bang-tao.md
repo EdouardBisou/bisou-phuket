@@ -39,9 +39,9 @@ This is the west coast, so the sun sets into the sea in front of you between abo
 
 ## What makes a Bang Tao dinner romantic
 
-**Romance around Bang Tao comes in three settings: a table on the sand at Bang Tao Beach for the sunset, a garden or a lagoon away from the road at Suay and Banyan Tree, and a dark candlelit room like Bisou or Moonshine once the beach has gone cold.** The list below runs through all three, plus two that are worth the short drive inland.
+**Romance around Bang Tao comes in three settings: a table on the sand at Bang Tao Beach for the sunset, a garden or a lagoon away from the road at Suay and Banyan Tree, and a dark candlelit room like Bisou or Moonshine once the beach has gone cold.** The list below runs through all three, plus two that are worth the short drive inland; and if the celebration calls for a grill rather than candlelight, see the [best steakhouses in Phuket](/journal/best-steakhouses-phuket).
 
-One piece of planning matters more here than anywhere else on the island. Sunset is the event, so if you want it, book the first seating and arrive thirty minutes before the sun goes down on the day; if you want quiet instead, book at 8 PM, when the beach clubs have turned their music up and the garden rooms have turned theirs down. High season, from November to April, fills the good tables days ahead. And note the format before you choose: some of these are full dinner restaurants, others are drinks and small plates with a view. For the wider area beyond romance, see our guide to [where to eat in Bang Tao](/journal/where-to-eat-bang-tao).
+One piece of planning matters more here than anywhere else on the island. Sunset is the event, so if you want it, book the first seating and arrive thirty minutes before the sun goes down on the day; if you want quiet instead, book at 8 PM, when the beach clubs have turned their music up and the garden rooms have turned theirs down. High season, from November to April, fills the good tables days ahead. And note the format before you choose: some of these are full dinner restaurants, others are drinks and small plates with a view. For the wider area beyond romance, see our guide to [where to eat in Bang Tao](/journal/where-to-eat-bang-tao), or, if the date turns into a night out, [Bang Tao nightlife](/journal/party-restaurants-bang-tao).
 
 ## The 10 rooms, compared
 

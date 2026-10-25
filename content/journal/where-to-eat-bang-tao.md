@@ -221,7 +221,7 @@ Then there is the dinner you plan around. A room you book, dress for a little, a
 
 The [menu](/menu) is plated to share, so a table orders together rather than each to their own: truffle French toast to begin, a house beef Wellington carved at the table, a whole seabass baked in salt crust and flambéed beside you. Dinner runs nightly from 6:00 PM, with the last food order around 11 PM and the cocktail bar open to 1:00 AM, which matters here: most kitchens on this list stop serving food between 10 and 11 PM.
 
-Bread and French butter come to every table before anything else, at no charge, and the [birthday plate](/journal/birthday-dinner-phuket) arrives without being asked for if someone is celebrating.
+Bread and French butter come to every table before anything else, at no charge, and the [birthday plate](/journal/birthday-dinner-phuket) arrives without being asked for if someone is celebrating. At Christmas the kitchen opens early and runs late: see [Christmas dinner in Phuket](/journal/christmas-dinner-phuket).
 
 <div class="jp-pull">
   <p>Ten minutes covers all of it. The Laguna gate, the strip, the inland kitchens. Nowhere else on the island is this dense.</p>

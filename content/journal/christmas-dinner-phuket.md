@@ -48,7 +48,7 @@ If your evening starts late anyway, our guide to [late night dining in Bang Tao]
 
 **The Bisou Phuket Christmas menu, with its dishes and prices, will be published on bisouphuket.com in November 2026.**
 
-The rest of the year, the kitchen of head chef Manon Bares cooks French food plated to share: a beef Wellington carved at the table, a whole seabass in salt crust flambéed in front of you, black truffle pasta, a Prunier caviar service and a truffle French toast, with warm sourdough and French butter brought to every table at no charge. You can read the current [menu](/menu) and the story behind the butter in [how to spot a serious French restaurant in Phuket](/journal/bread-and-butter-phuket).
+The rest of the year, the kitchen of head chef Manon Bares cooks French food plated to share: a beef Wellington carved at the table, a whole seabass in salt crust flambéed in front of you, black truffle pasta, a Prunier caviar service and a truffle French toast, with warm sourdough and French butter brought to every table at no charge. You can read the current [menu](/menu) and the story behind the butter in [how to spot a serious French restaurant in Phuket](/journal/bread-and-butter-phuket). If you would rather mark Christmas over a steak, our guide to the [best steakhouses in Phuket](/journal/best-steakhouses-phuket) covers the grills near Bang Tao.
 
 ## How do I get to Bisou from Laguna and Bang Tao?
 
@@ -72,7 +72,7 @@ Phuket has no train, so come by car or taxi and tell the driver Bandon-Cherngtal
 
 **Bisou Phuket is a modern French restaurant and cocktail bar in Cherngtalay, opened in 2025 by chef Antoine Darquin and sommelier Théo Lavergne, with head chef Manon Bares running the kitchen and general manager Louis Chartier looking after the room.** Bisou means kiss in French and the tagline is simple & sexy. Inside there is a kiss wall, a spiral staircase, candlelight, and a bar you actually want to sit at.
 
-Everything about the restaurant outside Christmas (prices, what to order, the bar) is in our [guide to Bisou Phuket](/journal/bisou-phuket-guide), and the evenings around it are mapped in [where to eat in Bang Tao and Cherngtalay](/journal/where-to-eat-bang-tao).
+Everything about the restaurant outside Christmas (prices, what to order, the bar) is in our [guide to Bisou Phuket](/journal/bisou-phuket-guide), and the evenings around it are mapped in [where to eat in Bang Tao and Cherngtalay](/journal/where-to-eat-bang-tao) and [Bang Tao nightlife](/journal/party-restaurants-bang-tao).
 
 <figure>
   <img src="/assets/photos/web/christmas-wine-bath-1920.jpg" srcset="/assets/photos/web/christmas-wine-bath-960.jpg 960w, /assets/photos/web/christmas-wine-bath-1920.jpg 1920w" sizes="(max-width: 760px) 92vw, 760px" width="1920" height="2880" loading="lazy" decoding="async" alt="Bottles of Champagne, rosé and white wine on crushed ice in a lit white bathtub" />

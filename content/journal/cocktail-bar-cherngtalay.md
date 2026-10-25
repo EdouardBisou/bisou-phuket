@@ -32,7 +32,7 @@ We will not pretend to print the menu here, because the pleasure of a good bar i
 
 ## Where to drink in Bang Tao, before or after dinner
 
-Bang Tao and Cherngtalay have become the part of Phuket where people actually live the evening, not just pass through it. The beach, the Laguna Phuket enclave, the slow grid of restaurants off Bandon-Cherngtalay Road: it is a neighborhood that rewards staying out.
+Bang Tao and Cherngtalay have become the part of Phuket where people actually live the evening, not just pass through it. The beach, the Laguna Phuket enclave, the slow grid of restaurants off Bandon-Cherngtalay Road: it is a neighborhood that rewards staying out, and our guide to [Bang Tao nightlife](/journal/party-restaurants-bang-tao) maps where the evening goes from sunset to last call.
 
 Bisou fits two moments in that night.
 
