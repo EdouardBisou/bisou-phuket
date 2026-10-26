@@ -53,7 +53,7 @@ Single source of truth for the `/add-article` skill (and any content work) in th
 
 - **Dress code**: smart casual, no flip-flops (worth saying to a table arriving from the beach).
 - **Children**: welcome, no minimum age, high chairs available. The room and the later evening are adult in mood (the music lifts as the night goes on), so an early seating suits a table with children best. Do not call Bisou a family restaurant.
-- **Parking**: close by the restaurant (the birthday article says "at the rear via the side street").
+- **Parking**: complimentary valet (owner-confirmed 2026-10-26). There is also self-parking at the rear via the side street. Both are fine to mention; do not remove the valet claim.
 - **Vegetarian / vegan / allergies**: plenty of vegetarian options; vegan guests are welcome and the kitchen plates dedicated vegan dishes for them. Mention allergies when booking.
 - **Walk-ins**: accepted when there is room, booking is better.
 - **Bar**: coming just for a cocktail is fine; the bar runs to 1 AM.
