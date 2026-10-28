@@ -66,7 +66,7 @@ Phuket has no train, so come by car or taxi and tell the driver Bandon-Cherngtal
 
 ## How do I book New Year's Eve dinner at Bisou Phuket?
 
-**Book New Year's Eve dinner at Bisou Phuket online at [book.bistrochat.com/bisou-phuket](https://book.bistrochat.com/bisou-phuket), or call <a href="tel:+66963789668">+66 96 378 9668</a>.** Choose your time, from 5 PM, and tell us about children, allergies and anything you are celebrating. You can also write to contact@bisouphuket.com. New Year's Eve fills faster than an ordinary night, so book early for the table and time you want.
+**Book New Year's Eve dinner at Bisou Phuket online at [book.bistrochat.com/bisou-phuket](https://book.bistrochat.com/bisou-phuket), or call <a href="tel:+66963789668">+66 96 378 9668</a>.** Choose your time, from 5 PM, and tell us about children, allergies and anything you are celebrating. You can also write to contact@bisouphuket.com. New Year's Eve fills faster than an ordinary night, so book early for the table and time you want. The wider picture, with the dates and resort deadlines, is in our guide to [booking a restaurant in Phuket in high season](/journal/book-restaurants-phuket-high-season).
 
 ## Who is Bisou Phuket?
 

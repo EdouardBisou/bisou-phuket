@@ -104,7 +104,7 @@ One night a week a DJ plays and the room lifts; the rest of the week the music s
 
 ## How do I book, and can I walk in?
 
-**Bisou Phuket takes reservations at [book.bistrochat.com/bisou-phuket](https://book.bistrochat.com/bisou-phuket) or by phone at <a href="tel:+66963789668">+66 96 378 9668</a>, and walk-ins are welcome when there is a table.** Dinner is served nightly from 6 PM, with the last food order around 11 PM and the bar open to 1 AM.
+**Bisou Phuket takes reservations at [book.bistrochat.com/bisou-phuket](https://book.bistrochat.com/bisou-phuket) or by phone at <a href="tel:+66963789668">+66 96 378 9668</a>, and walk-ins are welcome when there is a table.** Dinner is served nightly from 6 PM, with the last food order around 11 PM and the bar open to 1 AM. Planning between November and March? Our guide to [booking a restaurant in Phuket in high season](/journal/book-restaurants-phuket-high-season) covers the dates and deadlines.
 
 A few details that answer the next question:
 

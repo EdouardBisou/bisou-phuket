@@ -66,7 +66,7 @@ Phuket has no train, so come by car or taxi and tell the driver Bandon-Cherngtal
 
 ## How do I book Christmas dinner at Bisou Phuket?
 
-**Book Christmas dinner at Bisou Phuket online at [book.bistrochat.com/bisou-phuket](https://book.bistrochat.com/bisou-phuket), or call <a href="tel:+66963789668">+66 96 378 9668</a>.** Choose 24 or 25 December and your time, from 5 PM, and tell us about children, allergies and anything you are celebrating. You can also write to contact@bisouphuket.com.
+**Book Christmas dinner at Bisou Phuket online at [book.bistrochat.com/bisou-phuket](https://book.bistrochat.com/bisou-phuket), or call <a href="tel:+66963789668">+66 96 378 9668</a>.** Choose 24 or 25 December and your time, from 5 PM, and tell us about children, allergies and anything you are celebrating. You can also write to contact@bisouphuket.com. If you are planning the whole season, our guide to [booking a restaurant in Phuket in high season](/journal/book-restaurants-phuket-high-season) has the dates and deadlines that matter.
 
 ## Who is Bisou Phuket?
 
