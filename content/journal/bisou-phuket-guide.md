@@ -92,7 +92,7 @@ One night a week a DJ plays and the room lifts; the rest of the week the music s
 
 ## What is the dress code at Bisou?
 
-**Bisou Phuket is smart casual. No flip-flops.** Phuket is hot and we are not formal, so a shirt or a nice top with trousers, a dress, good sandals or sneakers are all fine. A jacket is never required. The only thing we ask is to leave the beach at the beach.
+**Bisou Phuket is smart casual. No flip-flops.** A shirt or a nice top with trousers, or a dress, is a good place to start. The whole restaurant is indoors, so leave the beach at the beach. For what other Phuket restaurants publish, see [what to wear to dinner in Phuket](/journal/what-to-wear-dinner-phuket).
 
 ## Can I bring children to Bisou?
 

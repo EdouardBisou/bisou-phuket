@@ -101,7 +101,7 @@ The practical facts for a high-season dinner at [Bisou](/):
 - **Address:** No.4 Bandon-Cherngtalay Road, Choeng Thale, Thalang, Phuket 83110, about five minutes inland from the Laguna Phuket gate.
 - **Hours:** open nightly, 6:00 PM to 1:00 AM; the last food order is around 11 PM and the cocktail bar runs to 1 AM.
 - **Parking:** complimentary valet, with self-parking at the rear via the side street.
-- **Dress code:** smart casual, no flip-flops, which is worth saying to a table arriving from the beach.
+- **Dress code:** smart casual, no flip-flops, which is worth saying to a table arriving from the beach. What other Phuket restaurants publish is in [what to wear to dinner in Phuket](/journal/what-to-wear-dinner-phuket).
 - **Children:** welcome, with no minimum age and high chairs available.
 - **What to order:** the [menu](/menu) runs from truffle French toast to a beef Wellington carved at the table and a whole seabass in salt crust, flambéed at the table. Everything else to know before you book, from vegetarian dishes to allergies, is in [the Bisou Phuket guide](/journal/bisou-phuket-guide).
 

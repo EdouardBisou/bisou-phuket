@@ -93,7 +93,7 @@ Book earlier than you think between November and April, and dress smart casual a
 
 Phuket's high season runs from November to April, with the peak from mid-December through February, when the island sits at 27 to 28 degrees and hotel rates run 30 to 50 percent above low season. The two busiest weeks of the year are New Year and Chinese New Year, when a west coast table on a Saturday is genuinely hard to get at short notice. Outside those weeks, a few days is usually enough for a table of two to six, and a week or more for anything larger.
 
-The dress code norm at Phuket's better restaurants is smart casual: no beach shorts, no flip-flops. That is worth saying out loud to a group arriving from Bang Tao Beach at seven.
+The dress code norm at Phuket's better restaurants is smart casual: no beach shorts, no flip-flops. That is worth saying out loud to a group arriving from Bang Tao Beach at seven. Venue-by-venue wording is in [what to wear to dinner in Phuket](/journal/what-to-wear-dinner-phuket).
 
 Bang Tao itself is a 6 km beach on the west coast, roughly halfway between the airport and Patong, with the Laguna complex behind it and Boat Avenue, and its Friday market, just inland. Cherngtalay sits between them, which is why a birthday dinner here works for a group scattered across three different resorts.
 
