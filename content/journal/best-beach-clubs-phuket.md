@@ -13,7 +13,7 @@ author: Bisou Phuket
 authorRole: Editorial
 draft: false
 premium: true
-atAGlance: "The best beach clubs in Phuket sit around Bang Tao, Surin and Kamala: Catch Beach Club and XANA on Bang Tao, Café del Mar on Kamala, Carpe Diem nearby. Beach club food is the supporting act, so when you want dinner to be the event, drive a few minutes inland to Bisou in Cherngtalay, a modern French restaurant and cocktail bar open nightly 6:00 PM to 1:00 AM."
+atAGlance: "The best beach clubs in Phuket sit around Bang Tao, Surin and Kamala: Catch Beach Club and XANA on Bang Tao, Café del Mar on Kamala, Carpe Diem nearby. Beach club food is the supporting act, so when you want dinner to be the event, drive a few minutes inland to Bisou in Cherngtalay, a modern French restaurant and cocktail bar open nightly 6:00 PM to midnight."
 ctaLabel: Book an after-beach dinner
 ctaHref: https://book.bistrochat.com/bisou-phuket
 ---
@@ -48,7 +48,7 @@ The honest common thread: at a beach club the food is usually the supporting act
 
 Here is the part we are biased about, so take it as a friendly local tip rather than a flex.
 
-If you are a foodie and you want the *meal* to be the thing you remember, the easy move is to shower off the salt, leave the beach club around sunset, and drive a few minutes inland to [Bisou](/) in Cherngtalay. We are a modern French restaurant and cocktail bar, "simple and sexy," open for dinner only, nightly from 6:00 PM, with the last food order around 11 PM and the bar open to 1:00 AM. No pool, no day-beds. Just dinner, done properly.
+If you are a foodie and you want the *meal* to be the thing you remember, the easy move is to shower off the salt, leave the beach club around sunset, and drive a few minutes inland to [Bisou](/) in Cherngtalay. We are a modern French restaurant and cocktail bar, "simple and sexy," open for dinner only, nightly from 6:00 PM, with the last food order around 11 PM and the bar open to midnight. No pool, no day-beds. Just dinner, done properly.
 
 What that looks like: truffle French toast to start, a whole salt-crust seabass flambeed at your table, a cocktail-bar-forward drinks list, and a room that is built around the food instead of the view. It is the after-beach dinner that beats typical beach-club food, not because beach clubs are bad, but because this is a different thing entirely. One is a day. The other is a meal.
 
@@ -56,7 +56,7 @@ We are a short drive from the Bang Tao, Surin and Layan clubs, so it slots into 
 
 ## A short, practical close
 
-Make the beach club your afternoon: sun, pool, sunset, the whole scene. Then make dinner the event. And when the night runs on past dinner, our guide to [Bang Tao Beach nightlife](/journal/party-restaurants-bang-tao) covers the late bars and the one room that stays open to 1 AM. If you want a second food-led stop in the area, our neighborhood guide to [where to eat around Bang Tao](/journal/where-to-eat-bang-tao) has more ideas. And if Bisou is the move, book ahead, because the room is small and fills up.
+Make the beach club your afternoon: sun, pool, sunset, the whole scene. Then make dinner the event. And when the night runs on past dinner, our guide to [Bang Tao Beach nightlife](/journal/party-restaurants-bang-tao) covers the late bars and the one room that stays open to midnight. If you want a second food-led stop in the area, our neighborhood guide to [where to eat around Bang Tao](/journal/where-to-eat-bang-tao) has more ideas. And if Bisou is the move, book ahead, because the room is small and fills up.
 
 **Read next:** [Where to eat in Bang Tao](/journal/where-to-eat-bang-tao) and [the cocktail bar at Bisou](/journal/cocktail-bar-cherngtalay).
 

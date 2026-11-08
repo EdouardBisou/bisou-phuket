@@ -15,13 +15,13 @@ listicle: true
 draft: false
 premium: true
 layout: guide
-atAGlance: "Bang Tao nightlife is a sunset, then dinner, then one late bar kind of night, far quieter than Patong. As of October 2026 the beach clubs Catch, RAVA, Carpe Diem and Xana are open, while several bars on the southern stretch of the beach closed in the 2026 clearance of public beach land. Friday is the fullest night: the Boat Avenue market, the Catch barbecue and the CLC show. Bisou keeps its bar open to 1 AM every night, and CLC runs latest, to 2 AM according to Phuket101."
+atAGlance: "Bang Tao nightlife is a sunset, then dinner, then one late bar kind of night, far quieter than Patong. As of October 2026 the beach clubs Catch, RAVA, Carpe Diem and Xana are open, while several bars on the southern stretch of the beach closed in the 2026 clearance of public beach land. Friday is the fullest night: the Boat Avenue market, the Catch barbecue and the CLC show. Bisou keeps its bar open to midnight every night, and CLC runs latest, to 2 AM according to Phuket101."
 ctaLabel: Book a late table
 ctaShort: Reserve
 ctaHref: https://book.bistrochat.com/bisou-phuket
 ---
 
-**Bang Tao nightlife is a sunset on the sand, a long dinner, then one late bar: there is no bar street here and nothing like Patong.** As of October 2026 the evening runs from the beach clubs **Catch**, **RAVA**, **Carpe Diem** and **Xana**, through dinner at rooms like **Bisou**, whose bar stays open to 1 AM, to the dinner show and dance floor at **CLC** on Soi Cherngtalay 4, the latest door in the area. Below are the ten places, in the order a night actually runs, with what is on each night of the week, what closed on the beach this year, and how to get home.
+**Bang Tao nightlife is a sunset on the sand, a long dinner, then one late bar: there is no bar street here and nothing like Patong.** As of October 2026 the evening runs from the beach clubs **Catch**, **RAVA**, **Carpe Diem** and **Xana**, through dinner at rooms like **Bisou**, whose bar stays open to midnight, to the dinner show and dance floor at **CLC** on Soi Cherngtalay 4, the latest door in the area. Below are the ten places, in the order a night actually runs, with what is on each night of the week, what closed on the beach this year, and how to get home.
 
 Everything here was checked in October 2026 against each venue's own published information, with Phuket101, Time Out and the Thai press where a venue publishes nothing. Where two sources disagree on a closing time, both are printed.
 
@@ -55,7 +55,7 @@ The list runs in the order of an evening, not as a ranking: sunset first, dinner
 | [Carpe Diem](https://carpediemphuket.com/) | Mediterranean beach restaurant and beach club | South Bang Tao Beach | 11 PM or midnight, sources differ | A weeknight sunset |
 | [Xana Beach Club](https://www.angsana.com/thailand/laguna-phuket/dining/xana) | Resort beach club, the calm one | Angsana Laguna Phuket | Varies by listing | Weekend beach dinners |
 | [Bangtao Boat Club](https://www.facebook.com/Hugohubphuket) | Open-air food court and bar on the sand | Soi Hat Surin 8, south Bang Tao | Midnight | Happy hour, 4 to 7 PM daily |
-| [Bisou](https://bisouphuket.com/) | Modern French, plated to share, with a cocktail bar | Bandon-Cherngtalay Road | 1 AM, last food order around 11 PM | Every night, a DJ one night a week |
+| [Bisou](https://bisouphuket.com/) | Modern French, plated to share, with a cocktail bar | Bandon-Cherngtalay Road | Midnight, last food order around 11 PM | Every night, a DJ one night a week |
 | [CLC (Come Leo Come)](https://clcphuket.com/) | Dinner show, then a dance floor | Soi Cherngtalay 4 | "Till late" (official), 2 AM (Phuket101) | Friday and Saturday show, 8 PM |
 | [Moonshine](https://www.moonshinephuket.net/) | Live music lounge and gastropub | Lagoon Road, Boat Avenue | Midnight, closed Mondays | Tuesday, Wednesday, Sunday |
 | [Etna](https://www.phuket101.net/etna/) | All-day Mediterranean on the lakefront | Boat Avenue | Midnight or 1 AM, sources differ | DJ on Friday and Saturday |
@@ -97,7 +97,7 @@ It sits at Soi Hat Surin 8, on the same southern stretch that lost its shacks in
 
 ## 6. Bisou, dinner that turns into the night
 
-**Bisou is the dinner in the middle of the evening, and the one room on this list where a French dinner runs straight into a bar that stays open to 1 AM.** It sits at No.4 Bandon-Cherngtalay Road in Cherngtalay, a short drive inland from Laguna, Boat Avenue and Bang Tao Beach. Dinner is served nightly from 6 PM, the last food order is around 11 PM, and the cocktail bar keeps going to 1 AM.
+**Bisou is the dinner in the middle of the evening, and the room on this list where a French dinner runs straight into a cocktail bar with a DJ one night a week.** It sits at No.4 Bandon-Cherngtalay Road in Cherngtalay, a short drive inland from Laguna, Boat Avenue and Bang Tao Beach. Dinner is served nightly from 6 PM, the last food order is around 11 PM, and the cocktail bar keeps going to midnight.
 
 The room changes with the night of the week. One night a week a DJ plays and the room lifts; the rest of the week the music stays lower and the candles do the work. It stays a restaurant, not a club, and there is always a quieter corner for the table that came to talk. The plates are made to share and to keep a table together late: a beef Wellington carved at the table, a whole seabass in salt crust flambéed in the room, truffle French toast, with warm sourdough and French butter on every table. Coming just for a drink at the bar is fine.
 
@@ -155,7 +155,7 @@ Getting home is the part to plan. Grab and Bolt both work in Bang Tao, but drive
 <div class="jp-band">
   <span class="jp-band__lab">Cherngtalay</span>
   <h2 class="jp-nonum">A late table, every night</h2>
-  <p>Dinner from 6 PM, plates to share, the last food order around 11 PM and the bar open to 1 AM. Come for dinner, or just for the bar.</p>
+  <p>Dinner from 6 PM, plates to share, the last food order around 11 PM and the bar open to midnight. Come for dinner, or just for the bar.</p>
   <a class="btn btn--gilt" href="https://book.bistrochat.com/bisou-phuket" target="_blank" rel="noreferrer">Book a table at Bisou</a>
 </div>
 
@@ -165,19 +165,19 @@ For the kitchens that serve latest, see our guide to [late-night dining in Bang 
 
 ### What is there to do at night on Bang Tao Beach?
 
-On Bang Tao Beach the night starts with sunset at the beach clubs, Catch, RAVA, Carpe Diem and Xana, then moves inland to the bars and live music around Boat Avenue. From there it is a late cocktail at Bisou, whose bar runs to 1 AM, or the dinner show and dance floor at CLC, the latest door in the area.
+On Bang Tao Beach the night starts with sunset at the beach clubs, Catch, RAVA, Carpe Diem and Xana, then moves inland to the bars and live music around Boat Avenue. From there it is a late cocktail at Bisou, whose bar runs to midnight, or the dinner show and dance floor at CLC, the latest door in the area.
 
 ### What is the nightlife like in Bang Tao?
 
-Bang Tao nightlife is relaxed and early compared with Patong: beach clubs for sunset, then dinner, then one late bar. As of October 2026 the beach clubs Catch, RAVA, Carpe Diem and Xana are open, Boat Avenue has the bars and live music, Bisou's bar runs to 1 AM, and CLC, with a dinner show and a dance floor, runs latest, to 2 AM according to Phuket101.
+Bang Tao nightlife is relaxed and early compared with Patong: beach clubs for sunset, then dinner, then one late bar. As of October 2026 the beach clubs Catch, RAVA, Carpe Diem and Xana are open, Boat Avenue has the bars and live music, Bisou's bar runs to midnight, and CLC, with a dinner show and a dance floor, runs latest, to 2 AM according to Phuket101.
 
 ### What are the best bars in Bang Tao?
 
-As of October 2026, the best bars in Bang Tao are Moonshine on Lagoon Road, a live music lounge open to midnight and closed on Mondays; Mrs B at Boat Avenue, open to midnight according to Time Out, with its open-air cocktail bar, the Yard; the cocktail bar at Bisou on Bandon-Cherngtalay Road, open to 1 AM every night; and CLC on Soi Cherngtalay 4, the latest door, with DJs after its weekend show. For sunset, start at the beach clubs Catch, RAVA or Carpe Diem.
+As of October 2026, the best bars in Bang Tao are Moonshine on Lagoon Road, a live music lounge open to midnight and closed on Mondays; Mrs B at Boat Avenue, open to midnight according to Time Out, with its open-air cocktail bar, the Yard; the cocktail bar at Bisou on Bandon-Cherngtalay Road, open to midnight every night; and CLC on Soi Cherngtalay 4, the latest door, with DJs after its weekend show. For sunset, start at the beach clubs Catch, RAVA or Carpe Diem.
 
 ### What are the best party restaurants in Bang Tao and Cherngtalay?
 
-The restaurants where dinner turns into a party are CLC, with a Dinner and Show on Friday and Saturday at 8 PM and DJs after; Bisou, a modern French restaurant with a cocktail bar to 1 AM and a DJ one night a week; Catch Beach Club, with a Friday barbecue on the sand; and Etna at Boat Avenue, with a DJ on the lake terrace on Friday and Saturday.
+The restaurants where dinner turns into a party are CLC, with a Dinner and Show on Friday and Saturday at 8 PM and DJs after; Bisou, a modern French restaurant with a cocktail bar to midnight and a DJ one night a week; Catch Beach Club, with a Friday barbecue on the sand; and Etna at Boat Avenue, with a DJ on the lake terrace on Friday and Saturday.
 
 ### Are the Bang Tao beach bars still open after the 2026 clearance?
 
@@ -189,11 +189,11 @@ Yes. The Bang Tao Night Market on Soi Bang Tao 2, beside Lotus's Cherngtalay, ru
 
 ### What time do bars close in Bang Tao?
 
-Most bars and restaurants in Bang Tao close at midnight. Bisou's bar runs to 1 AM, and CLC is the latest, to 2 AM according to Phuket101. Phuket's 4 AM zones centre on Patong, and none we found includes Bang Tao.
+Most bars and restaurants in Bang Tao close at midnight, Bisou's bar included, and CLC is the latest, to 2 AM according to Phuket101. Phuket's 4 AM zones centre on Patong, and none we found includes Bang Tao.
 
 ### Which restaurant in Cherngtalay has a DJ?
 
-Bisou has a DJ one night a week in its Cherngtalay dining room and a bar open to 1 AM. Moonshine has a resident DJ on Wednesdays, Etna puts a DJ on its lake terrace on Friday and Saturday, CLC runs DJs after its weekend show, Carpe Diem lists DJs and pool party weekends, and Bangtao Boat Club has DJs on most evenings.
+Bisou has a DJ one night a week in its Cherngtalay dining room and a bar open to midnight. Moonshine has a resident DJ on Wednesdays, Etna puts a DJ on its lake terrace on Friday and Saturday, CLC runs DJs after its weekend show, Carpe Diem lists DJs and pool party weekends, and Bangtao Boat Club has DJs on most evenings.
 
 ### How do I get home late from Bang Tao?
 

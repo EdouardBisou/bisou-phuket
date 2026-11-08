@@ -12,7 +12,7 @@ seoDescription: What to wear to dinner in Phuket: what eight named venues publis
 author: Bisou Phuket
 premium: true
 layout: guide
-atAGlance: As of 2 November 2026, six of the eight Phuket venues we checked state smart casual, one says casual and for one we found no dress code. Five of the eight name flip-flops, and the stricter rooms add beach sandals, sportswear and sleeveless attire for men. Bisou Phuket, a modern French restaurant and cocktail bar at No.4 Bandon-Cherngtalay Road in Cherngtalay, is smart casual with no flip-flops, open nightly from 6:00 PM with the bar running to 1:00 AM.
+atAGlance: As of 2 November 2026, six of the eight Phuket venues we checked state smart casual, one says casual and for one we found no dress code. Five of the eight name flip-flops, and the stricter rooms add beach sandals, sportswear and sleeveless attire for men. Bisou Phuket, a modern French restaurant and cocktail bar at No.4 Bandon-Cherngtalay Road in Cherngtalay, is smart casual with no flip-flops, open nightly from 6:00 PM with the bar running to midnight.
 ctaLabel: Book a table at Bisou
 ctaShort: Book
 ctaHref: https://book.bistrochat.com/bisou-phuket
@@ -116,7 +116,7 @@ Two sensible additions, and these are our advice and not a venue rule: choose br
 The facts for planning your evening at [Bisou](/):
 
 - **Address:** No.4 Bandon-Cherngtalay Road, Choeng Thale, Thalang, Phuket 83110, a short drive from Laguna, Boat Avenue and Bang Tao Beach.
-- **Hours:** open nightly, 6:00 PM to 1:00 AM; dinner from 6:00 PM, last food order around 11 PM, and the cocktail bar runs to 1:00 AM.
+- **Hours:** open nightly, 6:00 PM to midnight; dinner from 6:00 PM, last food order around 11 PM, and the cocktail bar runs to midnight.
 - **Bar:** coming just for a cocktail is fine, and cocktails are 490 THB.
 - **Booking:** [book.bistrochat.com/bisou-phuket](https://book.bistrochat.com/bisou-phuket) or +66 96 378 9668. Walk-ins are accepted when there is room.
 - **Parking:** complimentary valet, with self-parking at the rear via the side street.
@@ -151,7 +151,7 @@ Smart casual is the safe choice at a Phuket beach club after dark. Phuket 101 sa
 
 ### What is the dress code at Bisou Phuket?
 
-Smart casual, no flip-flops. Bisou Phuket, a modern French restaurant and cocktail bar at No.4 Bandon-Cherngtalay Road in Cherngtalay, is entirely indoors. It is open nightly from 6:00 PM, with the bar open to 1:00 AM and the last food order around 11 PM.
+Smart casual, no flip-flops. Bisou Phuket, a modern French restaurant and cocktail bar at No.4 Bandon-Cherngtalay Road in Cherngtalay, is entirely indoors. It is open nightly from 6:00 PM, with the bar open to midnight and the last food order around 11 PM.
 
 ### How do I find out a Phuket restaurant's dress code?
 

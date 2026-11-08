@@ -29,7 +29,7 @@ Bisou opens three private options at No.4 Bandon-Cherngtalay Road, from an intim
 <div class="jp-trip">
   <div class="jp-c3"><div class="jp-c3__im" style="background-image:url(/assets/photos/web/private-room-portrait-960.jpg)"></div><div class="jp-c3__b"><span class="jp-c3__k">Intimate</span><h3>The Private Room</h3><p>Behind a heavy curtain: candlelight, a table set for a close group. For milestone birthdays, honeymoon parties and discreet dinners.</p></div></div>
   <div class="jp-c3"><div class="jp-c3__im" style="background-image:url(/assets/photos/web/spiral-staircase-960.jpg)"></div><div class="jp-c3__b"><span class="jp-c3__k">A floor of its own</span><h3>The Upper Floor</h3><p>Joined to the bar by the spiral staircase, a floor removed from the room below but still part of its energy. For mid-sized celebrations.</p></div></div>
-  <div class="jp-c3"><div class="jp-c3__im" style="background-image:url(/assets/photos/web/hero-dining-kisses-960.jpg)"></div><div class="jp-c3__b"><span class="jp-c3__k">The whole house</span><h3>Full Venue Buyout</h3><p>Bar, dining room, cellar, with the cocktail bar running to 1 AM. The room as we built it, for weddings and end-of-year parties.</p></div></div>
+  <div class="jp-c3"><div class="jp-c3__im" style="background-image:url(/assets/photos/web/hero-dining-kisses-960.jpg)"></div><div class="jp-c3__b"><span class="jp-c3__k">The whole house</span><h3>Full Venue Buyout</h3><p>Bar, dining room, cellar, with the cocktail bar running to midnight. The room as we built it, for weddings and end-of-year parties.</p></div></div>
 </div>
 
 Bisou is founded by chef Antoine Darquin and sommelier Théo Lavergne, and sits a short drive from Laguna, Boat Avenue and Bang Tao Beach. See [the private events page](/private-events) for the full offer, or [the menu](/menu) for the share-style French dishes.
@@ -46,7 +46,7 @@ Beyond Bisou, the west coast keeps a few genuine private rooms, from a Michelin-
 | Tatonka | Private parties and a courtyard | Cherngtalay, near Boat Avenue | Global, tapas-style |
 
 <div class="jp-rivals">
-  <div class="jp-rv jp-rv--star"><div><span class="jp-rv__badge">Our pick</span><h3>Bisou</h3><div class="jp-rv__m">Modern French, plated to share</div><p>Three private spaces, a custom menu by head chef Manon Bares, tableside carving and flambe, a French cellar and a bar to 1 AM. Adapts from an intimate table to a full buyout, with no fixed minimum.</p></div><span class="jp-rv__near">Near Laguna</span></div>
+  <div class="jp-rv jp-rv--star"><div><span class="jp-rv__badge">Our pick</span><h3>Bisou</h3><div class="jp-rv__m">Modern French, plated to share</div><p>Three private spaces, a custom menu by head chef Manon Bares, tableside carving and flambe, a French cellar and a bar to midnight. Adapts from an intimate table to a full buyout, with no fixed minimum.</p></div><span class="jp-rv__near">Near Laguna</span></div>
   <div class="jp-rv"><div><h3>SUAY Cherngtalay</h3><div class="jp-rv__m">Modern Thai, MICHELIN Selected</div><p>Chef Tammasak hosts private dinners, weddings and corporate gatherings in a dedicated event space with an outdoor courtyard and a private barbecue terrace, and can cater off-site.</p></div><span class="jp-rv__near">Near Bang Tao</span></div>
   <div class="jp-rv"><div><h3>PRU at Trisara</h3><div class="jp-rv__m">Fine-dining Thai, MICHELIN Star</div><p>The Reserve, a ten-seat private room set inside a wine cellar of more than 200 labels, with a full-venue buyout available for larger events at the Trisara resort.</p></div><span class="jp-rv__near">Near Nai Thon</span></div>
   <div class="jp-rv"><div><h3>Tatonka</h3><div class="jp-rv__m">Global, tapas-style</div><p>An institution since 1996 that takes private parties with a personally designed menu, plus a private courtyard that separates off for smaller functions near Boat Avenue.</p></div><span class="jp-rv__near">Near Boat Avenue</span></div>
@@ -61,7 +61,7 @@ If none of these fit, the west coast alternative is a private chef in your villa
 
 ## How to choose your private dinner
 
-Choose by the occasion. For an intimate milestone or a honeymoon dinner, the curtained private room at Bisou keeps the evening close. For a mid-sized celebration with room to move, the private upper floor works, joined to the bar by the spiral staircase. For a wedding or an end-of-year party, a full-venue buyout gives you the whole house and a bar that runs to 1 AM. Whichever you pick, head chef Manon Bares builds the menu around your guests and your budget. [Tell us about your event](/private-events) and we shape the room to your group.
+Choose by the occasion. For an intimate milestone or a honeymoon dinner, the curtained private room at Bisou keeps the evening close. For a mid-sized celebration with room to move, the private upper floor works, joined to the bar by the spiral staircase. For a wedding or an end-of-year party, a full-venue buyout gives you the whole house and a bar that runs to midnight. Whichever you pick, head chef Manon Bares builds the menu around your guests and your budget. [Tell us about your event](/private-events) and we shape the room to your group.
 
 <div class="jp-band">
   <span class="jp-band__lab">Let's plan it</span>

@@ -8,12 +8,12 @@ hero: /assets/photos/web/bisou-phuket-guide-cover-1920.jpg
 heroAlt: The candlelit dining room and cocktail bar at Bisou Phuket, a modern French restaurant in Cherngtalay near Bang Tao Beach
 excerpt: What Bisou Phuket is, where it is, what dinner costs, what to order, who cooks, what the bar is like, the dress code, children, parking, vegan options and how to book. Every answer in one place, from the team that runs the room.
 seoTitle: Bisou Phuket: Menu, Prices, Dress Code, How to Book (2026)
-seoDescription: Bisou Phuket explained: modern French plated to share in Cherngtalay, cocktail bar to 1 AM. Prices, what to order, dress code, kids, hours and how to book.
+seoDescription: Bisou Phuket explained: modern French plated to share in Cherngtalay, cocktail bar to midnight. Prices, what to order, dress code, kids, hours and how to book.
 author: Bisou Phuket
 premium: true
 layout: guide
 about: restaurant
-atAGlance: Bisou Phuket is a modern French restaurant and cocktail bar at No.4 Bandon-Cherngtalay Road in Cherngtalay, a short drive from Laguna, Boat Avenue and Bang Tao Beach, opened in 2025 by chef Antoine Darquin and sommelier Théo Lavergne, with head chef Manon Bares in the kitchen. Dinner is served nightly from 6:00 PM, with the last food order around 11 PM, plated to share: signature dishes run 1,290 to 2,990 THB, mains 490 to 990 THB, and the cocktail bar pours until 1 AM. Smart casual, children welcome, vegan dishes on request, and guests dining during their birth month get 10 percent off the whole bill, for the whole table, on ID. Book at book.bistrochat.com/bisou-phuket. As of August 2026.
+atAGlance: Bisou Phuket is a modern French restaurant and cocktail bar at No.4 Bandon-Cherngtalay Road in Cherngtalay, a short drive from Laguna, Boat Avenue and Bang Tao Beach, opened in 2025 by chef Antoine Darquin and sommelier Théo Lavergne, with head chef Manon Bares in the kitchen. Dinner is served nightly from 6:00 PM, with the last food order around 11 PM, plated to share: signature dishes run 1,290 to 2,990 THB, mains 490 to 990 THB, and the cocktail bar pours until midnight. Smart casual, children welcome, vegan dishes on request, and guests dining during their birth month get 10 percent off the whole bill, for the whole table, on ID. Book at book.bistrochat.com/bisou-phuket. As of August 2026.
 ctaLabel: Reserve a table
 ctaShort: Reserve
 ctaHref: https://book.bistrochat.com/bisou-phuket
@@ -24,9 +24,9 @@ draft: false
 
 <nav class="jp-chips" aria-label="Quick facts">
   <a href="#s-what-should-i-order-at-bisou-phuket"><b>THB 2,990</b> beef Wellington</a>
-  <a href="#s-what-is-the-bar-like-at-bisou-phuket"><b>1 AM</b> cocktail bar, nightly</a>
+  <a href="#s-what-is-the-bar-like-at-bisou-phuket"><b>Midnight</b> cocktail bar, nightly</a>
   <a href="#s-where-is-bisou-and-how-do-i-get-there"><b>Laguna</b> Boat Avenue, Bang Tao</a>
-  <a href="#s-how-do-i-book-and-can-i-walk-in"><b>6 PM</b> to 1 AM, nightly</a>
+  <a href="#s-how-do-i-book-and-can-i-walk-in"><b>6 PM</b> to midnight, nightly</a>
   <a href="#s-what-is-the-dress-code-at-bisou"><b>Smart casual</b> no flip-flops</a>
   <a href="#s-can-i-bring-children-to-bisou"><b>Children</b> welcome</a>
   <a href="#s-do-you-have-vegetarian-and-vegan-options"><b>Vegan</b> on request</a>
@@ -35,11 +35,11 @@ draft: false
 
 ## What is Bisou Phuket?
 
-**Bisou Phuket is a modern French restaurant and cocktail bar in Cherngtalay, opened in 2025 by chef Antoine Darquin and sommelier Théo Lavergne, where the food is plated to share and the bar runs to 1 AM.** Bisou means kiss in French, and the tagline is simple & sexy: French cooking that feels generous rather than fussy, a menu written for two pairs of hands rather than one, and a room that stays open long after most kitchens on this coast have gone dark. Where we sit among [the French restaurants of Phuket](/journal/best-french-restaurants-phuket) is a longer story.
+**Bisou Phuket is a modern French restaurant and cocktail bar in Cherngtalay, opened in 2025 by chef Antoine Darquin and sommelier Théo Lavergne, where the food is plated to share and the bar runs to midnight.** Bisou means kiss in French, and the tagline is simple & sexy: French cooking that feels generous rather than fussy, a menu written for two pairs of hands rather than one, and a room that stays open long after most kitchens on this coast have gone dark. Where we sit among [the French restaurants of Phuket](/journal/best-french-restaurants-phuket) is a longer story.
 
 It is the second Bisou, after the original on Soi Langsuan in Bangkok, with its own room, its own kitchen and its own menu. The signatures set the tone: truffle French toast, a house beef Wellington carved at the table, a whole seabass baked in salt crust and flambéed in front of you, black truffle pasta, a Prunier caviar service. The room runs on candlelight, with a kiss wall, a spiral staircase and a bar you actually want to sit at.
 
-It is a restaurant first, but the evening keeps going: the kitchen takes its last order around 11 PM, and the bar carries the room to 1 AM.
+It is a restaurant first, but the evening keeps going: the kitchen takes its last order around 11 PM, and the bar carries the room to midnight.
 
 ## Where is Bisou and how do I get there?
 
@@ -86,7 +86,7 @@ Manon leads the line every night. Louis runs the floor with a team that speaks F
 
 ## What is the bar like at Bisou Phuket?
 
-**Bisou Phuket keeps its cocktail bar open nightly until 1 AM, cocktails at 490 THB, with a DJ one night a week.** The bar is not a waiting room for your table: it was built to be sat at, and you can come for a drink without booking dinner.
+**Bisou Phuket keeps its cocktail bar open nightly until midnight, cocktails at 490 THB, with a DJ one night a week.** The bar is not a waiting room for your table: it was built to be sat at, and you can come for a drink without booking dinner.
 
 One night a week a DJ plays and the room lifts; the rest of the week the music stays lower and the candles do the work. Either way there is always a quieter corner if you want one, and Louis Chartier runs the room so that both kinds of evening can happen at once. The kitchen takes its last order around 11 PM, so the last two hours of the night belong to the bar. What to drink, and why the bar matters here, is in [the cocktail bar at Bisou](/journal/cocktail-bar-cherngtalay).
 
@@ -104,11 +104,11 @@ One night a week a DJ plays and the room lifts; the rest of the week the music s
 
 ## How do I book, and can I walk in?
 
-**Bisou Phuket takes reservations at [book.bistrochat.com/bisou-phuket](https://book.bistrochat.com/bisou-phuket) or by phone at <a href="tel:+66963789668">+66 96 378 9668</a>, and walk-ins are welcome when there is a table.** Dinner is served nightly from 6 PM, with the last food order around 11 PM and the bar open to 1 AM. Planning between November and March? Our guide to [booking a restaurant in Phuket in high season](/journal/book-restaurants-phuket-high-season) covers the dates and deadlines.
+**Bisou Phuket takes reservations at [book.bistrochat.com/bisou-phuket](https://book.bistrochat.com/bisou-phuket) or by phone at <a href="tel:+66963789668">+66 96 378 9668</a>, and walk-ins are welcome when there is a table.** Dinner is served nightly from 6 PM, with the last food order around 11 PM and the bar open to midnight. Planning between November and March? Our guide to [booking a restaurant in Phuket in high season](/journal/book-restaurants-phuket-high-season) covers the dates and deadlines.
 
 A few details that answer the next question:
 
-- You can come just for a drink: the cocktail bar runs until 1 AM every night.
+- You can come just for a drink: the cocktail bar runs until midnight every night.
 - We speak French, English and Thai in the room.
 - Parking is close by the restaurant.
 - Note a birthday, an anniversary or an allergy when you book and the room is set before you arrive.
@@ -131,7 +131,7 @@ The two restaurants share their founders and their spirit, and each has its own 
 <div class="jp-band">
   <span class="jp-band__lab">Cherngtalay, Phuket</span>
   <h2 class="jp-nonum">Dinner, plated to share</h2>
-  <p>Nightly from 6 PM, a short drive from Laguna, Boat Avenue and Bang Tao Beach. The table orders together, and the bar runs to 1 AM.</p>
+  <p>Nightly from 6 PM, a short drive from Laguna, Boat Avenue and Bang Tao Beach. The table orders together, and the bar runs to midnight.</p>
   <a class="btn btn--gilt" href="https://book.bistrochat.com/bisou-phuket" target="_blank" rel="noreferrer">Reserve a table</a>
 </div>
 
@@ -147,7 +147,7 @@ No. Bisou Phuket is entirely à la carte, plated to share: the table builds its 
 
 ### What time does the kitchen close at Bisou Phuket?
 
-The last food order is around 11 PM. The restaurant is open nightly from 6 PM, and the cocktail bar runs to 1 AM.
+The last food order is around 11 PM. The restaurant is open nightly from 6 PM, and the cocktail bar runs to midnight.
 
 ### Is there parking at Bisou Phuket?
 
@@ -155,7 +155,7 @@ Yes, there is parking close by the restaurant on Bandon-Cherngtalay Road.
 
 ### Can I come to Bisou Phuket just for a drink?
 
-Yes. The cocktail bar is open nightly until 1 AM, and no dinner reservation is needed.
+Yes. The cocktail bar is open nightly until midnight, and no dinner reservation is needed.
 
 ### How does the birthday month discount work at Bisou Phuket?
 

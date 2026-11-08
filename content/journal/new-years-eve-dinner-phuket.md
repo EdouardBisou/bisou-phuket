@@ -40,7 +40,7 @@ That gives two kinds of evening. Come at 5 PM with the children, when an early t
 
 ## How late can I eat on New Year's Eve?
 
-**At Bisou Phuket the kitchen takes orders until midnight on 31 December 2026, and the cocktail bar runs to 1:00 AM.** On an ordinary night, most kitchens around Laguna and Bang Tao stop serving food by 11 PM, which is what we found when we checked them for our guide to [dinner outside your Laguna resort](/journal/dinner-off-resort-laguna-phuket). So on New Year's Eve a 10 PM table is no rush here: the kitchen keeps taking orders through to midnight, and the first glass of the year is a few steps away at the bar.
+**At Bisou Phuket the kitchen takes orders until midnight on 31 December 2026.** On an ordinary night, most kitchens around Laguna and Bang Tao stop serving food by 11 PM, which is what we found when we checked them for our guide to [dinner outside your Laguna resort](/journal/dinner-off-resort-laguna-phuket). So on New Year's Eve a 10 PM table is no rush here: the kitchen keeps taking orders through to midnight, and the first glass of the year is a few steps away at the bar.
 
 If your evening starts late anyway, our guide to [late night dining in Bang Tao](/journal/late-night-dining-bang-tao) covers the rest of the year.
 
@@ -76,7 +76,7 @@ Everything about the restaurant outside New Year's Eve (prices, what to order, t
 
 <figure>
   <img src="/assets/photos/web/cocktail-bar-1920.jpg" srcset="/assets/photos/web/cocktail-bar-960.jpg 960w, /assets/photos/web/cocktail-bar-1920.jpg 1920w" sizes="(max-width: 760px) 92vw, 760px" width="1920" height="1200" loading="lazy" decoding="async" alt="The cocktail bar at Bisou Phuket, bottles and glassware along a candlelit counter" />
-  <figcaption>The bar at Bisou runs to 1 AM, so the first toast of the year is a few steps from the table.</figcaption>
+  <figcaption>The bar at Bisou is a few steps from the table, so the first toast of the year is close.</figcaption>
 </figure>
 
 <div class="jp-band">
@@ -94,7 +94,7 @@ Yes. Bisou Phuket is open for dinner on New Year's Eve, Thursday 31 December 202
 
 ### What time does the kitchen close at Bisou Phuket on New Year's Eve?
 
-At midnight. On 31 December 2026 the kitchen at Bisou Phuket takes orders until midnight, an hour later than on a normal night, and the cocktail bar runs to 1:00 AM.
+At midnight. On 31 December 2026 the kitchen at Bisou Phuket takes orders until midnight, an hour later than on a normal night.
 
 ### What is on the Bisou Phuket New Year's Eve menu, and how much is it?
 

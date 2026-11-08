@@ -71,7 +71,7 @@ For scale: Nitan takes 10 to 25 people in its private room and asks a 60,000 THB
 
 A modern French restaurant and cocktail bar on Bandon-Cherngtalay Road, a short drive from Laguna, Boat Avenue and Bang Tao Beach, with parking at the rear via the side street. Everything to know before you book at Bisou, from prices to dress code, is in [the Bisou guide](/journal/bisou-phuket-guide).
 
-Bisou opened in 2025, founded by chef Antoine Darquin and sommelier Théo Lavergne, with Manon Bares running the kitchen and Louis Chartier looking after the room. The food is plated to share, which suits a birthday table better than a plate each: truffle French toast to start, a house beef Wellington, a whole seabass in salt crust flambéed at the table. Dinner runs nightly from 6:00 PM, the last food order is around 11 PM and the cocktail bar runs to 1:00 AM, so a table that starts at eight can still be a bar at midnight without moving.
+Bisou opened in 2025, founded by chef Antoine Darquin and sommelier Théo Lavergne, with Manon Bares running the kitchen and Louis Chartier looking after the room. The food is plated to share, which suits a birthday table better than a plate each: truffle French toast to start, a house beef Wellington, a whole seabass in salt crust flambéed at the table. Dinner runs nightly from 6:00 PM, the last food order is around 11 PM and the cocktail bar runs to midnight, so a table that starts at eight can still be a bar at midnight without moving.
 
 The birthday plate arrives without being asked for: Happy Birthday piped freehand in dark chocolate across a large plate, quenelles, edible flowers, a candle. It is not something you unlock by ordering a set menu, and it is not on the bill.
 
@@ -85,7 +85,7 @@ The birthday plate arrives without being asked for: Happy Birthday piped freehan
   <span class="jp-pull__src">Bisou, Cherngtalay</span>
 </div>
 
-For a group that wants the room to itself, see [private events](/private-events). For the rest of the [menu](/menu), including the cocktail list that runs until 1 AM, the kitchen's last food order is around 11 PM, so a birthday table that wants dessert should sit by nine. On 24 and 25 December 2026 the kitchen stays open until midnight: see [Christmas Eve dinner at Bisou](/journal/christmas-dinner-phuket).
+For a group that wants the room to itself, see [private events](/private-events). For the rest of the [menu](/menu), including the cocktail list that runs until midnight, the kitchen's last food order is around 11 PM, so a birthday table that wants dessert should sit by nine. On 24 and 25 December 2026 the kitchen stays open until midnight: see [Christmas Eve dinner at Bisou](/journal/christmas-dinner-phuket).
 
 ## When to book, and what to wear
 

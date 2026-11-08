@@ -13,7 +13,7 @@ author: Bisou Phuket
 authorRole: Editorial
 draft: false
 premium: true
-atAGlance: "Bisou is a cocktail-bar-forward modern French restaurant at No.4 Bandon-Cherngtalay Rd, Choeng Thale, near Bang Tao Beach and Laguna Phuket. The bar is a lead element of the room, not an afterthought: chef Antoine Darquin and sommelier Théo Lavergne built the cocktail list alongside a French-leaning wine list. Bisou is open nightly from 6:00 PM to 1:00 AM, for the aperitif and the nightcap."
+atAGlance: "Bisou is a cocktail-bar-forward modern French restaurant at No.4 Bandon-Cherngtalay Rd, Choeng Thale, near Bang Tao Beach and Laguna Phuket. The bar is a lead element of the room, not an afterthought: chef Antoine Darquin and sommelier Théo Lavergne built the cocktail list alongside a French-leaning wine list. Bisou is open nightly from 6:00 PM to midnight, for the aperitif and the nightcap."
 ctaLabel: Book a seat at the bar
 ctaHref: https://book.bistrochat.com/bisou-phuket
 ---
@@ -42,7 +42,7 @@ Arrive early, take a seat at the bar, and let the aperitif do its work while the
 
 ### After dinner, a nightcap that lingers
 
-The other use is the one Cherngtalay is quietly short on: a grown-up place for the last drink. Bisou runs late, nightly until 1:00 AM, which makes it a natural close to an evening that started elsewhere near Bang Tao Beach. Come for the nightcap. Stay because you did not want the night to end.
+The other use is the one Cherngtalay is quietly short on: a grown-up place for the last drink. Bisou runs late, nightly until midnight, which makes it a natural close to an evening that started elsewhere near Bang Tao Beach. Come for the nightcap. Stay because you did not want the night to end.
 
 ## The best of both: cocktails with a French kitchen behind them
 
@@ -66,7 +66,7 @@ Bisou is at No.4 Bandon-Cherngtalay Rd, Choeng Thale, Thalang, Phuket 83110, nea
 
 ### What time does the bar open?
 
-Bisou is open nightly from 6:00 PM until 1:00 AM, with the last food order around 11 PM, so the bar is your spot for both an early aperitif and a late nightcap.
+Bisou is open nightly from 6:00 PM until midnight, with the last food order around 11 PM, so the bar is your spot for both an early aperitif and a late nightcap.
 
 ### Do I need a reservation to drink at the bar?
 

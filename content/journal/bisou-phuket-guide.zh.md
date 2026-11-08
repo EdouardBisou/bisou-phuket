@@ -5,9 +5,9 @@ category: 指南
 excerpt: Bisou Phuket 是什么、在哪里、晚餐花多少钱、该点什么、谁在掌勺、酒吧什么样、着装要求、儿童、停车、纯素选择，以及如何预订。所有答案都在这一页，来自每晚亲自打理这间餐厅的团队。
 heroAlt: Bisou Phuket 的烛光餐室与鸡尾酒吧，一家位于 Cherngtalay、邻近 Bang Tao 海滩的现代法式餐厅
 seoTitle: Bisou Phuket：菜单、价格、着装与预订指南 (2026)
-seoDescription: Bisou Phuket 详解：位于 Cherngtalay 的现代法式餐厅，菜品盘盘适合分享，鸡尾酒吧营业至凌晨 1 点。价格、必点菜式、着装要求、儿童政策、营业时间与预订方式，一页看全。
+seoDescription: Bisou Phuket 详解：位于 Cherngtalay 的现代法式餐厅，菜品盘盘适合分享，鸡尾酒吧营业至午夜 12 点。价格、必点菜式、着装要求、儿童政策、营业时间与预订方式，一页看全。
 author: Bisou Phuket
-atAGlance: Bisou Phuket 是一家位于 Cherngtalay No.4 Bandon-Cherngtalay Road 的现代法式餐厅与鸡尾酒吧，距 Laguna、Boat Avenue 和 Bang Tao 海滩车程不远，2025 年由主厨 Antoine Darquin 与侍酒师 Théo Lavergne 创立，厨房由厨师长 Manon Bares 执掌。晚餐每晚 6 点起供应，最后点餐约在晚 11 点，菜品盘盘适合分享：招牌菜 1,290 至 2,990 泰铢，主菜 490 至 990 泰铢，鸡尾酒吧营业至凌晨 1 点。着装时尚休闲，欢迎儿童，纯素菜品可按需安排；生日当月用餐并出示身份证件，全单立减 10%，全桌同享。预订请访问 book.bistrochat.com/bisou-phuket。信息更新于 2026 年 8 月。
+atAGlance: Bisou Phuket 是一家位于 Cherngtalay No.4 Bandon-Cherngtalay Road 的现代法式餐厅与鸡尾酒吧，距 Laguna、Boat Avenue 和 Bang Tao 海滩车程不远，2025 年由主厨 Antoine Darquin 与侍酒师 Théo Lavergne 创立，厨房由厨师长 Manon Bares 执掌。晚餐每晚 6 点起供应，最后点餐约在晚 11 点，菜品盘盘适合分享：招牌菜 1,290 至 2,990 泰铢，主菜 490 至 990 泰铢，鸡尾酒吧营业至午夜 12 点。着装时尚休闲，欢迎儿童，纯素菜品可按需安排；生日当月用餐并出示身份证件，全单立减 10%，全桌同享。预订请访问 book.bistrochat.com/bisou-phuket。信息更新于 2026 年 8 月。
 ctaLabel: 预订餐桌
 ctaShort: 预订
 faqHeading: 常见问题
@@ -17,9 +17,9 @@ faqHeading: 常见问题
 
 <nav class="jp-chips" aria-label="快速要点">
   <a href="#s-what-should-i-order-at-bisou-phuket"><b>THB 2,990</b> 惠灵顿牛排</a>
-  <a href="#s-what-is-the-bar-like-at-bisou-phuket"><b>凌晨 1 点</b> 鸡尾酒吧，每晚营业</a>
+  <a href="#s-what-is-the-bar-like-at-bisou-phuket"><b>午夜 12 点</b> 鸡尾酒吧，每晚营业</a>
   <a href="#s-where-is-bisou-and-how-do-i-get-there"><b>Laguna</b> Boat Avenue、Bang Tao</a>
-  <a href="#s-how-do-i-book-and-can-i-walk-in"><b>晚 6 点</b> 至凌晨 1 点，每晚</a>
+  <a href="#s-how-do-i-book-and-can-i-walk-in"><b>晚 6 点</b> 至午夜 12 点，每晚</a>
   <a href="#s-what-is-the-dress-code-at-bisou"><b>时尚休闲</b> 请勿穿人字拖</a>
   <a href="#s-can-i-bring-children-to-bisou"><b>儿童</b> 欢迎同行</a>
   <a href="#s-do-you-have-vegetarian-and-vegan-options"><b>纯素</b> 可按需安排</a>
@@ -28,11 +28,11 @@ faqHeading: 常见问题
 
 ## Bisou Phuket 是一家怎样的餐厅？
 
-**Bisou Phuket 是一家位于 Cherngtalay 的现代法式餐厅与鸡尾酒吧，2025 年由主厨 Antoine Darquin 与侍酒师 Théo Lavergne 创立，菜品盘盘适合分享，酒吧营业至凌晨 1 点。** Bisou 在法语里是亲吻的意思，品牌格言是 simple & sexy：法式料理在这里慷慨而不繁琐，菜单写给两双手，而不是一双手，而当这条海岸线上大多数厨房早已熄火时，这个空间依然亮着。至于我们在[普吉岛法式餐厅](/journal/best-french-restaurants-phuket)版图中的位置，那是一个更长的故事。
+**Bisou Phuket 是一家位于 Cherngtalay 的现代法式餐厅与鸡尾酒吧，2025 年由主厨 Antoine Darquin 与侍酒师 Théo Lavergne 创立，菜品盘盘适合分享，酒吧营业至午夜 12 点。** Bisou 在法语里是亲吻的意思，品牌格言是 simple & sexy：法式料理在这里慷慨而不繁琐，菜单写给两双手，而不是一双手，而当这条海岸线上大多数厨房早已熄火时，这个空间依然亮着。至于我们在[普吉岛法式餐厅](/journal/best-french-restaurants-phuket)版图中的位置，那是一个更长的故事。
 
 这是继曼谷 Soi Langsuan 首店之后的第二家 Bisou，拥有自己的空间、自己的厨房和自己的菜单。招牌菜奠定了基调：松露法式吐司、桌边现切的招牌惠灵顿牛排、整条盐焗海鲈鱼在你面前火焰呈现、黑松露意面，还有 Prunier 鱼子酱。餐室以烛光为主调，有一面亲吻墙、一道旋转楼梯，以及一个让你真正想坐下来的吧台。
 
-它首先是一家餐厅，但夜晚不止于此：厨房最后点餐约在晚 11 点，酒吧则把整个空间一路带到凌晨 1 点。
+它首先是一家餐厅，但夜晚不止于此：厨房最后点餐约在晚 11 点，酒吧则把整个空间一路带到午夜 12 点。
 
 ## Bisou 在哪里？怎么去？
 
@@ -79,7 +79,7 @@ Manon 每晚亲自带队掌灶。Louis 带领一支通晓法语、英语和泰�
 
 ## Bisou Phuket 的酒吧是什么样的？
 
-**Bisou Phuket 的鸡尾酒吧每晚营业至凌晨 1 点，鸡尾酒每杯 490 泰铢，每周有一晚 DJ 现场打碟。** 这个吧台不是等位区：它生来就是让人坐下来的地方，你也完全可以只为一杯酒而来，无需预订晚餐。
+**Bisou Phuket 的鸡尾酒吧每晚营业至午夜 12 点，鸡尾酒每杯 490 泰铢，每周有一晚 DJ 现场打碟。** 这个吧台不是等位区：它生来就是让人坐下来的地方，你也完全可以只为一杯酒而来，无需预订晚餐。
 
 每周有一晚，DJ 上场，整个空间随之升温；其余的夜晚，音乐放轻，烛光接管一切。无论哪一种夜晚，总有一个更安静的角落留给需要它的人，而 Louis Chartier 打理现场的方式，让两种夜晚可以同时发生。厨房最后点餐约在晚 11 点，之后的两个小时属于酒吧。喝什么、以及这个酒吧为什么重要，都写在[Bisou 的鸡尾酒吧](/journal/cocktail-bar-cherngtalay)里。
 
@@ -97,11 +97,11 @@ Manon 每晚亲自带队掌灶。Louis 带领一支通晓法语、英语和泰�
 
 ## 如何预订？可以直接到店吗？
 
-**Bisou Phuket 可通过 [book.bistrochat.com/bisou-phuket](https://book.bistrochat.com/bisou-phuket) 在线预订，或致电 <a href="tel:+66963789668">+66 96 378 9668</a>；有空桌时也欢迎直接到店。** 晚餐每晚 6 点起供应，最后点餐约在晚 11 点，鸡尾酒吧营业至凌晨 1 点。
+**Bisou Phuket 可通过 [book.bistrochat.com/bisou-phuket](https://book.bistrochat.com/bisou-phuket) 在线预订，或致电 <a href="tel:+66963789668">+66 96 378 9668</a>；有空桌时也欢迎直接到店。** 晚餐每晚 6 点起供应，最后点餐约在晚 11 点，鸡尾酒吧营业至午夜 12 点。
 
 还有几个细节，先替你答好下一个问题：
 
-- 你可以只为一杯酒而来：鸡尾酒吧每晚营业至凌晨 1 点。
+- 你可以只为一杯酒而来：鸡尾酒吧每晚营业至午夜 12 点。
 - 现场团队通晓法语、英语和泰语。
 - 餐厅附近就有停车位。
 - 预订时备注生日、纪念日或过敏信息，你到达之前一切都会布置妥当。
@@ -123,7 +123,7 @@ Manon 每晚亲自带队掌灶。Louis 带领一支通晓法语、英语和泰�
 <div class="jp-band">
   <span class="jp-band__lab">普吉岛 Cherngtalay</span>
   <h2 class="jp-nonum">晚餐，盘盘共享</h2>
-  <p>每晚 6 点起，距 Laguna、Boat Avenue 和 Bang Tao 海滩车程不远。全桌一起点菜，酒吧营业至凌晨 1 点。</p>
+  <p>每晚 6 点起，距 Laguna、Boat Avenue 和 Bang Tao 海滩车程不远。全桌一起点菜，酒吧营业至午夜 12 点。</p>
   <a class="btn btn--gilt" href="https://book.bistrochat.com/bisou-phuket" target="_blank" rel="noreferrer">预订餐桌</a>
 </div>
 
@@ -139,7 +139,7 @@ Manon 每晚亲自带队掌灶。Louis 带领一支通晓法语、英语和泰�
 
 ### Bisou Phuket 的厨房几点停止点餐？
 
-最后点餐约在晚 11 点。餐厅每晚 6 点开始营业，鸡尾酒吧营业至凌晨 1 点。
+最后点餐约在晚 11 点。餐厅每晚 6 点开始营业，鸡尾酒吧营业至午夜 12 点。
 
 ### Bisou Phuket 有停车位吗？
 
@@ -147,7 +147,7 @@ Manon 每晚亲自带队掌灶。Louis 带领一支通晓法语、英语和泰�
 
 ### 可以只去 Bisou Phuket 喝一杯吗？
 
-当然可以。鸡尾酒吧每晚营业至凌晨 1 点，无需预订晚餐。
+当然可以。鸡尾酒吧每晚营业至午夜 12 点，无需预订晚餐。
 
 ### Bisou Phuket 的生日月优惠怎么用？
 

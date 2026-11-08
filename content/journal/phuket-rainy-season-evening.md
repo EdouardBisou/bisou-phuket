@@ -13,7 +13,7 @@ author: Bisou Phuket
 authorRole: Editorial
 premium: true
 layout: guide
-atAGlance: "In September, Phuket's wettest month, the rain falls across the daytime and the evening is the driest part of the day. In eleven Septembers of half-hourly readings at Phuket International Airport, rain was falling in 19.8 percent of afternoon observations against 15.1 percent of evening ones, the wettest hour being 2 PM and the driest 10 PM. Give the afternoon to something indoors and give the evening back to dinner. Bisou is a modern French restaurant and cocktail bar on Bandon-Cherngtalay Road in Cherngtalay, set back from the beach, open nightly 6 PM to 1 AM."
+atAGlance: "In September, Phuket's wettest month, the rain falls across the daytime and the evening is the driest part of the day. In eleven Septembers of half-hourly readings at Phuket International Airport, rain was falling in 19.8 percent of afternoon observations against 15.1 percent of evening ones, the wettest hour being 2 PM and the driest 10 PM. Give the afternoon to something indoors and give the evening back to dinner. Bisou is a modern French restaurant and cocktail bar on Bandon-Cherngtalay Road in Cherngtalay, set back from the beach, open nightly 6 PM to midnight."
 ctaLabel: Book a table in Cherngtalay
 ctaShort: Book a table
 ctaHref: https://book.bistrochat.com/bisou-phuket
@@ -48,7 +48,7 @@ We run a dining room in Cherngtalay and we stay open right through the rainy sea
 | Evening, 6 PM to midnight | 15.1 percent |
 | Night, midnight to 6 AM | 16.7 percent |
 
-Across the hours a dinner actually occupies, 6 PM to 1 AM, rain was falling in 15.3 percent of September readings. Put the other way round: on a September evening on this island, it is not raining about five times out of six.
+Across the hours a dinner actually occupies, 6 PM to midnight, rain was falling in 15.3 percent of September readings. Put the other way round: on a September evening on this island, it is not raining about five times out of six.
 
 **How we counted.** We downloaded every routine observation recorded at Phuket International Airport, which sits in Thalang, the same district as Cherngtalay and Bang Tao, from the [Iowa Environmental Mesonet](https://mesonet.agron.iastate.edu/request/download.phtml) archive: 189,422 half-hourly readings between January 2015 and December 2025, timestamped in Thai time, of which 15,572 fall in the eleven Septembers behind every September figure above. A reading counts as wet when the observer logged rain in the present-weather codes. That measures how often rain was falling at the airport, not how much fell, and the airport is twenty minutes up the coast rather than outside your window. It is still the closest thing to an hourly record of Phuket rain that exists in public: neither the Thai Meteorological Department nor the World Meteorological Organization publishes a time-of-day breakdown for the island.
 
@@ -152,7 +152,7 @@ So the trade is legible. You give up the swimming, the Similans and a certain am
 
 ## Bisou on a wet night
 
-**Bisou Phuket is a modern French restaurant and cocktail bar at No.4 Bandon-Cherngtalay Road in Cherngtalay, Thalang, set back from Bang Tao Beach and open nightly from 6 PM to 1 AM.** The kitchen takes its last food order around 11 PM and the bar runs on to 1 AM, which answers the two questions a wet evening actually asks: is anywhere still open, and what happens if the rain outlasts dinner.
+**Bisou Phuket is a modern French restaurant and cocktail bar at No.4 Bandon-Cherngtalay Road in Cherngtalay, Thalang, set back from Bang Tao Beach and open nightly from 6 PM to midnight.** The kitchen takes its last food order around 11 PM and the bar runs on to midnight, which answers the two questions a wet evening actually asks: is anywhere still open, and what happens if the rain outlasts dinner.
 
 The whole restaurant is indoors, which on a wet night is the entire point. Candlelight, a wall of kisses, a spiral staircase, and a bar you can sit at alone. Nothing you came for is under the sky, and the parking is at the rear, off the side street, so the walk from the car is short.
 
@@ -162,7 +162,7 @@ Children are welcome, with high chairs, and the early seating suits a table with
 
 <div class="jp-band">
   <span class="jp-band__lab">Cherngtalay, Phuket</span>
-  <h2 class="jp-nonum">A roof, candlelight, and a bar until 1 AM</h2>
+  <h2 class="jp-nonum">A roof, candlelight, and a bar until midnight</h2>
   <p>Modern French, plated to share, on Bandon-Cherngtalay Road. Dinner nightly from 6 PM, last food order around 11 PM, the bar running on.</p>
   <a class="btn btn--gilt" href="https://book.bistrochat.com/bisou-phuket" target="_blank" rel="noreferrer">Book a table</a>
 </div>
@@ -191,7 +191,7 @@ No. The Thai Meteorological Department's outlook issued 24 August 2026 forecast 
 
 ### Where can you eat in Bang Tao when it rains?
 
-Indoors, and away from the sand. Beach clubs on Bang Tao and Layan are open air, and Boat Avenue and Porto de Phuket are open-air complexes where the shops are enclosed but the walkways are not. The dining rooms along Bandon-Cherngtalay Road are fully indoors, and most kitchens on this coast take their last order between 10 and 11 PM. Bisou Phuket, on Bandon-Cherngtalay Road, serves until around 11 PM with the bar open to 1 AM.
+Indoors, and away from the sand. Beach clubs on Bang Tao and Layan are open air, and Boat Avenue and Porto de Phuket are open-air complexes where the shops are enclosed but the walkways are not. The dining rooms along Bandon-Cherngtalay Road are fully indoors, and most kitchens on this coast take their last order between 10 and 11 PM. Bisou Phuket, on Bandon-Cherngtalay Road, serves until around 11 PM with the bar open to midnight.
 
 ### Should you book a restaurant in advance in Phuket in low season?
 

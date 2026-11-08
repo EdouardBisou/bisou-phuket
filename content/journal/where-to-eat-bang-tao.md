@@ -15,7 +15,7 @@ authorRole: Editorial
 draft: false
 premium: true
 listicle: true
-atAGlance: "Eating in Bang Tao sorts into four places: Boat Avenue, Lagoon Road and Porto de Phuket at the Laguna entrance for walkable variety, from JOYA and Issara on the strip to Bocconcino, Nanami and La Marée on the lake; the Cherngtalay strip along Bandon-Cherngtalay Road for neighbourhood Thai and long-standing bistros; the inland Srisoonthorn corridor for the island's more serious independent kitchens; and the beachfront for sunset rather than dinner. Bisou is the modern French room on Bandon-Cherngtalay Road, open nightly 6:00 PM to 1:00 AM, last food order around 11 PM."
+atAGlance: "Eating in Bang Tao sorts into four places: Boat Avenue, Lagoon Road and Porto de Phuket at the Laguna entrance for walkable variety, from JOYA and Issara on the strip to Bocconcino, Nanami and La Marée on the lake; the Cherngtalay strip along Bandon-Cherngtalay Road for neighbourhood Thai and long-standing bistros; the inland Srisoonthorn corridor for the island's more serious independent kitchens; and the beachfront for sunset rather than dinner. Bisou is the modern French room on Bandon-Cherngtalay Road, open nightly 6:00 PM to midnight, last food order around 11 PM."
 ctaLabel: Book a table in Bang Tao
 ctaHref: https://book.bistrochat.com/bisou-phuket
 ---
@@ -32,7 +32,7 @@ Cherngtalay, written Choeng Thale on maps, is a subdistrict of Thalang in the mi
 
 | Restaurant | Where | What it is | Hours |
 | --- | --- | --- | --- |
-| [Bisou](https://bisouphuket.com/) | Bandon-Cherngtalay Rd | Modern French, plated to share | 6pm to 1am, last food order around 11pm |
+| [Bisou](https://bisouphuket.com/) | Bandon-Cherngtalay Rd | Modern French, plated to share | 6pm to midnight, last food order around 11pm |
 | [JOYA](https://joyaphuket.com/) | 49/21 Boat Avenue | Modern European, all day, cocktail bar | 8am to midnight |
 | [Issara](https://issaraphuket.com/boat-avenue/) | Aqua building, Boat Avenue | Thai and Japanese, wagyu, pizza | Noon to midnight |
 | [Aja Bistro & Bar](https://www.ajabistro.com/) | 49/3 Boat Avenue | Modern bistro and cocktail bar | 5pm to midnight |
@@ -101,7 +101,7 @@ Cherngtalay, written Choeng Thale on maps, is a subdistrict of Thalang in the mi
 
 ### Little Paris
 
-**49/47 Boat Avenue.** French bistro and brasserie classics, with pizza and its own bakery, on the strip since December 2016. Listings agree on an 8:30am opening and disagree on the close, from 10pm to 1am, so call before a late dinner. For the rest of the island's French tables, see [the best French restaurants in Phuket](/journal/best-french-restaurants-phuket).
+**49/47 Boat Avenue.** French bistro and brasserie classics, with pizza and its own bakery, on the strip since December 2016. Listings agree on an 8:30am opening and disagree on the close, from 10pm to midnight, so call before a late dinner. For the rest of the island's French tables, see [the best French restaurants in Phuket](/journal/best-french-restaurants-phuket).
 
 ### Uoteru Suisan Sushi
 
@@ -219,7 +219,7 @@ Then there is the dinner you plan around. A room you book, dress for a little, a
 
 [Bisou](/) is a modern French restaurant and cocktail bar at No.4 Bandon-Cherngtalay Road, a short drive from Laguna, Boat Avenue and Bang Tao Beach, with parking at the rear via the side street. It opened in 2025, founded by chef Antoine Darquin and sommelier Théo Lavergne, with Manon Bares running the kitchen and Louis Chartier looking after the room. Everything to know before you book at Bisou, from prices to dress code, is in [the Bisou guide](/journal/bisou-phuket-guide).
 
-The [menu](/menu) is plated to share, so a table orders together rather than each to their own: truffle French toast to begin, a house beef Wellington carved at the table, a whole seabass baked in salt crust and flambéed beside you. Dinner runs nightly from 6:00 PM, with the last food order around 11 PM and the cocktail bar open to 1:00 AM, which matters here: most kitchens on this list stop serving food between 10 and 11 PM.
+The [menu](/menu) is plated to share, so a table orders together rather than each to their own: truffle French toast to begin, a house beef Wellington carved at the table, a whole seabass baked in salt crust and flambéed beside you. Dinner runs nightly from 6:00 PM, with the last food order around 11 PM and the cocktail bar open to midnight, which matters here: most kitchens on this list stop serving food between 10 and 11 PM.
 
 Bread and French butter come to every table before anything else, at no charge, and the [birthday plate](/journal/birthday-dinner-phuket) arrives without being asked for if someone is celebrating. At Christmas the kitchen opens early and runs late: see [Christmas dinner in Phuket](/journal/christmas-dinner-phuket).
 
@@ -276,7 +276,7 @@ Friday. The Fun Friday Avenue market fills the Boat Avenue strip every Friday fr
 
 ### Where can you eat late in Bang Tao?
 
-Most kitchens here stop serving food between 10 and 11 PM. Around Boat Avenue, JOYA, Issara, Mrs B, La Marée and Eden by the Lake (closed Sundays) stay open to midnight, and Eden takes its last order at 11:30 PM. Bisou on Bandon-Cherngtalay Road takes its last food order around 11 PM and keeps the cocktail bar open to 1 AM. Beyond that the options are the 24-hour convenience stores on the main road.
+Most kitchens here stop serving food between 10 and 11 PM. Around Boat Avenue, JOYA, Issara, Mrs B, La Marée and Eden by the Lake (closed Sundays) stay open to midnight, and Eden takes its last order at 11:30 PM. Bisou on Bandon-Cherngtalay Road takes its last food order around 11 PM and keeps the cocktail bar open to midnight. Beyond that the options are the 24-hour convenience stores on the main road.
 
 ### How far is Boat Avenue from Bang Tao Beach?
 

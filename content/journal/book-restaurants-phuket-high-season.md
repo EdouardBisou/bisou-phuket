@@ -29,7 +29,7 @@ The dates below are for the 2026/27 season, as of 28 October 2026. Where a numbe
   <a href="#s-which-nights-should-you-plan-around-in-2026-"><b>3 peaks</b> to plan around</a>
   <a href="#s-how-do-resort-christmas-eve-and-new-year-s-e"><b>Prepaid</b> resort galas</a>
   <a href="#s-how-do-you-book-bisou-phuket-in-high-season"><b>Bisou</b> online or phone</a>
-  <a href="#s-what-if-the-table-you-want-is-gone"><b>Bar</b> open to 1 AM</a>
+  <a href="#s-what-if-the-table-you-want-is-gone"><b>Bar</b> open to midnight</a>
 </nav>
 
 ## When is high season in Phuket, and which weeks are the peak?
@@ -87,7 +87,7 @@ Whichever channel you use, say who is coming (children, a birthday, an allergy) 
 
 **Come to the bar, move your time, or move your night.** A full diary is not the end of the evening.
 
-- **The bar.** The cocktail bar at Bisou runs to 1 AM and you can come just for a drink; cocktails are 490 THB. Walk-ins are accepted when there is room, though a booking is safer. See [the cocktail bar at Bisou](/journal/cocktail-bar-cherngtalay).
+- **The bar.** The cocktail bar at Bisou runs to midnight and you can come just for a drink; cocktails are 490 THB. Walk-ins are accepted when there is room, though a booking is safer. See [the cocktail bar at Bisou](/journal/cocktail-bar-cherngtalay).
 - **A different hour.** Ask for the 6 PM start or a table after 9 PM before you give up on the date.
 - **A different night.** The two to four week range published by Phuket Expat Guide is about the peak stretches, so the nights around them are outside it.
 - **A different restaurant.** Our guides to [where to eat in Bang Tao and Cherngtalay](/journal/where-to-eat-bang-tao) and [late night dining in Bang Tao](/journal/late-night-dining-bang-tao) cover the area by the evening you want.
@@ -99,7 +99,7 @@ Whichever channel you use, say who is coming (children, a birthday, an allergy) 
 The practical facts for a high-season dinner at [Bisou](/):
 
 - **Address:** No.4 Bandon-Cherngtalay Road, Choeng Thale, Thalang, Phuket 83110, about five minutes inland from the Laguna Phuket gate.
-- **Hours:** open nightly, 6:00 PM to 1:00 AM; the last food order is around 11 PM and the cocktail bar runs to 1 AM.
+- **Hours:** open nightly, 6:00 PM to midnight; the last food order is around 11 PM and the cocktail bar runs to midnight.
 - **Parking:** complimentary valet, with self-parking at the rear via the side street.
 - **Dress code:** smart casual, no flip-flops, which is worth saying to a table arriving from the beach. What other Phuket restaurants publish is in [what to wear to dinner in Phuket](/journal/what-to-wear-dinner-phuket).
 - **Children:** welcome, with no minimum age and high chairs available.
@@ -140,7 +140,7 @@ Yes, booking ahead is the safe course. As of 28 October 2026, two published exam
 
 ### Do Phuket restaurants take walk-ins in high season?
 
-Not reliably, so a reservation is safer. As of 28 October 2026, Phuket Expat Guide says one restaurant it lists, Bampot Kitchen & Bar in Phuket Town, still works by phone or walk-in outside peak season, and it advises booking ahead for all of high season, November to March. Bisou Phuket in Cherngtalay welcomes walk-ins when there is room and runs a cocktail bar to 1:00 AM where you can come just for a drink, though booking is recommended.
+Not reliably, so a reservation is safer. As of 28 October 2026, Phuket Expat Guide says one restaurant it lists, Bampot Kitchen & Bar in Phuket Town, still works by phone or walk-in outside peak season, and it advises booking ahead for all of high season, November to March. Bisou Phuket in Cherngtalay welcomes walk-ins when there is room and runs a cocktail bar to midnight where you can come just for a drink, though booking is recommended.
 
 ### Do Phuket restaurants ask for a deposit or prepayment?
 

@@ -5,9 +5,9 @@ category: Guide
 excerpt: Ce qu'est Bisou Phuket, où il se trouve, le prix du dîner, quoi commander, qui cuisine, l'esprit du bar, le dress code, les enfants, le parking, les options véganes et comment réserver. Toutes les réponses au même endroit, par l'équipe qui fait vivre la salle chaque soir.
 heroAlt: La salle à la lueur des bougies et le bar à cocktails de Bisou Phuket, restaurant français moderne à Cherngtalay, près de la plage de Bang Tao
 seoTitle: Bisou Phuket : menu, prix, dress code, réservation (2026)
-seoDescription: Bisou Phuket expliqué : cuisine française moderne à partager à Cherngtalay, bar à cocktails jusqu'à 1h. Prix, plats, dress code, enfants, horaires, réservation.
+seoDescription: Bisou Phuket expliqué : cuisine française moderne à partager à Cherngtalay, bar à cocktails jusqu'à minuit. Prix, plats, dress code, enfants, horaires, réservation.
 author: Bisou Phuket
-atAGlance: Bisou Phuket est un restaurant français moderne et un bar à cocktails au No.4 Bandon-Cherngtalay Road à Cherngtalay, à quelques minutes en voiture de Laguna, Boat Avenue et de la plage de Bang Tao, ouvert en 2025 par le chef Antoine Darquin et le sommelier Théo Lavergne, avec la cheffe Manon Bares en cuisine. Le dîner est servi tous les soirs dès 18h, dernière commande en cuisine vers 23h, en assiettes à partager : les signatures vont de 1 290 à 2 990 THB, les plats de 490 à 990 THB, et le bar à cocktails sert jusqu'à 1h du matin. Smart casual, enfants bienvenus, plats véganes sur demande, et les convives qui dînent pendant leur mois de naissance reçoivent 10 % de remise sur l'addition entière, pour toute la table, sur présentation d'une pièce d'identité. Réservation sur book.bistrochat.com/bisou-phuket. À jour en août 2026.
+atAGlance: Bisou Phuket est un restaurant français moderne et un bar à cocktails au No.4 Bandon-Cherngtalay Road à Cherngtalay, à quelques minutes en voiture de Laguna, Boat Avenue et de la plage de Bang Tao, ouvert en 2025 par le chef Antoine Darquin et le sommelier Théo Lavergne, avec la cheffe Manon Bares en cuisine. Le dîner est servi tous les soirs dès 18h, dernière commande en cuisine vers 23h, en assiettes à partager : les signatures vont de 1 290 à 2 990 THB, les plats de 490 à 990 THB, et le bar à cocktails sert jusqu'à minuit. Smart casual, enfants bienvenus, plats véganes sur demande, et les convives qui dînent pendant leur mois de naissance reçoivent 10 % de remise sur l'addition entière, pour toute la table, sur présentation d'une pièce d'identité. Réservation sur book.bistrochat.com/bisou-phuket. À jour en août 2026.
 ctaLabel: Réserver une table
 ctaShort: Réserver
 faqHeading: Questions fréquentes
@@ -17,9 +17,9 @@ faqHeading: Questions fréquentes
 
 <nav class="jp-chips" aria-label="L'essentiel">
   <a href="#s-what-should-i-order-at-bisou-phuket"><b>2 990 THB</b> le bœuf Wellington</a>
-  <a href="#s-what-is-the-bar-like-at-bisou-phuket"><b>1h du matin</b> bar à cocktails, chaque soir</a>
+  <a href="#s-what-is-the-bar-like-at-bisou-phuket"><b>Minuit</b> bar à cocktails, chaque soir</a>
   <a href="#s-where-is-bisou-and-how-do-i-get-there"><b>Laguna</b> Boat Avenue, Bang Tao</a>
-  <a href="#s-how-do-i-book-and-can-i-walk-in"><b>18h à 1h</b> tous les soirs</a>
+  <a href="#s-how-do-i-book-and-can-i-walk-in"><b>18h à minuit</b> tous les soirs</a>
   <a href="#s-what-is-the-dress-code-at-bisou"><b>Smart casual</b> pas de tongs</a>
   <a href="#s-can-i-bring-children-to-bisou"><b>Enfants</b> bienvenus</a>
   <a href="#s-do-you-have-vegetarian-and-vegan-options"><b>Végane</b> sur demande</a>
@@ -28,11 +28,11 @@ faqHeading: Questions fréquentes
 
 ## Qu'est-ce que Bisou Phuket ?
 
-**Bisou Phuket est un restaurant français moderne et un bar à cocktails à Cherngtalay, ouvert en 2025 par le chef Antoine Darquin et le sommelier Théo Lavergne, où les assiettes se partagent et où le bar vit jusqu'à 1h du matin.** Le nom dit déjà tout, et la devise le confirme : simple & sexy. Une cuisine française généreuse plutôt que cérémonieuse, une carte écrite pour deux paires de mains plutôt qu'une, et une salle qui reste éveillée bien après que la plupart des cuisines de cette côte ont éteint leurs fourneaux. Notre place parmi [les restaurants français de Phuket](/journal/best-french-restaurants-phuket) mérite une histoire plus longue.
+**Bisou Phuket est un restaurant français moderne et un bar à cocktails à Cherngtalay, ouvert en 2025 par le chef Antoine Darquin et le sommelier Théo Lavergne, où les assiettes se partagent et où le bar vit jusqu'à minuit.** Le nom dit déjà tout, et la devise le confirme : simple & sexy. Une cuisine française généreuse plutôt que cérémonieuse, une carte écrite pour deux paires de mains plutôt qu'une, et une salle qui reste éveillée bien après que la plupart des cuisines de cette côte ont éteint leurs fourneaux. Notre place parmi [les restaurants français de Phuket](/journal/best-french-restaurants-phuket) mérite une histoire plus longue.
 
 C'est le deuxième Bisou, après l'original de Soi Langsuan à Bangkok, avec sa propre salle, sa propre cuisine et sa propre carte. Les signatures donnent le ton : le pain perdu à la truffe, un bœuf Wellington maison découpé à table, un loup de mer entier cuit en croûte de sel et flambé devant vous, les pâtes à la truffe noire, un service de caviar Prunier. La salle vit à la lueur des bougies, avec un mur de baisers, un escalier en colimaçon et un bar où l'on a vraiment envie de s'accouder.
 
-C'est d'abord un restaurant, mais la soirée ne s'arrête pas là : la cuisine prend sa dernière commande vers 23h, et le bar porte la salle jusqu'à 1h du matin.
+C'est d'abord un restaurant, mais la soirée ne s'arrête pas là : la cuisine prend sa dernière commande vers 23h, et le bar porte la salle jusqu'à minuit.
 
 ## Où se trouve Bisou et comment s'y rendre ?
 
@@ -79,7 +79,7 @@ Manon dirige la brigade chaque soir. Louis tient la salle avec une équipe qui p
 
 ## À quoi ressemble le bar de Bisou Phuket ?
 
-**Bisou Phuket garde son bar à cocktails ouvert chaque soir jusqu'à 1h du matin, cocktails à 490 THB, avec un DJ un soir par semaine.** Le bar n'est pas une salle d'attente pour votre table : il a été construit pour qu'on s'y installe, et l'on peut venir boire un verre sans avoir réservé pour dîner.
+**Bisou Phuket garde son bar à cocktails ouvert chaque soir jusqu'à minuit, cocktails à 490 THB, avec un DJ un soir par semaine.** Le bar n'est pas une salle d'attente pour votre table : il a été construit pour qu'on s'y installe, et l'on peut venir boire un verre sans avoir réservé pour dîner.
 
 Un soir par semaine, un DJ joue et la salle s'anime ; le reste de la semaine, la musique reste basse et les bougies font le travail. Dans tous les cas, il y a toujours un coin plus calme si vous en voulez un, et Louis Chartier mène la salle pour que les deux soirées puissent exister en même temps. La cuisine prend sa dernière commande vers 23h : les deux dernières heures de la nuit appartiennent au bar. Quoi boire, et pourquoi le bar compte ici, c'est dans [le bar à cocktails de Bisou](/journal/cocktail-bar-cherngtalay).
 
@@ -97,11 +97,11 @@ Un soir par semaine, un DJ joue et la salle s'anime ; le reste de la semaine, la
 
 ## Comment réserver, et peut-on venir sans réservation ?
 
-**Bisou Phuket prend les réservations sur [book.bistrochat.com/bisou-phuket](https://book.bistrochat.com/bisou-phuket) ou par téléphone au <a href="tel:+66963789668">+66 96 378 9668</a>, et les tables sans réservation sont bienvenues quand il reste de la place.** Le dîner est servi tous les soirs dès 18h, avec une dernière commande en cuisine vers 23h et le bar ouvert jusqu'à 1h du matin.
+**Bisou Phuket prend les réservations sur [book.bistrochat.com/bisou-phuket](https://book.bistrochat.com/bisou-phuket) ou par téléphone au <a href="tel:+66963789668">+66 96 378 9668</a>, et les tables sans réservation sont bienvenues quand il reste de la place.** Le dîner est servi tous les soirs dès 18h, avec une dernière commande en cuisine vers 23h et le bar ouvert jusqu'à minuit.
 
 Quelques détails qui répondent à la question suivante :
 
-- Vous pouvez venir juste pour un verre : le bar à cocktails tourne jusqu'à 1h du matin, chaque soir.
+- Vous pouvez venir juste pour un verre : le bar à cocktails tourne jusqu'à minuit, chaque soir.
 - En salle, nous parlons français, anglais et thaï.
 - Le parking est tout près du restaurant.
 - Signalez un anniversaire, un anniversaire de mariage ou une allergie à la réservation, et la salle est prête avant votre arrivée.
@@ -123,7 +123,7 @@ Les deux restaurants partagent leurs fondateurs et leur esprit, et chacun a sa s
 <div class="jp-band">
   <span class="jp-band__lab">Cherngtalay, Phuket</span>
   <h2 class="jp-nonum">Un dîner qui se partage</h2>
-  <p>Tous les soirs dès 18h, à quelques minutes de Laguna, Boat Avenue et de la plage de Bang Tao. La table commande ensemble, et le bar vit jusqu'à 1h du matin.</p>
+  <p>Tous les soirs dès 18h, à quelques minutes de Laguna, Boat Avenue et de la plage de Bang Tao. La table commande ensemble, et le bar vit jusqu'à minuit.</p>
   <a class="btn btn--gilt" href="https://book.bistrochat.com/bisou-phuket" target="_blank" rel="noreferrer">Réserver une table</a>
 </div>
 
@@ -139,7 +139,7 @@ Non. Bisou Phuket est entièrement à la carte, en assiettes à partager : la ta
 
 ### À quelle heure ferme la cuisine chez Bisou Phuket ?
 
-La dernière commande en cuisine est vers 23h. Le restaurant est ouvert tous les soirs dès 18h, et le bar à cocktails vit jusqu'à 1h du matin.
+La dernière commande en cuisine est vers 23h. Le restaurant est ouvert tous les soirs dès 18h, et le bar à cocktails vit jusqu'à minuit.
 
 ### Y a-t-il un parking chez Bisou Phuket ?
 
@@ -147,7 +147,7 @@ Oui, un parking se trouve tout près du restaurant, sur Bandon-Cherngtalay Road.
 
 ### Peut-on venir chez Bisou Phuket juste pour un verre ?
 
-Oui. Le bar à cocktails est ouvert chaque soir jusqu'à 1h du matin, et aucune réservation de dîner n'est nécessaire.
+Oui. Le bar à cocktails est ouvert chaque soir jusqu'à minuit, et aucune réservation de dîner n'est nécessaire.
 
 ### Comment fonctionne la remise du mois d'anniversaire chez Bisou Phuket ?
 

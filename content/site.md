@@ -17,7 +17,7 @@ Single source of truth for the `/add-article` skill (and any content work) in th
 - **Address**: No.4 Bandon-Cherngtalay Rd, Choeng Thale, Thalang, Phuket 83110.
 - **Area**: Cherngtalay, on Phuket's west coast, a short drive from Laguna, Boat Avenue and Bang Tao Beach.
 - **Nearest landmarks** (Phuket has no train): Laguna Phuket, Boat Avenue, Bang Tao Beach.
-- **Hours**: open nightly, 6:00 PM to 1:00 AM. Dinner from 6:00 PM with the last food order around 11 PM; the cocktail bar runs to 1:00 AM. Never write "dinner to 1 AM" or "dinner from 6 PM to 1 AM": the kitchen stops taking orders around 11 PM.
+- **Hours**: open nightly, 6:00 PM to midnight (12:00 AM). Dinner from 6:00 PM with the last food order around 11 PM; the cocktail bar runs to midnight. Owner-confirmed 2026-11-08: closing is midnight, not 1 AM (Google profile said 12 AM; the site had said 1 AM). Never write "dinner to midnight" or "dinner from 6 PM to midnight": the kitchen stops taking orders around 11 PM.
 - **Phone**: +66 96 378 9668
 - **Email**: contact@bisouphuket.com
 - **Reservations**: https://book.bistrochat.com/bisou-phuket
@@ -39,7 +39,7 @@ Single source of truth for the `/add-article` skill (and any content work) in th
 
 ## First-party data (use only verified numbers)
 
-- Founded 2025. Open nightly 6:00 PM to 1:00 AM, last food order around 11 PM. Prices in THB (Sanity menu is the source of truth for current prices).
+- Founded 2025. Open nightly 6:00 PM to midnight, last food order around 11 PM. Prices in THB (Sanity menu is the source of truth for current prices).
 - Do NOT reuse Bangkok's figures (covers per night, follower count, Google rating, awards). Those are Bangkok-only. If you want to cite a Phuket-specific number (covers, followers, reviews, capacity), confirm it with the owner first, then add it here.
 
 ## Birthdays and celebrations (owner-confirmed 2026-08-04)
@@ -56,7 +56,7 @@ Single source of truth for the `/add-article` skill (and any content work) in th
 - **Parking**: complimentary valet (owner-confirmed 2026-10-26). There is also self-parking at the rear via the side street. Both are fine to mention; do not remove the valet claim.
 - **Vegetarian / vegan / allergies**: plenty of vegetarian options; vegan guests are welcome and the kitchen plates dedicated vegan dishes for them. Mention allergies when booking.
 - **Walk-ins**: accepted when there is room, booking is better.
-- **Bar**: coming just for a cocktail is fine; the bar runs to 1 AM.
+- **Bar**: coming just for a cocktail is fine; the bar runs to midnight.
 - **Languages spoken in the room**: French and Thai (and English, the working language of the site and reservations).
 - **Outdoors**: none to write about. **The whole restaurant is indoors (owner-confirmed 2026-09-06): do NOT mention a terrace in Phuket copy.** (The line "There is a terrace in front." still sits in /journal/bisou-phuket-guide and its four translations, to be removed.)
 - NOT confirmed, do not write: wine corkage policy or fee, deposit / cancellation / no-show terms, days ahead to book, Google rating / review count / capacity / IG followers, the DJ night weekday or name, any chef sharing menu or a la carte average.

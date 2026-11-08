@@ -11,7 +11,7 @@ seoTitle: "Dinner Outside Your Laguna Phuket Resort"
 seoDescription: "Is it worth leaving your Laguna Phuket resort for dinner? Real distances from the gate, how to get back late, and which kitchens stop serving when."
 author: Bisou Phuket
 premium: true
-atAGlance: "Leaving a Laguna Phuket resort for dinner costs you about five minutes, not an evening. Boat Avenue and Porto de Phuket sit at the complex entrance, the Cherngtalay independents are five minutes inland along Bandon-Cherngtalay Road, and the beachfront is a similar hop the other way. The thing to plan is the return, and the closing times: most kitchens nearby stop serving food between 10 and 11 PM, while Bisou runs its bar to 1 AM."
+atAGlance: "Leaving a Laguna Phuket resort for dinner costs you about five minutes, not an evening. Boat Avenue and Porto de Phuket sit at the complex entrance, the Cherngtalay independents are five minutes inland along Bandon-Cherngtalay Road, and the beachfront is a similar hop the other way. The thing to plan is the return, and the closing times: most kitchens nearby stop serving food between 10 and 11 PM, while Bisou runs its bar to midnight."
 ctaHref: /menu
 ctaLabel: See the menu
 listicle: true
@@ -38,7 +38,7 @@ Here are eight rooms across the three zones, with their published hours as of Ju
 
 | Restaurant | Kind | Where | Kitchen closes |
 | --- | --- | --- | --- |
-| Bisou | Modern French, plated to share | Bandon-Cherngtalay Rd | Last food order around 11 PM, bar to 1 AM |
+| Bisou | Modern French, plated to share | Bandon-Cherngtalay Rd | Last food order around 11 PM, bar to midnight |
 | SUAY Cherngtalay | Modern Thai, MICHELIN Selected | Cherngtalay | 11 PM, daily |
 | Tatonka | Global, tapas-style, since 1996 | Cherngtalay, near Laguna | Dinner from 6 PM, closed Sundays |
 | JOYA | European, restaurant and cocktail bar | Boat Avenue strip | Bar to midnight |
@@ -48,7 +48,7 @@ Here are eight rooms across the three zones, with their published hours as of Ju
 | CLC (Come Leo Come) | Supper club, dinner to dance floor | Soi Cherngtalay 4 | 2 AM, closed Mondays and Tuesdays |
 
 <div class="jp-rivals">
-  <div class="jp-rv jp-rv--star"><div><span class="jp-rv__badge">Our pick</span><h3>Bisou</h3><div class="jp-rv__m">Modern French, plated to share</div><p>The French room on Bandon-Cherngtalay Road, founded in 2025 by Antoine Darquin and Théo Lavergne with head chef Manon Bares. Beef Wellington carved at the table, whole seabass in salt crust flambeed in the room, truffle French toast. Dinner from 6 PM, cocktail bar to 1 AM.</p></div><span class="jp-rv__near">5 min from Laguna</span></div>
+  <div class="jp-rv jp-rv--star"><div><span class="jp-rv__badge">Our pick</span><h3>Bisou</h3><div class="jp-rv__m">Modern French, plated to share</div><p>The French room on Bandon-Cherngtalay Road, founded in 2025 by Antoine Darquin and Théo Lavergne with head chef Manon Bares. Beef Wellington carved at the table, whole seabass in salt crust flambeed in the room, truffle French toast. Dinner from 6 PM, cocktail bar to midnight.</p></div><span class="jp-rv__near">5 min from Laguna</span></div>
   <div class="jp-rv"><div><h3><a href="https://www.suayrestaurant.com/" target="_blank" rel="noreferrer">SUAY Cherngtalay</a></h3><div class="jp-rv__m">Modern Thai, MICHELIN Selected</div><p>Chef Tammasak's modern Thai kitchen, Thai flavours with European technique, in the MICHELIN Guide Thailand every year since 2019. Open daily until 11 PM.</p></div><span class="jp-rv__near">Cherngtalay</span></div>
   <div class="jp-rv"><div><h3><a href="https://tatonkaphuket.com/" target="_blank" rel="noreferrer">Tatonka</a></h3><div class="jp-rv__m">Global, tapas-style</div><p>An area institution opened in 1996 by chef Harold Schwarz, serving small globetrotter plates near Laguna. Dinner from 6 PM, closed Sundays.</p></div><span class="jp-rv__near">Near Laguna</span></div>
   <div class="jp-rv"><div><h3><a href="https://www.catchbeachclub.com/" target="_blank" rel="noreferrer">Catch Beach Club</a></h3><div class="jp-rv__m">Beachfront, Mediterranean and Thai</div><p>The Bang Tao beachfront default for a sunset table, open from breakfast through to midnight, with dinner served until 10:30 PM.</p></div><span class="jp-rv__near">Bang Tao beach</span></div>
@@ -59,7 +59,7 @@ Here are eight rooms across the three zones, with their published hours as of Ju
 
 As of July 2026, most kitchens near Laguna and Bang Tao stop serving food between 10:30 and 11 PM: [Catch Beach Club](https://www.catchbeachclub.com/) serves dinner until 10:30 PM and [SUAY](https://www.suayrestaurant.com/) until 11 PM. This is worth knowing before you set out, because Cherngtalay is quieter after dinner than the resort brochures suggest.
 
-If your table is running long, the practical options narrow. At Bisou, dinner runs from 6 PM with last food orders around 11 PM, and the cocktail bar keeps going until 1 AM, so a late dinner can turn into a proper night without moving. On 24 and 25 December 2026, Bisou opens at 5 PM and keeps the kitchen open until midnight: see [Christmas Eve dinner at Bisou](/journal/christmas-dinner-phuket). [CLC](https://clcphuket.com/) on Soi Cherngtalay 4 runs to 2 AM and is the closest thing in the area to a supper club, closed Mondays and Tuesdays. For the fuller picture, see our guide to [late-night dining in Bang Tao](/journal/late-night-dining-bang-tao).
+If your table is running long, the practical options narrow. At Bisou, dinner runs from 6 PM with last food orders around 11 PM, and the cocktail bar keeps going until midnight, so a late dinner can turn into a proper night without moving. On 24 and 25 December 2026, Bisou opens at 5 PM and keeps the kitchen open until midnight: see [Christmas Eve dinner at Bisou](/journal/christmas-dinner-phuket). [CLC](https://clcphuket.com/) on Soi Cherngtalay 4 runs to 2 AM and is the closest thing in the area to a supper club, closed Mondays and Tuesdays. For the fuller picture, see our guide to [late-night dining in Bang Tao](/journal/late-night-dining-bang-tao).
 
 ## Getting there and back
 
@@ -76,12 +76,12 @@ Ask your resort's front desk for a taxi, or use Grab, which works normally in th
 
 [Bisou](/) is a modern French restaurant and cocktail bar at No.4 Bandon-Cherngtalay Road, a short drive from Laguna, Boat Avenue and Bang Tao Beach. It was founded in 2025 by Antoine Darquin and Théo Lavergne, with head chef Manon Bares in the kitchen and Louis Chartier on the room.
 
-The food is plated to share, so a table orders together rather than each to their own: truffle French toast to start, a house beef Wellington carved at the table, a whole seabass baked in salt crust and flambeed beside you, black truffle fagottini, a wagyu hanger steak, and a grand cru chocolate soufflé to finish. Dinner is served nightly from 6 PM and the cocktail bar runs to 1 AM, which makes it one of the few rooms nearby where the evening does not end when the kitchen does. See the [share-style French menu](/menu), or read our guide to [the best French restaurants in Phuket](/journal/best-french-restaurants-phuket). For the island's grills, see the [best steakhouses in Phuket](/journal/best-steakhouses-phuket).
+The food is plated to share, so a table orders together rather than each to their own: truffle French toast to start, a house beef Wellington carved at the table, a whole seabass baked in salt crust and flambeed beside you, black truffle fagottini, a wagyu hanger steak, and a grand cru chocolate soufflé to finish. Dinner is served nightly from 6 PM and the cocktail bar runs to midnight, which makes it one of the few rooms nearby where the evening does not end when the kitchen does. See the [share-style French menu](/menu), or read our guide to [the best French restaurants in Phuket](/journal/best-french-restaurants-phuket). For the island's grills, see the [best steakhouses in Phuket](/journal/best-steakhouses-phuket).
 
 <div class="jp-band">
   <span class="jp-band__lab">Five minutes from Laguna</span>
   <h2 class="jp-band__h">A French dinner, off the resort</h2>
-  <p>Plated to share, dinner nightly from 6 PM, cocktail bar to 1 AM, on Bandon-Cherngtalay Road.</p>
+  <p>Plated to share, dinner nightly from 6 PM, cocktail bar to midnight, on Bandon-Cherngtalay Road.</p>
   <a class="btn btn--gilt" href="/menu">See the menu</a>
 </div>
 
@@ -99,7 +99,7 @@ Boat Avenue and Porto de Phuket sit at the entrance to the Laguna Phuket complex
 
 ### What time do restaurants stop serving food near Bang Tao?
 
-As of July 2026, most kitchens in Cherngtalay and on the Bang Tao beachfront stop serving between 10:30 and 11 PM. Catch Beach Club serves dinner until 10:30 PM and SUAY Cherngtalay until 11 PM. Bisou takes last food orders around 11 PM and keeps its cocktail bar open until 1 AM, and CLC on Soi Cherngtalay 4 runs until 2 AM, closed Mondays and Tuesdays.
+As of July 2026, most kitchens in Cherngtalay and on the Bang Tao beachfront stop serving between 10:30 and 11 PM. Catch Beach Club serves dinner until 10:30 PM and SUAY Cherngtalay until 11 PM. Bisou takes last food orders around 11 PM and keeps its cocktail bar open until midnight, and CLC on Soi Cherngtalay 4 runs until 2 AM, closed Mondays and Tuesdays.
 
 ### Do I need to book, and how do I get there?
 
@@ -107,4 +107,4 @@ Book the independent restaurants, especially in high season, since they are smal
 
 ### Is there anywhere near Laguna for a French dinner?
 
-Yes. Bisou is a modern French restaurant and cocktail bar at No.4 Bandon-Cherngtalay Road, a short drive from Laguna and Bang Tao, serving French cooking plated to share, with beef Wellington carved at the table and a whole seabass flambeed in the room. Dinner runs nightly from 6 PM, with the cocktail bar to 1 AM.
+Yes. Bisou is a modern French restaurant and cocktail bar at No.4 Bandon-Cherngtalay Road, a short drive from Laguna and Bang Tao, serving French cooking plated to share, with beef Wellington carved at the table and a whole seabass flambeed in the room. Dinner runs nightly from 6 PM, with the cocktail bar to midnight.

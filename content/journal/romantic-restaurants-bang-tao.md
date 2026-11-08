@@ -20,7 +20,7 @@ ctaHref: https://book.bistrochat.com/bisou-phuket
 draft: false
 ---
 
-The most romantic restaurants near Bang Tao and Cherngtalay are within fifteen minutes of the Laguna gates: **PRU** at Trisara, the only restaurant on Phuket holding a MICHELIN star, **Saffron** overlooking the lagoons at Banyan Tree, **Bisou** in Cherngtalay for candlelight and a cocktail bar that runs to 1 AM, **Suay** for twenty-six tables in a lit garden, and **Catch** and **Carpe Diem** for dinner on the sand at Bang Tao. Ten rooms follow, with the price of dinner, the table to ask for, and the thing that trips couples up when they book.
+The most romantic restaurants near Bang Tao and Cherngtalay are within fifteen minutes of the Laguna gates: **PRU** at Trisara, the only restaurant on Phuket holding a MICHELIN star, **Saffron** overlooking the lagoons at Banyan Tree, **Bisou** in Cherngtalay for candlelight and a cocktail bar that runs to midnight, **Suay** for twenty-six tables in a lit garden, and **Catch** and **Carpe Diem** for dinner on the sand at Bang Tao. Ten rooms follow, with the price of dinner, the table to ask for, and the thing that trips couples up when they book.
 
 This is the west coast, so the sun sets into the sea in front of you between about 6:10 PM in December and 6:50 PM in June, and almost every good decision here starts with that. Prices, hours and closures were checked against each restaurant's own published information in September 2026.
 
@@ -76,13 +76,13 @@ Saffron's dining room was redesigned in March 2026, and Banyan Tree was careful 
 
 Saffron serves dinner only, daily 6:30 PM to 10:30 PM, smart casual. Ask for a lagoon-side table, or one of the two private rooms if you are marking something; for a larger group, compare the options in our guide to [private dining in Bang Tao and Cherngtalay](/journal/private-dining-bang-tao-cherngtalay). The same resort runs a Mekhala sunset cruise on the lagoon and a private in-villa seafood barbecue for proposals. [banyantree.com](https://www.banyantree.com/thailand/phuket/dining/saffron)
 
-## 3. Bisou, candlelight and a bar until 1 AM
+## 3. Bisou, candlelight and a bar until midnight
 
-**Bisou is the candlelit dinner in Cherngtalay: a modern French restaurant and cocktail bar at No.4 Bandon-Cherngtalay Road, plated to share, a few minutes from Laguna, Boat Avenue and Bang Tao Beach.** Signature dishes run 1,290 to 2,990 THB and mains 490 to 990 THB, and the bar stays open until 1 AM.
+**Bisou is the candlelit dinner in Cherngtalay: a modern French restaurant and cocktail bar at No.4 Bandon-Cherngtalay Road, plated to share, a few minutes from Laguna, Boat Avenue and Bang Tao Beach.** Signature dishes run 1,290 to 2,990 THB and mains 490 to 990 THB, and the bar stays open until midnight.
 
 Bisou was built for two: a wall of kisses, a spiral staircase, low light, and a menu written for two pairs of hands. Share the truffle French toast (390 THB) to start, then the beef Wellington (2,990 THB) carved at the table or the whole seabass in salt crust (1,290 THB), flambéed in front of you. Chef Antoine Darquin and sommelier Théo Lavergne founded Bisou in 2025, head chef Manon Bares runs the kitchen and Louis Chartier the room.
 
-Two things make Bisou work for a couple staying nearby. The kitchen takes its last food order around 11 PM but the bar carries on to 1 AM, so dinner does not have to end when the plates go, which is rare here and the subject of its own guide to [eating late in Bang Tao](/journal/late-night-dining-bang-tao). And during your [birthday month](/journal/birthday-dinner-phuket) the whole table gets 10 percent off the bill on presentation of an ID, with the birthday dessert plate on the house and no charge if you bring your own cake. Ask for a table against the kiss wall, or a stool at the bar if you would rather watch the room. Terrace in front, parking close by the restaurant, French, English and Thai spoken. [Everything to know before you book](/journal/bisou-phuket-guide), or see the [menu](/menu).
+Two things make Bisou work for a couple staying nearby. The kitchen takes its last food order around 11 PM but the bar carries on to midnight, so dinner does not have to end when the plates go, which is rare here and the subject of its own guide to [eating late in Bang Tao](/journal/late-night-dining-bang-tao). And during your [birthday month](/journal/birthday-dinner-phuket) the whole table gets 10 percent off the bill on presentation of an ID, with the birthday dessert plate on the house and no charge if you bring your own cake. Ask for a table against the kiss wall, or a stool at the bar if you would rather watch the room. Terrace in front, parking close by the restaurant, French, English and Thai spoken. [Everything to know before you book](/journal/bisou-phuket-guide), or see the [menu](/menu).
 
 ## 4. Suay Cherngtalay, a garden of twenty-six tables
 
@@ -143,7 +143,7 @@ Leilani is open Tuesday to Saturday, 6 to 10 PM, closed Sunday and Monday. The S
 <div class="jp-band">
   <span class="jp-band__lab">Cherngtalay, Phuket</span>
   <h2 class="jp-nonum">A candlelit table, and a bar that waits</h2>
-  <p>Modern French, plated to share, minutes from Laguna and Bang Tao. Dinner nightly from 6 PM, cocktails until 1 AM.</p>
+  <p>Modern French, plated to share, minutes from Laguna and Bang Tao. Dinner nightly from 6 PM, cocktails until midnight.</p>
   <a class="btn btn--gilt" href="https://book.bistrochat.com/bisou-phuket" target="_blank" rel="noreferrer">Reserve a table</a>
 </div>
 
@@ -151,7 +151,7 @@ Leilani is open Tuesday to Saturday, 6 to 10 PM, closed Sunday and Monday. The S
 
 ### What is the most romantic restaurant in Bang Tao?
 
-The most romantic restaurant in Bang Tao depends on the evening you want. PRU at Trisara is the landmark dinner, the only restaurant on Phuket holding a MICHELIN star, though it is closed until 1 October 2026. Saffron at Banyan Tree Laguna is the quiet resort table over the lagoons. Bisou in Cherngtalay is the candlelit one, minutes from Laguna and Bang Tao Beach, with a bar that runs to 1 AM.
+The most romantic restaurant in Bang Tao depends on the evening you want. PRU at Trisara is the landmark dinner, the only restaurant on Phuket holding a MICHELIN star, though it is closed until 1 October 2026. Saffron at Banyan Tree Laguna is the quiet resort table over the lagoons. Bisou in Cherngtalay is the candlelit one, minutes from Laguna and Bang Tao Beach, with a bar that runs to midnight.
 
 ### Where can you have dinner on the beach in Bang Tao?
 
@@ -171,7 +171,7 @@ Smart casual covers every restaurant on this list. PRU at Trisara and Saffron at
 
 ### Where can you eat late near Bang Tao and Cherngtalay?
 
-Bisou in Cherngtalay runs latest: the kitchen takes its last food order around 11 PM and the cocktail bar stays open until 1 AM. Catch Beach Club serves until 10:30 PM and closes at midnight, Carpe Diem runs to midnight, and Moonshine at Boat Avenue closes at midnight, Tuesday to Sunday. PRU, Saffron, Suay Cherngtalay and Leilani all stop serving by 10:30 PM or earlier.
+Bisou in Cherngtalay keeps the latest kitchen: it takes its last food order around 11 PM and the cocktail bar stays open until midnight. Catch Beach Club serves until 10:30 PM and closes at midnight, Carpe Diem runs to midnight, and Moonshine at Boat Avenue closes at midnight, Tuesday to Sunday. PRU, Saffron, Suay Cherngtalay and Leilani all stop serving by 10:30 PM or earlier.
 
 ### Do romantic restaurants near Bang Tao need booking in advance?
 
