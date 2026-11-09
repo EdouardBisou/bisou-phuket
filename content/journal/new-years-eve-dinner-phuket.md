@@ -54,7 +54,7 @@ The rest of the year, the kitchen of head chef Manon Bares cooks French food pla
 
 **Bisou Phuket is at <span class="jp-copy" data-copy="No.4 Bandon-Cherngtalay Rd, Choeng Thale, Thalang, Phuket 83110" data-tip="Tap to copy" data-done="Copied">No.4 Bandon-Cherngtalay Rd, Choeng Thale, Thalang, Phuket 83110</span>, about five minutes inland from the Laguna Phuket gate along Bandon-Cherngtalay Road.** Guests at Banyan Tree, Angsana Laguna, SAii Laguna, Dusit Thani Laguna, Cassia and Homm Suites are roughly five to ten minutes away by car; from Anantara Layan, The Pavilions and Trisara, allow ten to fifteen minutes down the coast road.
 
-Phuket has no train, so come by car or taxi and tell the driver Bandon-Cherngtalay Road. Grab works normally in this part of the island, your resort's front desk will call a taxi, and there is parking close by the restaurant. On New Year's Eve the coast road is busier than usual, so leave a little early. Cherngtalay is the same place maps write as Choeng Thale.
+Phuket has no train, so come by car or taxi and tell the driver Bandon-Cherngtalay Road. Grab works normally in this part of the island, your resort's front desk will call a taxi, and valet parking is complimentary, with self-parking at the rear via the side street. On New Year's Eve the coast road is busier than usual, so leave a little early. Cherngtalay is the same place maps write as Choeng Thale.
 
 ## Can I bring children on New Year's Eve?
 

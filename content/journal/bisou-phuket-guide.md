@@ -3,6 +3,7 @@ title: Bisou Phuket: Everything to Know Before You Book
 slug: bisou-phuket-guide
 category: Guide
 publishedAt: 2026-08-24
+updatedAt: 2026-11-10
 readMin: 9
 hero: /assets/photos/web/bisou-phuket-guide-cover-1920.jpg
 heroAlt: The candlelit dining room and cocktail bar at Bisou Phuket, a modern French restaurant in Cherngtalay near Bang Tao Beach
@@ -45,7 +46,7 @@ It is a restaurant first, but the evening keeps going: the kitchen takes its las
 
 **Bisou Phuket is at <span class="jp-copy" data-copy="No.4 Bandon-Cherngtalay Rd, Choeng Thale, Thalang, Phuket 83110" data-tip="Tap to copy" data-done="Copied">No.4 Bandon-Cherngtalay Rd, Choeng Thale, Thalang, Phuket 83110</span>, on Phuket's west coast, a short drive from Laguna, Boat Avenue and Bang Tao Beach.** Cherngtalay is the same place maps write as Choeng Thale, two spellings of one name.
 
-Phuket has no train, so you arrive by car or taxi: tell the driver Bandon-Cherngtalay Road, and there is parking close by the restaurant. If you are staying at Laguna or anywhere along Bang Tao, the drive is short. The neighbourhood eats well far beyond us, and we mapped it, address by address, in [Where to Eat in Bang Tao and Cherngtalay](/journal/where-to-eat-bang-tao).
+Phuket has no train, so you arrive by car or taxi: tell the driver Bandon-Cherngtalay Road, and there is complimentary valet parking, plus self-parking at the rear via the side street. If you are staying at Laguna or anywhere along Bang Tao, the drive is short. The neighbourhood eats well far beyond us, and we mapped it, address by address, in [Where to Eat in Bang Tao and Cherngtalay](/journal/where-to-eat-bang-tao).
 
 ## What does dinner at Bisou Phuket cost?
 
@@ -110,7 +111,7 @@ A few details that answer the next question:
 
 - You can come just for a drink: the cocktail bar runs until midnight every night.
 - We speak French, English and Thai in the room.
-- Parking is close by the restaurant.
+- Parking is complimentary valet, with self-parking at the rear via the side street.
 - Note a birthday, an anniversary or an allergy when you book and the room is set before you arrive.
 - On 24 and 25 December 2026 we open at 5 PM and the kitchen runs until midnight: see [Christmas dinner in Phuket at Bisou](/journal/christmas-dinner-phuket).
 
@@ -151,7 +152,7 @@ The last food order is around 11 PM. The restaurant is open nightly from 6 PM, a
 
 ### Is there parking at Bisou Phuket?
 
-Yes, there is parking close by the restaurant on Bandon-Cherngtalay Road.
+Yes. Valet parking is complimentary, and there is also self-parking at the rear via the side street.
 
 ### Can I come to Bisou Phuket just for a drink?
 

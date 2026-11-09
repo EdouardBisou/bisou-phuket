@@ -38,7 +38,7 @@ C'est d'abord un restaurant, mais la soirée ne s'arrête pas là : la cuisine p
 
 **Bisou Phuket se trouve au <span class="jp-copy" data-copy="No.4 Bandon-Cherngtalay Rd, Choeng Thale, Thalang, Phuket 83110" data-tip="Toucher pour copier" data-done="Copié">No.4 Bandon-Cherngtalay Rd, Choeng Thale, Thalang, Phuket 83110</span>, sur la côte ouest de Phuket, à quelques minutes en voiture de Laguna, Boat Avenue et de la plage de Bang Tao.** Cherngtalay et Choeng Thale désignent le même endroit : deux orthographes pour un seul nom, les cartes utilisent la seconde.
 
-Phuket n'a pas de train, on arrive donc en voiture ou en taxi : indiquez au chauffeur Bandon-Cherngtalay Road, et un parking se trouve tout près du restaurant. Si vous logez à Laguna ou n'importe où le long de Bang Tao, la route est courte. On mange bien dans le quartier, et bien au-delà de chez nous, et nous l'avons cartographié, adresse par adresse, dans [Où manger à Bang Tao et Cherngtalay](/journal/where-to-eat-bang-tao).
+Phuket n'a pas de train, on arrive donc en voiture ou en taxi : indiquez au chauffeur Bandon-Cherngtalay Road, et le voiturier est offert, avec aussi un parking en libre-service à l'arrière par la rue latérale. Si vous logez à Laguna ou n'importe où le long de Bang Tao, la route est courte. On mange bien dans le quartier, et bien au-delà de chez nous, et nous l'avons cartographié, adresse par adresse, dans [Où manger à Bang Tao et Cherngtalay](/journal/where-to-eat-bang-tao).
 
 ## Combien coûte un dîner chez Bisou Phuket ?
 
@@ -103,7 +103,7 @@ Quelques détails qui répondent à la question suivante :
 
 - Vous pouvez venir juste pour un verre : le bar à cocktails tourne jusqu'à minuit, chaque soir.
 - En salle, nous parlons français, anglais et thaï.
-- Le parking est tout près du restaurant.
+- Le voiturier est offert, avec un parking en libre-service à l'arrière par la rue latérale.
 - Signalez un anniversaire, un anniversaire de mariage ou une allergie à la réservation, et la salle est prête avant votre arrivée.
 
 ## Et pour les anniversaires et les événements privés ?
@@ -143,7 +143,7 @@ La dernière commande en cuisine est vers 23h. Le restaurant est ouvert tous les
 
 ### Y a-t-il un parking chez Bisou Phuket ?
 
-Oui, un parking se trouve tout près du restaurant, sur Bandon-Cherngtalay Road.
+Oui. Le voiturier est offert, et il y a aussi un parking en libre-service à l'arrière par la rue latérale.
 
 ### Peut-on venir chez Bisou Phuket juste pour un verre ?
 

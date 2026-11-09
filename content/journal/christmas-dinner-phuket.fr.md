@@ -48,7 +48,7 @@ Le reste de l'année, la brigade de la cheffe Manon Bares envoie une cuisine fra
 
 **Bisou Phuket se trouve au <span class="jp-copy" data-copy="No.4 Bandon-Cherngtalay Rd, Choeng Thale, Thalang, Phuket 83110" data-tip="Toucher pour copier" data-done="Copié">No.4 Bandon-Cherngtalay Rd, Choeng Thale, Thalang, Phuket 83110</span>, à environ cinq minutes dans les terres depuis l'entrée de Laguna Phuket, par Bandon-Cherngtalay Road.** Depuis le Banyan Tree, l'Angsana Laguna, le SAii Laguna, le Dusit Thani Laguna, le Cassia et les Homm Suites, comptez environ cinq à dix minutes en voiture ; depuis l'Anantara Layan, The Pavilions et Trisara, prévoyez dix à quinze minutes par la route côtière.
 
-Phuket n'a pas de train : venez en voiture ou en taxi, et indiquez au chauffeur Bandon-Cherngtalay Road. Grab fonctionne normalement dans cette partie de l'île, la réception de votre resort vous appellera un taxi, et un parking se trouve tout près du restaurant. Sur les cartes, Cherngtalay s'écrit Choeng Thale : c'est le même endroit.
+Phuket n'a pas de train : venez en voiture ou en taxi, et indiquez au chauffeur Bandon-Cherngtalay Road. Grab fonctionne normalement dans cette partie de l'île, la réception de votre resort vous appellera un taxi, et le voiturier est offert, avec aussi un parking en libre-service à l'arrière par la rue latérale. Sur les cartes, Cherngtalay s'écrit Choeng Thale : c'est le même endroit.
 
 ## Peut-on venir avec des enfants le soir du réveillon ?
 

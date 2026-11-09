@@ -38,7 +38,7 @@ faqHeading: 常见问题
 
 **Bisou Phuket 位于 <span class="jp-copy" data-copy="No.4 Bandon-Cherngtalay Rd, Choeng Thale, Thalang, Phuket 83110" data-tip="点按复制" data-done="已复制">No.4 Bandon-Cherngtalay Rd, Choeng Thale, Thalang, Phuket 83110</span>，地处普吉岛西海岸，距 Laguna、Boat Avenue 和 Bang Tao 海滩车程不远。** Cherngtalay 就是地图上写的 Choeng Thale，同一个地名的两种拼法。
 
-普吉岛没有轨道交通，所以请驾车或乘出租车前来：告诉司机 Bandon-Cherngtalay Road 即可，餐厅附近就有停车位。如果你住在 Laguna 或 Bang Tao 沿线任何地方，车程都很短。这一带远不止我们一家值得吃，我们把周边的好去处按地址逐一整理在[Bang Tao 与 Cherngtalay 觅食指南](/journal/where-to-eat-bang-tao)里。
+普吉岛没有轨道交通，所以请驾车或乘出租车前来：告诉司机 Bandon-Cherngtalay Road 即可，餐厅提供免费代客泊车，餐厅后方也可通过侧街自行停车。如果你住在 Laguna 或 Bang Tao 沿线任何地方，车程都很短。这一带远不止我们一家值得吃，我们把周边的好去处按地址逐一整理在[Bang Tao 与 Cherngtalay 觅食指南](/journal/where-to-eat-bang-tao)里。
 
 ## 在 Bisou Phuket 吃一顿晚餐要多少钱？
 
@@ -103,7 +103,7 @@ Manon 每晚亲自带队掌灶。Louis 带领一支通晓法语、英语和泰�
 
 - 你可以只为一杯酒而来：鸡尾酒吧每晚营业至午夜 12 点。
 - 现场团队通晓法语、英语和泰语。
-- 餐厅附近就有停车位。
+- 提供免费代客泊车，餐厅后方也可通过侧街自行停车。
 - 预订时备注生日、纪念日或过敏信息，你到达之前一切都会布置妥当。
 
 ## 生日和私人活动有什么安排？
@@ -143,7 +143,7 @@ Manon 每晚亲自带队掌灶。Louis 带领一支通晓法语、英语和泰�
 
 ### Bisou Phuket 有停车位吗？
 
-有，Bandon-Cherngtalay Road 上的餐厅附近就有停车位。
+有。代客泊车免费，餐厅后方也可通过侧街自行停车。
 
 ### 可以只去 Bisou Phuket 喝一杯吗？
 

@@ -30,14 +30,14 @@ That leaves a shorter, clearer list, which is the good news for anyone actually 
 
 ## Where to eat raw seafood, compared
 
-Four addresses, with prices published by the venues themselves as of July 2026.
+We run Bisou, so we say where we fit and link to the others. Four addresses, listed alphabetically, with prices published by the venues themselves as of July 2026.
 
 | Restaurant | Raw offering | Oyster price | Where |
 | --- | --- | --- | --- |
 | Bisou | Crudo bar, oysters, seafood platter, Prunier caviar | Fine de Claire N4 from 90 THB | Cherngtalay, Bandon-Cherngtalay Rd |
 | Catch Beach Club | Crudos and caviar menu sections, oysters by the piece | Fine de Claire No.2 190 THB, Gillardeau No.2 280 THB | Bang Tao beachfront |
-| La Marée | Gillardeau oysters, shrimp platters, salmon roe | Gillardeau 280 THB a piece, 1,390 for six | Lagoon Road, Cherngtalay |
 | La Crique | Caviar, tuna tartare, crab, ceviche | Not published by the piece | Trisara, north of Layan |
+| La Marée | Gillardeau oysters, shrimp platters, salmon roe | Gillardeau 280 THB a piece, 1,390 for six | Lagoon Road, Cherngtalay |
 
 ## How to read an oyster menu in Phuket
 
@@ -53,10 +53,10 @@ Two names dominate the island's menus. Fine de Claire are finished in shallow cl
 ## The four raw bars worth knowing
 
 <div class="jp-rivals">
-  <div class="jp-rv jp-rv--star"><div><span class="jp-rv__badge">Our pick</span><h3>Bisou</h3><div class="jp-rv__m">French crudo bar, Cherngtalay</div><p>A full crudo section rather than a token oyster: Fine de Claire N4 at 90 THB a piece and a green kiss oyster with apple and cucumber at 110, bluefin tuna tartare with otoro at 790, Hokkaido scallop with coconut at 590, madai ceviche at 790, a crab roll on French toast at 390, and the Bisou seafood platter at 1,590. Prunier caviar 30g is 2,990, or added to the platter for 1,490.</p></div><span class="jp-rv__near">Near Laguna</span></div>
-  <div class="jp-rv"><div><h3><a href="https://www.catchbeachclub.com/" target="_blank" rel="noreferrer">Catch Beach Club</a></h3><div class="jp-rv__m">Beachfront, Bang Tao</div><p>The best-known beach club on Bang Tao backs its sunset reputation with a real raw bar: dedicated crudo and caviar sections, with Fine de Claire No.2 at 190 THB a piece and Gillardeau No.2 at 280. Open daily from 7:30 AM to midnight.</p></div><span class="jp-rv__near">Bang Tao beach</span></div>
+  <div class="jp-rv"><div><h3>Bisou</h3><div class="jp-rv__m">French crudo bar, Cherngtalay</div><p>A full crudo section rather than a token oyster: Fine de Claire N4 at 90 THB a piece and a green kiss oyster with apple and cucumber at 110, bluefin tuna tartare with otoro at 790, Hokkaido scallop with coconut at 590, madai ceviche at 790, a crab roll on French toast at 390, and the Bisou seafood platter at 1,590. Prunier caviar 30g is 2,990, or added to the platter for 1,490.</p></div><span class="jp-rv__near">Near Laguna</span></div>
+  <div class="jp-rv"><div><h3><a href="https://www.catchbeachclub.com/" target="_blank" rel="noreferrer">Catch Beach Club</a></h3><div class="jp-rv__m">Beachfront, Bang Tao</div><p>A beach club on Bang Tao with a real raw bar: dedicated crudo and caviar sections, with Fine de Claire No.2 at 190 THB a piece and Gillardeau No.2 at 280. Open daily from 7:30 AM to midnight.</p></div><span class="jp-rv__near">Bang Tao beach</span></div>
+  <div class="jp-rv"><div><h3><a href="https://trisara.com/dining/la-crique-phuket/" target="_blank" rel="noreferrer">La Crique at Trisara</a></h3><div class="jp-rv__m">French Riviera, Trisara</div><p>A more formal setting, in a glass-walled room above Trisara's private cove. Kaviari Kristal caviar at 4,900 THB for 30g, yellowfin tuna tartare with caviar and citrus at 1,300, crab salad at 1,300. Daily noon to 3 PM and 6 to 10 PM, a fifteen-minute drive north of Cherngtalay.</p></div><span class="jp-rv__near">North of Layan</span></div>
   <div class="jp-rv"><div><h3><a href="https://lamareephuket.com/" target="_blank" rel="noreferrer">La Marée</a></h3><div class="jp-rv__m">French-Mediterranean seafood, Lagoon Road</div><p>Cherngtalay's seafood house, where imported product does the talking: Gillardeau oysters at 280 THB a piece or 1,390 for six, shrimp platters on ice at 590 for a half kilo and 990 for a kilo, and salmon roe by the 100g. Open daily 8 AM to midnight.</p></div><span class="jp-rv__near">Near Laguna</span></div>
-  <div class="jp-rv"><div><h3><a href="https://trisara.com/dining/la-crique-phuket/" target="_blank" rel="noreferrer">La Crique at Trisara</a></h3><div class="jp-rv__m">French Riviera, Trisara</div><p>The most formal of the four, in a glass-walled room above Trisara's private cove. Kaviari Kristal caviar at 4,900 THB for 30g, yellowfin tuna tartare with caviar and citrus at 1,300, crab salad at 1,300. Daily noon to 3 PM and 6 to 10 PM, a fifteen-minute drive north of Cherngtalay.</p></div><span class="jp-rv__near">North of Layan</span></div>
 </div>
 
 ## The crudo bar at Bisou

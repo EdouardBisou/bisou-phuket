@@ -48,7 +48,7 @@ faqHeading: Частые вопросы
 
 **Bisou Phuket находится по адресу <span class="jp-copy" data-copy="No.4 Bandon-Cherngtalay Rd, Choeng Thale, Thalang, Phuket 83110" data-tip="Нажмите, чтобы скопировать" data-done="Скопировано">No.4 Bandon-Cherngtalay Rd, Choeng Thale, Thalang, Phuket 83110</span>, примерно в пяти минутах езды вглубь острова от въезда в Laguna Phuket по Bandon-Cherngtalay Road.** Гостям Banyan Tree, Angsana Laguna, SAii Laguna, Dusit Thani Laguna, Cassia и Homm Suites ехать на машине примерно от пяти до десяти минут; от Anantara Layan, The Pavilions и Trisara закладывайте от десяти до пятнадцати минут по прибрежной дороге.
 
-Поездов на Пхукете нет, поэтому приезжайте на машине или такси и назовите водителю Bandon-Cherngtalay Road. Grab в этой части острова работает без проблем, ресепшен вашего отеля вызовет такси, а парковка находится рядом с рестораном. На картах Cherngtalay обозначают как Choeng Thale: это одно и то же место.
+Поездов на Пхукете нет, поэтому приезжайте на машине или такси и назовите водителю Bandon-Cherngtalay Road. Grab в этой части острова работает без проблем, ресепшен вашего отеля вызовет такси, а валет-паркинг бесплатный, есть и самостоятельная парковка сзади, через боковую улицу. На картах Cherngtalay обозначают как Choeng Thale: это одно и то же место.
 
 ## Можно ли прийти с детьми в сочельник, 24 декабря?
 
