@@ -5,7 +5,7 @@ category: Guide
 publishedAt: 2026-10-28
 readMin: 13
 hero: /assets/photos/web/book-restaurants-phuket-high-season-cover-1920.jpg
-heroAlt: The staircase railing and lit glass panels inside Bisou Phuket, a modern French restaurant and cocktail bar in Cherngtalay
+heroAlt: Illustration: an open reservation diary, a fountain pen and a lit candle on a dark wooden table
 excerpt: When to book, which dates to plan around and how far ahead to book a dinner in Phuket from November to March, with the 2026/27 dates that matter, two published resort prepayment examples, and how to book Bisou in Cherngtalay.
 seoTitle: Book a Restaurant in Phuket in High Season
 seoDescription: How far ahead to book a Phuket restaurant in high season 2026/27: the nights that fill first, resort prepayment deadlines, and how to book Bisou.

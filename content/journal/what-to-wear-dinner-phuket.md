@@ -5,7 +5,7 @@ category: Guide
 publishedAt: 2026-11-02
 readMin: 12
 hero: /assets/photos/web/what-to-wear-dinner-phuket-cover-1920.jpg
-heroAlt: A dark curved railing in front of lit glass panels inside Bisou Phuket, a modern French restaurant and cocktail bar in Cherngtalay
+heroAlt: Illustration: a linen jacket and silk scarf over a rattan chair on a tropical terrace at golden hour
 excerpt: Smart casual is what six of the eight Phuket venues we checked publish. Here is what each says on its own page, how beach clubs and Phuket Town differ, and what to pack for a November to February evening.
 seoTitle: What to Wear to Dinner in Phuket: Dress Codes 2026/27
 seoDescription: What to wear to dinner in Phuket: what eight named venues publish on dress (six say smart casual), beach clubs, evening weather, and Bisou's rule.
