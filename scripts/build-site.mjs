@@ -736,6 +736,8 @@ function localizeHomeHtml(html, lang) {
   // 4. rebuild the FAQPage JSON-LD from the translated visible FAQ so structured
   //    data always matches the page text.
   out = regenHomeFaqJsonLd(out);
+  // The vendor page /operations is noindex and English only: no link from translated homes.
+  out = out.replace(/\s*<span>Operations on <a href="\/operations"[^>]*>Mise<\/a><\/span>/, '');
   // 5. WebSite language follows the page language.
   out = out.replace(/("@type": "WebSite",[\s\S]*?"inLanguage": )"en"/, `$1"${meta.lang}"`);
   return out;
@@ -1111,6 +1113,8 @@ function renderPostHtml(post, tr, tpl, baseVars) {
     post_title: escHtml(title),
     post_seo_title: escHtml(seoTitle),
     post_title_attr: escAttr(seoTitle),
+    // Brand suffix only when the whole title stays within ~60 characters.
+    post_title_tag: escHtml(seoTitle.length + ' · Bisou Phuket'.length <= 60 ? `${seoTitle} · Bisou Phuket` : seoTitle),
     post_slug: escAttr(post.slug),
     post_description: escAttr(description),
     post_hero_url: escAttr(heroAbsolute),
@@ -1219,14 +1223,19 @@ async function summarizeDir(dir) {
 // automatically listed for search engines, with lastmod. Core pages + posts.
 function generateSitemap(posts, locales = []) {
   const base = 'https://bisouphuket.com';
-  const today = new Date().toISOString().slice(0, 10);
+  // Core pages carry no lastmod: stamping the build date would claim every page
+  // changed on every deploy. Journal posts carry their real updatedAt/publishedAt.
+  const homeAlternates = locales.length
+    ? [...['en', ...locales].map((l) => `    <xhtml:link rel="alternate" hreflang="${l}" href="${base}${l === 'en' ? '/' : '/' + l}" />`),
+       `    <xhtml:link rel="alternate" hreflang="x-default" href="${base}/" />`].join('\n')
+    : '';
   const entries = [
-    { loc: '/', changefreq: 'weekly', priority: '1.0', lastmod: today },
-    ...locales.map((l) => ({ loc: `/${l}`, changefreq: 'weekly', priority: '0.8', lastmod: today })),
-    { loc: '/menu', changefreq: 'weekly', priority: '0.9', lastmod: today },
-    { loc: '/private-events', changefreq: 'monthly', priority: '0.8', lastmod: today },
-    { loc: '/team', changefreq: 'monthly', priority: '0.6', lastmod: today },
-    { loc: '/journal', changefreq: 'weekly', priority: '0.7', lastmod: today }
+    { loc: '/', changefreq: 'weekly', priority: '1.0', alternates: homeAlternates },
+    ...locales.map((l) => ({ loc: `/${l}`, changefreq: 'weekly', priority: '0.8', alternates: homeAlternates })),
+    { loc: '/menu', changefreq: 'weekly', priority: '0.9' },
+    { loc: '/private-events', changefreq: 'monthly', priority: '0.8' },
+    { loc: '/team', changefreq: 'monthly', priority: '0.6' },
+    { loc: '/journal', changefreq: 'weekly', priority: '0.7' }
   ];
   for (const p of posts || []) {
     if (!p.slug) continue;

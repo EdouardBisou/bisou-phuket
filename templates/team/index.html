@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-  <title>Our Team | Bisou Phuket</title>
+  <title>Chef and Sommelier Team · Bisou Phuket</title>
   <meta name="description" content="The people behind Bisou Phuket. Co-founders Antoine Darquin and Théo Lavergne, with Louis Chartier (general manager) and Manon Bares (head chef)." />
   <link rel="canonical" href="https://bisouphuket.com/team" />
 
@@ -116,7 +116,7 @@
       display: block; border-radius: 3px;
     }
     .founder__photos img:nth-child(2) { margin-top: clamp(1rem, 3vw, 2rem); }
-    /* Single-photo media (Théo) — taller portrait aspect than the diptych,
+    /* Single-photo media (Théo), taller portrait aspect than the diptych,
        cropped via object-position to keep the face/torso in frame. */
     .founder__media > img {
       width: 100%;
@@ -153,7 +153,7 @@
     .founder--solo { display: block; max-width: 620px; margin: 0 auto; text-align: center; }
 
     /* ======================================================
-       TEAM PAGE LIGHT THEME — cream paper, deep red accent.
+       TEAM PAGE LIGHT THEME, cream paper, deep red accent.
        Layered after the shared sub-page page.css so overrides win.
        The hero keeps its dark veil (the founders photo IS dark).
        ====================================================== */
@@ -198,7 +198,7 @@
     .founder__name em { color: var(--noir); }
     .founder__body p { color: rgba(14, 14, 14, 0.75); }
 
-    /* team grid — flip the dark .team__card styling for cream */
+    /* team grid, flip the dark .team__card styling for cream */
     .team__photo { background: rgba(14, 14, 14, 0.04); }
     .team__photo::after { background: linear-gradient(to top, rgba(255, 248, 239, 0.35), transparent 55%); }
     .team__photo--placeholder { background: linear-gradient(135deg, #F2E8D6, var(--cream)); }
@@ -243,7 +243,7 @@
        Layered last; JS in /team/page.js drives the dynamic bits.
        ====================================================== */
 
-    /* Photo hover — subtle interactive feedback */
+    /* Photo hover, subtle interactive feedback */
     .founder__photos img {
       transition: transform 1s cubic-bezier(0.16, 1, 0.3, 1),
                   filter 1s cubic-bezier(0.16, 1, 0.3, 1);
@@ -261,7 +261,7 @@
       .pe-hero .kiss-stamp { animation: none; }
     }
 
-    /* Crew card — 3D tilt host + photo zoom on hover */
+    /* Crew card, 3D tilt host + photo zoom on hover */
     .team__card {
       transition: transform .6s cubic-bezier(0.16, 1, 0.3, 1);
       will-change: transform;
@@ -286,7 +286,7 @@
       background: linear-gradient(to top, rgba(110, 31, 42, 0.15), transparent 55%);
     }
 
-    /* Mobile crew grid — 2 cols, centered captions to balance the grid */
+    /* Mobile crew grid, 2 cols, centered captions to balance the grid */
     @media (max-width: 600px) {
       .team__grid {
         grid-template-columns: repeat(2, 1fr);
@@ -321,7 +321,7 @@
       }
     }
 
-    /* Magnetic CTA buttons — JS sets transform */
+    /* Magnetic CTA buttons, JS sets transform */
     .pe-cta .btn { will-change: transform; }
 
     /* Scroll progress bar at the very top */
@@ -335,7 +335,7 @@
       pointer-events: none;
     }
 
-    /* Letter splits — for founder name reveal */
+    /* Letter splits, for founder name reveal */
     .split-letter {
       display: inline-block;
       opacity: 0;
@@ -431,7 +431,7 @@
         </p>
 
         <div class="founders">
-          <!-- Antoine — featured with two photos -->
+          <!-- Antoine, featured with two photos -->
           <article class="founder" id="antoine-darquin" data-pe-reveal>
             <div class="founder__media">
               <div class="founder__photos">
@@ -448,7 +448,7 @@
             </div>
           </article>
 
-          <!-- Théo — photo + bio, reversed (photo on the right on desktop) -->
+          <!-- Théo, photo + bio, reversed (photo on the right on desktop) -->
           <article class="founder founder--reverse" id="theo-lavergne" data-pe-reveal>
             <div class="founder__media">
               <img src="/assets/photos/web/theo-portrait-960.jpg" alt="Sommelier Théo Lavergne at the entrance of Bisou" loading="lazy" />

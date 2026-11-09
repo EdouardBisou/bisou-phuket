@@ -8,7 +8,7 @@ readMin: 6
 hero: /assets/photos/web/dishes-spread-1920.jpg
 heroAlt: An overhead spread of modern French dishes at Bisou, a French restaurant in Cherngtalay, Phuket
 excerpt: A local guide to the best French restaurants in Phuket, from a clifftop tasting menu to Cherngtalay bistros, with Bisou as the modern French restaurant and cocktail bar in Bang Tao.
-seoTitle: Best French Restaurants in Phuket | Bisou Phuket
+seoTitle: Best French Restaurants in Phuket (2026)
 seoDescription: The best French restaurants in Phuket, from a MICHELIN-listed tasting menu above Kalim to Cherngtalay bistros, plus Bisou, modern French in Bang Tao.
 author: Bisou Phuket
 authorRole: Editorial
