@@ -122,6 +122,8 @@ That is the honest shape of a wet-season day here. The daytime menu is shorter a
 - **Allow more time on the road.** Phuket 101 names the Cherngtalay road between Ban Kian junction and Blue Tree among the island's five most flood-prone stretches, and on 20 May 2026 The Phuket News reported water deep enough to stop motorcycles on Soi Cherng Talay 4. It drains quickly once the rain stops. It still costs you twenty minutes.
 - **Ask where to park.** On a wet night, the difference between a good arrival and a bad one is fifty metres of open ground.
 
+The same airport archive covers late November too: see [Loy Krathong in Phuket 2026](/journal/loy-krathong-phuket-dinner) for how often the evenings around the festival carried a rain report.
+
 ## Where a wet evening can go, compared
 
 **There are five honest options on this coast, and they behave very differently in a squall.** Hours below are each venue's or complex's own published times, checked in September 2026.
