@@ -40,8 +40,13 @@
     "image": "{{post_hero_url}}",
     "datePublished": "{{post_date_iso}}",
     "dateModified": "{{post_date_modified_iso}}",
-    "author": { "@id": "https://bisouphuket.com/#organization", "name": "Bisou Phuket" },
-    "publisher": { "@id": "https://bisouphuket.com/#organization" },
+    "author": { "@type": "Organization", "name": "Bisou Phuket", "url": "https://bisouphuket.com/" },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Bisou Phuket",
+      "url": "https://bisouphuket.com/",
+      "logo": { "@type": "ImageObject", "url": "https://bisouphuket.com/assets/b-mark.png", "width": 1617, "height": 2174 }
+    },
     {{post_about_block}}"description": "{{post_description}}",
     "articleSection": "{{post_category}}",
     "inLanguage": "{{post_lang}}",

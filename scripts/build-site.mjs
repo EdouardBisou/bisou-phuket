@@ -697,6 +697,25 @@ function sheetSwitcher() {
   return `<div class="sheet__locations" aria-label="Language">\n      <span class="sheet__locations-label">Language</span>\n      ${links}\n    </div>`;
 }
 
+// FAQPage JSON-LD generated from the visible home FAQ (summary + answer), so the
+// schema can never drift from the text a visitor reads.
+function regenHomeFaqJsonLd(html) {
+  const items = [];
+  const re = /<details class="home-faq__item">\s*<summary>([\s\S]*?)<\/summary>\s*<div class="home-faq__a">([\s\S]*?)<\/div>\s*<\/details>/g;
+  const clean = (t) => decodeEntities(t.replace(/<[^>]+>/g, ' ')).replace(/\s+/g, ' ').replace(/\s+([.,;:?!])/g, '$1').trim();
+  let m;
+  while ((m = re.exec(html))) items.push({ q: clean(m[1]), a: clean(m[2]) });
+  if (!items.length) return html;
+  const json = JSON.stringify({
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: items.map((i) => ({ '@type': 'Question', name: i.q, acceptedAnswer: { '@type': 'Answer', text: i.a } }))
+  }, null, 2).replace(/</g, '\\u003c');
+  const block = `<script type="application/ld+json">\n${json}\n  </script>`;
+  const faqRe = /<script type="application\/ld\+json">\s*\{\s*"@context": "https:\/\/schema\.org",\s*"@type": "FAQPage",[\s\S]*?<\/script>/;
+  return faqRe.test(html) ? html.replace(faqRe, () => block) : html;
+}
+
 // Derive a localized homepage from the rendered English HTML (template untouched).
 function localizeHomeHtml(html, lang) {
   const meta = localeMeta(lang);
@@ -714,9 +733,11 @@ function localizeHomeHtml(html, lang) {
   // 3. self-referencing canonical + og:url
   out = out.replace('<link rel="canonical" href="https://bisouphuket.com/" />', `<link rel="canonical" href="${url}" />`);
   out = out.replace('<meta property="og:url" content="https://bisouphuket.com/" />', `<meta property="og:url" content="${url}" />`);
-  // 4. drop the English FAQPage JSON-LD so structured data never contradicts the
-  //    translated visible FAQ (other JSON-LD blocks are language-neutral facts).
-  out = out.replace(/\s*<script type="application\/ld\+json">\s*\{\s*"@context": "https:\/\/schema\.org",\s*"@type": "FAQPage",[\s\S]*?<\/script>/, '');
+  // 4. rebuild the FAQPage JSON-LD from the translated visible FAQ so structured
+  //    data always matches the page text.
+  out = regenHomeFaqJsonLd(out);
+  // 5. WebSite language follows the page language.
+  out = out.replace(/("@type": "WebSite",[\s\S]*?"inLanguage": )"en"/, `$1"${meta.lang}"`);
   return out;
 }
 
@@ -1071,7 +1092,7 @@ function renderPostHtml(post, tr, tpl, baseVars) {
   // Article -> Restaurant entity link (frontmatter about: restaurant). Empty
   // for every other post, so their JSON-LD does not change.
   const postAboutBlock = post.about === 'restaurant'
-    ? `"about": { "@type": "Restaurant", "@id": "${SITE_URL}/#restaurant" },\n    `
+    ? `"about": { "@id": "${SITE_URL}/#restaurant" },\n    `
     : '';
   const title = t.title || post.title;
   const seoTitle = t.seoTitle || (tr ? t.title : post.seoTitle) || title;
@@ -1289,6 +1310,11 @@ async function build() {
 
   console.log('[build] rendering templates/ -> dist/');
   await renderTemplatesDir(TEMPLATES, DIST, markers, vars);
+
+  {
+    const homePath = path.join(DIST, 'index.html');
+    await fs.writeFile(homePath, regenHomeFaqJsonLd(await fs.readFile(homePath, 'utf-8')), 'utf-8');
+  }
 
   if (LOCALES.length) {
     console.log(`[build] localizing homepage -> ${LOCALES.join(', ')}`);
