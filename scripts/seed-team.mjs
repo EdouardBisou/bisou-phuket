@@ -47,8 +47,8 @@ const client = createClient({
 // Phuket crew. Add `photoFile: 'static/assets/photos/web/<name>.jpg'` once real
 // photos exist; until then each seeds without a photo (B-mark placeholder shows).
 const MEMBERS = [
-  { name: 'Louis Chartier', role: 'Co-Owner & General Manager', order: 10 },
-  { name: 'Manon Bares', role: 'Co-Owner & Head Chef', order: 20 }
+  { name: 'Louis Chartier', role: 'General Manager', order: 10 },
+  { name: 'Manon Bares', role: 'Head Chef', order: 20 }
 ];
 
 async function ensureMember(m) {

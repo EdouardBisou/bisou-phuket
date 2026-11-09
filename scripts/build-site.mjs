@@ -570,12 +570,16 @@ function renderTeam(members) {
       // Stagger the team-page reveal animation (0.08s per card, like the
       // static cards on /team/ before this section was wired to Sanity).
       const delay = idx === 0 ? '' : ` data-pe-reveal-delay="${(idx * 0.08).toFixed(2)}"`;
-      return `        <figure class="team__card" data-pe-reveal${delay}>
+      // Roles: the owner has not confirmed any co-ownership (content/site.md), so a
+      // CMS role such as "Co-Owner & Head Chef" is shown as the staff role only.
+      const role = String(m.role || '').replace(/^co-?owner\s*(&|and)\s*/i, '');
+      const slug = slugify(m.name || '');
+      return `        <figure class="team__card"${slug ? ` id="${escAttr(slug)}"` : ''} data-pe-reveal${delay}>
           <div class="team__photo${photoClass}">
             <img src="${escAttr(photoUrl)}" alt="${escAttr(m.name)}" loading="lazy"${srcsetAttr} />
           </div>
           <figcaption>
-            <span class="eyebrow">${escHtml(m.role || '')}</span>
+            <span class="eyebrow">${escHtml(role)}</span>
             <strong>${escHtml(m.name)}</strong>
             ${tagline}
           </figcaption>

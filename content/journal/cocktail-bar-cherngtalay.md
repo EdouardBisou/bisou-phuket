@@ -26,7 +26,7 @@ Bisou is a modern French restaurant in Cherngtalay, but the way to understand th
 
 The French have a word for the stretch of evening before dinner, and they treat it as sacred. The aperitif is not a warm-up. It is the part where the night decides what kind of night it wants to be. At Bisou, that ritual sits at the center of the experience, "simple & sexy" rather than fussy, low light and a low hum and a glass that means something.
 
-The drinks program is run with intent. Founders Antoine Darquin, the chef, and Theo Lavergne, the sommelier, built a list that pairs a cocktail bar with a French-leaning wine list, so you can move from a cocktail into a glass of something from the south of France without ever feeling like you changed venues. Order at the bar. Order at the table. The line between the two is deliberately soft.
+The drinks program is run with intent. Founders Antoine Darquin, the chef, and Théo Lavergne, the sommelier, built a list that pairs a cocktail bar with a French-leaning wine list, so you can move from a cocktail into a glass of something from the south of France without ever feeling like you changed venues. Order at the bar. Order at the table. The line between the two is deliberately soft.
 
 We will not pretend to print the menu here, because the pleasure of a good bar is partly the discovery. What we will say: this is a place that takes the craft seriously and the mood lightly.
 
@@ -58,7 +58,7 @@ Bisou. Simple, sexy, and open when you want the night to keep going.
 
 ### Does Bisou have a cocktail bar?
 
-Yes. Bisou is a cocktail-bar-forward modern French restaurant in Cherngtalay. The bar is a lead element of the room, with a cocktail program sitting alongside a French-leaning wine list, built by chef Antoine Darquin and sommelier Theo Lavergne.
+Yes. Bisou is a cocktail-bar-forward modern French restaurant in Cherngtalay. The bar is a lead element of the room, with a cocktail program sitting alongside a French-leaning wine list, built by chef Antoine Darquin and sommelier Théo Lavergne.
 
 ### Where is the cocktail bar in Cherngtalay?
 
