@@ -87,6 +87,8 @@ The bread and butter comes out before any of it, whatever you order.
   <a class="btn btn--gilt" href="https://book.bistrochat.com/bisou-phuket" target="_blank" rel="noreferrer">Book a table</a>
 </div>
 
+If the table wants something richer after the bread, our note on [black truffle in Phuket](/journal/black-truffle-phuket-pasta-french-toast) covers the three truffle dishes on the menu.
+
 ## Frequently asked questions
 
 ### Where does the butter at Bisou Phuket come from?
