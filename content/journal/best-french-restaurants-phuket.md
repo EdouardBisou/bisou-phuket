@@ -26,7 +26,7 @@ Phuket's best French restaurants run the full range, from a clifftop tasting men
 
 French food in Phuket is not one thing. At the top end it means tasting menus and sea views. In the middle it means proper bistros doing steak tartare, escargots and beef Wellington. Along the west coast it blends into the beach, with French chefs cooking fresh Andaman seafood over fire. The island is spread out, so the right choice usually comes down to where you are staying and the evening you have in mind.
 
-For French specifically, the name listed in the MICHELIN Guide Thailand as of November 2026 is L'Arôme by the Sea above Kalim. Phuket has only one MICHELIN Star, PRU at Trisara, which is not a French restaurant. Around L'Arôme sits a set of well-loved independent French tables, from the modern French and cocktail bar at Bisou to classic bistros in Patong and the Old Town.
+For French specifically, the name listed in the MICHELIN Guide Thailand as of November 2026 is L'Arôme by the Sea above Kalim. Phuket has three MICHELIN-starred restaurants in the 2027 guide, PRU at Trisara (two Stars), Jaras and Omemo (one Star each), and none of them is French. Around L'Arôme sits a set of well-loved independent French tables, from the modern French and cocktail bar at Bisou to classic bistros in Patong and the Old Town.
 
 ## The best French restaurants in Phuket at a glance
 
@@ -76,7 +76,7 @@ The best French restaurants in Phuket include Bisou, a modern French restaurant 
 
 ### Are there MICHELIN French restaurants in Phuket?
 
-Phuket has one MICHELIN Star, PRU at Trisara, which is not a French restaurant. For French cooking, L'Arôme by the Sea above Kalim Beach is listed in the MICHELIN Guide Thailand as Selected, as of November 2026. It does not hold a Star; it is a recognised entry in the guide.
+Phuket has three MICHELIN-starred restaurants in the MICHELIN Guide Thailand 2027, announced on 10 November 2026: PRU at Trisara with two Stars, and Jaras and Omemo with one Star each. None of them is a French restaurant. For French cooking, L'Arôme by the Sea above Kalim Beach is listed in the MICHELIN Guide Thailand as Selected, as of November 2026. It does not hold a Star; it is a recognised entry in the guide.
 
 ### Where is the best French restaurant in Bang Tao or Cherngtalay?
 

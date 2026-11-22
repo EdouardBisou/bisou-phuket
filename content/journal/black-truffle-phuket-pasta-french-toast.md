@@ -37,7 +37,7 @@ The menu lists black truffle without stating an origin.
 
 ## How do I order the truffle dishes?
 
-**Ask the team at the table, and order the truffle dishes alongside the rest of the menu.** The same menu has the beef Wellington, carved at the table (THB 2,990), and the whole seabass in salt crust, flambéed tableside (THB 1,290).
+**Ask the team at the table, and order the truffle dishes alongside the rest of the menu.** The same menu has the beef Wellington, carved at the table (THB 2,790), and the whole seabass in salt crust, flambéed tableside (THB 1,690).
 
 Warm sourdough and French butter come to every table at no charge, as we explain in [bread and butter in Phuket](/journal/bread-and-butter-phuket). Tell the team about allergies when you book, and vegetarian and vegan guests are welcome.
 

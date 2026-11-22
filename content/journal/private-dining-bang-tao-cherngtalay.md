@@ -48,7 +48,7 @@ Beyond Bisou, the west coast keeps a few genuine private rooms, from a courtyard
 
 <div class="jp-rivals">
   <div class="jp-rv"><div><h3>Bisou</h3><div class="jp-rv__m">Modern French, plated to share</div><p>Three private spaces, a custom menu by head chef Manon Bares, tableside carving and flambe, a French cellar and a bar to midnight. Adapts from an intimate table to a full buyout.</p></div><span class="jp-rv__near">Near Laguna</span></div>
-  <div class="jp-rv"><div><h3>PRU at Trisara</h3><div class="jp-rv__m">Thai, MICHELIN Star</div><p>The Reserve, a ten-seat private room set inside a wine cellar of more than 200 labels, with a full-venue buyout available for larger events at the Trisara resort.</p></div><span class="jp-rv__near">Near Nai Thon</span></div>
+  <div class="jp-rv"><div><h3>PRU at Trisara</h3><div class="jp-rv__m">Thai, two MICHELIN Stars</div><p>The Reserve, a ten-seat private room set inside a wine cellar of more than 200 labels, with a full-venue buyout available for larger events at the Trisara resort.</p></div><span class="jp-rv__near">Near Nai Thon</span></div>
   <div class="jp-rv"><div><h3>SUAY Cherngtalay</h3><div class="jp-rv__m">Modern Thai</div><p>Chef Tammasak hosts private dinners, weddings and corporate gatherings in a dedicated event space with an outdoor courtyard and a private barbecue terrace, and can cater off-site.</p></div><span class="jp-rv__near">Near Bang Tao</span></div>
   <div class="jp-rv"><div><h3>Tatonka</h3><div class="jp-rv__m">Global, tapas-style</div><p>An institution since 1996 that takes private parties with a personally designed menu, plus a private courtyard that separates off for smaller functions near Boat Avenue.</p></div><span class="jp-rv__near">Near Boat Avenue</span></div>
 </div>

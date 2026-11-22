@@ -7,7 +7,7 @@ heroAlt: Bisou Phuket 的烛光餐室与鸡尾酒吧，一家位于 Cherngtalay�
 seoTitle: Bisou Phuket：菜单、价格、着装与预订指南 (2026)
 seoDescription: Bisou Phuket 详解：位于 Cherngtalay 的现代法式餐厅，菜品盘盘适合分享，鸡尾酒吧营业至午夜 12 点。价格、必点菜式、着装要求、儿童政策、营业时间与预订方式，一页看全。
 author: Bisou Phuket
-atAGlance: Bisou Phuket 是一家位于 Cherngtalay No.4 Bandon-Cherngtalay Road 的现代法式餐厅与鸡尾酒吧，距 Laguna、Boat Avenue 和 Bang Tao 海滩车程不远，2025 年由主厨 Antoine Darquin 与侍酒师 Théo Lavergne 创立，厨房由厨师长 Manon Bares 执掌。晚餐每晚 6 点起供应，最后点餐约在晚 11 点，菜品盘盘适合分享：招牌菜 1,290 至 2,990 泰铢，主菜 490 至 990 泰铢，鸡尾酒吧营业至午夜 12 点。着装时尚休闲，欢迎儿童，纯素菜品可按需安排；生日当月用餐并出示身份证件，全单立减 10%，全桌同享。预订请访问 book.bistrochat.com/bisou-phuket。信息更新于 2026 年 8 月。
+atAGlance: Bisou Phuket 是一家位于 Cherngtalay No.4 Bandon-Cherngtalay Road 的现代法式餐厅与鸡尾酒吧，距 Laguna、Boat Avenue 和 Bang Tao 海滩车程不远，2025 年由主厨 Antoine Darquin 与侍酒师 Théo Lavergne 创立，厨房由厨师长 Manon Bares 执掌。晚餐每晚 6 点起供应，最后点餐约在晚 11 点，菜品盘盘适合分享：招牌菜 1,690 至 2,790 泰铢，主菜 490 至 990 泰铢，鸡尾酒吧营业至午夜 12 点。着装时尚休闲，欢迎儿童，纯素菜品可按需安排；生日当月用餐并出示身份证件，全单立减 10%，全桌同享。预订请访问 book.bistrochat.com/bisou-phuket。信息更新于 2026 年 8 月。
 ctaLabel: 预订餐桌
 ctaShort: 预订
 faqHeading: 常见问题
@@ -16,7 +16,7 @@ faqHeading: 常见问题
 [Bisou Phuket](/) 是一家位于 Cherngtalay No.4 Bandon-Cherngtalay Road 的现代法式餐厅与鸡尾酒吧，距 Laguna、Boat Avenue 和 Bang Tao 海滩车程不远。法式技艺在这里遇见烛光，每一道菜都为分享而生。这一页回答了客人预订前最常问我们的问题，按他们提问的顺序，用真实的数字作答。我们每晚都亲自打理这间餐厅，所以一旦有任何变动，这一页也会随之更新。
 
 <nav class="jp-chips" aria-label="快速要点">
-  <a href="#s-what-should-i-order-at-bisou-phuket"><b>THB 2,990</b> 惠灵顿牛排</a>
+  <a href="#s-what-should-i-order-at-bisou-phuket"><b>THB 2,790</b> 惠灵顿牛排</a>
   <a href="#s-what-is-the-bar-like-at-bisou-phuket"><b>午夜 12 点</b> 鸡尾酒吧，每晚营业</a>
   <a href="#s-where-is-bisou-and-how-do-i-get-there"><b>Laguna</b> Boat Avenue、Bang Tao</a>
   <a href="#s-how-do-i-book-and-can-i-walk-in"><b>晚 6 点</b> 至午夜 12 点，每晚</a>
@@ -42,24 +42,24 @@ faqHeading: 常见问题
 
 ## 在 Bisou Phuket 吃一顿晚餐要多少钱？
 
-**Bisou Phuket 采用单点形式，每道菜都为分享而设，没有套餐：招牌菜 1,290 至 2,990 泰铢，主菜 490 至 990 泰铢，前菜 190 至 990 泰铢，甜点均为 450 泰铢，生蚝 90 泰铢起。** 这一桌晚餐由你们自己从菜单上搭配，而菜单的定价正是为此而设。
+**Bisou Phuket 采用单点形式，每道菜都为分享而设，没有套餐：招牌菜 1,690 至 2,790 泰铢，主菜 490 至 990 泰铢，前菜 220 至 990 泰铢，甜点均为 450 泰铢，生蚝 90 泰铢起。** 这一桌晚餐由你们自己从菜单上搭配，而菜单的定价正是为此而设。
 
 <div class="jp-key jp-key--3">
-  <div class="jp-key__i"><span class="jp-key__n">2,990 <small>THB</small></span><span class="jp-key__l">惠灵顿牛排，鹅肝与蘑菇，桌边现切。</span></div>
-  <div class="jp-key__i"><span class="jp-key__n">1,290 <small>THB</small></span><span class="jp-key__l">整条盐焗海鲈鱼，桌边火焰呈现。</span></div>
+  <div class="jp-key__i"><span class="jp-key__n">2,790 <small>THB</small></span><span class="jp-key__l">惠灵顿牛排，鹅肝与蘑菇，桌边现切。</span></div>
+  <div class="jp-key__i"><span class="jp-key__n">1,690 <small>THB</small></span><span class="jp-key__l">整条盐焗海鲈鱼，桌边火焰呈现。</span></div>
   <div class="jp-key__i"><span class="jp-key__n">90 <small>THB</small></span><span class="jp-key__l">N4 fine de claire 生蚝，Crudo 单上最亲民的一行。</span></div>
 </div>
 
-前菜在菜单上名为 First Kiss，从 190 泰铢的海鲷小挞，到 990 泰铢的鱼子酱法式吐司。主菜介于 490 至 990 泰铢之间，甜点一律 450 泰铢，法式手工奶酪拼盘为 790 泰铢，Prunier 鱼子酱为 2,990 泰铢。和牛横膈膜牛排（hanger steak）按每 100 克 690 泰铢计价，分量由这一桌自己决定。以上价格均不含服务费与增值税，也就是泰国菜单上常见的 ++。酒水另计。
+前菜在菜单上名为 First Kiss，从 220 泰铢的海鲷小挞，到 990 泰铢的鱼子酱法式吐司。主菜介于 490 至 990 泰铢之间，甜点一律 450 泰铢，法式手工奶酪拼盘为 790 泰铢，Prunier 鱼子酱为 2,990 泰铢。和牛横膈膜牛排（hanger steak）按每 100 克 690 泰铢计价，分量由这一桌自己决定。以上价格均不含服务费与增值税，也就是泰国菜单上常见的 ++。酒水另计。
 
 ## 在 Bisou Phuket 该点什么？
 
-**在 Bisou Phuket，先来一份松露法式吐司（390 泰铢），再与同桌分享桌边现切的惠灵顿牛排（2,990 泰铢）或火焰呈现的盐焗海鲈鱼（1,290 泰铢），最后以特级产区巧克力舒芙蕾（450 泰铢）收尾。** 这是大多数初次到访的餐桌会点的一餐，而且确实是很好的一餐。价格取自我们 2026 年 8 月的菜单，会随季节调整；[实时菜单](/menu)永远是最新的。
+**在 Bisou Phuket，先来一份松露法式吐司（390 泰铢），再与同桌分享桌边现切的惠灵顿牛排（2,790 泰铢）或火焰呈现的盐焗海鲈鱼（1,690 泰铢），最后以特级产区巧克力舒芙蕾（450 泰铢）收尾。** 这是大多数初次到访的餐桌会点的一餐，而且确实是很好的一餐。价格取自我们 2026 年 11 月的菜单，会随季节调整；[实时菜单](/menu)永远是最新的。
 
 <div class="jp-dishes" aria-label="Bisou Phuket 的招牌菜">
   <div class="jp-dishes__t">
-    <figure class="jp-dish"><img src="https://cdn.sanity.io/images/5oq4q4y4/production/6d22d25683a6ac9b538f962f0eb6e19e739551fe-3798x3798.jpg?w=640&h=640&fit=crop&auto=format" width="640" height="640" loading="lazy" alt="Bisou Phuket 的惠灵顿牛排，于桌边现切" /><figcaption><span class="jp-dish__n">Beef Wellington</span><span class="jp-dish__p">THB 2,990</span><span class="jp-dish__d">鹅肝、蘑菇，在你的桌边现切。</span></figcaption></figure>
-    <figure class="jp-dish"><img src="https://cdn.sanity.io/images/5oq4q4y4/production/0a38aafd78c27802816e49fee9c7e1ff9fe2a382-4128x6192.jpg?w=640&h=640&fit=crop&auto=format" width="640" height="640" loading="lazy" alt="Bisou Phuket 的整条盐焗海鲈鱼，桌边火焰呈现" /><figcaption><span class="jp-dish__n">Seabass in salt crust</span><span class="jp-dish__p">THB 1,290</span><span class="jp-dish__d">桌边火焰呈现，配白黄油酱与辣椒油。</span></figcaption></figure>
+    <figure class="jp-dish"><img src="https://cdn.sanity.io/images/5oq4q4y4/production/6d22d25683a6ac9b538f962f0eb6e19e739551fe-3798x3798.jpg?w=640&h=640&fit=crop&auto=format" width="640" height="640" loading="lazy" alt="Bisou Phuket 的惠灵顿牛排，于桌边现切" /><figcaption><span class="jp-dish__n">Beef Wellington</span><span class="jp-dish__p">THB 2,790</span><span class="jp-dish__d">鹅肝、蘑菇，在你的桌边现切。</span></figcaption></figure>
+    <figure class="jp-dish"><img src="https://cdn.sanity.io/images/5oq4q4y4/production/0a38aafd78c27802816e49fee9c7e1ff9fe2a382-4128x6192.jpg?w=640&h=640&fit=crop&auto=format" width="640" height="640" loading="lazy" alt="Bisou Phuket 的整条盐焗海鲈鱼，桌边火焰呈现" /><figcaption><span class="jp-dish__n">Seabass in salt crust</span><span class="jp-dish__p">THB 1,690</span><span class="jp-dish__d">桌边火焰呈现，配白黄油酱与辣椒油。</span></figcaption></figure>
     <figure class="jp-dish"><img src="https://cdn.sanity.io/images/5oq4q4y4/production/bf4d98bedfd87eb9976a910e0199027996f22916-1657x1657.jpg?w=640&h=640&fit=crop&auto=format" width="640" height="640" loading="lazy" alt="Bisou Phuket 的 Prunier 鱼子酱 30 g 配温热法式吐司" /><figcaption><span class="jp-dish__n">Prunier caviar, 30 g</span><span class="jp-dish__p">THB 2,990</span><span class="jp-dish__d">配温热法式吐司、洋葱蘸酱与法式酸奶油。</span></figcaption></figure>
     <figure class="jp-dish"><img src="https://cdn.sanity.io/images/5oq4q4y4/production/ce046d6bb608c1612290614643212275c7e4934c-4128x6192.jpg?w=640&h=640&fit=crop&auto=format" width="640" height="640" loading="lazy" alt="Bisou Phuket 的松露法式吐司" /><figcaption><span class="jp-dish__n">Truffle French toast</span><span class="jp-dish__p">THB 390</span><span class="jp-dish__d">Bisou 的开场白。另有鱼子酱版（990），或鹅肝配烟熏鳗鱼版（490）。</span></figcaption></figure>
     <figure class="jp-dish"><img src="https://cdn.sanity.io/images/5oq4q4y4/production/55a37fce2bceed601e7ff79e28acfe0011ee0b0a-4800x3200.jpg?w=640&h=640&fit=crop&auto=format" width="640" height="640" loading="lazy" alt="Bisou Phuket 的蓝鳍金枪鱼塔塔，配大腹与日本柚子" /><figcaption><span class="jp-dish__n">Bluefin tuna tartare</span><span class="jp-dish__p">THB 790</span><span class="jp-dish__d">金枪鱼大腹、日本柚子、牛油果，出自 Crudo 单。</span></figcaption></figure>

@@ -7,7 +7,7 @@ heroAlt: ห้องอาหารใต้แสงเทียนและ�
 seoTitle: Bisou Phuket: เมนู ราคา เดรสโค้ด วิธีจองโต๊ะ (2026)
 seoDescription: รู้จัก Bisou Phuket: ร้านอาหารฝรั่งเศสสมัยใหม่ในย่าน Cherngtalay จานสำหรับแบ่งปัน ค็อกเทลบาร์ถึงเที่ยงคืน ราคา เมนูแนะนำ เดรสโค้ด เด็ก เวลาเปิด และวิธีจองโต๊ะ
 author: Bisou Phuket
-atAGlance: Bisou Phuket คือร้านอาหารฝรั่งเศสสมัยใหม่และค็อกเทลบาร์ เลขที่ 4 ถนนบ้านดอน-เชิงทะเล ย่าน Cherngtalay ขับรถเพียงไม่กี่นาทีจาก Laguna, Boat Avenue และหาด Bang Tao เปิดในปี 2025 โดยเชฟ Antoine Darquin และซอมเมอลิเยร์ Théo Lavergne มีหัวหน้าเชฟ Manon Bares ดูแลครัว เปิดมื้อค่ำทุกคืนตั้งแต่ 18:00 น. สั่งอาหารครั้งสุดท้ายราว 23:00 น. เสิร์ฟในจานสำหรับแบ่งปัน จานซิกเนเจอร์ราคา 1,290 ถึง 2,990 บาท จานหลัก 490 ถึง 990 บาท และค็อกเทลบาร์เปิดถึงเที่ยงคืน แต่งกายสมาร์ตแคชวล เด็ก ๆ ยินดีต้อนรับ มีจานวีแกนเมื่อแจ้ง และแขกที่มาทานในเดือนเกิดรับส่วนลด 10 เปอร์เซ็นต์จากบิลทั้งหมด ให้ทั้งโต๊ะ เพียงแสดงบัตรประจำตัว จองได้ที่ book.bistrochat.com/bisou-phuket ข้อมูล ณ เดือนสิงหาคม 2026
+atAGlance: Bisou Phuket คือร้านอาหารฝรั่งเศสสมัยใหม่และค็อกเทลบาร์ เลขที่ 4 ถนนบ้านดอน-เชิงทะเล ย่าน Cherngtalay ขับรถเพียงไม่กี่นาทีจาก Laguna, Boat Avenue และหาด Bang Tao เปิดในปี 2025 โดยเชฟ Antoine Darquin และซอมเมอลิเยร์ Théo Lavergne มีหัวหน้าเชฟ Manon Bares ดูแลครัว เปิดมื้อค่ำทุกคืนตั้งแต่ 18:00 น. สั่งอาหารครั้งสุดท้ายราว 23:00 น. เสิร์ฟในจานสำหรับแบ่งปัน จานซิกเนเจอร์ราคา 1,690 ถึง 2,790 บาท จานหลัก 490 ถึง 990 บาท และค็อกเทลบาร์เปิดถึงเที่ยงคืน แต่งกายสมาร์ตแคชวล เด็ก ๆ ยินดีต้อนรับ มีจานวีแกนเมื่อแจ้ง และแขกที่มาทานในเดือนเกิดรับส่วนลด 10 เปอร์เซ็นต์จากบิลทั้งหมด ให้ทั้งโต๊ะ เพียงแสดงบัตรประจำตัว จองได้ที่ book.bistrochat.com/bisou-phuket ข้อมูล ณ เดือนสิงหาคม 2026
 ctaLabel: จองโต๊ะ
 ctaShort: จองโต๊ะ
 faqHeading: คำถามที่พบบ่อย
@@ -16,7 +16,7 @@ faqHeading: คำถามที่พบบ่อย
 [Bisou Phuket](/) คือร้านอาหารฝรั่งเศสสมัยใหม่และค็อกเทลบาร์ เลขที่ 4 ถนนบ้านดอน-เชิงทะเล ย่าน Cherngtalay ขับรถเพียงไม่กี่นาทีจาก Laguna, Boat Avenue และหาด Bang Tao ที่ซึ่งเทคนิคแบบฝรั่งเศสมาบรรจบกับแสงเทียน และทุกจานสร้างมาเพื่อแบ่งปันกัน หน้านี้ตอบคำถามที่แขกถามเราก่อนจองโต๊ะ เรียงตามลำดับที่ถูกถามจริง พร้อมตัวเลขจริงทุกตัว เราดูแลห้องอาหารนี้เองทุกคืน เมื่ออะไรเปลี่ยน หน้านี้ก็เปลี่ยนตามทันที
 
 <nav class="jp-chips" aria-label="ข้อมูลสรุป">
-  <a href="#s-what-should-i-order-at-bisou-phuket"><b>THB 2,990</b> บีฟเวลลิงตัน</a>
+  <a href="#s-what-should-i-order-at-bisou-phuket"><b>THB 2,790</b> บีฟเวลลิงตัน</a>
   <a href="#s-what-is-the-bar-like-at-bisou-phuket"><b>เที่ยงคืน</b> ค็อกเทลบาร์ ทุกคืน</a>
   <a href="#s-where-is-bisou-and-how-do-i-get-there"><b>Laguna</b> Boat Avenue, Bang Tao</a>
   <a href="#s-how-do-i-book-and-can-i-walk-in"><b>18:00 น.</b> ถึงเที่ยงคืน ทุกคืน</a>
@@ -42,24 +42,24 @@ faqHeading: คำถามที่พบบ่อย
 
 ## มื้อค่ำที่ Bisou Phuket ราคาเท่าไหร่?
 
-**Bisou Phuket เสิร์ฟแบบอาลาคาร์ต ในจานสำหรับแบ่งปัน ไม่มีเซตเมนู: จานซิกเนเจอร์ราคา 1,290 ถึง 2,990 บาท จานหลัก 490 ถึง 990 บาท จานเรียกน้ำย่อย 190 ถึง 990 บาท ของหวาน 450 บาท และหอยนางรมเริ่มต้นที่ 90 บาท** ทั้งโต๊ะประกอบมื้อค่ำของตัวเองจากเมนู และราคาบนเมนูก็ตั้งใจให้คุณทำเช่นนั้นได้จริง
+**Bisou Phuket เสิร์ฟแบบอาลาคาร์ต ในจานสำหรับแบ่งปัน ไม่มีเซตเมนู: จานซิกเนเจอร์ราคา 1,690 ถึง 2,790 บาท จานหลัก 490 ถึง 990 บาท จานเรียกน้ำย่อย 220 ถึง 990 บาท ของหวาน 450 บาท และหอยนางรมเริ่มต้นที่ 90 บาท** ทั้งโต๊ะประกอบมื้อค่ำของตัวเองจากเมนู และราคาบนเมนูก็ตั้งใจให้คุณทำเช่นนั้นได้จริง
 
 <div class="jp-key jp-key--3">
-  <div class="jp-key__i"><span class="jp-key__n">2,990 <small>THB</small></span><span class="jp-key__l">บีฟเวลลิงตัน ฟัวกราส์และเห็ด หั่นเสิร์ฟที่โต๊ะ</span></div>
-  <div class="jp-key__i"><span class="jp-key__n">1,290 <small>THB</small></span><span class="jp-key__l">ปลากะพงทั้งตัวอบในเปลือกเกลือ ฟลัมเบข้างโต๊ะ</span></div>
+  <div class="jp-key__i"><span class="jp-key__n">2,790 <small>THB</small></span><span class="jp-key__l">บีฟเวลลิงตัน ฟัวกราส์และเห็ด หั่นเสิร์ฟที่โต๊ะ</span></div>
+  <div class="jp-key__i"><span class="jp-key__n">1,690 <small>THB</small></span><span class="jp-key__l">ปลากะพงทั้งตัวอบในเปลือกเกลือ ฟลัมเบข้างโต๊ะ</span></div>
   <div class="jp-key__i"><span class="jp-key__n">90 <small>THB</small></span><span class="jp-key__l">หอยนางรม N4 fine de claire รายการราคาเบาที่สุดในลิสต์ Crudo</span></div>
 </div>
 
-จานเรียกน้ำย่อย ซึ่งในเมนูใช้ชื่อว่า First Kiss เริ่มจากทาร์ตเล็ตปลาซีบรีม 190 บาท ไปจนถึงเฟรนช์โทสต์คาเวียร์ 990 บาท จานหลักอยู่ระหว่าง 490 ถึง 990 บาท ของหวานทุกจานราคา 450 บาท ส่วนจานชีสฝรั่งเศสแบบอาร์ติซานอยู่ที่ 790 บาท และคาเวียร์เซอร์วิสจาก Prunier ราคา 2,990 บาท แฮงเกอร์สเต๊กวากิวคิดราคาต่อ 100 กรัม ที่ 690 บาท ให้ทั้งโต๊ะเป็นคนเลือกขนาดเอง ราคาทั้งหมดยังไม่รวมค่าบริการและภาษีมูลค่าเพิ่ม คือเครื่องหมาย ++ ที่คุณเห็นบนเมนูทั่วประเทศไทย ไวน์คิดแยกต่างหาก
+จานเรียกน้ำย่อย ซึ่งในเมนูใช้ชื่อว่า First Kiss เริ่มจากทาร์ตเล็ตปลาซีบรีม 220 บาท ไปจนถึงเฟรนช์โทสต์คาเวียร์ 990 บาท จานหลักอยู่ระหว่าง 490 ถึง 990 บาท ของหวานทุกจานราคา 450 บาท ส่วนจานชีสฝรั่งเศสแบบอาร์ติซานอยู่ที่ 790 บาท และคาเวียร์เซอร์วิสจาก Prunier ราคา 2,990 บาท แฮงเกอร์สเต๊กวากิวคิดราคาต่อ 100 กรัม ที่ 690 บาท ให้ทั้งโต๊ะเป็นคนเลือกขนาดเอง ราคาทั้งหมดยังไม่รวมค่าบริการและภาษีมูลค่าเพิ่ม คือเครื่องหมาย ++ ที่คุณเห็นบนเมนูทั่วประเทศไทย ไวน์คิดแยกต่างหาก
 
 ## ควรสั่งอะไรที่ Bisou Phuket?
 
-**ที่ Bisou Phuket เริ่มด้วยเฟรนช์โทสต์ทรัฟเฟิล (390 บาท) แบ่งปันบีฟเวลลิงตันที่หั่นเสิร์ฟที่โต๊ะ (2,990 บาท) หรือปลากะพงอบในเปลือกเกลือฟลัมเบข้างโต๊ะ (1,290 บาท) แล้วปิดท้ายด้วยซูเฟล่ช็อกโกแลต grand cru (450 บาท)** นั่นคือมื้อค่ำที่โต๊ะมาครั้งแรกส่วนใหญ่มักจัดกัน และเป็นมื้อที่ดีจริง ราคาอ้างอิงจากเมนูของเราในเดือนสิงหาคม 2026 และเปลี่ยนไปตามฤดูกาล [เมนูล่าสุด](/menu) อัปเดตอยู่เสมอ
+**ที่ Bisou Phuket เริ่มด้วยเฟรนช์โทสต์ทรัฟเฟิล (390 บาท) แบ่งปันบีฟเวลลิงตันที่หั่นเสิร์ฟที่โต๊ะ (2,790 บาท) หรือปลากะพงอบในเปลือกเกลือฟลัมเบข้างโต๊ะ (1,690 บาท) แล้วปิดท้ายด้วยซูเฟล่ช็อกโกแลต grand cru (450 บาท)** นั่นคือมื้อค่ำที่โต๊ะมาครั้งแรกส่วนใหญ่มักจัดกัน และเป็นมื้อที่ดีจริง ราคาอ้างอิงจากเมนูของเราในเดือนพฤศจิกายน 2026 และเปลี่ยนไปตามฤดูกาล [เมนูล่าสุด](/menu) อัปเดตอยู่เสมอ
 
 <div class="jp-dishes" aria-label="จานซิกเนเจอร์ที่ Bisou Phuket">
   <div class="jp-dishes__t">
-    <figure class="jp-dish"><img src="https://cdn.sanity.io/images/5oq4q4y4/production/6d22d25683a6ac9b538f962f0eb6e19e739551fe-3798x3798.jpg?w=640&h=640&fit=crop&auto=format" width="640" height="640" loading="lazy" alt="บีฟเวลลิงตันที่ Bisou Phuket หั่นเสิร์ฟที่โต๊ะ" /><figcaption><span class="jp-dish__n">Beef Wellington</span><span class="jp-dish__p">THB 2,990</span><span class="jp-dish__d">ฟัวกราส์ เห็ด หั่นเสิร์ฟที่โต๊ะของคุณ</span></figcaption></figure>
-    <figure class="jp-dish"><img src="https://cdn.sanity.io/images/5oq4q4y4/production/0a38aafd78c27802816e49fee9c7e1ff9fe2a382-4128x6192.jpg?w=640&h=640&fit=crop&auto=format" width="640" height="640" loading="lazy" alt="ปลากะพงทั้งตัวอบในเปลือกเกลือ ฟลัมเบข้างโต๊ะที่ Bisou Phuket" /><figcaption><span class="jp-dish__n">Seabass in salt crust</span><span class="jp-dish__p">THB 1,290</span><span class="jp-dish__d">ฟลัมเบข้างโต๊ะ ซอส beurre blanc น้ำมันพริก</span></figcaption></figure>
+    <figure class="jp-dish"><img src="https://cdn.sanity.io/images/5oq4q4y4/production/6d22d25683a6ac9b538f962f0eb6e19e739551fe-3798x3798.jpg?w=640&h=640&fit=crop&auto=format" width="640" height="640" loading="lazy" alt="บีฟเวลลิงตันที่ Bisou Phuket หั่นเสิร์ฟที่โต๊ะ" /><figcaption><span class="jp-dish__n">Beef Wellington</span><span class="jp-dish__p">THB 2,790</span><span class="jp-dish__d">ฟัวกราส์ เห็ด หั่นเสิร์ฟที่โต๊ะของคุณ</span></figcaption></figure>
+    <figure class="jp-dish"><img src="https://cdn.sanity.io/images/5oq4q4y4/production/0a38aafd78c27802816e49fee9c7e1ff9fe2a382-4128x6192.jpg?w=640&h=640&fit=crop&auto=format" width="640" height="640" loading="lazy" alt="ปลากะพงทั้งตัวอบในเปลือกเกลือ ฟลัมเบข้างโต๊ะที่ Bisou Phuket" /><figcaption><span class="jp-dish__n">Seabass in salt crust</span><span class="jp-dish__p">THB 1,690</span><span class="jp-dish__d">ฟลัมเบข้างโต๊ะ ซอส beurre blanc น้ำมันพริก</span></figcaption></figure>
     <figure class="jp-dish"><img src="https://cdn.sanity.io/images/5oq4q4y4/production/bf4d98bedfd87eb9976a910e0199027996f22916-1657x1657.jpg?w=640&h=640&fit=crop&auto=format" width="640" height="640" loading="lazy" alt="คาเวียร์ Prunier 30 กรัม กับเฟรนช์โทสต์อุ่น ๆ ที่ Bisou Phuket" /><figcaption><span class="jp-dish__n">Prunier caviar, 30 g</span><span class="jp-dish__p">THB 2,990</span><span class="jp-dish__d">เสิร์ฟกับเฟรนช์โทสต์อุ่น ๆ ดิปหัวหอม และ crème fraîche</span></figcaption></figure>
     <figure class="jp-dish"><img src="https://cdn.sanity.io/images/5oq4q4y4/production/ce046d6bb608c1612290614643212275c7e4934c-4128x6192.jpg?w=640&h=640&fit=crop&auto=format" width="640" height="640" loading="lazy" alt="เฟรนช์โทสต์ทรัฟเฟิลที่ Bisou Phuket" /><figcaption><span class="jp-dish__n">Truffle French toast</span><span class="jp-dish__p">THB 390</span><span class="jp-dish__d">จานเปิดมื้อประจำ Bisou มีเวอร์ชันคาเวียร์ (990) หรือฟัวกราส์กับปลาไหลรมควัน (490) ด้วย</span></figcaption></figure>
     <figure class="jp-dish"><img src="https://cdn.sanity.io/images/5oq4q4y4/production/55a37fce2bceed601e7ff79e28acfe0011ee0b0a-4800x3200.jpg?w=640&h=640&fit=crop&auto=format" width="640" height="640" loading="lazy" alt="ทาร์ทาร์ทูน่าครีบน้ำเงินกับโอโทโร่และยูซุที่ Bisou Phuket" /><figcaption><span class="jp-dish__n">Bluefin tuna tartare</span><span class="jp-dish__p">THB 790</span><span class="jp-dish__d">โอโทโร่ ยูซุ อะโวคาโด จากลิสต์ Crudo</span></figcaption></figure>

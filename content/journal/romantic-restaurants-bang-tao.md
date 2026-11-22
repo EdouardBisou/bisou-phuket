@@ -21,12 +21,12 @@ ctaHref: https://book.bistrochat.com/bisou-phuket
 draft: false
 ---
 
-The most romantic restaurants near Bang Tao and Cherngtalay are within fifteen minutes of the Laguna gates: **PRU** at Trisara, the only restaurant on Phuket holding a MICHELIN star, **Saffron** overlooking the lagoons at Banyan Tree, **Bisou** in Cherngtalay for candlelight and a cocktail bar that runs to midnight, **Suay** for twenty-six tables in a lit garden, and **Catch** and **Carpe Diem** for dinner on the sand at Bang Tao. Ten rooms follow, with the price of dinner, the table to ask for, and the thing that trips couples up when they book.
+The most romantic restaurants near Bang Tao and Cherngtalay are within fifteen minutes of the Laguna gates: **PRU** at Trisara, Phuket's first two-star MICHELIN restaurant, **Saffron** overlooking the lagoons at Banyan Tree, **Bisou** in Cherngtalay for candlelight and a cocktail bar that runs to midnight, **Suay** for twenty-six tables in a lit garden, and **Catch** and **Carpe Diem** for dinner on the sand at Bang Tao. Ten rooms follow, with the price of dinner, the table to ask for, and the thing that trips couples up when they book.
 
 This is the west coast, so the sun sets into the sea in front of you between about 6:10 PM in December and 6:50 PM in June, and almost every good decision here starts with that. Prices, hours and closures were checked against each restaurant's own published information in September 2026.
 
 <nav class="jp-chips" aria-label="Jump to a restaurant">
-  <a href="#s-1-pru-the-island-s-only-michelin-starred-din"><b>01</b> PRU</a>
+  <a href="#s-1-pru-phuket-s-two-star-dinner"><b>01</b> PRU</a>
   <a href="#s-2-saffron-a-table-over-the-lagoons"><b>02</b> Saffron</a>
   <a href="#s-3-bisou-candlelight-and-a-bar-until-midnight"><b>03</b> Bisou</a>
   <a href="#s-4-suay-cherngtalay-a-garden-of-twenty-six-ta"><b>04</b> Suay</a>
@@ -50,9 +50,9 @@ Dinner per person, checked against each restaurant's own published information i
 
 | Restaurant | Setting | Area | Dinner per person |
 |---|---|---|---|
-| [PRU](https://www.prurestaurant.com/) | Tasting menu, MICHELIN star and Green Star | Trisara, north of Bang Tao | 7,500 THB++ |
+| [PRU](https://www.prurestaurant.com/) | Tasting menu, two MICHELIN Stars | Trisara, north of Bang Tao | 7,500 THB++ |
 | [Saffron](https://www.banyantree.com/thailand/phuket/dining/saffron) | Thai dining over the resort lagoons | Banyan Tree, Laguna | Set menu about 2,300 THB net |
-| [Bisou](https://bisouphuket.com/) | Candlelit modern French, plated to share | Cherngtalay, near Laguna | Signatures 1,290 to 2,990 THB |
+| [Bisou](https://bisouphuket.com/) | Candlelit modern French, plated to share | Cherngtalay, near Laguna | Signatures 1,690 to 2,790 THB |
 | [Suay Cherngtalay](https://www.suayrestaurant.com/) | Twenty-six tables in a lit garden | Cherngtalay, inland | Sharing set for two from 2,199 THB |
 | [Catch Beach Club](https://www.catchbeachclub.com) | Tables on the sand facing west | Bang Tao Beach | 2,190 THB Friday BBQ |
 | [Carpe Diem](https://carpediemphuket.com/) | The waterline at the quiet end | South Bang Tao Beach | À la carte |
@@ -61,11 +61,11 @@ Dinner per person, checked against each restaurant's own published information i
 | [360° Bar](https://www.pavilionshotels.com/destinations/phuket/the-pavilions-phuket/dining/bar-and-restaurants/) | Hilltop tapas and cocktails at sunset | Above Layan | Small plates from about 110 THB |
 | [Leilani](https://www.leilanirestaurant.com/) | Live opera between the courses | Manik, Thalang | 2,500 THB set menu |
 
-## 1. PRU, the island's only MICHELIN-starred dinner
+## 1. PRU, Phuket's two-star dinner
 
-**PRU at Trisara is the special-occasion table on Phuket: the island's only restaurant holding a MICHELIN star in the [MICHELIN Guide Thailand 2026](https://guide.michelin.com/th/en/phuket-region/phuket/restaurant/pru), which also awards it a Green Star for sustainability, on a private bay just north of Bang Tao.** The PRU Experience tasting menu is 7,500 THB++ per person from 1 October 2026.
+**PRU at Trisara is the special-occasion table on Phuket: the first restaurant in Phuket with two MICHELIN Stars, awarded in the [MICHELIN Guide Thailand 2027](https://guide.michelin.com/th/en/phuket-region/phuket/restaurant/pru) on 10 November 2026, on a private bay just north of Bang Tao.** The PRU Experience tasting menu is 7,500 THB++ per person from 1 October 2026.
 
-PRU's dinner runs Tuesday to Saturday with fixed seatings at 6:00, 6:30 and 7:00 PM, in a small solar-panelled room by the sea where outdoor tables catch the sunset. Everything on the plate is sourced in Thailand, much of it from the restaurant's own farm, PRU Jampa, and Trisara describes the evening as a candid exchange between chefs and guests: "our kitchen is your dining table."
+PRU's dinner runs Tuesday to Saturday with fixed seatings at 5:45, 6:15, 6:45 and 7:00 PM, in a small solar-panelled room by the sea where outdoor tables catch the sunset. Everything on the plate is sourced in Thailand, much of it from the restaurant's own farm, PRU Jampa, and Trisara describes the evening as a candid exchange between chefs and guests: "our kitchen is your dining table."
 
 PRU books out most nights in high season, so reserve thirty to sixty days ahead and ask for an outdoor table on the sea side. Trisara is ten to fifteen minutes north of Laguna by car. [prurestaurant.com](https://www.prurestaurant.com/)
 
@@ -79,9 +79,9 @@ Saffron serves dinner only, daily 6:30 PM to 10:30 PM, smart casual. Ask for a l
 
 ## 3. Bisou, candlelight and a bar until midnight
 
-**Bisou is the candlelit dinner in Cherngtalay: a modern French restaurant and cocktail bar at No.4 Bandon-Cherngtalay Road, plated to share, a few minutes from Laguna, Boat Avenue and Bang Tao Beach.** Signature dishes run 1,290 to 2,990 THB and mains 490 to 990 THB, and the bar stays open until midnight.
+**Bisou is the candlelit dinner in Cherngtalay: a modern French restaurant and cocktail bar at No.4 Bandon-Cherngtalay Road, plated to share, a few minutes from Laguna, Boat Avenue and Bang Tao Beach.** Signature dishes run 1,690 to 2,790 THB and mains 490 to 990 THB, and the bar stays open until midnight.
 
-Bisou was built for two: a wall of kisses, a spiral staircase, low light, and a menu written for two pairs of hands. Share the truffle French toast (390 THB) to start, then the beef Wellington (2,990 THB) carved at the table or the whole seabass in salt crust (1,290 THB), flambéed in front of you. Chef Antoine Darquin and sommelier Théo Lavergne founded Bisou in 2025, head chef Manon Bares runs the kitchen and Louis Chartier the room.
+Bisou was built for two: a wall of kisses, a spiral staircase, low light, and a menu written for two pairs of hands. Share the truffle French toast (390 THB) to start, then the beef Wellington (2,790 THB) carved at the table or the whole seabass in salt crust (1,690 THB), flambéed in front of you. Chef Antoine Darquin and sommelier Théo Lavergne founded Bisou in 2025, head chef Manon Bares runs the kitchen and Louis Chartier the room.
 
 Two things make Bisou work for a couple staying nearby. The kitchen takes its last food order around 11 PM but the bar carries on to midnight, so dinner does not have to end when the plates go, which is rare here and the subject of its own guide to [eating late in Bang Tao](/journal/late-night-dining-bang-tao). And during your [birthday month](/journal/birthday-dinner-phuket) the whole table gets 10 percent off the bill on presentation of an ID, with the birthday dessert plate on the house and no charge if you bring your own cake. Ask for a table against the kiss wall, or a stool at the bar if you would rather watch the room. The whole restaurant is indoors, with complimentary valet parking. French, English and Thai are spoken. [Everything to know before you book](/journal/bisou-phuket-guide), or see the [menu](/menu).
 
@@ -152,7 +152,7 @@ Leilani is open Tuesday to Saturday, 6 to 10 PM, closed Sunday and Monday. The S
 
 ### What is the most romantic restaurant in Bang Tao?
 
-The most romantic restaurant in Bang Tao depends on the evening you want. PRU at Trisara is the landmark dinner, the only restaurant on Phuket holding a MICHELIN star. Saffron at Banyan Tree Laguna is the quiet resort table over the lagoons. Bisou in Cherngtalay is the candlelit one, minutes from Laguna and Bang Tao Beach, with a bar that runs to midnight.
+The most romantic restaurant in Bang Tao depends on the evening you want. PRU at Trisara is the landmark dinner, Phuket's first two-star MICHELIN restaurant. Saffron at Banyan Tree Laguna is the quiet resort table over the lagoons. Bisou in Cherngtalay is the candlelit one, minutes from Laguna and Bang Tao Beach, with a bar that runs to midnight.
 
 ### Where can you have dinner on the beach in Bang Tao?
 
@@ -160,7 +160,7 @@ Catch Beach Club and Carpe Diem both put tables on the sand at Bang Tao facing w
 
 ### How much does a romantic dinner for two cost near Laguna Phuket?
 
-Dinner for two costs about 1,000 to 1,600 THB at Ma Doo Bua, 2,199 THB for the sharing set at Suay Cherngtalay, roughly 4,600 THB at Saffron on the set menu, and 15,000 THB or more at PRU on the tasting menu. At Bisou, signature dishes run 1,290 to 2,990 THB and mains 490 to 990 THB, so a shared dinner sits between those. Menus are usually quoted before a 10 percent service charge and 7 percent VAT.
+Dinner for two costs about 1,000 to 1,600 THB at Ma Doo Bua, 2,199 THB for the sharing set at Suay Cherngtalay, roughly 4,600 THB at Saffron on the set menu, and 15,000 THB or more at PRU on the tasting menu. At Bisou, signature dishes run 1,690 to 2,790 THB and mains 490 to 990 THB, so a shared dinner sits between those. Menus are usually quoted before a 10 percent service charge and 7 percent VAT.
 
 ### What time is sunset in Bang Tao?
 
@@ -176,7 +176,7 @@ Bisou in Cherngtalay takes its last food order around 11 PM and the cocktail bar
 
 ### Do romantic restaurants near Bang Tao need booking in advance?
 
-In high season, from November to April, yes: a few days ahead for Suay Cherngtalay or Catch Beach Club, and thirty to sixty days for PRU, which seats only a handful of tables across three fixed seatings. Leilani's Saturday Dinner Party is reservation only all year. Bisou takes walk-ins when there is room, though booking is better.
+In high season, from November to April, yes: a few days ahead for Suay Cherngtalay or Catch Beach Club, and thirty to sixty days for PRU, which seats only a handful of tables across four fixed seatings. Leilani's Saturday Dinner Party is reservation only all year. Bisou takes walk-ins when there is room, though booking is better.
 
 ### Which romantic restaurants near Bang Tao are good for a proposal?
 

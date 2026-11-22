@@ -14,7 +14,7 @@ author: Bisou Phuket
 premium: true
 layout: guide
 about: restaurant
-atAGlance: Bisou Phuket is a modern French restaurant and cocktail bar at No.4 Bandon-Cherngtalay Road in Cherngtalay, a short drive from Laguna, Boat Avenue and Bang Tao Beach, opened in 2025 by chef Antoine Darquin and sommelier Théo Lavergne, with head chef Manon Bares in the kitchen. Dinner is served nightly from 6:00 PM, with the last food order around 11 PM, plated to share: signature dishes run 1,290 to 2,990 THB, mains 490 to 990 THB, and the cocktail bar pours until midnight. Smart casual, children welcome, vegan dishes on request, and guests dining during their birth month get 10 percent off the whole bill, for the whole table, on ID. Book at book.bistrochat.com/bisou-phuket. As of August 2026.
+atAGlance: Bisou Phuket is a modern French restaurant and cocktail bar at No.4 Bandon-Cherngtalay Road in Cherngtalay, a short drive from Laguna, Boat Avenue and Bang Tao Beach, opened in 2025 by chef Antoine Darquin and sommelier Théo Lavergne, with head chef Manon Bares in the kitchen. Dinner is served nightly from 6:00 PM, with the last food order around 11 PM, plated to share: signature dishes run 1,690 to 2,790 THB, mains 490 to 990 THB, and the cocktail bar pours until midnight. Smart casual, children welcome, vegan dishes on request, and guests dining during their birth month get 10 percent off the whole bill, for the whole table, on ID. Book at book.bistrochat.com/bisou-phuket. As of November 2026.
 ctaLabel: Reserve a table
 ctaShort: Reserve
 ctaHref: https://book.bistrochat.com/bisou-phuket
@@ -24,7 +24,7 @@ draft: false
 [Bisou Phuket](/) is a modern French restaurant and cocktail bar at No.4 Bandon-Cherngtalay Road in Cherngtalay, a short drive from Laguna, Boat Avenue and Bang Tao Beach, where French technique meets candlelight and every plate is built to be shared. This page answers the questions people ask us before they book, in the order they ask them, with the real numbers. We run the room every night, so when something changes, this page changes with it.
 
 <nav class="jp-chips" aria-label="Quick facts">
-  <a href="#s-what-should-i-order-at-bisou-phuket"><b>THB 2,990</b> beef Wellington</a>
+  <a href="#s-what-should-i-order-at-bisou-phuket"><b>THB 2,790</b> beef Wellington</a>
   <a href="#s-what-is-the-bar-like-at-bisou-phuket"><b>Midnight</b> cocktail bar, nightly</a>
   <a href="#s-where-is-bisou-and-how-do-i-get-there"><b>Laguna</b> Boat Avenue, Bang Tao</a>
   <a href="#s-how-do-i-book-and-can-i-walk-in"><b>6 PM</b> to midnight, nightly</a>
@@ -50,24 +50,24 @@ Phuket has no train, so you arrive by car or taxi: tell the driver Bandon-Cherng
 
 ## What does dinner at Bisou Phuket cost?
 
-**Bisou Phuket is à la carte, plated to share, with no set menu: signature dishes run 1,290 to 2,990 THB, mains 490 to 990 THB, starters 190 to 990 THB, desserts 450 THB and oysters start at 90 THB.** The table builds its own dinner from the card, and the card is priced to let you.
+**Bisou Phuket is à la carte, plated to share, with no set menu: signature dishes run 1,690 to 2,790 THB, mains 490 to 990 THB, starters 220 to 990 THB, desserts 450 THB and oysters start at 90 THB.** The table builds its own dinner from the card, and the card is priced to let you.
 
 <div class="jp-key jp-key--3">
-  <div class="jp-key__i"><span class="jp-key__n">2,990 <small>THB</small></span><span class="jp-key__l">Beef Wellington, foie gras and mushroom, carved at the table.</span></div>
-  <div class="jp-key__i"><span class="jp-key__n">1,290 <small>THB</small></span><span class="jp-key__l">Whole seabass in salt crust, flambéed tableside.</span></div>
+  <div class="jp-key__i"><span class="jp-key__n">2,790 <small>THB</small></span><span class="jp-key__l">Beef Wellington, foie gras and mushroom, carved at the table.</span></div>
+  <div class="jp-key__i"><span class="jp-key__n">1,690 <small>THB</small></span><span class="jp-key__l">Whole seabass in salt crust, flambéed tableside.</span></div>
   <div class="jp-key__i"><span class="jp-key__n">90 <small>THB</small></span><span class="jp-key__l">Oyster N4 fine de claire, the cheapest line on the Crudo list.</span></div>
 </div>
 
-Starters, listed as First Kiss on the menu, run from a 190 THB sea bream tartelette to the 990 THB French toast with caviar. Mains sit between 490 and 990 THB, every dessert is 450 THB with the artisanal French cheese plate at 790, and the Prunier caviar service is 2,990 THB. The wagyu hanger steak is priced per 100 g at 690 THB, so the table decides the size. Prices are quoted before service charge and VAT, the ++ you see on menus across Thailand. Wine is separate.
+Starters, listed as First Kiss on the menu, run from a 220 THB sea bream tartelette to the 990 THB French toast with caviar. Mains sit between 490 and 990 THB, every dessert is 450 THB with the artisanal French cheese plate at 790, and the Prunier caviar service is 2,990 THB. The wagyu hanger steak is priced per 100 g at 690 THB, so the table decides the size. Prices are quoted before service charge and VAT, the ++ you see on menus across Thailand. Wine is separate.
 
 ## What should I order at Bisou Phuket?
 
-**At Bisou Phuket, start with the truffle French toast (390 THB), share the beef Wellington carved at the table (2,990 THB) or the seabass in salt crust flambéed tableside (1,290 THB), and finish with the grand cru chocolate soufflé (450 THB).** That is the dinner most first-time tables build, and it is a good one. Prices are from our menu in August 2026 and change with the seasons; the [live menu](/menu) is always current.
+**At Bisou Phuket, start with the truffle French toast (390 THB), share the beef Wellington carved at the table (2,790 THB) or the seabass in salt crust flambéed tableside (1,690 THB), and finish with the grand cru chocolate soufflé (450 THB).** That is the dinner most first-time tables build, and it is a good one. Prices are from our menu in November 2026 and change with the seasons; the [live menu](/menu) is always current.
 
 <div class="jp-dishes" aria-label="Signature dishes at Bisou Phuket">
   <div class="jp-dishes__t">
-    <figure class="jp-dish"><img src="https://cdn.sanity.io/images/5oq4q4y4/production/6d22d25683a6ac9b538f962f0eb6e19e739551fe-3798x3798.jpg?w=640&h=640&fit=crop&auto=format" width="640" height="640" loading="lazy" alt="Beef Wellington at Bisou Phuket, carved at the table" /><figcaption><span class="jp-dish__n">Beef Wellington</span><span class="jp-dish__p">THB 2,990</span><span class="jp-dish__d">Foie gras, mushroom, carved at your table.</span></figcaption></figure>
-    <figure class="jp-dish"><img src="https://cdn.sanity.io/images/5oq4q4y4/production/0a38aafd78c27802816e49fee9c7e1ff9fe2a382-4128x6192.jpg?w=640&h=640&fit=crop&auto=format" width="640" height="640" loading="lazy" alt="Whole seabass in salt crust, flambéed tableside at Bisou Phuket" /><figcaption><span class="jp-dish__n">Seabass in salt crust</span><span class="jp-dish__p">THB 1,290</span><span class="jp-dish__d">Flambéed tableside, beurre blanc, chili oil.</span></figcaption></figure>
+    <figure class="jp-dish"><img src="https://cdn.sanity.io/images/5oq4q4y4/production/6d22d25683a6ac9b538f962f0eb6e19e739551fe-3798x3798.jpg?w=640&h=640&fit=crop&auto=format" width="640" height="640" loading="lazy" alt="Beef Wellington at Bisou Phuket, carved at the table" /><figcaption><span class="jp-dish__n">Beef Wellington</span><span class="jp-dish__p">THB 2,790</span><span class="jp-dish__d">Foie gras, mushroom, carved at your table.</span></figcaption></figure>
+    <figure class="jp-dish"><img src="https://cdn.sanity.io/images/5oq4q4y4/production/0a38aafd78c27802816e49fee9c7e1ff9fe2a382-4128x6192.jpg?w=640&h=640&fit=crop&auto=format" width="640" height="640" loading="lazy" alt="Whole seabass in salt crust, flambéed tableside at Bisou Phuket" /><figcaption><span class="jp-dish__n">Seabass in salt crust</span><span class="jp-dish__p">THB 1,690</span><span class="jp-dish__d">Flambéed tableside, beurre blanc, chili oil.</span></figcaption></figure>
     <figure class="jp-dish"><img src="https://cdn.sanity.io/images/5oq4q4y4/production/bf4d98bedfd87eb9976a910e0199027996f22916-1657x1657.jpg?w=640&h=640&fit=crop&auto=format" width="640" height="640" loading="lazy" alt="Prunier caviar 30 g with warm French toast at Bisou Phuket" /><figcaption><span class="jp-dish__n">Prunier caviar, 30 g</span><span class="jp-dish__p">THB 2,990</span><span class="jp-dish__d">With warm French toast, onion dip, crème fraîche.</span></figcaption></figure>
     <figure class="jp-dish"><img src="https://cdn.sanity.io/images/5oq4q4y4/production/ce046d6bb608c1612290614643212275c7e4934c-4128x6192.jpg?w=640&h=640&fit=crop&auto=format" width="640" height="640" loading="lazy" alt="Truffle French toast at Bisou Phuket" /><figcaption><span class="jp-dish__n">Truffle French toast</span><span class="jp-dish__p">THB 390</span><span class="jp-dish__d">The Bisou opener. Also with caviar (990) or foie gras and smoked eel (490).</span></figcaption></figure>
     <figure class="jp-dish"><img src="https://cdn.sanity.io/images/5oq4q4y4/production/55a37fce2bceed601e7ff79e28acfe0011ee0b0a-4800x3200.jpg?w=640&h=640&fit=crop&auto=format" width="640" height="640" loading="lazy" alt="Bluefin tuna tartare with otoro and yuzu at Bisou Phuket" /><figcaption><span class="jp-dish__n">Bluefin tuna tartare</span><span class="jp-dish__p">THB 790</span><span class="jp-dish__d">Otoro, yuzu, avocado, from the Crudo list.</span></figcaption></figure>
