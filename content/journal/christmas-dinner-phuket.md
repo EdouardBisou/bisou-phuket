@@ -48,7 +48,7 @@ If your evening starts late anyway, our guide to [late night dining in Bang Tao]
 
 **The Bisou Phuket Christmas menu, with its dishes and prices, will be published on bisouphuket.com in November 2026.**
 
-The rest of the year, the kitchen of head chef Manon Bares cooks French food plated to share: a beef Wellington carved at the table, a whole seabass in salt crust flambéed in front of you, black truffle pasta, a Prunier caviar service and a truffle French toast, with warm sourdough and French butter brought to every table at no charge. You can read the current [menu](/menu) and the story behind the butter in [how to spot a serious French restaurant in Phuket](/journal/bread-and-butter-phuket). If you would rather mark Christmas over a steak, our guide to the [best steakhouses in Phuket](/journal/best-steakhouses-phuket) covers the grills near Bang Tao.
+The rest of the year, the kitchen of head chef Manon Bares cooks French food plated to share: a beef Wellington with foie gras carved at the table (every dish that carries it is in [foie gras in Phuket](/journal/foie-gras-phuket)), a whole seabass in salt crust flambéed in front of you, black truffle pasta, a Prunier caviar service and a truffle French toast, with warm sourdough and French butter brought to every table at no charge. You can read the current [menu](/menu) and the story behind the butter in [how to spot a serious French restaurant in Phuket](/journal/bread-and-butter-phuket). If you would rather mark Christmas over a steak, our guide to the [best steakhouses in Phuket](/journal/best-steakhouses-phuket) covers the grills near Bang Tao.
 
 ## How do I get to Bisou from Laguna and Bang Tao?
 

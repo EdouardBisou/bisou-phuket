@@ -27,7 +27,7 @@ Black truffle is a winter ingredient in France. Here is what each dish is, how t
 | Pan-scallop, foie gras, truffle bite | Pan-scallop, foie gras and truffle bite | THB 490 |
 | Black truffle pasta | Fagottini, Paris ham, parmesan | THB 790 |
 
-The French toast is one of Bisou's signatures, and it also comes with caviar (THB 990) or with foie gras and smoked eel (THB 490). The pasta is listed as black truffle pasta: fagottini, Paris ham, parmesan. The cocktail bar runs to midnight.
+The French toast is one of Bisou's signatures, and it also comes with caviar (THB 990) or with foie gras and smoked eel (THB 490); every foie gras plate on the menu is listed in [foie gras in Phuket](/journal/foie-gras-phuket). The pasta is listed as black truffle pasta: fagottini, Paris ham, parmesan. The cocktail bar runs to midnight.
 
 ## When is black truffle season?
 
